@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  border: inset 4px #2e5564;
+  height: 100vh;
+}
+body {
+  font-family: "Prompt", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(218deg, #35B079, #468198);
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.heading {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 2.4rem;
+  margin-bottom: 0;
+}
+.text {
+  opacity: 0.8;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-right: 1.5rem;
+}
+.text .link {
+  color: #fff;
+  opacity: 0.9;
+}
+.text .link:hover {
+  opacity: 1;
+}
+.btn-section {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+.cta-button {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  background: #36ad7b;
+  box-shadow: 0px 16px 21px rgba(0,0,0,0.11);
+  text-decoration: none;
+  color: #fff;
+  transition: ease-in-out .2s;
+}
+.cta-button:hover {
+  background: #2a8660;
+}
+.me-image {
+  height: auto;
+  max-width: 100%;
+  box-shadow: 0px 16px 21px rgba(0,0,0,0.17);
+  transform: rotate(-2.7deg);
+  margin: .4rem;
+}
