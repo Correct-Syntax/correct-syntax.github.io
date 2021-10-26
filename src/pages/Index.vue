@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-9 col-s-12">
         <h1 class="heading">Hi, I'm Noah Rahm:<br>Designer and Developer.</h1>
-        <h2 class="text">Designer/developer creating websites, desktop software and unique libraries. Currently I'm working at my startup, <a class="link" href="https://www.correctsyntax.com" target="blank">Correct Syntax Web Design</a> serving clients in Ava, Missouri and beyond.</h2>
+        <h2 class="text">Designer/developer creating websites, desktop software and libraries. Currently I'm working on my startup, <a class="link" href="https://www.correctsyntax.com" target="blank">Correct Syntax Web Design</a> to serve clients in Ava, Missouri and beyond.</h2>
         <p class="btn-section">
           <g-link class="cta-button" to="/contact/">Get in Touch</g-link>
         </p>
