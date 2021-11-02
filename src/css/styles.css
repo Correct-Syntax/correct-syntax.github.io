@@ -1,15 +1,11 @@
 * {
   box-sizing: border-box;
 }
-html {
-  border: inset 4px #2e5564;
-  height: 100vh;
-}
 body {
   font-family: "Prompt", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(218deg, #35B079, #468198);
+  background-image: linear-gradient(218deg, #35B079, #468198);
 }
 
 .row::after {
