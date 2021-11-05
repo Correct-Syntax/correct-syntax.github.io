@@ -96,3 +96,25 @@ body {
   transform: rotate(-2.7deg);
   margin: .4rem;
 }
+.project {
+    margin-top: 2rem;
+}
+.project a {
+    text-decoration: none;
+}
+.project-info {
+  text-align: center;
+}
+.project-info .title {
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 0rem;
+}
+.project-info .meta {
+    opacity: 0.8;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: .2rem;
+  }

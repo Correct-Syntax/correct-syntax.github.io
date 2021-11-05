@@ -6,8 +6,8 @@
       </strong>
       <nav class="nav">
         <g-link class="nav-link" to="/about/">About</g-link>
+        <g-link class="nav-link" to="/projects/">Projects</g-link>
         <g-link class="nav-link" to="/contact/">Contact</g-link>
-        <g-link class="nav-link" to="/contact/">Hire Me</g-link>
       </nav>
     </header>
     <slot/>
@@ -18,7 +18,7 @@
           <a href="https://stackoverflow.com/users/12787591/correctsyntax"><g-image src="~/img/stackoverflow.svg" /></a>
           <a href="mailto:hi@noahrahm.com"><g-image src="~/img/mail.svg" /></a>
         </div>
-        <p class="copy">&copy; 2021 Noah Rahm &bullet; Lovingly crafted and generated with Gridsome</p>
+        <p class="copy">&copy; 2021 Noah Rahm &bullet; Lovingly crafted and generated with Vue.js and Gridsome</p>
     </footer>
   </div>
 </template>
