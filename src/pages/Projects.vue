@@ -8,7 +8,7 @@
     </div>
     <div class="row">
       <div class="project col-6 col-s-12">
-        <a href="/flameshot-org.github.io" target="_blank">
+        <a href="https://flameshot.org" target="_blank">
         <div class="macbook">
           <div class="screen">
             <div class="viewport" style="background-image:url('/projects/flameshot-desktop.jpg');"></div>
