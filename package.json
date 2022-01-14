@@ -1,15 +1,5 @@
 {
-  "name": "mysite",
-  "private": true,
-  "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "dependencies": {
-    "gh-pages": "^3.2.3",
-    "gridsome": "^0.7.0"
+  "devDependencies": {
+    "tailwindcss": "^3.0.14"
   }
 }
