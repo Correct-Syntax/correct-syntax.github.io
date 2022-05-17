@@ -1,0 +1,13 @@
+name = "NR"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = ""
+demosite = ""
+tags = ["blog", "development"]
+features = ["blog"]
+min_version = "0.20"
+
+[author]
+  name = "Noah Rahm"
+  homepage = "https://github.com/Correct-Syntax"

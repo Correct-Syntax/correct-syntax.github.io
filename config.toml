@@ -1,0 +1,28 @@
+baseurl = "http://noahrahm.com/"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+title = "Noah Rahm"
+canonifyurls  = true
+
+DefaultContentLanguage = "en"
+theme = "site-theme"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
+#disqusShortname = "XXX"
+summaryLength = 12
+
+[Params]
+  subtitle = ""
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = true
+  comments = false
+
+[Author]
+  name = "Noah Rahm"
+  gitlab = ""
+  github = ""
