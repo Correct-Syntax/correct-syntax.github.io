@@ -1,7 +1,7 @@
 {{ define "main" }}
   <main class="relative max-w-6xl mx-auto mt-4">
 	<div class="flex flex-col mx-8 md:mx-0 py-10 border-gray-100 border-b-2">
-	  <small class="text-gray-600 ml-8">{{ .Date |  time.Format ":date_medium" }}  •  {{ .WordCount }} words</small>
+	  <small class="text-gray-600 ml-8">{{ .Date |  time.Format ":date_medium" }}  &bull;  {{ .WordCount }} words</small>
 	  <h1 class="font-serif text-4xl ml-8 mt-2 text-gray-800">{{ .Title }}</h1>
 	</div>
 	<div class="flex justify-end">
@@ -19,12 +19,12 @@
 	  </div>
 	</div>
 	<div class="flex justify-between text-lg mx-8 md:mx-0 py-24">
-		{{ with .PrevInSection }}
-		  <a class="previous text-accent hover:text-gray-800 underline ease-in-out duration-300" href="{{.Permalink}}">Previous &bull; {{.Title}}</a>
-		{{ end }}
-		{{ with .NextInSection }}
-		  <a class="next text-accent hover:text-gray-800 underline ease-in-out duration-300" href="{{.Permalink}}">{{.Title}} &bull; Next</a>
-		{{ end }}
+	  {{ with .PrevInSection }}
+		<a class="previous text-accent hover:text-gray-800 underline ease-in-out duration-300" href="{{.Permalink}}">Previous &bull; {{.Title}}</a>
+	  {{ end }}
+	  {{ with .NextInSection }}
+		<a class="next text-accent hover:text-gray-800 underline ease-in-out duration-300" href="{{.Permalink}}">{{.Title}} &bull; Next</a>
+	  {{ end }}
 	</div>
   </main>
 {{ end }}
