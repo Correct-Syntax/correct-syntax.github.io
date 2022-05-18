@@ -8,4 +8,9 @@ This is my personal website. Still WIP. Created using Hugo, TailwindCSS, Alpine.
 To work locally with this project, you'll have to follow the steps below:
 
 - Development: `hugo server`
-- Generate the website: `hugo` (optional)
+- Generate the website: `hugo`
+
+Rebuilding the css:
+
+- ``cd themes/site-theme``
+- ``npx tailwindcss -i ./styles/styles.css -o ./static/assets/style.css --watch``
