@@ -3,7 +3,7 @@ title: Site Colophon
 layout: "static-page"
 ---
 
-Wondering how this site is built? I used a very simple tech stack for this simple, minimalistic site.
+Wondering how this site is built? It's a very simple tech stack for this simple, minimalistic site.
 
 - [Hugo](https://gohugo.io) - the static site generator used to, well.. generate the site.
 - [Tailwindcss](https://tailwindcss.com/) - used for the utility-first CSS approach, with bits of my own custom CSS added.
@@ -11,4 +11,5 @@ Wondering how this site is built? I used a very simple tech stack for this simpl
 - [Github Pages](https://pages.github.com/) - used to host this site.
 - [Coollabs fonts](https://fonts.coollabs.io/) - used as a privacy-friendly replacement for Google Fonts.
 
-Source code is available on Github [here](https://github.com/Correct-Syntax/correct-syntax.github.io).
+
+**Source code for this website is available on Github [here](https://github.com/Correct-Syntax/correct-syntax.github.io).**
