@@ -4,30 +4,23 @@
 .markdown-content {
     @apply text-lg text-gray-800;
 }
-
 .markdown-content p {
     @apply mb-4;
 }
-  
 .markdown-content a {
     @apply text-accent underline ease-in-out duration-300;
 }
-
 .markdown-content a:hover {
     @apply text-gray-800;
 }
-
 .markdown-content h2 {
     @apply text-3xl;
 }
-
 .markdown-content h3 {
     @apply text-2xl;
 }
-
 .markdown-content h4 {
     @apply text-xl;
 }
 
 @tailwind utilities;
-

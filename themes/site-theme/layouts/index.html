@@ -23,7 +23,7 @@
       <a href="{{ .Permalink }}">
         <img class="w-auto rounded-sm mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
         <h4 class="font-serif text-gray-800 text-xl">{{ .Title }}</h4>
-        <small class="text-gray-600">{{ .Date |  time.Format ":date_medium" }}  •  {{ .Page.Params.Category }}</small>
+        <small class="text-gray-600">{{ .Date |  time.Format ":date_medium" }}</small>
         <p class="text-md mt-3">{{ .Summary }}</p>
       </a>
     </div>
