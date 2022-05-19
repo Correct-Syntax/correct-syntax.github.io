@@ -1,6 +1,6 @@
 # My personal site
 
-This is my personal website. Still WIP. Created using Hugo, TailwindCSS, Alpine.js and love.
+This is my personal website. Still WIP. Created using Hugo, TailwindCSS, Alpine.js.
 
 
 ## Building locally
