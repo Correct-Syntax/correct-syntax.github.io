@@ -10,7 +10,8 @@ To work locally with this project, you'll have to follow the steps below:
 - Development: `hugo server`
 - Generate the website: `hugo`
 
-Rebuilding the css:
+Rebuilding the CSS:
 
 - ``cd themes/site-theme``
+- ``npm install`` (first time only)
 - ``npx tailwindcss -i ./styles/styles.css -o ./static/assets/style.css --watch``
