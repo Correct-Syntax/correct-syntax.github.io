@@ -2,17 +2,8 @@
 	<meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <title>{{ if .Page.Title }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title> -->
-  <!-- <title>{{ if .IsHome }}Home - {{ else }}{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ end }}{{ .Site.Title }}</title> -->
-  <!-- <title>{{ .Page.Title }}</title> -->
-  <!-- <title>
-    {{- if .IsHome -}}
-      {{ .Site.Title -}}
-    {{ else -}}
-      {{ with .Title }}{{ . }} | {{ end -}}
-      {{ .Site.Title -}}
-    {{ end -}}
-  </title> -->
+  <title>{{ with .Page.Title }}{{ . }} - {{ end }}{{ with site.Title }}{{ . }}{{ end }}</title>
+
   {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ with .OutputFormats.Get "RSS" -}}
