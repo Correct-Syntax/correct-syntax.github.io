@@ -2,7 +2,17 @@
 	<meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ .Title }}</title>
+  <!-- <title>{{ if .Page.Title }}{{ .Page.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title> -->
+  <!-- <title>{{ if .IsHome }}Home - {{ else }}{{ if .Page.Title }}{{ .Page.Title }} - {{ end }}{{ end }}{{ .Site.Title }}</title> -->
+  <!-- <title>{{ .Page.Title }}</title> -->
+  <!-- <title>
+    {{- if .IsHome -}}
+      {{ .Site.Title -}}
+    {{ else -}}
+      {{ with .Title }}{{ . }} | {{ end -}}
+      {{ .Site.Title -}}
+    {{ end -}}
+  </title> -->
   {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ with .OutputFormats.Get "RSS" -}}
@@ -12,25 +22,6 @@
   <link rel="preconnect" href="api.fonts.coollabs.io" crossorigin>
   <link href="https://api.fonts.coollabs.io/css2?family=Aleo:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://api.fonts.coollabs.io/css2?family=Aleo&display=swap" rel="stylesheet">  
-  
   <link href="/assets/style.css" rel="stylesheet">
   <script defer src="https://unpkg.com/alpinejs@3.8.1/dist/cdn.min.js"></script>
-  
-  <!-- <script src="https://cdn.tailwindcss.com"></script>
-  <script>    
-    tailwind.config = {      
-      theme: {    
-        fontFamily: {
-          sans: ['Roboto', 'sans-serif'],
-          serif: ['Aleo', 'serif']
-        },    
-        extend: {          
-          colors: {          
-            accent: "#2591AF",  
-            darkergray: "#2E2E2E",       
-          }        
-        }      
-      }    
-    }  
-  </script> -->
 </head>

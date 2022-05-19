@@ -14,9 +14,9 @@ pygmentCodeFences = true
 summaryLength = 12
 
 [Params]
-  subtitle = ""
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
+  subtitle = ".."
+  logo = "avatar-icon.png"
+  favicon = "favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
