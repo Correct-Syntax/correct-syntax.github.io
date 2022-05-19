@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+subtitle: This page doesn't need to exist
 layout: "static-page"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Site Colophon
+subtitle: This is where you find out about the tech I used
 layout: "static-page"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: About
+subtitle: A bit about me and my work
 layout: "static-page"
 ---
 
