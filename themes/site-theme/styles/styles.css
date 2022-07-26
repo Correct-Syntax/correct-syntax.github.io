@@ -14,12 +14,15 @@
     @apply text-gray-800;
 }
 .markdown-content h2 {
-    @apply text-3xl;
+    @apply text-4xl;
 }
 .markdown-content h3 {
-    @apply text-2xl;
+    @apply text-3xl;
 }
 .markdown-content h4 {
+    @apply text-2xl;
+}
+.markdown-content h5 {
     @apply text-xl;
 }
 .markdown-content ul {
