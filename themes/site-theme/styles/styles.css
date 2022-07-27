@@ -30,3 +30,7 @@
 }
 
 @tailwind utilities;
+
+.markdown-content img {
+    border-radius: 20px;
+}
