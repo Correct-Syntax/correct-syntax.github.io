@@ -1,6 +1,6 @@
 ---
 title: "The Journey Behind Velocity Lapse - Part 1"
-date: '2022-08-8'
+date: '2022-08-08'
 draft: false
 image: "/posts/journey-behind-velocity-lapse-1/journey-behind-velocity-lapse-part-1-header.jpg"
 summary: "This is the start of a series of 'devlog' posts of my personal journey and learning process in creating an app called Velocity Lapse, from planning to launch and beyond."
