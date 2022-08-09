@@ -262,7 +262,9 @@ However, after looking at what those require, I wasn't motivated to go in either
 
 Obviously, the app couldn't be released without a way to export the timelapse to video, so I needed to think of another way.
 
-After a lot of searching, I came to a small package called [bitmap2video](https://github.com/israel-fl/bitmap2video) which looked like it might do the trick. However, since it was written in Kotlin, it wouldn't mean switching the existing code from Java to Kotlin. I decided to go for it and embrace it as an unexpected opportunity to learn Kotlin. 
+After a lot of searching, I came to a small package called [bitmap2video](https://github.com/israel-fl/bitmap2video) which looked like it might do the trick. However, since it was written in Kotlin, it would mean switching the existing code from Java to Kotlin. 
+
+I decided to go for it and embrace it as an unexpected opportunity to learn Kotlin. 
 
 First, I did a bunch of extensive testing to verify that it didn't produce artifacts like jcodec. I did end up having to fix some depreciated code and fix a few things to make it work, but came to the conclusion that with some more customization it would indeed work.
 
