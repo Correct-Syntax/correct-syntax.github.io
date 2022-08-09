@@ -37,7 +37,7 @@ My personal interest are in the areas of the Bible, image manipulation, photogra
 
 #### The final idea
 
-With a bit more brainstorming, I came up with the idea of creating a **time-lapse app**. 
+With a bit more brainstorming, I came up with the idea of creating a **time lapse app**. 
 
 Time lapse, if you're not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that is sped-up/condensed so naturally slow movements appear much faster. The time lapse effect can be very beautiful for things like sunsets, clouds, flowers/plants, or people walking the streets.
 
@@ -60,12 +60,12 @@ Obviously, that doesn't mean no time should be spent marketing, as that is anoth
 
 So from then on, I decided to have had the mindset of building a user-friendly, user-centric app focused on improving time lapse on Android and *solving the paint-points* found in other apps. Like, literally making this a "great" time lapse app.
 
-From a marketing standpoint, people buy *solutions* to their problems, not software. So, solving user pain-points is the best approach that I am aware of.
+From a marketing standpoint, people buy *solutions* to their problems, not software. So, solving user pain points is the best approach that I am aware of.
 
 
 ### Market Research 
 
-I conducted research on the Google Play store as well as some of the top apps on the Apple App store to get an idea of the current state of time lapse/camera apps for Android and see where the "pain-points" were. 
+I conducted research on the Google Play store as well as some of the top apps on the Apple App store to get an idea of the current state of time lapse/camera apps for Android and see where the pain points were. 
 
 As someone that has always had an interest in photography and videography, I had already used a few of the more well-known Android timelapse apps before I ever had the idea to create one. However, after reading through hundreds of reviews and creating a ton of notes, I could see some areas where the current apps were failing, where they were doing well, and what people were looking for in a time lapse app. 
 
@@ -99,9 +99,9 @@ I then drew some initial sketches and wrote notes of what I imagined the UI and 
 
 Let me be honest: looking back, those sketches were a bit naive and didn't include some settings a time lapse app should have. (I guess I didn't know about time lapse as deeply as I may have thought). However, it gave me a springboard to where I could get started with my *own* take on a time lapse app, even if it was a little out of reality and missing features... 
 
-I then opened up to installing and testing most every app related to time lapse on Google Play over the period of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.
+I then opened up to installing and testing almost every app related to time lapse on Google Play over the period of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.
 
-Moving to my laptop I then created a digital mock-up of the different screens (views) that the app would have. At this point, I over-complicated it in certain areas like the home screen where I was thinking most everything could/should be crammed. Therefore, I did end up going back and recreating the layout a number of times to get it condensed down to a better design.
+Moving to my laptop I then created a digital mock-up of the different screens (views) that the app would have. At this point, I over-complicated it in certain areas like the home screen where I was thinking everything could/should be crammed. Therefore, I did end up going back and recreating the layout a number of times to get it condensed down to a better design.
 
 ### My Choice of a Tech Stack
 
@@ -127,7 +127,7 @@ I was concerned about the performance of using a js framework. Also didn't feel 
 
 Besides the comments above, I just haven't liked Java Android development all that much from my bits of working with it. (More just a personal preference.)
 
-*Ironically, I ended up diving into both Java **and** Kotlin. Thankfully, I had help from @sundrycode who has a lot more experience than I with Android development.*
+*Ironically, I ended up diving into both Java **and** Kotlin. Thankfully, I had help from [@sundrycode](https://github.com/sundrycode) who has a lot more experience than I with Android development.*
 
 
 ### ~~Initial development~~ Learning Dart/Flutter
@@ -155,7 +155,7 @@ It is wise advice to read and understand the Flutter docs on [layout constraints
 
 For the first few weeks I familiarized myself with the various Flutter and Dart concepts, started to narrow in on the app design and make a tiny bit of progress on the app (which I rewrote later in a fraction of the time).
 
-It's worthy of note that this project essentially uses most *every* main feature in Flutter. From native platform channels to the somewhat obscure ``RepaintBoundry`` widget, it has it all. This app was packed with a lot of Flutter and Dart things to figure out. Thus, for my first actual Flutter application this wasn't exactly the level a simple to-do app.
+It's worthy of note that this project uses almost *every* main feature in Flutter. From native platform channels to the somewhat obscure ``RepaintBoundry`` widget, it has it all. This app was packed with a lot of Flutter and Dart things to figure out. Thus, for my first actual Flutter application this wasn't exactly the level a simple to-do app.
 
 That is to say, at that point progress was really slow and it was more of me learning than working on the app.
 
