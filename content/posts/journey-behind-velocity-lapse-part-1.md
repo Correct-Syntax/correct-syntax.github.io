@@ -9,7 +9,7 @@ summary: "This is the start of a series of 'devlog' posts of my personal journey
 
 ### Intro
 
-I've been working on a new side-project for the last few months. It's a new time lapse app for Android called [*Velocity Lapse*](https://velocitylapse.com).
+I've been working on a new side-project for the last few months. It's a new time lapse app for Android called [Velocity Lapse](https://velocitylapse.com).
 
 This post is the start of a series of dev-log posts I'm planning to write of my personal journey and learning process of creating Velocity Lapse. You'll see glimpses of the steps of planning, UI design, development, launch, and marketing -some of which is the first time I have done so for a mobile app. 
 
