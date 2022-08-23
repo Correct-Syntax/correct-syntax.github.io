@@ -6,7 +6,7 @@ layout: "static-page"
 
 Hey there! 
 
-I'm a freelance web designer/developer from the U.S, [serving clients](https://correctsyntax.com) with design, development, and tech support services.
+I'm a freelance web designer/developer from the U.S, [serving clients](https://correctsyntax.com) with design, development, and tech support services. I am also currently working on a powerful time-lapse app for Android called [Velocity Lapse](https://velocitylapse.com).
 
 I've been very blessed to work on a variety of different projects with a range of clients. I love doing meaningful work that helps people and glorifies Yahweh, our Heavenly Father. 
 
