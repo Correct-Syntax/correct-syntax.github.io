@@ -284,7 +284,7 @@ After that I was able to successfully release the app bundle to internal testing
 
 ### The journey continues
 
-Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far. I'm currently writing (and living) part 2 of this dev-log series, so stay tuned.
+Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far.
 
 If you have a suggestion, a comment or some advice, relating either to the app or this post, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
 
