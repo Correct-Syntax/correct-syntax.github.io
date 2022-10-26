@@ -284,8 +284,10 @@ After that I was able to successfully release the app bundle to internal testing
 
 ### The journey continues
 
-Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far.
+Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have.
 
 If you have a suggestion, a comment or some advice, relating either to the app or this post, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
+
+**You can read the next part of the journey in [part 2](/posts/journey-behind-velocity-lapse-part-2/) of this series.**
 
 *A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to [@sundrycode](https://github.com/sundrycode) for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.*
