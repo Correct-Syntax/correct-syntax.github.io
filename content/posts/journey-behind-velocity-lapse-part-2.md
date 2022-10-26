@@ -172,7 +172,7 @@ It was a struggle, but in the end I had a single in-app purchase for users to up
 
 Now that we had a pretty solid version of Velocity Lapse, I went and took updated screenshots of major screens of the app and created phone screenshots for the Google Play listing. This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.
 
-Since I had already been posting some of the timelapse video I had captured on the official Velocity Lapse YouTube channel, I added one of the videos as the "feature video". In my opinion, just adding the video made the listing look a lot better than before.
+Since I had already been posting some of the timelapse videos I had captured on the official Velocity Lapse YouTube channel, I added one of the videos as the "feature video" for Google Play. In my opinion, just adding the video made the listing look a lot better than before.
 
 | ![Updated Google Play listing](/posts/journey-behind-velocity-lapse-2/google-play-listing-2.jpeg)
 |:--:|
