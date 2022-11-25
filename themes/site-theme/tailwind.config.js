@@ -6,12 +6,16 @@ module.exports = {
             ],  
     theme: {    
         fontFamily: {
-          sans: ['Roboto', 'sans-serif'],
-          serif: ['Aleo', 'serif']
+          sans: ['Figtree', 'sans-serif'],
+          serif: ['Merriweather', 'serif']
         },    
         extend: {          
           colors: {          
-            accent: "#2591AF",       
+            accent: "#2591AF",   
+            vlaccent: "#38A3D5",
+            vldark: "#0D0E11",    
+            flameshotpurple: "#8800AA",
+            opcblue: "#1EA09F",
           }        
         }  
     },  

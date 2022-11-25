@@ -2,15 +2,15 @@
   <main class="relative max-w-6xl mx-auto mt-4">
 	<div class="flex flex-col mx-8 md:mx-0 py-10 border-gray-100 border-b-2">
 	  <small class="text-gray-600 ml-0 sm:ml-8">{{ .Date |  time.Format ":date_medium" }}  &bull;  {{ .WordCount }} words</small>
-	  <h1 class="font-serif text-4xl ml-0 sm:ml-8 mt-2 text-gray-800">{{ .Title }}</h1>
+	  <h1 class="font-serif font-bold text-4xl ml-0 sm:ml-8 mt-2 text-gray-800">{{ .Title }}</h1>
 	</div>
 	<div class="flex justify-end">
-	  <div class="max-w-4xl space-y-4 mt-4 mb-10">
+	  <div class="max-w-4xl space-y-4 mb-10">
 		<article class="flex flex-col mx-1 md:mx-0">
-		  <div class="w-full px-3 pt-2 pb-4 mt-4">
+		  <div class="w-full px-3 pt-2 pb-4">
 			<div class="flex flex-col sm:flex-row items-center">
 			  <div class="markdown-content ml-0 sm:ml-10">
-				<img class="w-full rounded-sm my-6" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
+				<img class="w-full rounded-sm mt-0 md:mt-6 mb-6" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
 				{{ .Content }}
 			  </div>
 			</div>

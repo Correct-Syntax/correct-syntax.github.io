@@ -9,10 +9,11 @@
 				  </a> 
 				</div> 
 			</div>
-			<div class="hidden md:flex items-center space-x-0">
-			  <a href="/" class="my-4 mx-3 px-5 py-1 text-gray-600 hover:bg-gray-200 rounded-md ease-in-out duration-300">Home</a> 
-			  <a href="/posts/" class="my-4 mx-3 px-5 py-1 text-gray-600 hover:bg-gray-200 rounded-md ease-in-out duration-300">Posts</a> 
-			  <a href="/about/" class="my-4 mx-3 px-5 py-1 text-gray-600 hover:bg-gray-200 rounded-md ease-in-out duration-300">About</a> 
+			<div class="hidden md:flex items-center space-x-4">
+			  <a href="/" class="my-4 px-3 py-1 text-gray-600 hover:bg-gray-200 rounded-md ease-in-out duration-300">Home</a> 
+			  <a href="/about/" class="my-4 px-3 py-1 text-gray-600 hover:bg-gray-200 rounded-md ease-in-out duration-300">About</a> 
+			  <a href="/work/" class="my-4 px-3 py-1 text-gray-600 hover:bg-gray-200 rounded-md ease-in-out duration-300">My Work</a> 
+			  <a href="/posts/" class="my-4 px-3 py-1 text-gray-600 hover:bg-gray-200 rounded-md ease-in-out duration-300">Posts</a> 
 			</div>
 			<button class="inline md:hidden py-4 px-2 focus:outline-none focus:bg-white" aria-label="Main menu" aria-expanded="false" @click="navOpen = !navOpen" :class="{ 'bg-gray-200' : navOpen }">
 				<svg class="h-8 w-8 stroke-slate-600" :class="{ 'hidden' : navOpen }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -24,10 +25,11 @@
 			</button>
 		  </div>
 		</div>
-		<div class="flex flex-col text-center md:hidden text-xl pb-10 bg-white" :class="{ 'block' : navOpen , 'hidden' : !navOpen }"> 
-			<a href="/" class="py-5 px-3 text-slate-600 hover:text-accent ease-in-out duration-500">Home</a> 
-			<a href="/posts/" class="py-5 px-3 text-slate-600 hover:text-accent ease-in-out duration-500">Posts</a> 
+		<div class="flex flex-col text-center md:hidden text-xl pb-8 bg-white border-b-2" :class="{ 'block' : navOpen , 'hidden' : !navOpen }"> 
+			<a href="/" class="py-5 px-3 text-slate-600 hover:text-accent ease-in-out duration-500">Home</a> 			
 			<a href="/about/" class="py-5 px-3 text-slate-600 hover:text-accent ease-in-out duration-500">About</a> 
+			<a href="/work/" class="py-5 px-3 text-slate-600 hover:text-accent ease-in-out duration-500">My Work</a> 
+			<a href="/posts/" class="py-5 px-3 text-slate-600 hover:text-accent ease-in-out duration-500">Posts</a> 
 		</div>
 	  </nav>
 </header>
