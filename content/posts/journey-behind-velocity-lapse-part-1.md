@@ -251,12 +251,12 @@ One big set-back in particular had to do with the renderer which would take the 
 
 I had been finishing up the "last" bug fixes and edits before getting the minimal app of the ground and into the internal and open testing stages. However, I discovered that the exported videos had H.264 codec artifacts (banding). The artifacts, ugly bands of pink across the video, seemed to appear after the first second or two of the video. Up until this point I had only rendered out videos less than 2 seconds so I didn't realize this earlier.
 
-This seems to be an issue with the [jcodec](https://github.com/jcodec/jcodec) Java library that I was using as the encoder for the video export renderer. I wasn't able to produce even one video with jcodec without artifacts. Unfortunately, I hadn't noticed this sooner and so a lot of hours of work implementing the renderer with jcodec had to be thrown away.
+This seemed to be an issue with the [jcodec](https://github.com/jcodec/jcodec) Java library that I was using as the encoder for the video export renderer. I wasn't able to produce even one video with jcodec without artifacts. Unfortunately, I hadn't noticed this sooner and so a lot of hours of work implementing the renderer with jcodec had to be thrown away.
 
-Some options were:
+Some options were to use:
 
-- use the native media APIs for encoding videos
-- use the NDK with a C++ lib to encode the videos
+- The native media APIs for encoding videos
+- The NDK with a C++ lib to encode the videos
 
 However, after looking at what those require, I wasn't motivated to go in either of those directions writing something from scratch myself.
 
