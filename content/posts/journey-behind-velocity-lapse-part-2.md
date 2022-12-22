@@ -9,7 +9,9 @@ summary: "This is the second post in a series of 'dev-log' posts of my personal 
 
 ### Intro
 
-This is the second post in a series of "dev-log" posts of my personal journey and learning process of creating [Velocity Lapse](https://velocitylapse.com), a powerful time lapse app for Android. In the [previous post](/posts/journey-behind-velocity-lapse-part-1/) (part 1), I shared the journey up to the first internal testing release.
+This is the second post in a series of "dev-log" posts of my personal journey and learning process of creating [Velocity Lapse](https://velocitylapse.com), a powerful time lapse app for Android. 
+
+Be sure to read [Part 1](/posts/journey-behind-velocity-lapse-part-1/), where I shared the my experience up to the first internal testing release.
 
 
 ### More technical setbacks
@@ -72,7 +74,7 @@ Although using images that were actually captured with the app can mean that the
 
 One idea which [@sundrycode](https://github.com/sundrycode) and a few others suggested, was to post timelapse videos captured with Velocity Lapse to inspire others to create their own. The thought was that maybe if the videos got popular enough, they would promote the app on their own. They also serve as real-life examples of what can be created with the app.
 
-So, I created a [Youtube channel](https://www.youtube.com/channel/UCenuOeODNjdVohMTvKv15fQ) and began posting time lapse videos there. (I also created an [Instagram account](https://www.instagram.com/velocitylapseapp/) but it still sits there for months, unused...) 
+So, I created a [Youtube channel](https://www.youtube.com/channel/UCenuOeODNjdVohMTvKv15fQ) and began posting time lapse videos there. I also created an [Instagram account](https://www.instagram.com/velocitylapseapp/) but it sat there unused for a few months, until I got around to making content to post there. 
 
 In addition, I did quite a bit of posting on Reddit, replying to posts looking for a time lapse app. While it certainly is self-promotion, since the person was asking for time lapse apps and those viewing the post were likely looking for one too, it was a good way to get some first users and help them find something they can use to reliably create time lapse videos.
 
@@ -93,6 +95,10 @@ It was without doubt a popular request to add a gallery to view exported timelap
 #### Introducing the bottom nagivation bar
 
 In order to better organize the new features such as importing a sequence of images as a project, I introduced a bottom navigation bar to divide Velocity Lapse's main functions into understandable categories. This proved to be a very good decision as later I was able to just drop in the Manual Capture mode once it was implemented.
+
+| ![Bottom navigation](/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg)
+|:--:|
+| *Introducing the bottom tab navigation*|
 
 
 ### The second open testing release
@@ -120,7 +126,11 @@ I was reminded that tweaking the UI is great, but ultimately most users will acc
 
 ### Adding Manual Capture mode
 
-The capture view with the interval setting and other features was great, however it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over extended periods of time. Or, catering to those who would rather not leave their cellphone on location while it is capturing.
+The capture view with the interval setting and other features was great, however it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over extended periods of time. Or, to put it differently: catering to those who would rather not leave their cellphone on location while it is capturing.
+
+| ![Manual capture view](/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg)
+|:--:|
+| *The manual capture view in v0.0.4+6*|
 
 In order to cover all bases, I added a Manual Capture mode which is a camera screen with an overlay of the previous image and an indicator telling when the last image was captured. This was simple enough to do, but it still took time to differentiate the project UI from the normal timelapse capture mode and design and develop the special interface for it.
 
@@ -155,6 +165,27 @@ There was one thing I was not confident about, and that is what features to have
 This way, the free version of the app is limited in a way that all the features are usable, but there is (hopefully) enough of an incentive to upgrade to the PRO version to allow unlimited access.
 
 
+#### Keeping the Sabbath day
+
+Something that I wanted to make sure to do, is block purchasing Velocity Lapse PRO on Saturday in observance of the Sabbath day. 
+
+I believe in keeping the seventh day Sabbath (Roman Saturday) as described in the Bible. The Sabbath is a set-apart day of rest and so no buying, selling, or trading is to be done on it (as I understand it).
+
+I'll state here that I am **not** a part of any demonination (SDA or otherwise). My motivation for keeping the Sabbath holy is to do as Yahweh, our Heavenly Father Himself, and our Savior did: rest on the seventh day.
+
+*"And on the seventh day Yahweh ended his work which he had made; and he rested on the seventh day from all his work which he had made. And Yahweh blessed the seventh day, and sanctified it: because that in it he had rested from all his work which Yahweh created and made." -Genesis 2:2-3*
+
+*"If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it." -Isaiah 58:13-14*
+
+There are many more verses in the Bible regarding the importance of keeping the seventh day Sabbath.
+
+For some Django-based websites I worked on in the past, I had created and used a Django app called [Keep Sabbath](https://github.com/Correct-Syntax/Keep-Sabbath) which would redirect visitors, or show a banner stating that the e-commerce site was closed for the Sabbath day.
+
+I did something similar for Velocity Lapse, so that when the day == "Saturday" in the user's location, a screen would come up letting them know that they wouldn't be able to purchase until the next day. 
+
+The saying, *"A day of rest, a Sabbath request: please refrain from purchasing between sundown Friday and sundown Saturday."* was inspired by someone else's banner I had seen. 
+
+
 #### Technical implementation
 
 Creating the PRO upgrade screen UI itself was one of the screen I most enjoyed implementing (for whatever reason). However, implementing the IAP integration itself proved to be a lengthy process.
@@ -168,7 +199,7 @@ The main culprit of the problems was Dart null safety. Many articles online didn
 It was a struggle, but in the end I had a single in-app purchase for users to upgrade to Velocity Lapse PRO for $3.99 USD.
 
 
-### Updating the Google Play listing
+### Updating the Google Play listing (again)
 
 Now that we had a pretty solid version of Velocity Lapse, I went and took updated screenshots of major screens of the app and created phone screenshots for the Google Play listing. This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.
 
@@ -189,7 +220,9 @@ The next tasks on the roadmap were to get 4k export and manual camera controls i
 
 #### 4K video export
 
-4k export to video wasn't a huge feature to implement, but since I didn't have an Android device that supported 4k, it made testing tricky. I ended up getting an hour to test on a friend's phone which I hope is enough to have caught any issues. If not... I'm sure users will let me know. ;)
+4k export to video wasn't a huge feature to implement, but since I didn't have an Android device that supported 4k, it made testing tricky. I ended up getting an hour to test on a friend's phone which I hope is enough to have caught any issues. 
+
+If not... I'm sure users will let me know. ;) **EDIT: they did. ;)**
 
 #### Manual camera controls
 
@@ -228,7 +261,7 @@ What's nice about working on this kind of project that deals with the camera is 
 
 ### An opportunity to enjoy creation
 
-During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation, namely the sky, whether it's wispy clouds or a pink and blue sunset ("Yahweh's paintbrush").  I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
+During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation, namely the sky, whether it's wispy clouds or a pink and blue sunset (Yahweh, our Heavenly Father's paintbrush). I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
 
 {{< youtube fBrOPxkeTnw >}}
 {{< youtube 36O4d31UyyE >}}
@@ -238,14 +271,14 @@ So, I encourage you to [download the app](https://play.google.com/store/apps/det
 
 ### Starry night sky timelapse video gets popular
 
-Speaking of enjoying creation, it seems that people are enjoying the starscape time lapse I posted on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, 4.7K views and 46 likes in the first 3 weeks, and now has 6K views and 56 likes as of this writing.
+Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse I posted on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, **4.7K views and 46 likes in the first 3 weeks**, and has 6K views and 56 likes as of this writing.
 
 | ![Starry night sky timelapse video analytics](/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg)
 |:--:|
-| *A glance at the stats for the starry night sky time lapse video on Youtube*|
+| *A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22*|
 
 
-Needless to say, this is way, far better than any other video I've posted on any channel. Granted, it's a short video, but it's interesting and new to me especially since other videos on the Velocity Lapse channel have fewer than 100 views as of this writing.
+Needless to say, this was way, far better than any other video I posted on any channel. Granted, it was a short video, but it was interesting and new to me especially since other videos on the Velocity Lapse channel had fewer than 100 views (as of this writing).
 
 {{< youtube BxRHqPGGO_g >}}
 *The starry night time lapse video*
