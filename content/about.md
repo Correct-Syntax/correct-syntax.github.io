@@ -11,4 +11,4 @@ I love doing meaningful work that inspires and helps people, and glorifies Yahwe
 
 Creating things, collaborating with others, and learning new technologies motivates me to create and contribute to open-source software projects, most notably [Gimel Studio](https://gimelstudio.github.io), [Flameshot](https://flameshot.org), and [Bible Notify](https://biblenotify.github.io). 
 
-I am open to collaboration and new client work so feel free to [get in touch](mailto:hi@noahrahm.com) or just say hi. 
+I'm open to collaboration and new client work so feel free to [get in touch](mailto:hi@noahrahm.com).
