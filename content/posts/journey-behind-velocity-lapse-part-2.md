@@ -290,7 +290,9 @@ Oddly enough, this happened while I was away on vacation for 3 weeks. Go figure.
 
 ### The journey continues
 
-Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have. **Stay tuned for part 3 of this series.**
+Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have. 
+
+**Read [part 3](/posts/journey-behind-velocity-lapse-part-3/) of this series.**
 
 If you have a suggestion, a comment or some advice, relating either to the app or this post, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
 
