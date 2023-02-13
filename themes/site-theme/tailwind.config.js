@@ -12,6 +12,8 @@ module.exports = {
         extend: {          
           colors: {          
             accent: "#2591AF",   
+            oiioaccent: "#0583D6",
+            oiiodark: "#181E23",
             vlaccent: "#38A3D5",
             vldark: "#0D0E11",    
             flameshotpurple: "#8800AA",
