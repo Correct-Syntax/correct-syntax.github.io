@@ -7,11 +7,11 @@ module.exports = {
     theme: {    
         fontFamily: {
           sans: ['Figtree', 'sans-serif'],
-          serif: ['Merriweather', 'serif']
         },    
         extend: {          
           colors: {          
             accent: "#2591AF",   
+            accentdark: "#1C6E85",
             oiioaccent: "#0583D6",
             oiiodark: "#181E23",
             vlaccent: "#38A3D5",

@@ -5,28 +5,31 @@
     @apply text-xl text-gray-800;
 }
 .markdown-content p {
-    @apply my-3 text-gray-700;
+    @apply mb-5 mt-1 text-gray-800 leading-8;
 }
 .markdown-content a {
-    @apply text-accent underline ease-in-out duration-300;
+    @apply text-accentdark underline ease-in-out duration-300 font-semibold;
 }
 .markdown-content a:hover {
-    @apply text-gray-800;
+    @apply text-accent;
 }
 .markdown-content h2 {
     @apply text-4xl;
 }
 .markdown-content h3 {
-    @apply text-3xl mt-10 font-bold font-serif;
+    @apply text-4xl mt-12 mb-4 font-semibold;
 }
 .markdown-content h4 {
-    @apply text-2xl mt-5 font-serif;
+    @apply text-3xl mt-8 mb-4 font-semibold;
 }
 .markdown-content h5 {
-    @apply text-xl mt-5 font-serif;
+    @apply text-2xl mt-5 mb-2 font-semibold;
+}
+.markdown-content h6 {
+    @apply text-lg mt-5 mb-2 font-semibold;
 }
 .markdown-content ul {
-    @apply list-disc list-inside;
+    @apply list-disc list-inside mb-4;
 }
 
 @tailwind utilities;
