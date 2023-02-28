@@ -3,7 +3,7 @@ title: About
 layout: "about"
 ---
 
-I'm a web designer and developer based in the U.S, providing design, development, and tech support services. 
+Hello, I'm a web designer and developer based in the U.S. 
 
 I love doing meaningful work that inspires and helps people, and glorifies Yahweh our Heavenly Father.  I've been very blessed to work on a variety of [projects](/work/), and thankful to have worked with many great clients. 
 
