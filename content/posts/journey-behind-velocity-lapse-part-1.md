@@ -13,7 +13,7 @@ I've been working on a new side-project for the last few months. It's a new time
 
 This post is the start of a series of dev-log posts I'm planning to write of my personal journey and learning process of creating Velocity Lapse. You'll see glimpses of the steps of planning, UI design, development, launch, and marketing -some of which is the first time I have done so for a mobile app. 
 
-Though I am not new to UI design or development in general, I'll mention that my only prior experience with *Android app* development are my contributions to [Bible Notify](https://biblenotify.github.io) and some design-related work for another app. Therefore, app development is still a new area for me. Above that, this is also the first time I have directly monitized one of my software projects as I usually go open-source for most non-client projects.
+Though I am not new to design or development, I'll mention that my only prior experience with *Android app* development are my contributions to [Bible Notify](https://biblenotify.github.io) and some design-related work for another app. Therefore, app development is still a new area for me. Above that, this is also the first time I have directly monitized one of *my own* software projects as I usually go open-source for most non-client projects.
 
 That is to say, if you're more experienced in app development or the business side of things (or even if you not) and you have a suggestion, a comment or some advice, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
 
@@ -31,13 +31,15 @@ Initially, some ideas I thought about were:
 
 However, while I do write some and I probably could use a file manager, I wasn't interested in those ideas enough or see enough of a need for them *personally*. 
 
-While I think it is important to work on projects in areas you are *not* really interested in to broaden your skills, I've found that it is easier to stick with a project and produce a better product when you are passionate about it.
+While I think it is important to work on projects in areas you are *not* really interested in to broaden your skills, I've found that it is easier to stick with something you are passionate about.
 
-My personal interest are in the areas of the Bible, image manipulation, photography, and design -as evidenced by some of [my open source work](https://github.com/Correct-Syntax). So, I couldn't see myself developing those other type of ideas into apps.
+My personal interest are in the areas of: the Bible, graphics, photography, and design -as evidenced by some of [my open source work](https://github.com/Correct-Syntax). So, I couldn't see myself developing the aforementioned ideas into apps.
 
 #### The final idea
 
 With a bit more brainstorming, I came up with the idea of creating a **time lapse app**. 
+
+I have fond memories of when I was younger and would experiment with time lapse using an old tablet. My brother and I would time lapse plants growing and mushrooms appearing in our greenhouse. 
 
 Time lapse, if you're not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that is sped-up/condensed so naturally slow movements appear much faster. The time lapse effect can be very beautiful for things like sunsets, clouds, flowers/plants, or people walking the streets.
 
@@ -127,7 +129,7 @@ I was concerned about the performance of using a js framework. Also didn't feel 
 
 Besides the comments above, I just haven't liked Java Android development all that much from my bits of working with it. (More just a personal preference.)
 
-*Ironically, I ended up diving into both Java **and** Kotlin. Thankfully, I had help from [@sundrycode](https://github.com/sundrycode) who has a lot more experience than I with Android development.*
+*Ironically, I ended up diving into both Java **and** Kotlin **a lot**. (What did I expect for an app that accesses so much hardware?) Thankfully, I had help from [@sundrycode](https://github.com/sundrycode) who has a lot more experience than I with Android development.*
 
 
 ### ~~Initial development~~ Learning Dart/Flutter
@@ -149,7 +151,7 @@ Once past the emulators hurdle, I quickly learned that Flutter constraints are *
 
 I kept running into the (in)famous overflow errors and ``unbounded layout constraints`` fatal errors. Needless to say, I didn't get very far until I understood how constraints and layout worked.
 
-It is wise advice to read and understand the Flutter docs on [layout constraints](https://docs.flutter.dev/development/ui/layout/constraints) before starting. 
+It is wise advice to read and understand the Flutter docs on [layout constraints](https://docs.flutter.dev/development/ui/layout/constraints) *before* starting. 
 
 #### Learning takes time
 

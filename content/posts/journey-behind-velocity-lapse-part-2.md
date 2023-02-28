@@ -20,15 +20,15 @@ If I've made it seem like the journey was easy with only a few snags (like the e
 
 #### Why I am sharing technical issues
 
-It would take a while to relate to you all of the technical challenges I encountered and I don't want to make this into a section of every problem I've had. However, I think it's worth briefly mentioning some of them in hopes that someone can learn and benefit from my mistakes and research.
+It would take a while to relate to you all of the technical challenges I encountered and I don't want to make this into a series of posts relating every problem I've had. However, I think it's worth briefly mentioning some of them so that someone can learn and benefit from my mistakes and research.
 
 #### Flutter camera bug
 
-An "easier" issue to fix related to a bug in the Flutter camera package where the maximum capture resolution was determined by the video capture resolution supported by the device hardware. Thankfully there was some patch code available which I adapted to allow capturing 4K (if supported) and the full camera sensor resolution.
+An "easier" issue to fix related to a bug in the Flutter camera package, where the maximum capture resolution was determined by the video capture resolution supported by the device hardware. Thankfully there was some patch code available which I adapted to allow capturing 4K (if supported) and the full camera sensor resolution.
 
 #### Another encoder issue
 
-As it would be though, fixing that issue led to uncovering another problem. 
+As it would be, though, fixing that issue led to uncovering another problem. 
 
 When exporting a video with a resolution higher than the supported video capture resolution, the encoder would crash with a null pointer exception. So, more issues with the encoder but this time relating to the video encoding resolution. 
 
@@ -151,13 +151,13 @@ If I was creating a free app, the main work would be complete. However, because 
 
 There was one thing I was not confident about, and that is what features to have as in-app purchases for the PRO version. For the time being, I settled upon having the free version limited in the following ways:
 
-**FREE VERSION**
+###### FREE VERSION
 
 - Limit of up to 5 projects at one time
 - Export up to 1080p video
 - Import images as project limited to import of 400 images
 
-**PRO VERSION**
+###### PRO VERSION
 - Unlock unlimited projects
 - Export up to 4K video (if the device supports it)
 - Import images as project with unlimited number of images
@@ -257,11 +257,13 @@ At this point, there was 97 total app downloads and 40 active installs.
 
 Essentially, in the process of creating Velocity Lapse's camera features I have been working towards a manual camera app functions which is kind of interesting. 
 
-What's nice about working on this kind of project that deals with the camera is that its enabled me (maybe 'given me a good excuse' is better wording) to spend time learning about manual camera controls in-depth, professional photography and of course, time lapse photography. Had I chosen to work on a project like a file manager, I wouldn't have probably ever taken the time to dive into photography as I have now. Needless to say, I don't regret my decision (quite the opposite). 
+What's nice about working on this kind of project that deals with the camera is that its enabled me (maybe 'given me a good excuse' is better wording) to spend time learning about manual camera controls in-depth, professional photography and of course, time lapse photography. 
+
+Had I chosen to work on a project like a file manager, I wouldn't have probably ever taken the time to dive into photography as I have now. Needless to say, I don't regret my decision (quite the opposite). 
 
 ### An opportunity to enjoy creation
 
-During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation, namely the sky, whether it's wispy clouds or a pink and blue sunset (Yahweh, our Heavenly Father's paintbrush). I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
+During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation, namely the sky, whether it's wispy clouds or a pink and blue sunset (Yahweh, our Heavenly Father's "paint brush"). I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
 
 {{< youtube fBrOPxkeTnw >}}
 {{< youtube 36O4d31UyyE >}}
@@ -269,7 +271,7 @@ During the process of creating and testing the app I have had the opportunity to
 So, I encourage you to [download the app](https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse) and go outside to capture a time lapse yourself! :)
 
 
-### Starry night sky timelapse video gets popular
+### The starry night sky timelapse video gets popular
 
 Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse I posted on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, **4.7K views and 46 likes in the first 3 weeks**, and has 6K views and 56 likes as of this writing.
 
@@ -292,7 +294,7 @@ Oddly enough, this happened while I was away on vacation for 3 weeks. Go figure.
 
 Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have. 
 
-**Read [part 3](/posts/journey-behind-velocity-lapse-part-3/) of this series.**
+**You can continue by reading [part 3](/posts/journey-behind-velocity-lapse-part-3/) of this series.**
 
 If you have a suggestion, a comment or some advice, relating either to the app or this post, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
 
