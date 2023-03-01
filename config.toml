@@ -1,20 +1,18 @@
 baseurl = "https://noahrahm.com/"
-contentdir    = "content"
-layoutdir     = "layouts"
-publishdir    = "public"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
 title = "Noah Rahm"
-canonifyurls  = true
+canonifyurls = true
 
 DefaultContentLanguage = "en"
 theme = "site-theme"
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
-#disqusShortname = "XXX"
 summaryLength = 12
 
 [Params]
-  subtitle = ".."
   logo = "avatar-icon.png"
   favicon = "favicon.ico"
   dateFormat = "January 2, 2006"
@@ -24,5 +22,3 @@ summaryLength = 12
 
 [Author]
   name = "Noah Rahm"
-  gitlab = ""
-  github = ""

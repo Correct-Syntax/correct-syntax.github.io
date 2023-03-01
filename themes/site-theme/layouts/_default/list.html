@@ -10,7 +10,7 @@
 			<div class="w-full ml-2">
 			  <h4 class="font-bold text-gray-800 text-2xl md:text-3xl">{{ .Title }}</h4>
 			  <small class="text-gray-600 text-base font-semibold mt-2">{{ .Date |  time.Format ":date_medium" }}</small>
-			  <p class="text-xl text-gray-700 mt-3">{{ .Summary }}</p>
+			  <p class="text-xl text-gray-700 mt-3">{{ .Description }}</p>
 			</div>
 		  </div>
 		</a>
@@ -26,7 +26,7 @@
 			<div class="w-full ml-2">
 			  <h4 class="font-bold md:font-semibold text-gray-800 text-2xl md:text-xl">{{ .Title }}</h4>
 			  <small class="text-gray-600 text-base md:text-sm font-semibold">{{ .Date |  time.Format ":date_medium" }}</small>
-			  <p class="text-xl md:hidden text-gray-700 mt-3">{{ .Summary }}</p>
+			  <p class="text-xl md:hidden text-gray-700 mt-3">{{ .Description }}</p>
 			</div>
 		  </div>
 		</a>
@@ -42,7 +42,7 @@
 		  <img class="w-auto rounded-xl mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
 		  <h4 class="font-bold text-gray-800 text-2xl">{{ .Title }}</h4>
 		  <small class="text-gray-600 font-semibold text-base md:text-sm mt-1">{{ .Date |  time.Format ":date_medium" }}</small>
-		  <p class="text-xl text-gray-700 mt-3">{{ .Summary }}</p>
+		  <p class="text-xl text-gray-700 mt-3">{{ .Description }}</p>
 		</a>
 	  </div>
 	  {{ end }}

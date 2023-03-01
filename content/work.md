@@ -1,5 +1,5 @@
 ---
 title: Selected Work
-subtitle:
+description: A selection of my work
 layout: "work"
 ---

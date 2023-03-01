@@ -3,7 +3,7 @@ title: "Life Lessons from 2022"
 date: '2023-01-02'
 draft: false
 image: "/posts/life-lessons-2022/life-lessons.jpg"
-summary: "A reflection of lessons that stand out the most from 2022"
+description: "A reflection of lessons that stand out the most from 2022"
 ---
 
 

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-{{ partial "head" }}
-<body>
-	{{ partial "header" . }}
+{{ partial "head.html" . }}
+  <body>
+	{{ partial "header.html" . }}
 	{{ block "main" . }}{{ end }}
-	{{ partial "footer" . }}
-</body>
+	{{ partial "footer.html" . }}
+  </body>
 </html>
