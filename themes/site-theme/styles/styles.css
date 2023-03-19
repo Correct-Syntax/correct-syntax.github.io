@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 
+
 .markdown-content {
     @apply text-xl text-gray-800;
 }
@@ -12,6 +13,9 @@
 }
 .markdown-content a:hover {
     @apply text-accent;
+}
+.markdown-content blockquote {
+    @apply border-l-4 italic text-3xl border-accent text-gray-400 pl-6 py-1 mb-4 leading-10;
 }
 .markdown-content h2 {
     @apply text-4xl;
