@@ -24,7 +24,7 @@ As far as I am concerned, I believe the answer is a clear **no**.
 
 **1. It's against the YouTube Terms of Service (TOS)** to download content outside of the player or download links they provide (more on that later). You agreed to these terms when you created the account, so I mean, that's basically lying if you had no intent to abide by the terms.
 
-The YouTube TOS states:
+The [YouTube TOS](https://www.youtube.com/t/terms#c3e2907ca8) states:
 
 *You are not allowed to [...] access, reproduce, download, distribute, transmit, broadcast, display, sell, license, alter, modify or otherwise use any part of the Service or any Content except: (a) as expressly authorized by the Service; or (b) with prior written permission from YouTube and, if applicable, the respective rights holders.*
 
