@@ -21,9 +21,9 @@ Towards the end of Roman October 2022, I rolled out the app in open testing to a
 
 ### The first sales of Velocity Lapse PRO
 
-Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th to be exact. There was 321 total downloads and 131 active installs at that time.
+Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th, 2022 to be exact. There was 321 total downloads and 131 active installs at that time.
 
-Granted, it was only a few dollars after taxes and Google Play's cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI, besides some really nice compliments. 
+Granted, it was only a few dollars after taxes and Google Play's cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI (besides some really nice compliments). 
 
 In the following weeks, sales happened sporadically, mostly in bunches. 1 more the day after the very first purchase, then 2 on one day later that week. The following week, there was only 1 purchase. The next week, there was 3 on one day for a total of 8 upgrades in 3 weeks of being rolled out to all countries.
 
@@ -147,7 +147,7 @@ As I winded down the v0.2.x and moved to the v0.3.x series of open testing relea
 
 #### v0.3.x series
 
-v0.3.0 was an update I had been planning for a while. I planned to begin implementing the edit view features like importing external images *into* an existing project, image effects and adjustment controls, and (of course) crush some bugs that had been reported.
+v0.3.0 was an update I had been planning for a while. I planned to begin implementing the edit view features like importing external images *into* an existing project, and (of course) crush some bugs that had been reported.
 
 I rewrote and improved the whole import system, added the ability to import images into an existing project. Thankfully, I was able to fixed some bugs including a long standing bug where images with uppercase file extensions would be ignored when importing.
 
@@ -158,6 +158,8 @@ I then began working on the preview for the edit view. This required the preview
 Due to my lack of experience with this side of Flutter, I went ahead and asked in the Flutter help channel about what the most optimized way of creating a real-time image preview was. 
 
 It was suggested that I look into the Flutter ``Texture`` widget as that would give me the low-level access to get the update speed I was looking for.
+
+**EDIT: I ended up just leaving off working on this to work on higher priority issues and features**
 
 
 ### User Support
@@ -189,7 +191,7 @@ I received a good amount of positive feedback. It seemed that the negative feedb
 
 #### Personal goals
 
-Thus far, Velocity Lapse is very much usable for creating time lapses. However, I still have a few personal feature needs that I believe need to be implemented. The editor features, motion blur, and star trails are some big ones that I feel are missing. I hope that I can find the time to bring these features into the app in the coming months and years.
+Thus far, Velocity Lapse is very much usable for creating time lapses. However, I still have a few personal feature needs that I believe need to be implemented. The camera and editor features, motion blur, and star trails are some big ones that I feel are missing. I hope that I can find the time to bring these features into the app in the coming months and years.
 
 Overall, going from not knowing Flutter and not much about Android development, to having an app in beta bringing some ROI and good feedback, I feel that I have learned a lot. It most certainly has been a journey of overcoming challenges, both technical and physical. 
 

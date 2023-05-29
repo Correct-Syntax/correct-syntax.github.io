@@ -196,7 +196,7 @@ Unfortunately, not everything in the docs for Flutter integration was as clear a
 
 The main culprit of the problems was Dart null safety. Many articles online didn't handle null safety and the snippets in the RevenueCat docs only went so far. For that reason, I may write a post in the future on how to implement RevenueCat with Flutter and Dart null safety.
 
-It was a struggle, but in the end I had a single in-app purchase for users to upgrade to Velocity Lapse PRO for $3.99 USD.
+In the end I had a single in-app purchase for users to upgrade to Velocity Lapse PRO for $3.99 USD.
 
 
 ### Updating the Google Play listing (again)

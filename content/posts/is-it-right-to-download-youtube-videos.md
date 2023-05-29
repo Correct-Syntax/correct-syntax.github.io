@@ -37,7 +37,7 @@ Many of the ads are just downright deceptive and immoral which shows the sort of
 
 #### What is our standard?
 
-Now, a disclaimer here: I used to download videos from YouTube using external software, before I knew that it was a violation of the YouTube TOS. However, ignorance isn't much of an excuse and I no longer do so.
+Now, a disclaimer here: I used to download videos from YouTube using external software for offline viewing, before I knew that it was a violation of the YouTube TOS. However, ignorance isn't much of an excuse and I no longer do so.
 
 I think about how if I am willing to break the TOS to download a video from YouTube, then what keeps me from doing anything else against the terms? 
 
