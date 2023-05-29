@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Noah Rahm</title><link>https://noahrahm.com/posts/</link><description>Recent content in Posts on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Looking Ahead</title><link>https://noahrahm.com/posts/looking-ahead/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/looking-ahead/</guid><description>&lt;h3 id="heading">&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Noah Rahm</title><link>https://noahrahm.com/posts/</link><description>Recent content in Posts on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Looking Ahead</title><link>https://noahrahm.com/posts/looking-ahead/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/looking-ahead/</guid><description>&lt;h3 id="heading">&lt;/h3>
 &lt;p>I was talking with a friend one day and he noticed that we were selling a used, luxury recliner.&lt;/p>
 &lt;p>He asked, &amp;ldquo;How much are you asking for it?&amp;rdquo;.&lt;/p>
 &lt;p>&amp;ldquo;Two-hundred and fifty&amp;rdquo;, I replied.&lt;/p>
@@ -54,7 +54,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>I&amp;rsquo;ve watched as someone used one of these sites (against my advice) where halfway through the download, a popup appeared with a download button to download malicious software. You could easily think that the popup was the download for your video, when it wasn&amp;rsquo;t.&lt;/p>
 &lt;p>Many of the ads are just downright deceptive and immoral which shows the sort of character the people running these sites have.&lt;/p>
 &lt;h4 id="what-is-our-standard">What is our standard?&lt;/h4>
-&lt;p>Now, a disclaimer here: I used to download videos from YouTube using external software, before I knew that it was a violation of the YouTube TOS. However, ignorance isn&amp;rsquo;t much of an excuse and I no longer do so.&lt;/p>
+&lt;p>Now, a disclaimer here: I used to download videos from YouTube using external software for offline viewing, before I knew that it was a violation of the YouTube TOS. However, ignorance isn&amp;rsquo;t much of an excuse and I no longer do so.&lt;/p>
 &lt;p>I think about how if I am willing to break the TOS to download a video from YouTube, then what keeps me from doing anything else against the terms?&lt;/p>
 &lt;p>In another sense, being a software developer that creates software and website licenses and terms myself, I have to ask myself another question:&lt;/p>
 &lt;p>If I am willing to disregard other websites terms then how can I expect &lt;em>others&lt;/em> to abide by the terms or license I create for a website or software.&lt;/p>
@@ -101,8 +101,8 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;h3 id="full-rollout-in-open-testing">Full rollout in open testing&lt;/h3>
 &lt;p>Towards the end of Roman October 2022, I rolled out the app in open testing to all countries where Google Play is available. Previously, it had only been available in 27 select countries as I wanted to make sure to iron out some issues and &amp;ldquo;test the waters&amp;rdquo; so-to-speak before opening up to the whole world.&lt;/p>
 &lt;h3 id="the-first-sales-of-velocity-lapse-pro">The first sales of Velocity Lapse PRO&lt;/h3>
-&lt;p>Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th to be exact. There was 321 total downloads and 131 active installs at that time.&lt;/p>
-&lt;p>Granted, it was only a few dollars after taxes and Google Play&amp;rsquo;s cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI, besides some really nice compliments.&lt;/p>
+&lt;p>Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th, 2022 to be exact. There was 321 total downloads and 131 active installs at that time.&lt;/p>
+&lt;p>Granted, it was only a few dollars after taxes and Google Play&amp;rsquo;s cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI (besides some really nice compliments).&lt;/p>
 &lt;p>In the following weeks, sales happened sporadically, mostly in bunches. 1 more the day after the very first purchase, then 2 on one day later that week. The following week, there was only 1 purchase. The next week, there was 3 on one day for a total of 8 upgrades in 3 weeks of being rolled out to all countries.&lt;/p>
 &lt;h3 id="creating-the-first-tutorial">Creating the first tutorial&lt;/h3>
 &lt;p>For a while, I had been considering making a tutorial on how to capture a starry night time lapse using Velocity Lapse on an Android phone.&lt;/p>
@@ -168,12 +168,13 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;h3 id="continued-development">Continued development&lt;/h3>
 &lt;p>As I winded down the v0.2.x and moved to the v0.3.x series of open testing releases, I planned the roadmap for the next series of releases, v0.3.x and v0.4.x.&lt;/p>
 &lt;h4 id="v03x-series">v0.3.x series&lt;/h4>
-&lt;p>v0.3.0 was an update I had been planning for a while. I planned to begin implementing the edit view features like importing external images &lt;em>into&lt;/em> an existing project, image effects and adjustment controls, and (of course) crush some bugs that had been reported.&lt;/p>
+&lt;p>v0.3.0 was an update I had been planning for a while. I planned to begin implementing the edit view features like importing external images &lt;em>into&lt;/em> an existing project, and (of course) crush some bugs that had been reported.&lt;/p>
 &lt;p>I rewrote and improved the whole import system, added the ability to import images into an existing project. Thankfully, I was able to fixed some bugs including a long standing bug where images with uppercase file extensions would be ignored when importing.&lt;/p>
 &lt;h4 id="beginning-work-on-edit-preview">Beginning work on edit preview&lt;/h4>
 &lt;p>I then began working on the preview for the edit view. This required the preview to update quickly when an adjustment was made, so I quickly ruled out using a temporary physical file.&lt;/p>
 &lt;p>Due to my lack of experience with this side of Flutter, I went ahead and asked in the Flutter help channel about what the most optimized way of creating a real-time image preview was.&lt;/p>
 &lt;p>It was suggested that I look into the Flutter &lt;code>Texture&lt;/code> widget as that would give me the low-level access to get the update speed I was looking for.&lt;/p>
+&lt;p>&lt;strong>EDIT: I ended up just leaving off working on this to work on higher priority issues and features&lt;/strong>&lt;/p>
 &lt;h3 id="user-support">User Support&lt;/h3>
 &lt;p>One thing about selling software is the support aspect of it. From the very start, I made a real effort to respond to &lt;em>every&lt;/em> person that submitted feedback on Velocity Lapse, whether good or bad. Many people responded that they appreciated the response which was encouraging.&lt;/p>
 &lt;p>However, I won&amp;rsquo;t lie and say that it was easy to stay on top of it. I took the approach of &amp;ldquo;better late than never&amp;rdquo; when worst came to worst when I didn&amp;rsquo;t get to responding for 2-3 weeks. :(&lt;/p>
@@ -187,7 +188,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;h4 id="user-feedback">User feedback&lt;/h4>
 &lt;p>I received a good amount of positive feedback. It seemed that the negative feedback came as a result of app crashes, bugs, etc which is totally understandable. I was thankful for everyone that submitted feedback, whether positive or negative, as it helped to gauge the app progress, etc.&lt;/p>
 &lt;h4 id="personal-goals">Personal goals&lt;/h4>
-&lt;p>Thus far, Velocity Lapse is very much usable for creating time lapses. However, I still have a few personal feature needs that I believe need to be implemented. The editor features, motion blur, and star trails are some big ones that I feel are missing. I hope that I can find the time to bring these features into the app in the coming months and years.&lt;/p>
+&lt;p>Thus far, Velocity Lapse is very much usable for creating time lapses. However, I still have a few personal feature needs that I believe need to be implemented. The camera and editor features, motion blur, and star trails are some big ones that I feel are missing. I hope that I can find the time to bring these features into the app in the coming months and years.&lt;/p>
 &lt;p>Overall, going from not knowing Flutter and not much about Android development, to having an app in beta bringing some ROI and good feedback, I feel that I have learned a lot. It most certainly has been a journey of overcoming challenges, both technical and physical.&lt;/p>
 &lt;h3 id="the-journey-continues">The journey continues&lt;/h3>
 &lt;p>Thanks again for reading. I hope you&amp;rsquo;ve enjoyed this post and have gained something from this journey so far as I have. &lt;strong>Stay tuned for (possibly) a part 4 of this series.&lt;/strong>&lt;/p>
@@ -362,7 +363,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>I decided to use &lt;a href="https://revenuecat.com">RevenueCat&lt;/a> to manage purchase validation, etc. rather than writing and maintaining my own web API to do so. Setting up a Google cloud service account and connecting it to RevenueCat for accessing the Play Store API on my behalf was a lengthy, but necessary process.&lt;/p>
 &lt;p>Unfortunately, not everything in the docs for Flutter integration was as clear as I thought it should be.&lt;/p>
 &lt;p>The main culprit of the problems was Dart null safety. Many articles online didn&amp;rsquo;t handle null safety and the snippets in the RevenueCat docs only went so far. For that reason, I may write a post in the future on how to implement RevenueCat with Flutter and Dart null safety.&lt;/p>
-&lt;p>It was a struggle, but in the end I had a single in-app purchase for users to upgrade to Velocity Lapse PRO for $3.99 USD.&lt;/p>
+&lt;p>In the end I had a single in-app purchase for users to upgrade to Velocity Lapse PRO for $3.99 USD.&lt;/p>
 &lt;h3 id="updating-the-google-play-listing-again">Updating the Google Play listing (again)&lt;/h3>
 &lt;p>Now that we had a pretty solid version of Velocity Lapse, I went and took updated screenshots of major screens of the app and created phone screenshots for the Google Play listing. This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.&lt;/p>
 &lt;p>Since I had already been posting some of the timelapse videos I had captured on the official Velocity Lapse YouTube channel, I added one of the videos as the &amp;ldquo;feature video&amp;rdquo; for Google Play. In my opinion, just adding the video made the listing look a lot better than before.&lt;/p>
