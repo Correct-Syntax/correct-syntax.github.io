@@ -1,4 +1,179 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Noah Rahm</title><link>https://noahrahm.com/posts/</link><description>Recent content in Posts on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Looking Ahead</title><link>https://noahrahm.com/posts/looking-ahead/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/looking-ahead/</guid><description>&lt;h3 id="heading">&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Noah Rahm</title><link>https://noahrahm.com/posts/</link><description>Recent content in Posts on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>The Journey Behind Velocity Lapse - Part 4</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</guid><description>&lt;h3 id="intro">Intro&lt;/h3>
+&lt;p>Welcome to the fourth post in a series of &amp;ldquo;dev-log&amp;rdquo; posts of my personal journey and learning process of creating &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>, a time lapse app for Android.&lt;/p>
+&lt;p>You can read the previous posts, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">Part 1&lt;/a>, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/">Part 2&lt;/a>, and &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/">Part 3&lt;/a> to get context up to this point.&lt;/p>
+&lt;h3 id="intentional-progress">Intentional progress&lt;/h3>
+&lt;p>Starting in 2023, I decided to be more intentional with what and when I work on Velocity Lapse.&lt;/p>
+&lt;h4 id="slower-pace">Slower pace&lt;/h4>
+&lt;p>Obviously, I couldn&amp;rsquo;t continue the pace that I had during the first 6 months of initial development. I couldn&amp;rsquo;t justify spending more time on it than a set reasonable amount per week. It also happened that I had other big projects for work come my way.&lt;/p>
+&lt;p>And so, I slowed down the pace of development and shifted my priorities to fit.&lt;/p>
+&lt;h4 id="flurry-analytics">Flurry Analytics&lt;/h4>
+&lt;p>Ultimately, I decided that it doesn&amp;rsquo;t benefit the users for me to &lt;em>not&lt;/em> have the information I need to improve the app and fix crashes. So I reluctantly added Flurry analytics to the app. I also realized that I order to get proper stack traces from crashes, I&amp;rsquo;d need to upload debug symbols to Google Play.&lt;/p>
+&lt;h3 id="missed-launch-dates">Missed launch dates&lt;/h3>
+&lt;p>You may be wondering: &amp;ldquo;Have I forgotten about the full release? When will that happen?&amp;rdquo;&lt;/p>
+&lt;h4 id="not-up-to-par">Not up to par&lt;/h4>
+&lt;p>Well, at this point I didn&amp;rsquo;t believe it was ready for an out-of-beta release.&lt;/p>
+&lt;p>For one thing, I had noticed that the user perceived crash rate was almost 6 percent which was over the Google Play threshold. Most of the issues were crashes during export. Obviously, not a great thing to see.&lt;/p>
+&lt;p>In short: Velocity Lapse just wasn&amp;rsquo;t up to production quality yet. I didn&amp;rsquo;t feel right launching with that much unstability.&lt;/p>
+&lt;h4 id="unrealistic-projections">Unrealistic projections&lt;/h4>
+&lt;p>Although I had projected an (unrealistic) launch date for somewhere around the end of Roman &amp;ldquo;January&amp;rdquo;, things were not favorable for that deadline. I felt more confident setting the release date to the 7th of Roman &amp;ldquo;March&amp;rdquo;, but that did not end up happening. Even my thought that the app would be ready for full release by Spring fell through.&lt;/p>
+&lt;p>Part of this is that the &amp;ldquo;MVP&amp;rdquo; feature list fell prey to &amp;ldquo;scope creep&amp;rdquo; and I under-estimated the amount of time involved to implement some of the features and work through the bugs. This was good thing though, since it gave me more time to &amp;ldquo;flesh-out&amp;rdquo; the app.&lt;/p>
+&lt;h3 id="working-on-the-features-and-fixes">Working on the features and fixes&lt;/h3>
+&lt;p>Early Roman February, I zeroed in on the features and fixes that were most necessary for a good user experience, working on them one by one.&lt;/p>
+&lt;h4 id="camera-re-write">Camera re-write&lt;/h4>
+&lt;p>I began to work on creating my own custom camera package to fix some of the issues with the camera and add features like the ability to capture with the screen off, multi-lense support, and manual white balance control.&lt;/p>
+&lt;p>I dove into Kotlin and the camera2 API to understand it. Starting small, I first created a basic camera as a native Kotlin project to work out the kinks of the camera2 API. (As of the time of this writing, this is still in the works.)&lt;/p>
+&lt;h4 id="upgrading-to-flutter-37">Upgrading to Flutter 3.7&lt;/h4>
+&lt;p>Upgrading to Flutter 3.7 only required a few lines of depreciated code to be changed, which was nice as I didn&amp;rsquo;t need anything extra to work on.&lt;/p>
+&lt;h3 id="a-silly-issue-resolved">A silly issue resolved&lt;/h3>
+&lt;p>One of the export issues ended up being the result of a single character typo. Once I corrected that, 4k export worked smoothly. To put it lightly, I was overjoyed and a little upset that such a small mistake caused so much problems.&lt;/p>
+&lt;p>However, that didn&amp;rsquo;t solve every issue as I discovered that export crashed with 720p and 1080p with certain bitrates, somewhat randomly. I later mostly resolved this.&lt;/p>
+&lt;h3 id="updating-the-price-of-pro">Updating the price of PRO&lt;/h3>
+&lt;p>On Roman Feb. 5th I raised the in-app purchase of Velocity Lapse PRO to $5.99. This turned out to be a very good decision as the app was indeed worth more than the previous $3.99, based on user feedback. Plus, it allowed me to invest in a test device to further improve Velocity Lapse.&lt;/p>
+&lt;h3 id="a-new-test-device">A new test device&lt;/h3>
+&lt;p>Until this point, I had to rely on using friend&amp;rsquo;s devices to test features that were limited to certain devices, such as 4K. However, relying on bits of time with someone else&amp;rsquo;s device was not reliable or optimal.&lt;/p>
+&lt;p>So I decided to look for a phone to buy which supports 4k video so I could test the full functionality of Velocity Lapse myself. Thankfully I had made enough money from the in-app purchase at this point to re-invest.&lt;/p>
+&lt;h4 id="my-experience-ordering-from-back-market">My experience ordering from Back Market&lt;/h4>
+&lt;p>A friend had mentioned Back Market as a place to buy refurbished electronics, so I took a look to see what they had.&lt;/p>
+&lt;h5 id="requirements">Requirements&lt;/h5>
+&lt;p>My requirements for the test device were:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>4K video support&lt;/strong> so I could do the 4K testing&lt;/li>
+&lt;li>&lt;strong>A relatively new model&lt;/strong> as I didn&amp;rsquo;t want it to be too outdated for testing&lt;/li>
+&lt;li>&lt;strong>3.3mm headphone jack&lt;/strong> so that I could hook up an external mic for recording videos&lt;/li>
+&lt;/ul>
+&lt;h5 id="my-purchase">My purchase&lt;/h5>
+&lt;p>After looking around to see what phone model would suit my needs, I settled for a Samsung Galaxy A53 phone which has 4k video support and listed the other requirements in the Back Market description.&lt;/p>
+&lt;p>The one I chose from Back Market was a &amp;ldquo;Good&amp;rdquo; condition 128GB 5G Samsung Galaxy A53 tracfone phone.&lt;/p>
+&lt;p>I was quite wary of buying from Back Market as some people online said it was a scam and I hadn&amp;rsquo;t bought refurbished before. I also didn&amp;rsquo;t like how difficult it seemed to contact them. However, in the end I decided to go for it.&lt;/p>
+&lt;h5 id="not-as-listed">Not as listed&lt;/h5>
+&lt;p>Once I recieved the phone, I set it up and began using it to test. However, I didn&amp;rsquo;t realize until a day or two later that there was no 3.3mm headphone jack as was listed on Back Market (and still is at the time of this writing).&lt;/p>
+&lt;p>I opened a support request (which was a very confusing process) and they eventually said: &amp;ldquo;It appears that it was a listing error as in fact, this model does not contain 3.5mm Jack for headphones.&amp;rdquo;&lt;/p>
+&lt;p>I decided to keep the phone as I just didn&amp;rsquo;t have the time to deal with the hassle of returning it and re-purchasing another model.&lt;/p>
+&lt;p>However, at the time of this writing I looked at their listing for the A53 (the same as I purchased) and it still lists the 3.3mm headphone jack. I thought they would have removed the false information by now. So, I contacted them again about it. Hopefully they fix the listing.&lt;/p>
+&lt;h5 id="conclusion">Conclusion&lt;/h5>
+&lt;p>I haven&amp;rsquo;t had any issues with the phone itself so far. Overall, ordering from Back Market was an OK experience. Not sure that I would buy from them again, though.&lt;/p>
+&lt;h3 id="thoughts-on-negative-software-reviews">Thoughts on negative software reviews&lt;/h3>
+&lt;p>Having recieved a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews.&lt;/p>
+&lt;h4 id="please-please-no-hit-and-run">Please, please no hit-and-run&lt;/h4>
+&lt;p>If you use software long enough, you will likely be inclined to write a bad review. I&amp;rsquo;ve done it myself more than I would have liked to. Problems &lt;em>will&lt;/em> occur. Issues &lt;em>will&lt;/em> arise. It&amp;rsquo;s inevitable and unavoidable in software. But &lt;em>please&lt;/em> don&amp;rsquo;t be the user that does a &amp;ldquo;hit and run&amp;rdquo;.&lt;/p>
+&lt;p>Probably &lt;em>the most frustrating&lt;/em> reviews, in my opinion, are those that say a few negative words (sometimes using profanity) without explaining what the issues is, and then leave no way for the developer to follow up with them. These individuals either give a fake email or delete the review so you can&amp;rsquo;t respond to their comments.&lt;/p>
+&lt;p>Unfortunately for the developer, it does no good because no actionable feedback is given and they cannot ask for any either. They are left wondering, &amp;ldquo;okay, so what exactly is the problem?&amp;rdquo; It could be thousands of things.&lt;/p>
+&lt;p>Ultimately, these kinds of &amp;ldquo;reviews&amp;rdquo; don&amp;rsquo;t do much good, other than to vent feelings and/or frustration because they left no way to potentially solve the issue.&lt;/p>
+&lt;p>Thankfully, I have only recieved a few of these myself thus far, but it isn&amp;rsquo;t a nice feeling.&lt;/p>
+&lt;p>So, please be the user that gives a review with specific, actionable criticism on what should be improved. Constructive criticism, even if it&amp;rsquo;s harsh, can be good. Hit and run negativity is not.&lt;/p>
+&lt;h3 id="updating-the-website-for-real">Updating the website (for real)&lt;/h3>
+&lt;p>I updated the website, yet again. This time I went through the hassle and took the time to write proper copy for the homepage, explaining the benefits of the app. Honestly, it wasn&amp;rsquo;t that hard since at this point the app has so many nice features and I had plently of user feedback to back it up.&lt;/p>
+&lt;p>3 separate people had commented through the feedback form that Velocity Lapse was &amp;ldquo;no doubt&amp;rdquo; the best time lapse app for Android. Though, I didn&amp;rsquo;t think it was appropriate to put that on the website&amp;hellip;just yet, at least. :)&lt;/p>
+&lt;h3 id="v03-and-on-to-v04">v0.3 and on to v0.4&lt;/h3>
+&lt;p>To close off the 0.3.x series, I added crash reporting and implemented multi select and delete for the editor.&lt;/p>
+&lt;p>For the 0.4.x series of releases, I aimed to focus on making quality-of-life improvements and fixing bugs.&lt;/p>
+&lt;h3 id="prioritizing-of-feature-requests-and-fixes">Prioritizing of feature requests and fixes&lt;/h3>
+&lt;p>Sometimes, I would get flooded with feature requests and it started to get overwhelming. So, I adopted a methodology of prioritizing them.&lt;/p>
+&lt;p>&lt;strong>1&lt;/strong> the fixes that would otherwise cause a bad experience for &lt;strong>most users&lt;/strong>, and&lt;/p>
+&lt;p>&lt;strong>2&lt;/strong> the features that would help &lt;strong>the most users&lt;/strong>.&lt;/p>
+&lt;p>Basically, &amp;ldquo;high-impact&amp;rdquo; requests. Oftentimes, that means working on something else in order to fix or add something, but it was a little less overwhelming.&lt;/p>
+&lt;h3 id="not-really-mvp-anymore">Not really MVP anymore&lt;/h3>
+&lt;p>As of the time of this writing, I don&amp;rsquo;t think the app is really an MVP anymore. I made a second pass through most of the app&amp;rsquo;s views and functionality, re-writing and re-designing them with the feedback I&amp;rsquo;ve gathered over the last year. But, that&amp;rsquo;s OK.&lt;/p>
+&lt;p>Ultimately, Ideas are cheap and execution is everything. So, having something implemented in the app is better than the idea in my head. At least then I know if it&amp;rsquo;s working out or not.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/v045+38-app-screenshots.jpg" alt="Velocity Lapse v0.4.5+38 screenshots">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="updating-the-price-of-pro-1">Updating the price of PRO&lt;/h3>
+&lt;p>On May 17th, 2023 I decided to raise the price of Velocity Lapse PRO to $7.99. At this point, the app was beginning to be more fleshed out and included saving to SD card as a PRO feature.&lt;/p>
+&lt;h3 id="flutter-310">Flutter 3.10&lt;/h3>
+&lt;p>Upgrading to Flutter 3.10 was very straightforward. (I&amp;rsquo;m not even sure why I included this section).&lt;/p>
+&lt;p>Seriously, though, Flutter and Dart has been amazing to work with. Although I&amp;rsquo;ve run into a few areas that are rough around the edges, overall I couldn&amp;rsquo;t be happier with the development experience building an app like this with Flutter.&lt;/p>
+&lt;h3 id="hacker-noon-startup-of-the-year-nomination">Hacker Noon startup of the year nomination&lt;/h3>
+&lt;p>At the end of Roman May, I was greeted with an email from Hacker Noon that Velocity Lapse had been nominated for Startup of the Year 2023 Ava, MO. This was a nice surprise and awful nice of someone to do. Although it was just a nomination, the fact that Hacker Noon though Velocity Lapse to be worthy enough to accepted it was a pretty neat feeling. So, thanks to whoever nominated Velocity Lapse!&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg" alt="Hacker Noon startup of the year 2023 nomination">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;em>Velocity Lapse&amp;rsquo;s Hacker Noon startup of the year 2023 nomination&lt;/em>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>By the way, if it&amp;rsquo;s still 2023 when you&amp;rsquo;re reading this and you&amp;rsquo;d like to vote for Velocity Lapse, you can do so &lt;a href="https://hackernoon.com/startups/north-america/north-america-ava-mo-usa">here&lt;/a>. Thanks!&lt;/p>
+&lt;h3 id="big-releases">Big releases&lt;/h3>
+&lt;p>Leading up to the 1 year anniversary of Velocity Lapse, I worked towards the goal of finishing off the leftover &amp;ldquo;MVP&amp;rdquo; features, adding the most requested features, and re-designing the app to be more presentable and easier to use.&lt;/p>
+&lt;h4 id="v04538">v0.4.5+38&lt;/h4>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg" alt="Velocity Lapse v0.4.5+38 release notes">&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:center">&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Released the first week of Roman June, v0.4.5+38 was a huge release with tons of interface improvements and additions, as well as the new editor playback feature.&lt;/p>
+&lt;h4 id="v05040-1st-year-anniversary-release">v0.5.0+40 1st year anniversary release&lt;/h4>
+&lt;p>Throughout the past year, the single most-requested feature was the ability to capture time lapses with the screen shut off. Initially, I had a difficult time working out how to do it with Android&amp;rsquo;s security limitations, but I was pleased when I was able to find a solution that worked well -just in time for the v0.5.0 1st year anniversary release!&lt;/p>
+&lt;p>Seemed like a fitting way to say THANK YOU! to all the users who shared feedback to make the app what it is.&lt;/p>
+&lt;h3 id="1st-year-anniversary-of-velocity-lapse">1st year anniversary of Velocity Lapse&lt;/h3>
+&lt;p>On 6/7/2023 I did a livestream event on YouTube sharing a presentation of some of the background behind Velocity Lapse, the v0.5.0 features, and future plans.&lt;/p>
+&lt;p>Due to announcing it only the night before, practically no-one knew about it. This was probably a good thing since it was my first live stream. Even though I knew there probably wouldn&amp;rsquo;t be anyone actually watching it live, I still wanted to do it to gain the experience.&lt;/p>
+&lt;p>Overall, it went fairly well with only a few technical glitches. Certainly not a perfect presentation (or audio quality). I can see that I need to work on not saying &amp;ldquo;so&amp;rdquo; so much (no pun intended). I also probably didn&amp;rsquo;t need to share some of the more technical details (which would bore most people). Well, now I know for next time&amp;hellip;&lt;/p>
+&lt;h3 id="looking-back-and-forward">Looking back and forward&lt;/h3>
+&lt;p>Naturally, I should do a brief look back at the first year of developing Velocity Lapse, as well as a look forward.&lt;/p>
+&lt;h4 id="looking-back-on-the-past-year">Looking back on the past year&lt;/h4>
+&lt;h5 id="personally">Personally&lt;/h5>
+&lt;p>Over the past year of development, I&amp;rsquo;ve learned a lot about entrepreneurship, app development, and marketing. I truly feel blessed that I&amp;rsquo;ve achieved a certain level of &amp;ldquo;success&amp;rdquo; already. (Success to me is impacting other people&amp;rsquo;s lives in a positive way -and showing them the love of Yahushua, if the opportunity arises).&lt;/p>
+&lt;p>I&amp;rsquo;ve also been privileged to see glimpses of the impact of Velocity Lapse in the lives of others. From someone capturing timelapses of their art, to creating a timelapse to document their house remodel, to a timelapse filmmaker capturing the beauty of creation -It is a bit mind boggling that people, literally &amp;ldquo;on the other side of the world&amp;rdquo; use the app.&lt;/p>
+&lt;h5 id="statistically">Statistically&lt;/h5>
+&lt;p>For the data/stats people around, I imagine you&amp;rsquo;ve been holding your breath to hear the stats. Well, please take a breath -it&amp;rsquo;s not that big of a deal. :)&lt;/p>
+&lt;p>&lt;em>Note: I&amp;rsquo;m not giving exact numbers and rounding them to an even amount.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>Google Play&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Total downloads since the app was first public on Google Play (since Aug. 2022): &lt;strong>21,200+&lt;/strong>&lt;/li>
+&lt;li>Total current installs: &lt;strong>4,700+&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Development&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Amount of individually logged code changes (commits): &lt;strong>780&lt;/strong>&lt;/li>
+&lt;li>Number of closed issues: &lt;strong>85&lt;/strong>&lt;/li>
+&lt;li>Development time: &lt;strong>A lot. Making a great time lapse app requires a ton of time.&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Revenue&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Total gross revenue since I first implemented the Velocity Lapse PRO IAP (since Oct. 2022): &lt;strong>~$700&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;h5 id="conclusion-on-the-past-year">Conclusion on the past year&lt;/h5>
+&lt;p>Making even a decent time lapse app takes a lot of time, effort, and dedication.&lt;/p>
+&lt;p>Focusing on creating a &amp;ldquo;great app&amp;rdquo; seems to make marketing a bit easier. Thus far, I haven&amp;rsquo;t done much actual promotion, but organic Google Play searches and word-of-mouth are the best marketing I could ask for.&lt;/p>
+&lt;p>Although it has yet to generate enough revenue to make it worth my time and headaches from a business perspective, I am blessed to be able to continue to work on it with other motivations. 1) to help others, 2) because I want the app for my own use 3) and some enjoyment out of the process of creating the app.&lt;/p>
+&lt;p>I wouldn&amp;rsquo;t mind working on Velocity Lapse more if it became a sustainable business. Probably not a realistic expectation, but it is a possibility, Yahweh-willing.&lt;/p>
+&lt;p>I guess we&amp;rsquo;ll see how the next year unfolds&amp;hellip;&lt;/p>
+&lt;h4 id="a-look-forward">A look forward&lt;/h4>
+&lt;p>My goals for the coming months are:&lt;/p>
+&lt;ul>
+&lt;li>Get Velocity Lapse ready for the full release. Then I can open it up wide to the public.&lt;/li>
+&lt;li>Re-design and improve the Timelapse and Manual capture views.&lt;/li>
+&lt;li>Talk to some people in the timelapse niche and see what they think of the app.&lt;/li>
+&lt;li>Once launched, promote it on Product Hunt.&lt;/li>
+&lt;li>And go from there.&lt;/li>
+&lt;/ul>
+&lt;p>Obviously, you can see how well &lt;em>my&lt;/em> plans have come to pass thus far, so I&amp;rsquo;m going to say &amp;ldquo;Yahweh-willing&amp;rdquo; to all of this.&lt;/p>
+&lt;h3 id="the-journey-continues">The journey continues&lt;/h3>
+&lt;p>Thank you for reading. I hope you&amp;rsquo;ve enjoyed this post and have gained something from this journey so far as I have. &lt;strong>I may or may not do a part 5 of this series. Let me know in the comments below if you&amp;rsquo;d like me to continue this series.&lt;/strong>&lt;/p>
+&lt;p>If you have a suggestion, a comment or some advice, relating either to the app or this post, &lt;a href="mailto:hi@noahrahm.com">I&amp;rsquo;d love to hear&lt;/a> what you have to share.&lt;/p>
+&lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item><item><title>Looking Ahead</title><link>https://noahrahm.com/posts/looking-ahead/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/looking-ahead/</guid><description>&lt;h3 id="heading">&lt;/h3>
 &lt;p>I was talking with a friend one day and he noticed that we were selling a used, luxury recliner.&lt;/p>
 &lt;p>He asked, &amp;ldquo;How much are you asking for it?&amp;rdquo;.&lt;/p>
 &lt;p>&amp;ldquo;Two-hundred and fifty&amp;rdquo;, I replied.&lt;/p>
