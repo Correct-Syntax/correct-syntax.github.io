@@ -1,15 +1,15 @@
 ---
 title: "The Journey Behind Velocity Lapse - Part 4"
-date: '2023-06-04'
-draft: true
-image: "/posts/journey-behind-velocity-lapse-3/journey-behind-velocity-lapse-part-3-header.jpg"
+date: '2023-06-08'
+draft: false
+image: "/posts/journey-behind-velocity-lapse-4/journey-behind-velocity-lapse-part-4-header.jpg"
 description: "This is the fourth post in a series of 'dev-log' posts of my journey to create Velocity Lapse, a time lapse app for Android."
 ---
 
 
 ### Intro
 
-Welcome to the fourth post in a series of "dev-log" posts of my personal journey and learning process of creating [Velocity Lapse](https://velocitylapse.com), which aims to be the ultimate time lapse app for Android. 
+Welcome to the fourth post in a series of "dev-log" posts of my personal journey and learning process of creating [Velocity Lapse](https://velocitylapse.com), a time lapse app for Android. 
 
 You can read the previous posts, [Part 1](/posts/journey-behind-velocity-lapse-part-1/), [Part 2](/posts/journey-behind-velocity-lapse-part-2/), and [Part 3](/posts/journey-behind-velocity-lapse-part-3/) to get context up to this point.
 
@@ -21,7 +21,7 @@ Starting in 2023, I decided to be more intentional with what and when I work on 
 
 #### Slower pace
 
-Obviously, I couldn't continue the pace that I had during the first 6 months of initial development. I couldn't justify spending more time on it than a set reasonable amount per week.  It also happened that I had other big projects for work come my way. 
+Obviously, I couldn't continue the pace that I had during the first 6 months of initial development. I couldn't justify spending more time on it than a set reasonable amount per week. It also happened that I had other big projects for work come my way. 
 
 And so, I slowed down the pace of development and shifted my priorities to fit. 
 
@@ -49,7 +49,7 @@ In short: Velocity Lapse just wasn't up to production quality yet. I didn't feel
 
 Although I had projected an (unrealistic) launch date for somewhere around the end of Roman "January", things were not favorable for that deadline. I felt more confident setting the release date to the 7th of Roman "March", but that did not end up happening. Even my thought that the app would be ready for full release by Spring fell through. 
 
-Part of this is that the "MVP" feature list fell prey to "scope creep" and I under-estimated the amount of time involved to implement some of the features and work through the bugs. In part, I think was a good thing though, since it gave me more time to "flesh-out" the app.
+Part of this is that the "MVP" feature list fell prey to "scope creep" and I under-estimated the amount of time involved to implement some of the features and work through the bugs. This was good thing though, since it gave me more time to "flesh-out" the app.
 
 
 ### Working on the features and fixes
@@ -72,7 +72,7 @@ Upgrading to Flutter 3.7 only required a few lines of depreciated code to be cha
 
 One of the export issues ended up being the result of a single character typo. Once I corrected that, 4k export worked smoothly. To put it lightly, I was overjoyed and a little upset that such a small mistake caused so much problems.
 
-However, that didn't solve every issue as I discovered that export crashed with 720p and 1080p with certain bitrates, somewhat randomly.
+However, that didn't solve every issue as I discovered that export crashed with 720p and 1080p with certain bitrates, somewhat randomly. I later mostly resolved this.
 
 
 ### Updating the price of PRO
@@ -124,7 +124,7 @@ I haven't had any issues with the phone itself so far. Overall, ordering from Ba
 
 ### Thoughts on negative software reviews
 
-Having recieved a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews:
+Having recieved a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews.
 
 #### Please, please no hit-and-run
 
@@ -169,7 +169,7 @@ Basically, "high-impact" requests. Oftentimes, that means working on something e
 
 As of the time of this writing, I don't think the app is really an MVP anymore. I made a second pass through most of the app's views and functionality, re-writing and re-designing them with the feedback I've gathered over the last year. But, that's OK.
 
-Ultimately, Ideas are cheap, execution is everything. So, having something implemented in the app is better than the idea in my head. At least then I know if it's working out or not.
+Ultimately, Ideas are cheap and execution is everything. So, having something implemented in the app is better than the idea in my head. At least then I know if it's working out or not.
 
 
 | ![Velocity Lapse v0.4.5+38 screenshots](/posts/journey-behind-velocity-lapse-4/v045+38-app-screenshots.jpg)
@@ -213,16 +213,19 @@ Leading up to the 1 year anniversary of Velocity Lapse, I worked towards the goa
 
 Released the first week of Roman June, v0.4.5+38 was a huge release with tons of interface improvements and additions, as well as the new editor playback feature.
 
-#### v0.5.0+39 1st year anniversary release
+#### v0.5.0+40 1st year anniversary release
 
 Throughout the past year, the single most-requested feature was the ability to capture time lapses with the screen shut off. Initially, I had a difficult time working out how to do it with Android's security limitations, but I was pleased when I was able to find a solution that worked well -just in time for the v0.5.0 1st year anniversary release! 
 
-Seemed like a fitting way to say THANK YOU to all the users and individuals who shared feedback to make the app what it is.
-
+Seemed like a fitting way to say THANK YOU! to all the users who shared feedback to make the app what it is.
 
 ### 1st year anniversary of Velocity Lapse
 
-...
+On 6/7/2023 I did a livestream event on YouTube sharing a presentation of some of the background behind Velocity Lapse, the v0.5.0 features, and future plans. 
+
+Due to announcing it only the night before, practically no-one knew about it. This was probably a good thing since it was my first live stream. Even though I knew there probably wouldn't be anyone actually watching it live, I still wanted to do it to gain the experience. 
+
+Overall, it went fairly well with only a few technical glitches. Certainly not a perfect presentation (or audio quality). I can see that I need to work on not saying "so" so much (no pun intended). I also probably didn't need to share some of the more technical details (which would bore most people). Well, now I know for next time...
 
 
 ### Looking back and forward
@@ -233,15 +236,15 @@ Naturally, I should do a brief look back at the first year of developing Velocit
 
 ##### Personally
 
-Personally, over the past year of development, I've learned a lot about entrepreneurship, app development, and marketing. I truly feel blessed that I've achieved a certain level of "success" already. (Success to me is impacting other people's lives in a positive way, and showing them the love of Yahushua, if the opportunity arises).
+Over the past year of development, I've learned a lot about entrepreneurship, app development, and marketing. I truly feel blessed that I've achieved a certain level of "success" already. (Success to me is impacting other people's lives in a positive way -and showing them the love of Yahushua, if the opportunity arises).
 
-I've also been privileged to see glimpses of the impact of Velocity Lapse in the lives of others. From someone capturing timelapses of their art, to creating a timelapse to document their house remodel, to a timelapse filmmaker capturing the beauty of creation -It is a bit mind boggling that I'm giving them a tool to tell their story (even someone on the other side of the world).
+I've also been privileged to see glimpses of the impact of Velocity Lapse in the lives of others. From someone capturing timelapses of their art, to creating a timelapse to document their house remodel, to a timelapse filmmaker capturing the beauty of creation -It is a bit mind boggling that people, literally "on the other side of the world" use the app.
 
 ##### Statistically
 
 For the data/stats people around, I imagine you've been holding your breath to hear the stats. Well, please take a breath -it's not that big of a deal. :)
 
-*Note: I'm not giving exact numbers and I'm rounding them to an even amount.*
+*Note: I'm not giving exact numbers and rounding them to an even amount.*
 
 **Google Play**
 
@@ -251,29 +254,38 @@ For the data/stats people around, I imagine you've been holding your breath to h
 **Development**
 
 - Amount of individually logged code changes (commits): **780**
-- Number of closed issues: **84**
+- Number of closed issues: **85**
 - Development time: **A lot. Making a great time lapse app requires a ton of time.**
 
 **Revenue**
 
-- Total gross revenue since I first implemented the Velocity Laps PRO IAP (since Oct. 2022): **~$700**
+- Total gross revenue since I first implemented the Velocity Lapse PRO IAP (since Oct. 2022): **~$700**
 
 
 ##### Conclusion on the past year
 
-Turns out, making even a "decent" (let alone "the ultimate") time lapse app takes a lot of time, effort, and dedication. And then trying to market it (well, I haven't done much of that, so that is something I could do, but anyway...) and create some sort of worthwhile revenue is difficult.
+Making even a decent time lapse app takes a lot of time, effort, and dedication. 
 
-As you can tell from the stats, this isn't necessarily looking like the best business idea in the world thus far. For the amount of time and headcaches I've invested into this, it's a good thing that I haven't quit my day job. If I was simply after money, I would have to had quit working on Velocity Lapse a while ago. Thankfully, I am blessed to be able to continue to work on it 1) to help others, 2) because I want the app for my own use 3) and I get some enjoyment out of the process of creating the app.
+Focusing on creating a "great app" seems to make marketing a bit easier. Thus far, I haven't done much actual promotion, but organic Google Play searches and word-of-mouth are the best marketing I could ask for.
 
-That said, I actually wouldn't mind working on Velocity Lapse more if it could become a sustainable business. In any case I'm going to try to make it so, Yahweh-willing.
+Although it has yet to generate enough revenue to make it worth my time and headaches from a business perspective, I am blessed to be able to continue to work on it with other motivations. 1) to help others, 2) because I want the app for my own use 3) and some enjoyment out of the process of creating the app.
+
+I wouldn't mind working on Velocity Lapse more if it became a sustainable business. Probably not a realistic expectation, but it is a possibility, Yahweh-willing.
 
 I guess we'll see how the next year unfolds...
 
 
 #### A look forward
 
-My goals for the coming months is to get Velocity Lapse to a stable, reliable state so that the full release can happen and I can open it up wide to the public. My plan is to promote it on Product Hunt, talk to some people in the timelapse niche and see what they think of the app, and go from there.
+My goals for the coming months are:
 
+- Get Velocity Lapse ready for the full release. Then I can open it up wide to the public. 
+- Re-design and improve the Timelapse and Manual capture views.
+- Talk to some people in the timelapse niche and see what they think of the app.
+- Once launched, promote it on Product Hunt.
+- And go from there.
+
+Obviously, you can see how well *my* plans have come to pass thus far, so I'm going to say "Yahweh-willing" to all of this.
 
 ### The journey continues
 
