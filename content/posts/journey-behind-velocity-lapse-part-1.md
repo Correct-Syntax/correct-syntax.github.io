@@ -27,7 +27,7 @@ Every good project starts with a good, worthwhile idea.
 Initially, some ideas I thought about were:
 
 - A very reliable writers app where you don't lose your work. (Probably sounds silly, but the existing apps, I'm told, don't quite cut it).
-- A file manager that could reach the level of the discontinued "cx file explorer". 
+- A file manager that could reach the level of the discontinued "es file explorer". 
 
 However, while I do write some and I probably could use a file manager, I wasn't interested in those ideas enough or see enough of a need for them *personally*. 
 

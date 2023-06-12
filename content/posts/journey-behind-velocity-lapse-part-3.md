@@ -21,7 +21,7 @@ Towards the end of Roman October 2022, I rolled out the app in open testing to a
 
 ### The first sales of Velocity Lapse PRO
 
-Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th, 2022 to be exact. There was 321 total downloads and 131 active installs at that time.
+Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th, 2022 to be exact. There were 321 total downloads and 131 active installs at that time.
 
 Granted, it was only a few dollars after taxes and Google Play's cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI (besides some really nice compliments). 
 
