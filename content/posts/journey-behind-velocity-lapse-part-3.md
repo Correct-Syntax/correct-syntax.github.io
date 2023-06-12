@@ -198,7 +198,9 @@ Overall, going from not knowing Flutter and not much about Android development, 
 
 ### The journey continues
 
-Thanks again for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have. **Stay tuned for (possibly) a part 4 of this series.**
+Thanks again for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have. 
+
+**You can continue by reading [part 4](/posts/journey-behind-velocity-lapse-part-4/) of this series.**
 
 If you have a suggestion, a comment or some advice, relating either to the app or this post, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
 
