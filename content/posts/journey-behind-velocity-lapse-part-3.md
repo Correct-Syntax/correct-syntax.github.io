@@ -16,16 +16,16 @@ You can read the previous posts, [Part 1](/posts/journey-behind-velocity-lapse-p
 
 ### Full rollout in open testing
 
-Towards the end of Roman October 2022, I rolled out the app in open testing to all countries where Google Play is available. Previously, it had only been available in 27 select countries as I wanted to make sure to iron out some issues and "test the waters" so-to-speak before opening up to the whole world.
+Towards the end of Roman October 2022, I rolled out the app in open testing to all countries where Google Play is available. Previously, it had only been available in 27 select countries because I wanted to make sure to iron out some issues and "test the waters" so-to-speak before opening up to the whole world.
 
 
 ### The first sales of Velocity Lapse PRO
 
 Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th, 2022 to be exact. There were 321 total downloads and 131 active installs at that time.
 
-Granted, it was only a few dollars after taxes and Google Play's cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI (besides some really nice compliments). 
+Granted, it was only a few dollars after taxes and Google Play's cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI (besides some nice compliments). 
 
-In the following weeks, sales happened sporadically, mostly in bunches. 1 more the day after the very first purchase, then 2 on one day later that week. The following week, there was only 1 purchase. The next week, there was 3 on one day for a total of 8 upgrades in 3 weeks of being rolled out to all countries.
+In the following weeks, sales happened sporadically, mostly in bunches. There was a total of 8 upgrades in the first 3 weeks of being rolled out to all countries.
 
 
 ### Creating the first tutorial
@@ -38,7 +38,7 @@ The timelapse itself turned out, but I made the mistake of not explaining what I
 
 Although I have created videos before, this was actually my first video tutorial for YouTube that I voiced-over. Even though I felt that it wasn't the best, I was motivated to finish the tutorial because by just finishing it, I knew I would learn something. 
 
-As expected, the video didn't get a lot of reception. However, I did learn some important lessons by making the video and persevered through it even when I ~~thought~~ knew it was no good. ;)
+As expected, the video didn't get a lot of reception. However, I did learn some important lessons by making the video which I can apply to future videos.
 
 
 ### Amazon app store
@@ -198,10 +198,12 @@ Overall, going from not knowing Flutter and not much about Android development, 
 
 ### The journey continues
 
-Thanks again for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have. 
+Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far. I know I have. 
 
-**You can continue by reading [part 4](/posts/journey-behind-velocity-lapse-part-4/) of this series.**
+If you have a suggestion, a comment or some advice, relating either to the app or this post, I'd love to hear what you have to share either in the comments below or via [email](mailto:hi@noahrahm.com). 
 
-If you have a suggestion, a comment or some advice, relating either to the app or this post, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
+**You can read the next part of the journey in [part 4](/posts/journey-behind-velocity-lapse-part-4/) of this series.**
+
+----
 
 *A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to [@sundrycode](https://github.com/sundrycode) for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.*
