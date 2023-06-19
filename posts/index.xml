@@ -75,52 +75,27 @@
 &lt;h3 id="not-really-mvp-anymore">Not really MVP anymore&lt;/h3>
 &lt;p>As of the time of this writing, I don&amp;rsquo;t think the app is really an MVP anymore. I made a second pass through most of the app&amp;rsquo;s views and functionality, re-writing and re-designing them with the feedback I&amp;rsquo;ve gathered over the last year. But, that&amp;rsquo;s OK.&lt;/p>
 &lt;p>Ultimately, &amp;ldquo;Ideas are cheap: execution is everything&amp;rdquo;. So, having something implemented in the app is better than the idea in my head. At least then I know if it&amp;rsquo;s working out or not.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/v045+38-app-screenshots.jpg" alt="Velocity Lapse v0.4.5+38 screenshots">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/v045&amp;#43;38-app-screenshots.jpg"
+alt="Screenshots of Velocity Lapse v0.5.0"/>
+&lt;/figure>
 &lt;h3 id="updating-the-price-of-pro-1">Updating the price of PRO&lt;/h3>
 &lt;p>On May 17th, 2023 I decided to raise the price of Velocity Lapse PRO to $7.99. At this point, the app was beginning to be more fleshed out and included saving to SD card as a PRO feature.&lt;/p>
 &lt;h3 id="flutter-310">Flutter 3.10&lt;/h3>
 &lt;p>Upgrading to Flutter 3.10 was very straightforward. Flutter and Dart have been amazing to work with. Although I&amp;rsquo;ve run into a few areas that are rough around the edges, overall I couldn&amp;rsquo;t be happier with the development experience building an app like this with Flutter.&lt;/p>
 &lt;h3 id="hacker-noon-startup-of-the-year-nomination">Hacker Noon startup of the year nomination&lt;/h3>
 &lt;p>At the end of Roman May, I was greeted with an email from Hacker Noon that Velocity Lapse had been nominated for Startup of the Year 2023 Ava, MO. This was a nice surprise and awful nice of someone to do. Although it was just a nomination, the fact that Hacker Noon though Velocity Lapse to be worthy enough to accepted it was a pretty neat feeling. So, thanks to whoever nominated Velocity Lapse!&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg" alt="Hacker Noon startup of the year 2023 nomination">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>Velocity Lapse&amp;rsquo;s Hacker Noon startup of the year 2023 nomination&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg"
+alt="Hacker Noon startup of the year 2023 nomination"/>&lt;figcaption>
+&lt;p>I posted Velocity Lapse&amp;rsquo;s Hacker Noon startup of the year 2023 nomination on Instagram&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>By the way, if it&amp;rsquo;s still 2023 when you&amp;rsquo;re reading this and you&amp;rsquo;d like to vote for Velocity Lapse, you can do so &lt;a href="https://hackernoon.com/startups/north-america/north-america-ava-mo-usa">here&lt;/a>. Thanks!&lt;/p>
 &lt;h3 id="big-releases">Big releases&lt;/h3>
 &lt;p>Leading up to the 1 year anniversary of Velocity Lapse, I worked towards the goal of finishing off the leftover &amp;ldquo;MVP&amp;rdquo; features, adding the most requested features, and re-designing the app to be more presentable and easier to use.&lt;/p>
 &lt;h4 id="v04538">v0.4.5+38&lt;/h4>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg" alt="Velocity Lapse v0.4.5+38 release notes">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg"
+alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
+&lt;/figure>
 &lt;p>Released the first week of Roman June, v0.4.5+38 was a huge release with tons of interface improvements and additions, as well as the new editor playback feature.&lt;/p>
 &lt;h4 id="v05040-1st-year-anniversary-release">v0.5.0+40 1st year anniversary release&lt;/h4>
 &lt;p>Throughout the past year, the single most-requested feature was the ability to capture time lapses with the screen shut off. Initially, I had a difficult time working out how to do it with Android&amp;rsquo;s security and battery limitations, but I was pleased when I was able to find a solution that worked well -just in time for the v0.5.0 1st year anniversary release!&lt;/p>
@@ -144,7 +119,7 @@
 &lt;ul>
 &lt;li>Amount of individually logged code changes (commits): &lt;strong>780&lt;/strong>&lt;/li>
 &lt;li>Number of closed issues: &lt;strong>85&lt;/strong>&lt;/li>
-&lt;li>Development time: &lt;strong>A lot. Probably too much. ;)&lt;/strong>&lt;/li>
+&lt;li>Development time: &lt;strong>A lot. ;)&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Revenue&lt;/strong>&lt;/p>
 &lt;ul>
@@ -317,18 +292,11 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>I considered submitting to the Amazon appstore to gain more visibility and to see if I can&amp;rsquo;t submit an app there, even just for the experience.&lt;/p>
 &lt;p>I created an Amazon developers account and began to go through the form to submit Velocity Lapse so that I could integrate amazon billing into the app. (App stores require you to upload the app bundle before you can create IAP to integrate them into your app).&lt;/p>
 &lt;p>However, after uploading the bundle I found out that due to Velocity Lapse needing the camera autofocus feature, only 3 (old) Amazon devices would be supported. And, at that I would have to lower the minimum SDK version to even get that support.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-3/amazon-appstore-app-support.jpg" alt="Amazon device support for Velocity Lapse">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>Amazon device support for Velocity Lapse&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-3/amazon-appstore-app-support.jpg"
+alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcaption>
+&lt;p>Amazon device support for Velocity Lapse&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>So, it just didn&amp;rsquo;t seem worth it. At least, for now.&lt;/p>
 &lt;h3 id="social-media-marketing-update">Social media marketing update&lt;/h3>
 &lt;p>I finally posted on Instagram. I thought maybe the starscape time lapse video from the tutorial would be a good first post. Got some response.&lt;/p>
@@ -468,18 +436,11 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>Getting to the point where I figured the app was stable enough for open testing (also known as &amp;ldquo;early access&amp;rdquo;) took 4 months of hard work. Finally, I couldn&amp;rsquo;t hold off any longer.&lt;/p>
 &lt;p>In order to submit Velocity Lapse to Google Play for review, I went through the process of writing a description, creating a feature image, and capturing and editing screenshots for the app store page.&lt;/p>
 &lt;p>I wrote the description highlighing the main features and the fact that Velocity Lapse captures images rather than capturing straight to video. It wasn&amp;rsquo;t a great description but it did the job.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/google-play-listing-1.jpeg" alt="Google Play listing">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>The first Google Play listing&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/google-play-listing-1.jpeg"
+alt="Velocity Lapse&amp;#39;s first Google Play listing"/>&lt;figcaption>
+&lt;p>The first Google Play listing&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>After submitting, I didn&amp;rsquo;t waste time waiting around for the review to go through. The release was another milestone in my journey, but the app still needed a lot of work before it could really be a great app and something someone would pay for.&lt;/p>
 &lt;h3 id="why-i-wont-use-stock-images-to-promote-the-app">Why I won&amp;rsquo;t use stock images to promote the app&lt;/h3>
 &lt;p>One thing to note is that I&amp;rsquo;ve committed to only displaying images and screenshots on the listing and website that were &lt;strong>actually&lt;/strong> captured using Velocity Lapse on a mobile device.&lt;/p>
@@ -499,18 +460,11 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>It was without doubt a popular request to add a gallery to view exported timelapse videos so I added it to the near future roadmap. I also moved the main call to action buttons to a more thumb friendly position and polished up various parts of the UI.&lt;/p>
 &lt;h4 id="introducing-the-bottom-nagivation-bar">Introducing the bottom nagivation bar&lt;/h4>
 &lt;p>In order to better organize the new features such as importing a sequence of images as a project, I introduced a bottom navigation bar to divide Velocity Lapse&amp;rsquo;s main functions into understandable categories. This proved to be a very good decision as later I was able to just drop in the Manual Capture mode once it was implemented.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg" alt="Bottom navigation">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>Introducing the bottom tab navigation&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg"
+alt="Bottom navigation"/>&lt;figcaption>
+&lt;p>Introducing the bottom tab navigation&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;h3 id="the-second-open-testing-release">The second open testing release&lt;/h3>
 &lt;p>With the new import images as a project feature and the UI refactor, I was eager to publish and roll out another release.&lt;/p>
 &lt;p>Thankfully, by the time I had the release ready a week later, the Google Play app review went through and Velocity Lapse was finally published for public, early access.&lt;/p>
@@ -524,18 +478,11 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>Working on &amp;ldquo;fun&amp;rdquo; parts that I like is great, but if in the end users don&amp;rsquo;t ever need it, then it is a waste of time.&lt;/p>
 &lt;h3 id="adding-manual-capture-mode">Adding Manual Capture mode&lt;/h3>
 &lt;p>The capture view with the interval setting and other features was great, however it didn&amp;rsquo;t fulfill one required use-case that I had in mind from the beginning: time lapse captures over extended periods of time. Or, to put it differently: catering to those who would rather not leave their device while it is capturing.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg" alt="Manual capture view">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>The manual capture view in v0.0.4+6&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg"
+alt="Manual capture view"/>&lt;figcaption>
+&lt;p>The manual capture view in v0.0.4+6&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>In order to cover all bases, I added a Manual Capture mode which is a camera screen with an overlay of the previous image and an indicator telling when the last image was captured. This was simple enough to do, but it still took time to differentiate the project UI from the normal timelapse capture mode and design and develop the special interface for it.&lt;/p>
 &lt;h3 id="first-submitted-feedback">First submitted feedback&lt;/h3>
 &lt;p>After nine versions released into early access, I felt more confident about the app as it had come aways since the first version, going from a barely useable app to an app I actually wanted and enjoyed using almost everyday.&lt;/p>
@@ -581,18 +528,11 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;h3 id="updating-the-google-play-listing-again">Updating the Google Play listing (again)&lt;/h3>
 &lt;p>Now that we had a pretty solid version of Velocity Lapse, I went and took updated screenshots of major screens of the app and created phone screenshots for the Google Play listing. This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.&lt;/p>
 &lt;p>Since I had already been posting some of the timelapse videos I had captured on the official Velocity Lapse YouTube channel, I added one of the videos as the &amp;ldquo;feature video&amp;rdquo; for Google Play. In my opinion, just adding the video made the listing look a lot better than before.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/google-play-listing-2.jpeg" alt="Updated Google Play listing">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>Updated Google Play listing&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/google-play-listing-2.jpeg"
+alt="Velocity Lapse Google Play listing"/>&lt;figcaption>
+&lt;p>Updated Google Play listing&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;h3 id="posting-on-reddit">Posting on Reddit&lt;/h3>
 &lt;p>I submitted a &lt;a href="https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/">Reddit post&lt;/a> to gather feedback regarding Velocity Lapse. The post recieved 700+ views in the first week. It did cause a surge of downloads and I did recieve some helpful feedback (albeit, not on Reddit itself).&lt;/p>
 &lt;h3 id="big-features-big-holdups">Big features, big holdups&lt;/h3>
@@ -614,18 +554,11 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>Thankfully, it was now working and more users and positive feedback came as a result of my posts on Reddit which was encouraging. Nicely timed it was, as one person suggested that I add manual camera controls!&lt;/p>
 &lt;h3 id="turning-the-landing-page-into-more-of-a-website">Turning the landing page into more of a website&lt;/h3>
 &lt;p>I finally took some time aside to create a decent design for &lt;a href="https://velocitylapse.com">the website&lt;/a> that would showcase the app features and the timelapses that I had captured with it. My main thought with it was to inspire people to get out and create their own time lapses.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/velocity-lapse-website-10-26-22.png" alt="Velocity Lapse website">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>Finally, a decent website for Velocity Lapse&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/velocity-lapse-website-10-26-22.png"
+alt="Velocity Lapse website"/>&lt;figcaption>
+&lt;p>Finally, a decent website for Velocity Lapse&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>At this point, there was 97 total app downloads and 40 active installs.&lt;/p>
 &lt;h3 id="an-opportunity-to-learn-more-in-depth-about-photography">An opportunity to learn more in-depth about photography&lt;/h3>
 &lt;p>Essentially, in the process of creating Velocity Lapse&amp;rsquo;s camera features, I have been working towards a manual camera app. I found that kind of interesting.&lt;/p>
@@ -635,37 +568,28 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation; namely the sky. Whether it&amp;rsquo;s wispy clouds or a pink and blue sunset, creating a time lapse app has given me a good excuse to pay attention to it.&lt;/p>
 &lt;p>I&amp;rsquo;ve really enjoyed it and maybe through creating this app, maybe I can compel and give more people an &amp;ldquo;excuse&amp;rdquo; to get out and enjoy it too.&lt;/p>
 &lt;p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/fBrOPxkeTnw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;div class="youtube-player">
+&lt;iframe src="https://www.youtube.com/embed/fBrOPxkeTnw" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/36O4d31UyyE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;div class="youtube-player">
+&lt;iframe src="https://www.youtube.com/embed/36O4d31UyyE" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;/p>
-&lt;p>So, I encourage you to &lt;a href="https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse">download the app&lt;/a> and go outside to capture a time lapse yourself! :)&lt;/p>
+&lt;p>So, I encourage you to &lt;a href="https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse">download the app&lt;/a> and go outside to capture a time lapse yourself. :)&lt;/p>
 &lt;h3 id="the-starry-night-sky-timelapse-video-gets-popular">The starry night sky timelapse video gets popular&lt;/h3>
 &lt;p>Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse I posted on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, &lt;strong>4.7K views and 46 likes in the first 3 weeks&lt;/strong>, and has 6K views and 56 likes as of this writing.&lt;/p>
 &lt;blockquote>
 &lt;p>Later update: The video now has &lt;strong>over 82K views&lt;/strong>, which is kind of crazy for a 30 second video.&lt;/p>
 &lt;/blockquote>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg" alt="Starry night sky timelapse video analytics">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg"
+alt="Starry night sky timelapse video analytics"/>&lt;figcaption>
+&lt;p>A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>Needless to say, this was way, far better than any other video I posted on any channel. Granted, it was a short video, but it was interesting and new to me especially since other videos on the Velocity Lapse channel had fewer than 100 views (as of this writing).&lt;/p>
-&lt;p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/BxRHqPGGO_g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;div class="youtube-player">
+&lt;iframe src="https://www.youtube.com/embed/BxRHqPGGO_g" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;em>The starry night time lapse video&lt;/em>&lt;/p>
 &lt;p>The app downloads tripled and some feedback as well as support queries came my way during this time. I assume is due to the video receiving so much attention.&lt;/p>
 &lt;p>Oddly enough, this happened while I was away on vacation for 3 weeks. Go figure. ;)&lt;/p>
 &lt;h3 id="the-journey-continues">The journey continues&lt;/h3>
@@ -694,10 +618,9 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>With a bit more brainstorming, I came up with the idea of creating an app to create &lt;strong>time lapses&lt;/strong>.&lt;/p>
 &lt;p>I have fond memories of when I was younger and would experiment with time lapse using an old tablet. My brother and I would time lapse plants growing and mushrooms appearing in our greenhouse.&lt;/p>
 &lt;p>Time lapse, if you&amp;rsquo;re not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that is sped-up/condensed so naturally slow movements appear much faster. The time lapse effect can be very beautiful for things like sunsets, clouds, flowers/plants, or people walking the streets.&lt;/p>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/pi9G6py2Hv0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;div class="youtube-player">
+&lt;iframe src="https://www.youtube.com/embed/pi9G6py2Hv0" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;p>&lt;em>An example of a time lapse, captured and rendered with Velocity Lapse&lt;/em>&lt;/p>
 &lt;p>Again, I did some quick validation of the idea from a personal standpoint and realized it was something I could personally use. I could glorify Yahweh (our Heavenly Father) with it by showing the beauty of His Creation.&lt;/p>
 &lt;p>After coming up with the idea, it was time to do some market research.&lt;/p>
 &lt;h3 id="make-the-app-great">&amp;ldquo;Make the app great&amp;rdquo;&lt;/h3>
@@ -775,64 +698,36 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>Thankfully, most modern code editors like VScode have a code folding feature allowing you to collapse function/method bodies, etc and class initializations (in our case for widgets). Until this point I hadn&amp;rsquo;t used this code editor feature, but for Flutter/Dart it is really a time (and eye) saver.&lt;/p>
 &lt;h3 id="the-first-milestone">The first milestone&lt;/h3>
 &lt;p>After a long and hard month of work, I finally had a barely working version of the capture and some other main features in a rough, unpolished state.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/rough-version-early-ui.gif" alt="App user interface">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>The early state of Velocity Lapse. Notice how much the UI has changed since then? ;)&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/rough-version-early-ui.gif"
+alt="A gif showing the early working state of Velocity Lapse"/>&lt;figcaption>
+&lt;p>The early state of Velocity Lapse. Notice how much the UI has changed since then.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>It was a nice milestone, because at this point you could capture and render the time lapse to a video (given the proper knowledge, due to its rough and unpolished state).&lt;/p>
 &lt;h3 id="simplify-simplify-simplify">Simplify, simplify, simplify&lt;/h3>
 &lt;p>Throughout the project, one thing has been constant: the gradual change of the UI towards simplification.&lt;/p>
 &lt;p>Originally, the UI options were a bit more complicated than they needed to be. I and some select testers tested using the app in real life situations (AKA: we went out and captured time lapses), and it was clear more refinement could be done.&lt;/p>
 &lt;p>A few things in the capture screen UI weren&amp;rsquo;t 100% clear and I, even though I made the app, mixed up which settings I was changing more than once. (Glare from the sun and sweat on your brow can change the way you use an app). So, I redesigned the tabs to make it more clear which setting was selected and other UI tweaks.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/capture-screen-ui.jpeg" alt="Capture screen ui">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>The capture screen UI&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/capture-screen-ui.jpeg"
+alt="The capture screen interface"/>&lt;figcaption>
+&lt;p>The capture screen interface&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>Velocity Lapse is meant for everyday people as much as it is for serious time lapse photographers, so I decided to also cut out confusion by using plain English where possible vs. the technical terms.&lt;/p>
 &lt;h3 id="logo-design">Logo design&lt;/h3>
 &lt;p>Over the period of the three months of developing the app, I had sketched about a hundred different logo concepts, both on paper and digitally. Some others tried to sketch some ideas and spent quite a bit of time brainstorming and iterating over potential ideas as well. However, the ideas were either too generic or unrelated, too similar to another logo or just a bad design to begin with.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design-sketches.jpg" alt="Logo design">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>Coming up with the Velocity Lapse logo&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design-sketches.jpg"
+alt="Sketches of ideas for the logo"/>&lt;figcaption>
+&lt;p>Coming up with a logo for Velocity Lapse&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>The name &amp;ldquo;Velocity Lapse&amp;rdquo; did give us some concepts to work with (which we wrote down as tangible objects), but in the end almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to &lt;em>velocity&lt;/em> being a bit of a technical, science term.&lt;/p>
-&lt;p>After praying for an idea or concept to come, it really, literally did. We cannot underestimate prayer!&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design.jpeg" alt="Logo">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>The Velocity Lapse logo&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;p>After praying for an idea or concept to come, it really, literally did. (We cannot underestimate prayer.)&lt;/p>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design.jpeg"
+alt="The Velocity Lapse logo"/>&lt;figcaption>
+&lt;p>The Velocity Lapse logo&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
 &lt;p>The concept was a camera lens with a spinning-circle shape to show a sense of motion. I did a few variations of it and may end up tweaking/changing it a bit later, but for now it works as a logo.&lt;/p>
 &lt;h3 id="setting-up-a-landing-page">Setting up a landing page&lt;/h3>
 &lt;p>Setting up the landing page for Velocity Lapse was a nice break from developing the app. I purchased the domain name, &lt;em>velocitylapse.com&lt;/em> and setup a landing page where visitors could join a waitlist to get early access to the app.&lt;/p>
