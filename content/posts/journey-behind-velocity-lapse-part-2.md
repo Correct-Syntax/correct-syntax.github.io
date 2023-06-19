@@ -49,10 +49,7 @@ In order to submit Velocity Lapse to Google Play for review, I went through the 
 
 I wrote the description highlighing the main features and the fact that Velocity Lapse captures images rather than capturing straight to video. It wasn't a great description but it did the job.
 
-
-| ![Google Play listing](/posts/journey-behind-velocity-lapse-2/google-play-listing-1.jpeg)
-|:--:|
-| *The first Google Play listing*|
+{{< figure src="/posts/journey-behind-velocity-lapse-2/google-play-listing-1.jpeg" alt="Velocity Lapse's first Google Play listing" caption="The first Google Play listing" >}}
 
 After submitting, I didn't waste time waiting around for the review to go through. The release was another milestone in my journey, but the app still needed a lot of work before it could really be a great app and something someone would pay for. 
 
@@ -96,9 +93,7 @@ It was without doubt a popular request to add a gallery to view exported timelap
 
 In order to better organize the new features such as importing a sequence of images as a project, I introduced a bottom navigation bar to divide Velocity Lapse's main functions into understandable categories. This proved to be a very good decision as later I was able to just drop in the Manual Capture mode once it was implemented.
 
-| ![Bottom navigation](/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg)
-|:--:|
-| *Introducing the bottom tab navigation* |
+{{< figure src="/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg" alt="Bottom navigation" caption="Introducing the bottom tab navigation" >}}
 
 
 ### The second open testing release
@@ -130,9 +125,7 @@ Working on "fun" parts that I like is great, but if in the end users don't ever 
 
 The capture view with the interval setting and other features was great, however it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over extended periods of time. Or, to put it differently: catering to those who would rather not leave their device while it is capturing.
 
-| ![Manual capture view](/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg)
-|:--:|
-| *The manual capture view in v0.0.4+6*|
+{{< figure src="/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg" alt="Manual capture view" caption="The manual capture view in v0.0.4+6" >}}
 
 In order to cover all bases, I added a Manual Capture mode which is a camera screen with an overlay of the previous image and an indicator telling when the last image was captured. This was simple enough to do, but it still took time to differentiate the project UI from the normal timelapse capture mode and design and develop the special interface for it.
 
@@ -209,9 +202,7 @@ Now that we had a pretty solid version of Velocity Lapse, I went and took update
 
 Since I had already been posting some of the timelapse videos I had captured on the official Velocity Lapse YouTube channel, I added one of the videos as the "feature video" for Google Play. In my opinion, just adding the video made the listing look a lot better than before.
 
-| ![Updated Google Play listing](/posts/journey-behind-velocity-lapse-2/google-play-listing-2.jpeg)
-|:--:|
-| *Updated Google Play listing*|
+{{< figure src="/posts/journey-behind-velocity-lapse-2/google-play-listing-2.jpeg" alt="Velocity Lapse Google Play listing" caption="Updated Google Play listing" >}}
 
 ### Posting on Reddit
 
@@ -253,9 +244,7 @@ Thankfully, it was now working and more users and positive feedback came as a re
 
 I finally took some time aside to create a decent design for [the website](https://velocitylapse.com) that would showcase the app features and the timelapses that I had captured with it. My main thought with it was to inspire people to get out and create their own time lapses.
 
-| ![Velocity Lapse website](/posts/journey-behind-velocity-lapse-2/velocity-lapse-website-10-26-22.png)
-|:--:|
-| *Finally, a decent website for Velocity Lapse*|
+{{< figure src="/posts/journey-behind-velocity-lapse-2/velocity-lapse-website-10-26-22.png" alt="Velocity Lapse website" caption="Finally, a decent website for Velocity Lapse" >}}
 
 At this point, there was 97 total app downloads and 40 active installs.
 
@@ -273,10 +262,10 @@ During the process of creating and testing the app I have had the opportunity to
 
 I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
 
-{{< youtube fBrOPxkeTnw >}}
-{{< youtube 36O4d31UyyE >}}
+{{< youtube id="fBrOPxkeTnw" class="youtube-player" >}}
+{{< youtube id="36O4d31UyyE" class="youtube-player" >}}
 
-So, I encourage you to [download the app](https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse) and go outside to capture a time lapse yourself! :)
+So, I encourage you to [download the app](https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse) and go outside to capture a time lapse yourself. :)
 
 
 ### The starry night sky timelapse video gets popular
@@ -285,15 +274,12 @@ Speaking of enjoying creation, it seemed that people enjoyed the starscape time 
 
 > Later update: The video now has **over 82K views**, which is kind of crazy for a 30 second video.
 
-| ![Starry night sky timelapse video analytics](/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg)
-|:--:|
-| *A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22*|
+{{< figure src="/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg" alt="Starry night sky timelapse video analytics" caption="A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22" >}}
 
 
 Needless to say, this was way, far better than any other video I posted on any channel. Granted, it was a short video, but it was interesting and new to me especially since other videos on the Velocity Lapse channel had fewer than 100 views (as of this writing).
 
-{{< youtube BxRHqPGGO_g >}}
-*The starry night time lapse video*
+{{< youtube id="BxRHqPGGO_g" class="youtube-player" >}}
 
 The app downloads tripled and some feedback as well as support queries came my way during this time. I assume is due to the video receiving so much attention.
 

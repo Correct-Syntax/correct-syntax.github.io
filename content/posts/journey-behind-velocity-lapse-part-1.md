@@ -45,9 +45,7 @@ I have fond memories of when I was younger and would experiment with time lapse 
 
 Time lapse, if you're not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that is sped-up/condensed so naturally slow movements appear much faster. The time lapse effect can be very beautiful for things like sunsets, clouds, flowers/plants, or people walking the streets.
 
-{{< youtube pi9G6py2Hv0 >}}
-
-*An example of a time lapse, captured and rendered with Velocity Lapse*
+{{< youtube id="pi9G6py2Hv0" class="youtube-player" >}}
 
 Again, I did some quick validation of the idea from a personal standpoint and realized it was something I could personally use. I could glorify Yahweh (our Heavenly Father) with it by showing the beauty of His Creation. 
 
@@ -192,9 +190,7 @@ Thankfully, most modern code editors like VScode have a code folding feature all
 
 After a long and hard month of work, I finally had a barely working version of the capture and some other main features in a rough, unpolished state. 
 
-| ![App user interface](/posts/journey-behind-velocity-lapse-1/rough-version-early-ui.gif)
-|:--:|
-| *The early state of Velocity Lapse. Notice how much the UI has changed since then? ;)*|
+{{< figure src="/posts/journey-behind-velocity-lapse-1/rough-version-early-ui.gif" alt="A gif showing the early working state of Velocity Lapse" caption="The early state of Velocity Lapse. Notice how much the UI has changed since then." >}}
 
 It was a nice milestone, because at this point you could capture and render the time lapse to a video (given the proper knowledge, due to its rough and unpolished state).
 
@@ -207,10 +203,7 @@ Originally, the UI options were a bit more complicated than they needed to be. I
 
 A few things in the capture screen UI weren't 100% clear and I, even though I made the app, mixed up which settings I was changing more than once. (Glare from the sun and sweat on your brow can change the way you use an app). So, I redesigned the tabs to make it more clear which setting was selected and other UI tweaks.
 
-
-| ![Capture screen ui](/posts/journey-behind-velocity-lapse-1/capture-screen-ui.jpeg)
-|:--:|
-| *The capture screen UI*|
+{{< figure src="/posts/journey-behind-velocity-lapse-1/capture-screen-ui.jpeg" alt="The capture screen interface" caption="The capture screen interface" >}}
 
 Velocity Lapse is meant for everyday people as much as it is for serious time lapse photographers, so I decided to also cut out confusion by using plain English where possible vs. the technical terms.
 
@@ -219,17 +212,13 @@ Velocity Lapse is meant for everyday people as much as it is for serious time la
 
 Over the period of the three months of developing the app, I had sketched about a hundred different logo concepts, both on paper and digitally. Some others tried to sketch some ideas and spent quite a bit of time brainstorming and iterating over potential ideas as well. However, the ideas were either too generic or unrelated, too similar to another logo or just a bad design to begin with. 
 
-| ![Logo design](/posts/journey-behind-velocity-lapse-1/logo-design-sketches.jpg)
-|:--:|
-| *Coming up with the Velocity Lapse logo*|
+{{< figure src="/posts/journey-behind-velocity-lapse-1/logo-design-sketches.jpg" alt="Sketches of ideas for the logo" caption="Coming up with a logo for Velocity Lapse" >}}
 
 The name "Velocity Lapse" did give us some concepts to work with (which we wrote down as tangible objects), but in the end almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to *velocity* being a bit of a technical, science term.
 
-After praying for an idea or concept to come, it really, literally did. We cannot underestimate prayer!
+After praying for an idea or concept to come, it really, literally did. (We cannot underestimate prayer.)
 
-| ![Logo](/posts/journey-behind-velocity-lapse-1/logo-design.jpeg)
-|:--:|
-| *The Velocity Lapse logo*|
+{{< figure src="/posts/journey-behind-velocity-lapse-1/logo-design.jpeg" alt="The Velocity Lapse logo" caption="The Velocity Lapse logo" >}}
 
 The concept was a camera lens with a spinning-circle shape to show a sense of motion. I did a few variations of it and may end up tweaking/changing it a bit later, but for now it works as a logo.
 

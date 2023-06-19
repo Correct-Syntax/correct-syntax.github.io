@@ -49,9 +49,7 @@ I created an Amazon developers account and began to go through the form to submi
 
 However, after uploading the bundle I found out that due to Velocity Lapse needing the camera autofocus feature, only 3 (old) Amazon devices would be supported. And, at that I would have to lower the minimum SDK version to even get that support. 
 
-| ![Amazon device support for Velocity Lapse](/posts/journey-behind-velocity-lapse-3/amazon-appstore-app-support.jpg)
-|:--:|
-| *Amazon device support for Velocity Lapse*|
+{{< figure src="/posts/journey-behind-velocity-lapse-3/amazon-appstore-app-support.jpg" alt="A screenshot showing Amazon tablets support for Velocity Lapse" caption="Amazon device support for Velocity Lapse" >}}
 
 So, it just didn't seem worth it. At least, for now.
 

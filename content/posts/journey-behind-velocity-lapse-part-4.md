@@ -171,10 +171,7 @@ As of the time of this writing, I don't think the app is really an MVP anymore. 
 
 Ultimately, "Ideas are cheap: execution is everything". So, having something implemented in the app is better than the idea in my head. At least then I know if it's working out or not.
 
-
-| ![Velocity Lapse v0.4.5+38 screenshots](/posts/journey-behind-velocity-lapse-4/v045+38-app-screenshots.jpg)
-|:--:|
-| |
+{{< figure src="/posts/journey-behind-velocity-lapse-4/v045+38-app-screenshots.jpg" alt="Screenshots of Velocity Lapse v0.5.0" caption="" >}}
 
 
 ### Updating the price of PRO
@@ -191,10 +188,7 @@ Upgrading to Flutter 3.10 was very straightforward. Flutter and Dart have been a
 
 At the end of Roman May, I was greeted with an email from Hacker Noon that Velocity Lapse had been nominated for Startup of the Year 2023 Ava, MO. This was a nice surprise and awful nice of someone to do. Although it was just a nomination, the fact that Hacker Noon though Velocity Lapse to be worthy enough to accepted it was a pretty neat feeling. So, thanks to whoever nominated Velocity Lapse! 
 
-| ![Hacker Noon startup of the year 2023 nomination](/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg)
-|:--:|
-| *Velocity Lapse's Hacker Noon startup of the year 2023 nomination*|
-
+{{< figure src="/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg" alt="Hacker Noon startup of the year 2023 nomination" caption="I posted Velocity Lapse's Hacker Noon startup of the year 2023 nomination on Instagram" >}}
 
 By the way, if it's still 2023 when you're reading this and you'd like to vote for Velocity Lapse, you can do so [here](https://hackernoon.com/startups/north-america/north-america-ava-mo-usa). Thanks!
 
@@ -205,9 +199,7 @@ Leading up to the 1 year anniversary of Velocity Lapse, I worked towards the goa
 
 #### v0.4.5+38
 
-| ![Velocity Lapse v0.4.5+38 release notes](/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg)
-|:--:|
-| |
+{{< figure src="/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg" alt="Screenshot of the v0.4.5+38 release notes" caption="" >}}
 
 Released the first week of Roman June, v0.4.5+38 was a huge release with tons of interface improvements and additions, as well as the new editor playback feature.
 
@@ -247,7 +239,7 @@ For the data/stats people around, I imagine you've been holding your breath to h
 
 - Amount of individually logged code changes (commits): **780**
 - Number of closed issues: **85**
-- Development time: **A lot. Probably too much. ;)**
+- Development time: **A lot. ;)**
 
 **Revenue**
 
