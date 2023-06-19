@@ -13,4 +13,4 @@ Wondering how this site is built? It's a very simple tech stack for this simple,
 - [Coollabs fonts](https://fonts.coollabs.io/) - used as a privacy-friendly replacement for Google Fonts.
 
 
-**Source code for this website is available on Github [here](https://github.com/Correct-Syntax/correct-syntax.github.io).**
+Source code for this website is available on Github [here](https://github.com/Correct-Syntax/correct-syntax.github.io).
