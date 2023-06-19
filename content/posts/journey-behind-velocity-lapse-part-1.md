@@ -1,5 +1,5 @@
 ---
-title: "The Journey Behind Velocity Lapse - Part 1"
+title: "The Journey Behind Velocity Lapse (Part 1)"
 date: "2022-08-08"
 draft: false
 image: "/posts/journey-behind-velocity-lapse-1/journey-behind-velocity-lapse-part-1-header.jpg"
