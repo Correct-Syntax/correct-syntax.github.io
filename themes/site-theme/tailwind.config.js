@@ -7,6 +7,7 @@ module.exports = {
     theme: {    
         fontFamily: {
           sans: ['Figtree', 'sans-serif'],
+          serif: ['Lora', 'serif'],
         },    
         extend: {          
           colors: {          

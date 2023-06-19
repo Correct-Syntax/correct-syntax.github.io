@@ -3,37 +3,65 @@
 
 
 .markdown-content {
-    @apply text-xl text-gray-800;
+    @apply text-gray-700;
+    font-size: 1.3rem;
 }
 .markdown-content p {
-    @apply mb-5 mt-1 text-gray-800 leading-8;
+    @apply mb-2 mt-1 text-gray-700 font-serif;
+    line-height: 1.60;
 }
 .markdown-content a {
-    @apply text-accentdark underline ease-in-out duration-300 font-semibold;
+    @apply text-accentdark ease-in-out duration-300 font-semibold;
 }
 .markdown-content a:hover {
-    @apply text-accent;
-}
-.markdown-content blockquote {
-    @apply border-l-4 italic text-3xl border-accent text-gray-400 pl-6 py-1 mb-4 leading-10;
-}
-.markdown-content h2 {
-    @apply text-4xl;
+    @apply text-accent bg-gray-100 rounded-md;
 }
 .markdown-content h3 {
-    @apply text-4xl mt-12 mb-4 font-semibold;
+    @apply text-3xl mt-6 mb-2 font-bold;
 }
 .markdown-content h4 {
-    @apply text-3xl mt-8 mb-4 font-semibold;
+    @apply text-2xl mt-6 mb-2 font-bold;
 }
 .markdown-content h5 {
-    @apply text-2xl mt-5 mb-2 font-semibold;
+    @apply text-xl mt-6 mb-2 font-bold;
 }
 .markdown-content h6 {
-    @apply text-lg mt-5 mb-2 font-semibold;
+    @apply text-lg mt-6 mb-2 font-semibold;
 }
 .markdown-content ul {
-    @apply list-disc list-inside mb-4;
+    @apply list-disc list-inside font-serif mb-4;
+}
+.markdown-content ol {
+    @apply list-inside font-serif mb-4;
+}
+.markdown-content hr {
+    @apply my-8;
+}
+.markdown-content blockquote {
+    @apply text-gray-700 pl-6 py-1 mb-4;
+}
+.markdown-content .youtube-player {
+    @apply my-8;
+    position: relative;
+    /* 16:9 ratio*/
+    padding-bottom: 56.25%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+.markdown-content .youtube-player iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.markdown-content figure img {
+    @apply mb-2;
+}
+.markdown-content figure figcaption {
+    @apply text-gray-600 font-serif text-base mb-6 text-center;
 }
 
 @tailwind utilities;
