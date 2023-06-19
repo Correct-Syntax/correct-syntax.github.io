@@ -7,16 +7,16 @@ description: "This is the second post in a series of 'dev-log' posts of my perso
 ---
 
 
-### Intro
+### Continuing the journey
 
-This is the second post in a series of "dev-log" posts of my personal journey and learning process of creating [Velocity Lapse](https://velocitylapse.com), a powerful time lapse app for Android. 
+In the previous post, I shared how I had begun creating [Velocity Lapse](https://velocitylapse.com), a time lapse app for Android. 
 
-Be sure to read [Part 1](/posts/journey-behind-velocity-lapse-part-1/), where I shared the my experience up to the first internal testing release.
+This is the second post in a series of "dev-log" posts of my personal journey and learning process. Be sure to read [Part 1](/posts/journey-behind-velocity-lapse-part-1/), where I shared the my experience up to the first internal testing release.
 
 
 ### More technical setbacks
 
-If I've made it seem like the journey was easy with only a few snags (like the encoder issue) in the previous post, then let me reassure you that it wasn't easy in this post. 
+If I've made it seem like development was easy with only a few snags in the previous post, then let me reassure you that it wasn't easy in this post. 
 
 #### Why I am sharing technical issues
 
@@ -76,14 +76,14 @@ One idea which [@sundrycode](https://github.com/sundrycode) and a few others sug
 
 So, I created a [Youtube channel](https://www.youtube.com/channel/UCenuOeODNjdVohMTvKv15fQ) and began posting time lapse videos there. I also created an [Instagram account](https://www.instagram.com/velocitylapseapp/) but it sat there unused for a few months, until I got around to making content to post there. 
 
-In addition, I did quite a bit of posting on Reddit, replying to posts looking for a time lapse app. While it certainly is self-promotion, since the person was asking for time lapse apps and those viewing the post were likely looking for one too, it was a good way to get some first users and help them find something they can use to reliably create time lapse videos.
+In addition, I did quite a bit of posting on Reddit, replying to posts looking for a time lapse app. Since the OP was asking for time lapse apps and those viewing the post were likely looking as well, it was a good way to get some first users and help them find something they could use to create time lapses.
 
 All in all, this was a pretty good strategy looking back at the successes in both avenues.
 
 
 ### User testing and UI refactoring
 
-After yet more user testing and feedback, I began to refine the UI and options. A refactoring of the UI which at first primarily centered around the home view.
+After yet more user testing and feedback, I began a refactoring of the UI which at first primarily centered around the home view.
 
 The most useful method of conducting user testing that I have found is physically watching the test users use the app. I mean practically looking over their shoulder and writing down notes about their interaction. Getting face to face feedback, both positive and negative and seeing how people use the app in real life crushes some dreamy, false notions you can have as a developer/designer about how the app should work.
 
@@ -98,7 +98,7 @@ In order to better organize the new features such as importing a sequence of ima
 
 | ![Bottom navigation](/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg)
 |:--:|
-| *Introducing the bottom tab navigation*|
+| *Introducing the bottom tab navigation* |
 
 
 ### The second open testing release
@@ -117,16 +117,18 @@ I now felt like promoting a bit so I updated the website and replied to a few qu
 
 ### Focus on the things users care about
 
-Listening and acting upon user feedback can be hard. For Velocity Lapse, the feedback was mainly concerning missing features - some of which I would rather procrastinate than implement. ;)
+Listening and acting upon user feedback can be hard. For Velocity Lapse, the feedback was mainly concerning missing features.
 
-As a designer and developer that also has a tendency to be a pefectionist, it can be very easy to prioritize the things I care about (e.g: a clean, sleek UI and well-written code) rather than the things users actually care about (like feature X or Y). Working on "fun" parts that I like is great, but if in the end  users don't ever need it, then it is a waste of time.
+As a designer and developer that also has a tendency to be a pefectionist, it can be very easy to prioritize the things I care about (a clean, sleek interface and well-written code) rather than the things end users actually care about (like feature X or Y). 
 
 I was reminded that tweaking the UI is great, but ultimately most users will accept the way that it is. They *will* care whether a certain feature is available and works. So, focus on features that meet the needs of the user.
+
+Working on "fun" parts that I like is great, but if in the end users don't ever need it, then it is a waste of time.
 
 
 ### Adding Manual Capture mode
 
-The capture view with the interval setting and other features was great, however it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over extended periods of time. Or, to put it differently: catering to those who would rather not leave their cellphone on location while it is capturing.
+The capture view with the interval setting and other features was great, however it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over extended periods of time. Or, to put it differently: catering to those who would rather not leave their device while it is capturing.
 
 | ![Manual capture view](/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg)
 |:--:|
@@ -139,7 +141,9 @@ In order to cover all bases, I added a Manual Capture mode which is a camera scr
 
 After nine versions released into early access, I felt more confident about the app as it had come aways since the first version, going from a barely useable app to an app I actually wanted and enjoyed using almost everyday.
 
-At this point, I updated the velocitylapse.com landing page to better showcase the app and allow people to download it on Google Play. Not long after, I received the first externally submitted feedback on Velocity Lapse. It included a crash report and a few suggestions on how to make the import images as projects feature more user-friendly.
+At this point, I updated the velocitylapse.com landing page to better showcase the app and allow people to download it on Google Play. 
+
+Not long after, I received the first externally submitted feedback on Velocity Lapse. It included a crash report and a few suggestions on how to make the import images as projects feature more user-friendly.
 
 
 ### Monitizing the app
@@ -173,15 +177,15 @@ I believe in keeping the seventh day Sabbath (Roman Saturday) as described in th
 
 I'll state here that I am **not** a part of any demonination (SDA or otherwise). My motivation for keeping the Sabbath holy is to do as Yahweh, our Heavenly Father Himself, and our Savior did: rest on the seventh day.
 
-*"And on the seventh day Yahweh ended his work which he had made; and he rested on the seventh day from all his work which he had made. And Yahweh blessed the seventh day, and sanctified it: because that in it he had rested from all his work which Yahweh created and made." -Genesis 2:2-3*
+> "And on the seventh day Yahweh ended his work which he had made; and he rested on the seventh day from all his work which he had made. And Yahweh blessed the seventh day, and sanctified it: because that in it he had rested from all his work which Yahweh created and made." -Genesis 2:2-3
 
-*"If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it." -Isaiah 58:13-14*
+> "If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it." -Isaiah 58:13-14
 
 There are many more verses in the Bible regarding the importance of keeping the seventh day Sabbath.
 
 For some Django-based websites I worked on in the past, I had created and used a Django app called [Keep Sabbath](https://github.com/Correct-Syntax/Keep-Sabbath) which would redirect visitors, or show a banner stating that the e-commerce site was closed for the Sabbath day.
 
-I did something similar for Velocity Lapse, so that when the day == "Saturday" in the user's location, a screen would come up letting them know that they wouldn't be able to purchase until the next day. 
+I did something similar for Velocity Lapse, so that when the ``day == "Saturday"`` in the user's location, a screen would come up letting them know that they wouldn't be able to purchase until the next day. 
 
 The saying, *"A day of rest, a Sabbath request: please refrain from purchasing between sundown Friday and sundown Saturday."* was inspired by someone else's banner I had seen. 
 
@@ -222,7 +226,9 @@ The next tasks on the roadmap were to get 4k export and manual camera controls i
 
 4k export to video wasn't a huge feature to implement, but since I didn't have an Android device that supported 4k, it made testing tricky. I ended up getting an hour to test on a friend's phone which I hope is enough to have caught any issues. 
 
-If not... I'm sure users will let me know. ;) **EDIT: they did. ;)**
+If not... I'm sure users will let me know. ;) 
+
+> **EDIT:** they did.
 
 #### Manual camera controls
 
@@ -236,9 +242,9 @@ The first time I tried to capture a night timelapse of the stars, it didn't turn
 
 Finally after two weeks of researching and testing to get manual camera controls implemented correctly, I finally got the code to a point where it worked. I tried capturing a starry night timelapse once again. I pointed the device upwards, set the shutter speed to 1 sec and the ISO to 6400, then left it to time lapse for ~2 hours. 
 
-The result was satisfying for a first successful attempt and I was happy to use the video on the website straightaway and post it on YouTube. (You will see later that this starry night time lapse video gets popular)!
+The result was satisfying for a first successful attempt and I was happy to use the video on the website straightaway and post it on YouTube. You will see later that this starry night time lapse video gets popular.
 
-#### Some encouragement via positive feedback
+### Some encouragement via positive feedback
 
 Thankfully, it was now working and more users and positive feedback came as a result of my posts on Reddit which was encouraging. Nicely timed it was, as one person suggested that I add manual camera controls!
 
@@ -255,7 +261,7 @@ At this point, there was 97 total app downloads and 40 active installs.
 
 ### An opportunity to learn more in-depth about photography
 
-Essentially, in the process of creating Velocity Lapse's camera features I have been working towards a manual camera app functions which is kind of interesting. 
+Essentially, in the process of creating Velocity Lapse's camera features, I have been working towards a manual camera app. I found that kind of interesting. 
 
 What's nice about working on this kind of project that deals with the camera is that its enabled me (maybe 'given me a good excuse' is better wording) to spend time learning about manual camera controls in-depth, professional photography and of course, time lapse photography. 
 
@@ -263,7 +269,9 @@ Had I chosen to work on a project like a file manager, I wouldn't have probably 
 
 ### An opportunity to enjoy creation
 
-During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation, namely the sky, whether it's wispy clouds or a pink and blue sunset (Yahweh, our Heavenly Father's "paint brush"). I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
+During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation; namely the sky. Whether it's wispy clouds or a pink and blue sunset, creating a time lapse app has given me a good excuse to pay attention to it. 
+
+I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
 
 {{< youtube fBrOPxkeTnw >}}
 {{< youtube 36O4d31UyyE >}}
@@ -274,6 +282,8 @@ So, I encourage you to [download the app](https://play.google.com/store/apps/det
 ### The starry night sky timelapse video gets popular
 
 Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse I posted on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, **4.7K views and 46 likes in the first 3 weeks**, and has 6K views and 56 likes as of this writing.
+
+> Later update: The video now has **over 82K views**, which is kind of crazy for a 30 second video.
 
 | ![Starry night sky timelapse video analytics](/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg)
 |:--:|
@@ -292,10 +302,12 @@ Oddly enough, this happened while I was away on vacation for 3 weeks. Go figure.
 
 ### The journey continues
 
-Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far as I have. 
+Thanks for reading. I hope you've enjoyed this post and have gained something from this journey so far. I know I have. 
 
-**You can continue by reading [part 3](/posts/journey-behind-velocity-lapse-part-3/) of this series.**
+If you have a suggestion, a comment or some advice, relating either to the app or this post, I'd love to hear what you have to share either in the comments below or via [email](mailto:hi@noahrahm.com). 
 
-If you have a suggestion, a comment or some advice, relating either to the app or this post, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
+**You can read the next part of the journey in [part 3](/posts/journey-behind-velocity-lapse-part-3/) of this series.**
+
+----
 
 *A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to [@sundrycode](https://github.com/sundrycode) for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.*
