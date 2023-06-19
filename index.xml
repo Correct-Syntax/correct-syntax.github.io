@@ -640,10 +640,11 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>Thanks for reading. I hope you&amp;rsquo;ve enjoyed this post and have gained something from this journey so far as I have.&lt;/p>
 &lt;p>&lt;strong>You can continue by reading &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/">part 3&lt;/a> of this series.&lt;/strong>&lt;/p>
 &lt;p>If you have a suggestion, a comment or some advice, relating either to the app or this post, &lt;a href="mailto:hi@noahrahm.com">I&amp;rsquo;d love to hear&lt;/a> what you have to share.&lt;/p>
-&lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse - Part 1</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/</link><pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/</guid><description>&lt;h3 id="intro">Intro&lt;/h3>
+&lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse - Part 1</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/</link><pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/</guid><description>&lt;h3 id="a-new-project">A new project&lt;/h3>
 &lt;p>I&amp;rsquo;ve been working on a new side-project for the last few months. It&amp;rsquo;s a new time lapse app for Android called &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>.&lt;/p>
-&lt;p>This post is the start of a series of dev-log posts I&amp;rsquo;m planning to write of my personal journey and learning process of creating Velocity Lapse. You&amp;rsquo;ll see glimpses of the steps of planning, UI design, development, launch, and marketing -some of which is the first time I have done so for a mobile app.&lt;/p>
-&lt;p>Though I am not new to design or development, I&amp;rsquo;ll mention that my only prior experience with &lt;em>Android app&lt;/em> development are my contributions to &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a> and some design-related work for another app. Therefore, app development is still a new area for me. Above that, this is also the first time I have directly monitized one of &lt;em>my own&lt;/em> software projects as I usually go open-source for most non-client projects.&lt;/p>
+&lt;p>This post is the start of a series of dev-log posts I&amp;rsquo;m planning to write of my personal journey and learning process of creating Velocity Lapse. I plan to share the steps of planning, UI design, development, launch, and marketing -some of which is the first time I have done so for a mobile app.&lt;/p>
+&lt;p>Though I am not at all new to design or development, mobile app development is a relatively new area for me. My only prior experience with mobile app development are my contributions to &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a> and some design-related work for another app.&lt;/p>
+&lt;p>Above that, this the first time I have directly monitized one of my own software projects as I usually go &lt;a href="https://github.com/Correct-Syntax">open-source&lt;/a> for most non-client projects.&lt;/p>
 &lt;p>That is to say, if you&amp;rsquo;re more experienced in app development or the business side of things (or even if you not) and you have a suggestion, a comment or some advice, &lt;a href="mailto:hi@noahrahm.com">I&amp;rsquo;d love to hear&lt;/a> what you have to share.&lt;/p>
 &lt;h3 id="the-app-idea">The app idea&lt;/h3>
 &lt;p>Every good project starts with a good, worthwhile idea.&lt;/p>
@@ -657,7 +658,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>While I think it is important to work on projects in areas you are &lt;em>not&lt;/em> really interested in to broaden your skills, I&amp;rsquo;ve found that it is easier to stick with something you are passionate about.&lt;/p>
 &lt;p>My personal interest are in the areas of: the Bible, graphics, photography, and design -as evidenced by some of &lt;a href="https://github.com/Correct-Syntax">my open source work&lt;/a>. So, I couldn&amp;rsquo;t see myself developing the aforementioned ideas into apps.&lt;/p>
 &lt;h4 id="the-final-idea">The final idea&lt;/h4>
-&lt;p>With a bit more brainstorming, I came up with the idea of creating a &lt;strong>time lapse app&lt;/strong>.&lt;/p>
+&lt;p>With a bit more brainstorming, I came up with the idea of creating an app to create &lt;strong>time lapses&lt;/strong>.&lt;/p>
 &lt;p>I have fond memories of when I was younger and would experiment with time lapse using an old tablet. My brother and I would time lapse plants growing and mushrooms appearing in our greenhouse.&lt;/p>
 &lt;p>Time lapse, if you&amp;rsquo;re not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that is sped-up/condensed so naturally slow movements appear much faster. The time lapse effect can be very beautiful for things like sunsets, clouds, flowers/plants, or people walking the streets.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -670,12 +671,12 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>Early on, I stumbled upon some advice from someone talking about marketing an app which really struck me. The bit of advice was &lt;strong>&amp;ldquo;make the app great&amp;rdquo;&lt;/strong>.&lt;/p>
 &lt;p>Maybe that sounds obvious, but it is way too easy to get the cart ahead of the horse and spend most of the effort marketing the product instead of making the product itself great.&lt;/p>
 &lt;p>Obviously, that doesn&amp;rsquo;t mean no time should be spent marketing, as that is another trap to fall into. However, as a web developer and designer myself, I know how much easier it is to promote something that is &amp;ldquo;great&amp;rdquo; to start with. I also know how excited I could (personally) get about creating a website to promote it, while neglecting the product itself! You know, sort-of as a way to procrastinate&amp;hellip;&lt;/p>
-&lt;p>So from then on, I decided to have had the mindset of building a user-friendly, user-centric app focused on improving time lapse on Android and &lt;em>solving the paint-points&lt;/em> found in other apps. Like, literally making this a &amp;ldquo;great&amp;rdquo; time lapse app.&lt;/p>
-&lt;p>From a marketing standpoint, people buy &lt;em>solutions&lt;/em> to their problems, not software. So, solving user pain points is the best approach that I am aware of.&lt;/p>
+&lt;p>So from then on, I decided to have had the mindset of building a user-friendly, user-centric app focused on improving time lapse on Android and &lt;strong>solving the paint-points&lt;/strong> found in other apps. Like, literally making this a &amp;ldquo;great&amp;rdquo; time lapse app.&lt;/p>
+&lt;p>From a marketing standpoint, &lt;strong>people buy solutions to their problems, not software.&lt;/strong> So, solving user pain-points is the best approach that I am aware of.&lt;/p>
 &lt;h3 id="market-research">Market Research&lt;/h3>
 &lt;p>I conducted research on the Google Play store as well as some of the top apps on the Apple App store to get an idea of the current state of time lapse/camera apps for Android and see where the pain points were.&lt;/p>
 &lt;p>As someone that has always had an interest in photography and videography, I had already used a few of the more well-known Android timelapse apps before I ever had the idea to create one. However, after reading through hundreds of reviews and creating a ton of notes, I could see some areas where the current apps were failing, where they were doing well, and what people were looking for in a time lapse app.&lt;/p>
-&lt;p>I was also able to get some metrics of apps on the market via Apptopia&amp;rsquo;s free report which was helpful.&lt;/p>
+&lt;p>I was also able to get some metrics of apps on the market via Apptopia&amp;rsquo;s free report, which was helpful.&lt;/p>
 &lt;h3 id="initial-planning">Initial planning&lt;/h3>
 &lt;p>It&amp;rsquo;s one thing to discover things that could be improved in other apps, it&amp;rsquo;s totally another thing to fix them and pull off a great user experience in your own.&lt;/p>
 &lt;p>So, why doesn&amp;rsquo;t everyone just go out and make a timelapse app?&lt;/p>
@@ -709,15 +710,19 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>I was concerned about the performance of using a js framework. Also didn&amp;rsquo;t feel that using a js framework for an app that accesses so much lower-level hardware (like the camera) was a good idea.&lt;/p>
 &lt;h4 id="alright-why-not-native-javakotlin-then">Alright, why not native Java/Kotlin then?&lt;/h4>
 &lt;p>Besides the comments above, I just haven&amp;rsquo;t liked Java Android development all that much from my bits of working with it. (More just a personal preference.)&lt;/p>
-&lt;p>&lt;em>Ironically, I ended up diving into both Java &lt;strong>and&lt;/strong> Kotlin &lt;strong>a lot&lt;/strong>. (What did I expect for an app that accesses so much hardware?) Thankfully, I had help from &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> who has a lot more experience than I with Android development.&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Ironically, I ended up diving into both Java &lt;strong>and&lt;/strong> Kotlin &lt;strong>a lot&lt;/strong>. (What did I expect for an app that accesses so much hardware?!) Thankfully, I had help from &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> who has a lot more experience than I with Android development.&lt;/p>
+&lt;/blockquote>
 &lt;h3 id="initial-development-learning-dartflutter">&lt;del>Initial development&lt;/del> Learning Dart/Flutter&lt;/h3>
 &lt;p>I was eager to get started with developing the app as I figured there would be a learning phase with Flutter and Dart. I was pleasantly surprised at how simple the installation and project setup was. The default Flutter project code didn&amp;rsquo;t seem too far out either.&lt;/p>
 &lt;h4 id="the-first-hurdle-android-emulators">The first hurdle: Android emulators&lt;/h4>
 &lt;p>For whatever reason, however, the Android emulators kept giving me issues. The emulators wouldn&amp;rsquo;t restart until after I rebooted my laptop. It ended up being a configuration problem on my end (of course..).&lt;/p>
 &lt;p>Later on when I needed a more realistic idea of what I was doing, I enabled USB debugging to my Android phone which helped to greatly improve my productivity and testing.&lt;/p>
-&lt;p>&lt;em>Tip: Make sure your phone&amp;rsquo;s font size is set to &lt;strong>Default&lt;/strong> when testing otherwise the text scaling could be off and when you install the app on a phone with a larger screen, the UI text could be tiny.&lt;/em>&lt;/p>
+&lt;blockquote>
+&lt;p>Tip: Make sure your phone&amp;rsquo;s font size is set to &lt;code>Default&lt;/code> when testing otherwise the text scaling could be off and when you install the app on a phone with a larger screen, the UI text could be tiny.&lt;/p>
+&lt;/blockquote>
 &lt;h4 id="the-second-hurdle-flutter-constraints">The second hurdle: Flutter constraints&lt;/h4>
-&lt;p>Once past the emulators hurdle, I quickly learned that Flutter constraints are &lt;em>&lt;strong>not&lt;/strong>&lt;/em> like web layouts.&lt;/p>
+&lt;p>Once past the emulators hurdle, I quickly learned that Flutter constraints are &lt;strong>not&lt;/strong> like web layouts.&lt;/p>
 &lt;p>I kept running into the (in)famous overflow errors and &lt;code>unbounded layout constraints&lt;/code> fatal errors. Needless to say, I didn&amp;rsquo;t get very far until I understood how constraints and layout worked.&lt;/p>
 &lt;p>It is wise advice to read and understand the Flutter docs on &lt;a href="https://docs.flutter.dev/development/ui/layout/constraints">layout constraints&lt;/a> &lt;em>before&lt;/em> starting.&lt;/p>
 &lt;h4 id="learning-takes-time">Learning takes time&lt;/h4>
@@ -732,7 +737,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;h4 id="dart">Dart&lt;/h4>
 &lt;p>I felt quite at home with Dart almost straightaway. It has sort of a Javascript/Java/C++ feel to it, but much more well-suited for UI code.&lt;/p>
 &lt;p>It was actually the quickest I&amp;rsquo;ve ever picked up a programming language. Perhaps because I&amp;rsquo;ve worked with and learned so many programming languages previously or maybe because of its similarities to other languages. Either way, I actually enjoy working with Dart more so than most other languages I know.&lt;/p>
-&lt;h5 id="deeply-nested-codeoh-no">Deeply nested code..oh no&lt;/h5>
+&lt;h4 id="deeply-nested-codeoh-no">Deeply nested code&amp;hellip;oh no&lt;/h4>
 &lt;p>One thing that is very apparent when you look at almost any Flutter Dart code is the amount of nesting. This can be obviously &lt;em>very&lt;/em> overwhelming to look at and scroll through. Ideally, you keep the code under control via breaking it out into another widget, etc but oftentimes it can still be a little hairy.&lt;/p>
 &lt;p>Thankfully, most modern code editors like VScode have a code folding feature allowing you to collapse function/method bodies, etc and class initializations (in our case for widgets). Until this point I hadn&amp;rsquo;t used this code editor feature, but for Flutter/Dart it is really a time (and eye) saver.&lt;/p>
 &lt;h3 id="the-first-milestone">The first milestone&lt;/h3>
@@ -781,7 +786,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>The name &amp;ldquo;Velocity Lapse&amp;rdquo; did give us some concepts to work with (which we wrote down as tangible objects), but in the end almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to &lt;em>velocity&lt;/em> being a bit of a technical science term.&lt;/p>
+&lt;p>The name &amp;ldquo;Velocity Lapse&amp;rdquo; did give us some concepts to work with (which we wrote down as tangible objects), but in the end almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to &lt;em>velocity&lt;/em> being a bit of a technical, science term.&lt;/p>
 &lt;p>After praying for an idea or concept to come, it really, literally did. We cannot underestimate prayer!&lt;/p>
 &lt;table>
 &lt;thead>
@@ -797,19 +802,8 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;/table>
 &lt;p>The concept was a camera lens with a spinning-circle shape to show a sense of motion. I did a few variations of it and may end up tweaking/changing it a bit later, but for now it works as a logo.&lt;/p>
 &lt;h3 id="setting-up-a-landing-page">Setting up a landing page&lt;/h3>
-&lt;p>Setting up the landing page for Velocity Lapse was a nice break from developing the app. I purchased the domain name, &lt;em>velocitylapse.com&lt;/em> and setup a landing page where visitors could join a wait list to get early access to the app. I didn&amp;rsquo;t actually expect anyone to do so or even find the website since I hadn&amp;rsquo;t promoted it yet, though. It was meant more as a placeholder until the app was ready for a real home page.&lt;/p>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align:center">&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/landing-page.png" alt="Screenshot of landing page">&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align:center">&lt;em>The landing page &amp;ldquo;placeholder&amp;rdquo; website&lt;/em>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
+&lt;p>Setting up the landing page for Velocity Lapse was a nice break from developing the app. I purchased the domain name, &lt;em>velocitylapse.com&lt;/em> and setup a landing page where visitors could join a waitlist to get early access to the app.&lt;/p>
+&lt;p>I didn&amp;rsquo;t actually expect anyone to do so or even find the website since I hadn&amp;rsquo;t promoted it yet, though. It was meant more as a placeholder until the app was ready for a real home page.&lt;/p>
 &lt;p>With that out of the way, I went back to work on the app.&lt;/p>
 &lt;h3 id="development-challenges">Development challenges&lt;/h3>
 &lt;p>There was quite a few technical challenges and set-backs in development.&lt;/p>
@@ -836,8 +830,9 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>After that I was able to successfully release the app bundle to internal testing.&lt;/p>
 &lt;h3 id="the-journey-continues">The journey continues&lt;/h3>
 &lt;p>Thanks for reading. I hope you&amp;rsquo;ve enjoyed this post and have gained something from this journey so far as I have.&lt;/p>
-&lt;p>If you have a suggestion, a comment or some advice, relating either to the app or this post, &lt;a href="mailto:hi@noahrahm.com">I&amp;rsquo;d love to hear&lt;/a> what you have to share.&lt;/p>
+&lt;p>If you have a suggestion, a comment or some advice, relating either to the app or this post, I&amp;rsquo;d love to hear what you have to share either in the comments below or via &lt;a href="mailto:hi@noahrahm.com">email&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>You can read the next part of the journey in &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/">part 2&lt;/a> of this series.&lt;/strong>&lt;/p>
+&lt;hr>
 &lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item><item><title>About</title><link>https://noahrahm.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://noahrahm.com/about/</guid><description>&lt;p>Hello! I&amp;rsquo;m Noah, a web designer and developer based in the U.S.&lt;/p>
 &lt;p>I love doing meaningful work that glorifies Yahweh our Heavenly Father, and inspires and helps others. I&amp;rsquo;ve been blessed to work on a variety of &lt;a href="https://noahrahm.com/work/">projects&lt;/a> from custom web applications to logo designs. I also develop an Android app to create time lapse videos, called &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>.&lt;/p>
 &lt;p>Creating things, collaborating with others, and learning new technologies motivates me to create and contribute to open-source software projects, most notably &lt;a href="https://gimelstudio.github.io">Gimel Studio&lt;/a>, &lt;a href="https://flameshot.org">Flameshot&lt;/a>, and &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a>.&lt;/p>
