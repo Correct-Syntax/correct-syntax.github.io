@@ -1,5 +1,5 @@
 ---
-title: Selected Work
-description: A selection of my work
+title: Selected Design and Development Work
+subtitle: A selection of my previous work and ongoing side projects
 layout: "work"
 ---

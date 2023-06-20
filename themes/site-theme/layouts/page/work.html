@@ -1,82 +1,83 @@
 {{ define "main" }}
 <div class="relative max-w-6xl mx-auto space-y-4 mt-4">
-  <div class="flex flex-col mx-2 lg:mx-0 pt-12 pb-24">
-    <h1 class="font-bold text-4xl md:text-5xl ml-8 text-gray-800">{{ .Title }}</h1>
+  <div class="flex flex-col px-2 pt-12 pb-16 mx-auto text-center">
+    <h1 class="font-bold text-3xl md:text-4xl text-gray-700 mx-auto">{{ .Title }}</h1>
+    <h2 class="mt-1 mx-auto text-gray-700 text-lg tracking-wide max-w-xl font-serif">{{ .Params.subtitle }}</h2>
   </div>
   <div class="flex flex-col px-2 lg:px-0 mt-6 space-y-8">
 
     <!-- OIIO -->
-    <div class="relative group p-6 md:p-10 bg-oiiodark rounded-xl hover:cursor-pointer">
+    <div class="relative group py-6 px-6 md:px-16 bg-oiiodark rounded-md hover:cursor-pointer">
       <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://github.com/OpenImageIO/oiio" target="new">
         <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
           <svg class="h-6 w-6 text-gray-300 fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg>
         </div>
-        <div class="w-full md:w-1/2 mt-8">
-          <img class="w-auto h-auto mx-auto" src="/assets/work/oiio/oiio-promo-card.png" alt="OIIO">
-        </div>
         <div class="relative w-full md:w-1/2 my-10 md:my-32">
-          <p class="text-oiioaccent text-sm subpixel-antialiased uppercase font-bold tracking-wide">OpenImageIO</p>
-          <h4 class="font-bold text-4xl md:text-5xl mt-1 mb-4 text-white">
-            Logo and brand guidelines for an open source C++ library.
+          <p class="text-oiioaccent text-sm subpixel-antialiased uppercase font-semibold tracking-wide">OpenImageIO</p>
+          <h4 class="font-bold text-4xl mt-1 mb-4 text-white">
+            Logo and brand guidelines for a C++ library.
           </h4>
-          <p class="text-gray-400 text-xl tracking-wider">
-            OpenImageIO, a library for reading and writing images, is used extensively in animation and VFX studios all over the world, and is also incorporated into several commercial products. I created the logo and brand guidelines for the project.
+          <p class="text-gray-400 text-xl font-serif">
+            I created the logo and brand guidelines for OpenImageIO, a library for reading and writing images. The open-source library is used extensively in animation and VFX studios all over the world, and is incorporated into several commercial products.
           </p>
         </div>
-      </a>
-    </div>
-
-    <!-- Velocity Lapse app -->
-    <div class="relative group p-6 md:p-10 bg-vldark rounded-xl hover:cursor-pointer">
-      <a class="flex flex-col md:flex-row items-center" href="https://velocitylapse.com" target="new">
-        <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
-          <svg class="h-6 w-6 text-gray-300 fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
-          </svg>
-        </div>
-        <div class="relative w-full md:w-1/2 mt-16 md:mt-0">
-          <img class="w-14 h-14 mb-5" src="/assets/work/velocitylapse/vl-logo-rounded.png" alt="Velocity Lapse logo">
-          <p class="text-vlaccent text-sm subpixel-antialiased uppercase font-bold tracking-wide">Velocity Lapse</p>
-          <h4 class="font-bold text-4xl md:text-5xl mt-1 mb-4 text-white">
-            Powerful time lapse app for Android.
-          </h4>
-          <p class="text-gray-400 text-xl tracking-wider">
-            Velocity Lapse is an Android app to create time lapse videos. It brings together a clutter-free interface, manually adjustable camera settings, and project-based flexibility into one app.
-          </p>
-        </div>
-        <div class="w-full md:w-1/2 mt-8">
-          <img class="w-auto h-auto md:max-w-sm mx-auto" src="/assets/work/velocitylapse/velocity-lapse.png" alt="Velocity Lapse logo">
+        <div class="w-full md:w-1/2 mt-8 pl-0 md:pl-2">
+          <img class="w-auto h-auto mx-auto" src="/assets/work/oiio/oiio-logo.png" alt="OIIO logo">
         </div>
       </a>
     </div>
 
     <!-- Flameshot -->
-    <div class="relative group p-6 md:p-10 bg-gray-100 rounded-xl hover:cursor-pointer">
+    <div class="relative group py-6 px-6 md:px-16 bg-gray-100 rounded-xl hover:cursor-pointer">
       <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://flameshot.org" target="new">
         <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
           <svg class="h-6 w-6 text-gray-600 fill-current ease-in-out duration-300 group-hover:text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg>
         </div>
-        <div class="w-full md:w-1/2 mt-8">
+        <div class="w-full md:w-1/2 pr-0 md:pr-4">
           <img class="w-auto h-auto mx-auto rounded-xl" src="/assets/work/flameshot/flameshot-browser-dark-light-split.webp" alt="Flameshot website">
         </div>
         <div class="relative w-full md:w-1/2 my-10 md:my-32">
-          <p class="text-flameshotpurple text-sm subpixel-antialiased uppercase font-bold tracking-wide">Flameshot</p>
-          <h4 class="font-bold text-4xl md:text-5xl mt-1 mb-4 text-gray-800">
-            Modern website for a popular screenshot software.
+          <p class="text-flameshotpurple text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Flameshot</p>
+          <h4 class="font-bold text-4xl mt-1 mb-4 text-gray-700">
+            Modern website for a popular screenshot tool.
           </h4>
-          <p class="text-gray-600 text-xl tracking-wider">
+          <p class="text-gray-700 text-xl font-serif max-w-xl">
             The Flameshot open source project needed a website to reflect their easy-to-use screenshot tool. I worked closely with the project maintainers to tailor the website to their needs using modern web tech and best practices.
           </p>
         </div>
       </a>
     </div>
 
+    <!-- Velocity Lapse app -->
+    <div class="relative group py-6 px-6 md:px-16 bg-vldark rounded-md hover:cursor-pointer">
+      <a class="flex flex-col md:flex-row items-center" href="https://velocitylapse.com" target="new">
+        <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
+          <svg class="h-6 w-6 text-gray-300 fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+          </svg>
+        </div>
+        <div class="relative w-full md:w-2/3 mt-16 md:mt-0">
+          <img class="w-12 h-12 mb-5" src="/assets/work/velocitylapse/vl-logo-rounded.png" alt="Velocity Lapse logo">
+          <p class="text-vlaccent text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Velocity Lapse</p>
+          <h4 class="font-bold text-4xl mt-1 mb-4 text-white">
+            Time lapse app for Android.
+          </h4>
+          <p class="text-gray-400 text-xl font-serif max-w-xl">
+            I'm the creator, developer, and designer of Velocity Lapse: an Android app to create time lapse videos. It features a simple interface, manually adjustable camera settings, and powerful import and export.
+          </p>
+        </div>
+        <div class="w-full md:w-1/3 mt-8">
+          <img class="w-auto h-auto md:max-w-xs mx-auto" src="/assets/work/velocitylapse/velocity-lapse2.png" alt="Velocity Lapse logo">
+        </div>
+      </a>
+    </div>
+
     <!-- OPC of Ava -->
-    <div class="relative group p-6 md:p-10 bg-white border-2 border-gray-100 rounded-xl hover:cursor-pointer">
+    <div class="relative group py-6 px-6 md:px-16 bg-white border-2 border-gray-100 rounded-xl hover:cursor-pointer">
       <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://optionsofava.org" target="new">
         <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
           <svg class="h-6 w-6 text-gray-600 fill-current ease-in-out duration-300 group-hover:text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -84,15 +85,15 @@
           </svg>
         </div>
         <div class="relative w-full md:w-1/2 my-10 md:my-32">
-          <p class="text-opcblue text-sm subpixel-antialiased uppercase font-bold tracking-wide">OPC of Ava</p>
-          <h4 class="font-bold text-4xl md:text-5xl mt-1 mb-4 text-gray-800">
+          <p class="text-opcblue text-sm subpixel-antialiased uppercase font-semibold tracking-wide">OPC of Ava</p>
+          <h4 class="font-bold text-4xl mt-1 mb-4 text-gray-700">
             New website for a life saving organization.
           </h4>
-          <p class="text-gray-600 text-xl tracking-wider">
-            Options is a Pro-life, faith-based ministry in Ava serving the community for over 15 years. I was excited to work with them, creating a new website and content to make it easier for vistors to find information and get support at their locations.
+          <p class="text-gray-700 text-xl font-serif">
+            Options is a Pro-life, faith-based ministry in Ava, MO serving the community for over 15 years. I was excited to work with them, creating a new website and content to make it easier for vistors to find information and get support at their locations.
           </p>
         </div>
-        <div class="w-full md:w-1/2 mt-8">
+        <div class="w-full md:w-1/2 mt-8 pl-0 md:pl-6">
           <img class="w-auto h-auto mx-auto rounded-xl" src="/assets/work/opc/opc-of-ava-website-browser.png" alt="OPC of Ava website">
         </div>
       </a>
