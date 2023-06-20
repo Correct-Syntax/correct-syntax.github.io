@@ -16,7 +16,7 @@ module.exports = {
             oiioaccent: "#0583D6",
             oiiodark: "#181E23",
             vlaccent: "#38A3D5",
-            vldark: "#0D0E11",    
+            vldark: "#0b0d0d",    
             flameshotpurple: "#8800AA",
             opcblue: "#1EA09F",
           }        
