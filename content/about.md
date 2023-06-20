@@ -3,11 +3,11 @@ title: Hi, I'm Noah Rahm. An independent web designer and developer.
 layout: "about"
 ---
 
-I help clients in the US and abroad to create meaningful digital experiences and printed materials. 
+I help clients in the US and abroad create meaningful digital experiences and printed materials.
 
 Based in the central United States, I provide custom design and development [services](/services/) for organizations, startups, and businesses.
 
-I'm currently open to collaboration and new client work, so feel free to [get in touch](mailto:hi@noahrahm.com) to chat about your project or just say hello.
+I'm currently open to collaboration and new client work, so feel free to [get in touch](mailto:hi@noahrahm.com) to chat about your project, or just say hello.
 
 #### Personal
 
