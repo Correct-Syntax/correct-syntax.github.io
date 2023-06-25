@@ -19,6 +19,7 @@ module.exports = {
             vldark: "#0b0d0d",    
             flameshotpurple: "#8800AA",
             opcblue: "#1EA09F",
+            ffblue: "#5080d1",
           }        
         }  
     },  
