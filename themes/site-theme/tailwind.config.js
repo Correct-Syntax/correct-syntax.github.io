@@ -20,6 +20,7 @@ module.exports = {
             flameshotpurple: "#8800AA",
             opcblue: "#1EA09F",
             ffblue: "#5080d1",
+            p23pblue: "#1b2332",
           }        
         }  
     },  
