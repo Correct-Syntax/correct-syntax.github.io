@@ -23,7 +23,7 @@
 &lt;p>I began to work on creating my own custom camera package to fix some of the issues with the camera and add features like the ability to capture with the screen off, multi-lense support, and manual white balance control.&lt;/p>
 &lt;p>I dove into Kotlin and the camera2 API to understand it. Starting small, I first created a basic camera as a native Kotlin project to work out the kinks of the camera2 API. (As of the time of this writing, this is still in the works.)&lt;/p>
 &lt;h4 id="upgrading-to-flutter-37">Upgrading to Flutter 3.7&lt;/h4>
-&lt;p>Upgrading to Flutter 3.7 only required a few lines of depreciated code to be changed, which was nice as I didn&amp;rsquo;t need anything extra to work on.&lt;/p>
+&lt;p>Upgrading to Flutter 3.7 only required a few lines of deprecated code to be changed, which was nice as I didn&amp;rsquo;t need anything extra to work on.&lt;/p>
 &lt;h3 id="a-silly-issue-resolved">A silly issue resolved&lt;/h3>
 &lt;p>One of the export issues ended up being the result of a single character typo. Once I corrected that, 4k export worked smoothly. To put it lightly, I was overjoyed and a little upset that such a small mistake caused so much problems.&lt;/p>
 &lt;p>However, that didn&amp;rsquo;t solve every issue as I discovered that export crashed with 720p and 1080p with certain bitrates, somewhat randomly. I later mostly resolved this.&lt;/p>
@@ -46,20 +46,20 @@
 &lt;p>The one I chose from Back Market was a &amp;ldquo;Good&amp;rdquo; condition 128GB 5G Samsung Galaxy A53 tracfone phone.&lt;/p>
 &lt;p>My initial perception of Back Market wasn&amp;rsquo;t the best. I was wary of buying from Back Market as some people online said it was a scam and I hadn&amp;rsquo;t bought refurbished before. I also didn&amp;rsquo;t like how difficult it seemed to contact them. However, in the end I decided to go for it.&lt;/p>
 &lt;h5 id="not-as-listed">Not as listed&lt;/h5>
-&lt;p>Once I recieved the phone, I set it up and began using it to test. However, I didn&amp;rsquo;t realize until a day or two later that there was no 3.3mm headphone jack as was listed on Back Market (and still is at the time of this writing).&lt;/p>
+&lt;p>Once I received the phone, I set it up and began using it to test. However, I didn&amp;rsquo;t realize until a day or two later that there was no 3.3mm headphone jack as was listed on Back Market (and still is at the time of this writing).&lt;/p>
 &lt;p>I opened a support request (which was a very confusing process) and they eventually said: &amp;ldquo;It appears that it was a listing error as in fact, this model does not contain 3.5mm Jack for headphones.&amp;rdquo;&lt;/p>
 &lt;p>I decided to keep the phone since I didn&amp;rsquo;t have the time to deal with the hassle of returning it and re-purchasing another model.&lt;/p>
 &lt;p>However, at the time of this writing I looked at their listing for the A53 (the same as I purchased) and it still lists the 3.3mm headphone jack. I thought they would have removed the false information by now. So, I contacted them again about it. Hopefully they fix the listing.&lt;/p>
 &lt;h5 id="conclusion-on-the-phone">Conclusion on the phone&lt;/h5>
 &lt;p>I haven&amp;rsquo;t had any issues with the phone itself so far. Overall, ordering from Back Market was an OK experience. Not sure that I would buy from them again, though.&lt;/p>
 &lt;h3 id="thoughts-on-negative-software-reviews">Thoughts on negative software reviews&lt;/h3>
-&lt;p>Having recieved a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews.&lt;/p>
+&lt;p>Having received a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews.&lt;/p>
 &lt;h4 id="please-please-no-hit-and-run">Please, please no hit-and-run&lt;/h4>
 &lt;p>If you use software long enough, you will likely be inclined to write a bad review. I&amp;rsquo;ve done it myself more than I would have liked to. Problems &lt;em>will&lt;/em> occur. Issues &lt;em>will&lt;/em> arise. It&amp;rsquo;s inevitable and unavoidable in software. But &lt;em>please&lt;/em> don&amp;rsquo;t be the user that does a &amp;ldquo;hit and run&amp;rdquo;.&lt;/p>
 &lt;p>Probably &lt;em>the most frustrating&lt;/em> reviews, in my opinion, are those that say a few negative words (sometimes using profanity) without explaining what the issues is, and then leave no way for the developer to follow up with them. These individuals either give a fake email or delete the review so you can&amp;rsquo;t respond to their comments.&lt;/p>
 &lt;p>Unfortunately for the developer, it does no good because no actionable feedback is given and they cannot ask for any either. They are left wondering, &amp;ldquo;okay, so what exactly is the problem?&amp;rdquo; It could be thousands of things.&lt;/p>
 &lt;p>Ultimately, these kinds of &amp;ldquo;reviews&amp;rdquo; don&amp;rsquo;t do much good, other than to vent feelings and/or frustration because they left no way to potentially solve the issue.&lt;/p>
-&lt;p>Thankfully, I have only recieved a few of these myself thus far, but it isn&amp;rsquo;t a nice feeling.&lt;/p>
+&lt;p>Thankfully, I have only received a few of these myself thus far, but it isn&amp;rsquo;t a nice feeling.&lt;/p>
 &lt;p>So, please be the user that gives a review with specific, actionable criticism on what should be improved. Constructive criticism, even if it&amp;rsquo;s harsh, can be good. Hit and run negativity is not.&lt;/p>
 &lt;h3 id="updating-the-website-for-real">Updating the website (for real)&lt;/h3>
 &lt;p>I updated the website, yet again. This time I went through the hassle and took the time to write proper copy for the homepage, explaining the benefits of the app. Honestly, it wasn&amp;rsquo;t that hard since at this point the app has so many nice features and I had plently of user feedback to back it up.&lt;/p>
@@ -410,7 +410,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;h4 id="compromise">Compromise&lt;/h4>
 &lt;p>Compromising on what Scripture says, even a little bit, opens the door to a continuous erosion of it from your life. Once the door is open, it is hard to close. Be sure that any compromise you make &lt;strong>does not compromise your belief in Yahweh&amp;rsquo;s Word.&lt;/strong>&lt;/p>
 &lt;h4 id="jealousy">Jealousy&lt;/h4>
-&lt;p>Don&amp;rsquo;t get jealous of other people&amp;rsquo;s situations, etc. Jealousy stems from discontentment. The grass &lt;strong>isn&amp;rsquo;t&lt;/strong> greener on the other side of the fence. &lt;strong>Everyone&lt;/strong> has there own set of problems and they may be worse than yours. Be content where Yahweh has placed you in life.&lt;/p>
+&lt;p>Don&amp;rsquo;t get jealous of other people&amp;rsquo;s situations, etc. Jealousy stems from discontentment. The grass &lt;strong>isn&amp;rsquo;t&lt;/strong> greener on the other side of the fence. &lt;strong>Everyone&lt;/strong> has their own set of problems and they may be worse than yours. Be content where Yahweh has placed you in life.&lt;/p>
 &lt;h4 id="be-humble-be-real">Be Humble; Be Real&lt;/h4>
 &lt;p>Be humble, knowing that you deserve death, but Yahweh showed you mercy and grace. Show the same mercy and grace that He shows to &lt;strong>You&lt;/strong>.&lt;/p>
 &lt;p>Do not look down on others for what you &lt;strong>think&lt;/strong> they do not know or practice. You also have things that Yahweh is trying to get your attention about and you must be humble to even see what He is trying to teach you.&lt;/p>
@@ -534,7 +534,7 @@ alt="Velocity Lapse Google Play listing"/>&lt;figcaption>
 &lt;/figcaption>
 &lt;/figure>
 &lt;h3 id="posting-on-reddit">Posting on Reddit&lt;/h3>
-&lt;p>I submitted a &lt;a href="https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/">Reddit post&lt;/a> to gather feedback regarding Velocity Lapse. The post recieved 700+ views in the first week. It did cause a surge of downloads and I did recieve some helpful feedback (albeit, not on Reddit itself).&lt;/p>
+&lt;p>I submitted a &lt;a href="https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/">Reddit post&lt;/a> to gather feedback regarding Velocity Lapse. The post received 700+ views in the first week. It did cause a surge of downloads and I did recieve some helpful feedback (albeit, not on Reddit itself).&lt;/p>
 &lt;h3 id="big-features-big-holdups">Big features, big holdups&lt;/h3>
 &lt;p>The next tasks on the roadmap were to get 4k export and manual camera controls implemented.&lt;/p>
 &lt;h4 id="4k-video-export">4K video export&lt;/h4>
@@ -748,7 +748,7 @@ alt="The Velocity Lapse logo"/>&lt;figcaption>
 &lt;p>Obviously, the app couldn&amp;rsquo;t be released without a way to export the timelapse to video, so I needed to think of another way.&lt;/p>
 &lt;p>After a lot of searching, I came to a small package called &lt;a href="https://github.com/israel-fl/bitmap2video">bitmap2video&lt;/a> which looked like it might do the trick. However, since it was written in Kotlin, it would mean switching the existing code from Java to Kotlin.&lt;/p>
 &lt;p>I decided to go for it and embrace it as an unexpected opportunity to learn Kotlin.&lt;/p>
-&lt;p>First, I did a bunch of extensive testing to verify that it didn&amp;rsquo;t produce artifacts like jcodec. I did end up having to fix some depreciated code and fix a few things to make it work, but came to the conclusion that with some more customization it would indeed work.&lt;/p>
+&lt;p>First, I did a bunch of extensive testing to verify that it didn&amp;rsquo;t produce artifacts like jcodec. I did end up having to fix some deprecated code and fix a few things to make it work, but came to the conclusion that with some more customization it would indeed work.&lt;/p>
 &lt;p>Thankfully, although I&amp;rsquo;ve never written in Kotlin before, the transition was pretty smooth with Android Studios Java to Kotlin converter, the Kotlin manual, and a bunch of online searches. The most difficult part was wrapping my head around Kotlin&amp;rsquo;s coroutines, but thanks to some articles online I was able to solve the problem I was having.&lt;/p>
 &lt;p>The end result was a much faster, more lightweight renderer than the one written in Java with jcodec. Plus, since the Kotlin version was a smaller package which I pulled directly into the source, I could benefit from being able to make edits/fixes for Velocity Lapse&amp;rsquo;s specific use case.&lt;/p>
 &lt;p>So, in the end, it turned out better because of the set-back. :)&lt;/p>
