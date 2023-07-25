@@ -206,7 +206,7 @@ Since I had already been posting some of the timelapse videos I had captured on 
 
 ### Posting on Reddit
 
-I submitted a [Reddit post](https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/) to gather feedback regarding Velocity Lapse. The post recieved 700+ views in the first week. It did cause a surge of downloads and I did recieve some helpful feedback (albeit, not on Reddit itself).
+I submitted a [Reddit post](https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/) to gather feedback regarding Velocity Lapse. The post received 700+ views in the first week. It did cause a surge of downloads and I did recieve some helpful feedback (albeit, not on Reddit itself).
 
 
 ### Big features, big holdups

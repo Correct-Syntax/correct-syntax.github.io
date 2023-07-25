@@ -65,7 +65,7 @@ I dove into Kotlin and the camera2 API to understand it. Starting small, I first
 
 #### Upgrading to Flutter 3.7
 
-Upgrading to Flutter 3.7 only required a few lines of depreciated code to be changed, which was nice as I didn't need anything extra to work on.
+Upgrading to Flutter 3.7 only required a few lines of deprecated code to be changed, which was nice as I didn't need anything extra to work on.
 
 
 ### A silly issue resolved
@@ -109,7 +109,7 @@ My initial perception of Back Market wasn't the best. I was wary of buying from 
 
 ##### Not as listed
 
-Once I recieved the phone, I set it up and began using it to test. However, I didn't realize until a day or two later that there was no 3.3mm headphone jack as was listed on Back Market (and still is at the time of this writing).
+Once I received the phone, I set it up and began using it to test. However, I didn't realize until a day or two later that there was no 3.3mm headphone jack as was listed on Back Market (and still is at the time of this writing).
 
 I opened a support request (which was a very confusing process) and they eventually said: "It appears that it was a listing error as in fact, this model does not contain 3.5mm Jack for headphones."
 
@@ -124,7 +124,7 @@ I haven't had any issues with the phone itself so far. Overall, ordering from Ba
 
 ### Thoughts on negative software reviews
 
-Having recieved a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews.
+Having received a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews.
 
 #### Please, please no hit-and-run
 
@@ -136,7 +136,7 @@ Unfortunately for the developer, it does no good because no actionable feedback 
 
 Ultimately, these kinds of "reviews" don't do much good, other than to vent feelings and/or frustration because they left no way to potentially solve the issue.
 
-Thankfully, I have only recieved a few of these myself thus far, but it isn't a nice feeling.
+Thankfully, I have only received a few of these myself thus far, but it isn't a nice feeling.
 
 So, please be the user that gives a review with specific, actionable criticism on what should be improved. Constructive criticism, even if it's harsh, can be good. Hit and run negativity is not.
 

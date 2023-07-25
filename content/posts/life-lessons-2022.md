@@ -85,7 +85,7 @@ Compromising on what Scripture says, even a little bit, opens the door to a cont
 
 #### Jealousy
 
-Don't get jealous of other people's situations, etc. Jealousy stems from discontentment. The grass **isn't** greener on the other side of the fence. **Everyone** has there own set of problems and they may be worse than yours. Be content where Yahweh has placed you in life.
+Don't get jealous of other people's situations, etc. Jealousy stems from discontentment. The grass **isn't** greener on the other side of the fence. **Everyone** has their own set of problems and they may be worse than yours. Be content where Yahweh has placed you in life.
 
 #### Be Humble; Be Real
 

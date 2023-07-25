@@ -257,7 +257,7 @@ After a lot of searching, I came to a small package called [bitmap2video](https:
 
 I decided to go for it and embrace it as an unexpected opportunity to learn Kotlin. 
 
-First, I did a bunch of extensive testing to verify that it didn't produce artifacts like jcodec. I did end up having to fix some depreciated code and fix a few things to make it work, but came to the conclusion that with some more customization it would indeed work.
+First, I did a bunch of extensive testing to verify that it didn't produce artifacts like jcodec. I did end up having to fix some deprecated code and fix a few things to make it work, but came to the conclusion that with some more customization it would indeed work.
 
 Thankfully, although I've never written in Kotlin before, the transition was pretty smooth with Android Studios Java to Kotlin converter, the Kotlin manual, and a bunch of online searches. The most difficult part was wrapping my head around Kotlin's coroutines, but thanks to some articles online I was able to solve the problem I was having.
 
