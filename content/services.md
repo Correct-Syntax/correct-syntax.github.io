@@ -2,6 +2,7 @@
 title: Web Design and Development Services
 description: The services I offer
 layout: "services"
+type: "page"
 ---
 
 #### Design services

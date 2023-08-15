@@ -2,6 +2,7 @@
 title: Privacy
 subtitle: My commitment to privacy
 layout: "static-page"
+type: "page"
 ---
 
 This website does not have analytics or social network buttons that track you. I don’t collect any information about you.

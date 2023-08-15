@@ -1,6 +1,7 @@
 ---
 title: Hi, I'm Noah Rahm. An independent web designer and developer.
 layout: "about"
+type: "page"
 ---
 
 I help clients in the US and abroad create meaningful digital experiences and printed materials.
