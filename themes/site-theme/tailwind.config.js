@@ -13,6 +13,8 @@ module.exports = {
           colors: {          
             accent: "#2591AF",   
             accentdark: "#1C6E85",
+            ozarksolarblue: "#419EC7",
+            ozaeksolargrey: "#F2F2F2",
             oiioaccent: "#0583D6",
             oiiodark: "#181E23",
             vlaccent: "#38A3D5",
