@@ -1,6 +1,6 @@
 # My personal website
 
-This is my personal website created using Hugo, TailwindCSS, and Alpine.js. You can visit it at [www.noahrahm.com](https://www.noahrahm.com).
+This is my personal website created using Hugo, TailwindCSS, and Alpine.js. You can visit it at [noahrahm.com](https://noahrahm.com).
 
 
 ## First time
