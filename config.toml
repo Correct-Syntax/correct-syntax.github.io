@@ -22,3 +22,29 @@ summaryLength = 12
 
 [Author]
   name = "Noah Rahm"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    identifier = "about"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Services"
+    identifier = "services"
+    url = "/services/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Work"
+    identifier = "work"
+    url = "/work/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Posts"
+    identifier = "posts"
+    url = "/posts/"
+    weight = 40
+
