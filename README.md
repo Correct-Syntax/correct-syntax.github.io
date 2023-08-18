@@ -1,6 +1,6 @@
 # My personal website
 
-This is my personal website created using Hugo, TailwindCSS, and Alpine.js.
+This is my personal website created using Hugo, TailwindCSS, and Alpine.js. You can visit it at [www.noahrahm.com](https://www.noahrahm.com).
 
 
 ## First time
@@ -30,4 +30,4 @@ Rebuilding the CSS:
 
 ## License
 
-Website source code is licensed under the MIT license. Posts are my own and "all rights reserved".
+Website source code is licensed under the MIT license. Posts and images are my own and "all rights reserved".
