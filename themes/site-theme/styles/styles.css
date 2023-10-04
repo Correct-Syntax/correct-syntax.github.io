@@ -1,38 +1,40 @@
 @tailwind base;
 @tailwind components;
 
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
 
 .markdown-content {
-    @apply text-gray-700;
-    font-size: 1.3rem;
+    @apply text-lg text-gray-700;
 }
 .markdown-content p {
-    @apply mb-2 mt-1 text-gray-700 font-serif;
-    line-height: 1.60;
+    @apply mb-2 mt-1 text-gray-700;
 }
 .markdown-content a {
-    @apply text-accentdark ease-in-out duration-300 font-semibold;
+    @apply text-accentdark underline ease-in-out duration-500;
 }
 .markdown-content a:hover {
-    @apply text-accent bg-gray-100 rounded-md;
+    @apply text-accent;
 }
 .markdown-content h3 {
-    @apply text-3xl mt-6 mb-2 font-bold;
+    @apply text-3xl mt-6 mb-2 font-semibold;
 }
 .markdown-content h4 {
-    @apply text-2xl mt-6 mb-2 font-bold;
+    @apply text-2xl mt-6 mb-2 font-semibold;
 }
 .markdown-content h5 {
-    @apply text-xl mt-6 mb-2 font-bold;
+    @apply text-xl mt-6 mb-2 font-semibold;
 }
 .markdown-content h6 {
     @apply text-lg mt-6 mb-2 font-semibold;
 }
 .markdown-content ul {
-    @apply list-disc list-inside font-serif mb-4;
+    @apply list-disc list-inside mb-4;
 }
 .markdown-content ol {
-    @apply list-inside font-serif mb-4;
+    @apply list-inside mb-4;
 }
 .markdown-content hr {
     @apply my-8;
@@ -61,7 +63,7 @@
     @apply mb-2;
 }
 .markdown-content figure figcaption {
-    @apply text-gray-600 font-serif text-base mb-6 text-center;
+    @apply text-gray-600 text-base mb-6 text-center;
 }
 
 @tailwind utilities;

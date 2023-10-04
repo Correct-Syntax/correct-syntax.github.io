@@ -1,18 +1,17 @@
 ---
-title: Hi, I'm Noah Rahm. An independent web designer and developer.
+title: Hi, I'm Noah Rahm. An independent designer and developer creating things at the intersection of visual design, code, photography, and art.
 layout: "about"
 type: "page"
 ---
 
-I help clients in the US and abroad create meaningful digital experiences and printed materials.
-
-Based in the central United States, I provide custom design and development [services](/services/) for organizations, startups, and businesses.
-
-I'm currently open to collaboration and new client work, so feel free to [get in touch](mailto:hi@noahrahm.com) to chat about your project, or just say hello.
-
-#### Personal
+Based in the central United States, I provide bespoke visual design and development services for organizations, startups, and businesses that want to make an impact.
 
 I love working on meaningful [projects](/work/) that glorify our Heavenly Father Yahweh and have a positive impact on others. 
+
+I'm currently open to collaboration and new client work, so feel free to [get in touch](mailto:hi@noahrahm.com).
+
+
+#### Personal 
 
 A few of my hobbies outside of work include: photography, drawing, music, and enjoying Yahweh's awesome creation (the great outdoors).
 

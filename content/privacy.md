@@ -1,6 +1,5 @@
 ---
 title: Privacy
-subtitle: My commitment to privacy
 layout: "static-page"
 type: "page"
 ---

@@ -1,19 +1,98 @@
 {{ define "main" }} 
-<div class="relative flex max-w-6xl mx-auto mt-3">
-  <div class="flex flex-col md:flex-row items-center justify-start mt-2 md:mt-12 mb-12">
-    <div class="w-full md:w-1/3 p-6 order-1 md:order-0">
-      <img class="max-w-full h-auto rounded-md" src="/me.png" alt="Me">
+<div class="relative hidden md:flex flex-col max-w-3xl lg:max-w-4xl space-y-3 sm:space-y-4 mx-auto mt-14 text-gray-700 px-4 lg:px-2">
+  <div class="visual-design flex flex-row items-center justify-between w-full">
+    <span class="hidden xxs:flex flex-grow bg-cover bg-center bg-web-design py-14 lg:py-16 px-20 md:px-24 lg:px-36 rounded-r-[60px] rounded-bl-[60px] rounded-tl-[140px] drop-shadow-xl"></span>
+    <p class="text-5xl sm:text-6xl lg:text-7xl font-semibold ml-0 xxs:ml-4 lg:ml-8">visual design</p>
+  </div>
+  <div class="development flex flex-row items-center justify-between w-full">
+    <p class="text-5xl sm:text-6xl lg:text-7xl font-semibold mr-0 xxs:mr-4 lg:mr-8">development</p>
+    <span class="hidden xxs:flex flex-grow bg-cover bg-center bg-code py-14 lg:py-16 px-20 md:px-24 lg:px-36 rounded-l-[60px] rounded-br-[60px] rounded-tr-[140px] drop-shadow-xl"></span>
+  </div>
+  <div class="photography flex flex-row items-center justify-between w-full">
+    <span class="hidden xxs:flex flex-grow bg-cover bg-center bg-flowers-closeup py-14 lg:py-16 px-20 md:px-24 lg:px-36 rounded-r-[60px] rounded-bl-[60px] rounded-tl-[140px] drop-shadow-xl"></span>
+    <p class="text-5xl sm:text-6xl lg:text-7xl font-semibold ml-0 xxs:ml-4 lg:ml-8">photography</p>
+  </div>
+  <div class="fine-art flex flex-row items-center justify-between w-full">
+    <p class="text-5xl sm:text-6xl lg:text-7xl font-semibold mr-0 xss:mr-4 lg:mr-8">&amp; fine art.</p>
+    <span class="hidden xxs:flex flex-grow bg-cover bg-center bg-fine-art py-14 lg:py-16 px-20 md:px-24 lg:px-36 rounded-l-[60px] rounded-br-[60px] rounded-tr-[140px] drop-shadow-xl"></span>
+  </div>
+</div>
+
+<div class="flex flex-col max-w-3xl lg:max-w-4xl mx-auto my-20 md:my-32 px-4 lg:px-2">
+  <h1 class="text-3xl md:text-4xl text-gray-700 max-w-xl md:max-w-2xl font-semibold">Hi, I'm Noah Rahm. An independent designer and developer creating things at the intersection of visual design, code, photography, and art.</h1>
+  <h2 class="text-xl text-gray-700 max-w-xl mt-6">I help people make a positive impact through carefully crafted visual design and technical solutions.</h2>
+</div>
+
+<div id="services" class="max-w-3xl lg:max-w-4xl mx-auto mt-20 md:mt-32 mb-32 px-4 lg:px-2">
+  <div class="flex flex-col sm:flex-row space-x-0 md:space-x-8">
+    <div class="w-full md:w-1/2 flex flex-col max-w-md">
+      <svg class="fill-gray-700 w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M216,42H72A14,14,0,0,0,58,56V74H40A14,14,0,0,0,26,88V200a14,14,0,0,0,14,14H184a14,14,0,0,0,14-14V182h18a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42ZM40,86H184a2,2,0,0,1,2,2v18H38V88A2,2,0,0,1,40,86ZM186,200a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V118H186Zm32-32a2,2,0,0,1-2,2H198V88a14,14,0,0,0-14-14H70V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2Z"></path></svg>
+      <h3 class="text-xl text-gray-700 font-semibold my-2">Static website development</h3>
+      <p class="text-gray-700">Interactive static websites for clients that don't need or want a full CMS solution. Static websites have the advantage of speed, flexibility, security, and simpler maintenance.</p>
     </div>
-    <div class="w-full md:w-2/3 mt-5 md:mt-0 pl-6 md:pl-8 lg:pl-16 order-0 md:order-1">
-      <p class="text-accent font-semibold text-lg sm:text-xl tracking-wide">Hi, I'm Noah Rahm.</p>
-      <h1 class="mt-1 text-4xl md:text-5xl max-w-xl text-gray-700 font-bold pr-6">
-        Designer, Developer, Photographer.
-      </h1>
-      <h2 class="text-xl text-gray-700 font-serif max-w-lg tracking-wide mt-3">I provide custom design and development services for organizations, startups, and businesses.</h2>
-      <div class="mt-4 flex flex-wrap">
-        <a href="mailto:hi@noahrahm.com" class="my-4 px-8 py-3 text-md text-gray-100 tracking-wide bg-accent hover:bg-gray-800 rounded-md ease-in-out duration-300 font-semibold">Contact me</a> 
-      </div> 
+    <div class="w-full md:w-1/2 flex flex-col max-w-md mt-14 sm:mt-0">
+      <svg class="fill-gray-700 w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M216,42H40A14,14,0,0,0,26,56V200a14,14,0,0,0,14,14H216a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42Zm2,158a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2ZM78,84A10,10,0,1,1,68,74,10,10,0,0,1,78,84Zm40,0a10,10,0,1,1-10-10A10,10,0,0,1,118,84Z"></path></svg>
+      <h4 class="text-xl text-gray-700 font-semibold my-2">WordPress design &amp; development</h4>
+      <p class="text-gray-700">Fast, optimized, and aesthetically pleasing Wordpress or Woocommerce websites built using the native Gutenburg page editor. For more complex requirements, I can develop a custom Wordpress plugin or theme specific to your needs.</p>
+    </div>
+  </div>
+  <div class="flex flex-col sm:flex-row mt-14 space-x-8">
+    <div class="w-full md:w-1/2 flex flex-col max-w-md">
+      <svg class="fill-gray-700 w-10 h-10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M208,94a14,14,0,0,0,14-14V48a14,14,0,0,0-14-14H176a14,14,0,0,0-14,14V58H94V48A14,14,0,0,0,80,34H48A14,14,0,0,0,34,48V80A14,14,0,0,0,48,94H58v68H48a14,14,0,0,0-14,14v32a14,14,0,0,0,14,14H80a14,14,0,0,0,14-14V198h68v10a14,14,0,0,0,14,14h32a14,14,0,0,0,14-14V176a14,14,0,0,0-14-14H198V94ZM174,48a2,2,0,0,1,2-2h32a2,2,0,0,1,2,2V80a2,2,0,0,1-2,2H176a2,2,0,0,1-2-2ZM46,80V48a2,2,0,0,1,2-2H80a2,2,0,0,1,2,2V80a2,2,0,0,1-2,2H48A2,2,0,0,1,46,80ZM82,208a2,2,0,0,1-2,2H48a2,2,0,0,1-2-2V176a2,2,0,0,1,2-2H80a2,2,0,0,1,2,2Zm128-32v32a2,2,0,0,1-2,2H176a2,2,0,0,1-2-2V176a2,2,0,0,1,2-2h32A2,2,0,0,1,210,176Zm-24-14H176a14,14,0,0,0-14,14v10H94V176a14,14,0,0,0-14-14H70V94H80A14,14,0,0,0,94,80V70h68V80a14,14,0,0,0,14,14h10Z"></path></svg>
+      <h5 class="text-xl text-gray-700 font-semibold my-2">Visual &amp; interaction design</h5>
+      <p class="text-gray-700">Modern, user-friendly web, ui, and graphic designs with custom interactions and graphics.</p>
+    </div>
+  </div>
+  <div class="flex items-end justify-start sm:justify-end mt-14 mx-auto">
+    <a class="group inline-flex items-center text-gray-700 text-base font-semibold" href="https://calendly.com/noahrahm/consultation">
+      Book 15 min. consultation  
+      <span class="ml-3 rounded-full border-[3px] border-gray-700 p-1.5 duration-500 group-hover:bg-gray-700"><svg class="fill-gray-700 w-5 h-5 group-hover:fill-white duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z"></path></svg></span>
+    </a>
+  </div>
+</div>
+
+<div class="max-w-4xl text-center md:text-left mx-auto px-4 lg:px-2">
+  <h4 class="text-3xl md:text-4xl text-gray-700 font-semibold">Featured Work</h4>
+</div>
+<div class="max-w-5xl mx-auto px-4 lg:px-2">
+  <div class="flex flex-col md:flex-row space-x-0 sm:space-x-8 mt-14">
+    <div class="md:w-1/2 flex flex-col space-y-12">
+      <a class="" href="https://optionsofava.org" target="new">
+        <img class="w-auto h-auto rounded-r-[70px] rounded-bl-[70px] rounded-tl-[140px]" src="/work/opc/website-browser.webp" alt="Options of Ava website"/>
+        <h5 class="mt-3 text-lg text-gray-700 font-semibold">Options of Ava <span class="font-normal">- New Wordpress website for a local, life-impacting organization</span></h5>
+      </a>
+      <a class="" href="https://github.com/AcademySoftwareFoundation/OpenImageIO" target="new">
+        <img class="w-auto h-auto rounded-l-[70px] rounded-br-[70px] rounded-tr-[140px]" src="/work/oiio/logo.webp" alt="OpenImageIO logo"/>
+        <h5 class="mt-3 text-lg text-gray-700 font-semibold">OpenImageIO <span class="font-normal">- Logo and brand guidelines for an open-source c++ library</span></h5>
+      </a>
+      <a class="" href="/work/ozark-solar-business-card-design">
+        <img class="w-auto h-auto rounded-r-[70px] rounded-bl-[70px] rounded-tl-[140px]" src="/work/ozarksolar/business-cards.webp" alt="Ozark Solar business cards"/>
+        <h5 class="mt-3 text-lg text-gray-700 font-semibold">Ozark Solar <span class="font-normal">- Modern, multi-fold business card design for a solar consultant.</span></h5>
+      </a>
+    </div>
+    <div class="md:w-1/2 flex flex-col space-y-12">
+      <a class="mt-8 md:mt-28" href="https://flameshot.org" target="new">
+        <img class="w-auto h-auto rounded-l-[70px] rounded-br-[70px] rounded-tr-[140px]" src="/work/flameshot/browser-dark-light-split.webp" alt="Flameshot website"/>
+        <h5 class="mt-3 text-lg text-gray-700 font-semibold">Flameshot <span class="font-normal">- Modern website for a popular desktop screenshot tool</span></h5>
+      </a>
+      <a class="" href="https://psalms23project.com" target="new">
+        <img class="w-auto h-auto rounded-r-[70px] rounded-bl-[70px] rounded-tl-[140px]" src="/work/psalms23project/website.png" alt="The Psalms 23 Project website"/>
+        <h5 class="mt-3 text-lg text-gray-700 font-semibold">The Psalms 23 Project <span class="font-normal">- Branding and website for a project creating Psalm readings in nature</span></h5>
+      </a>
     </div>
   </div>
 </div>
+
+
+<div class="flex flex-col max-w-5xl mx-auto pt-32 pb-10 px-4 lg:px-2">
+  <a class="text-3xl md:text-4xl text-gray-700 max-w-xl md:max-w-2xl font-semibold underline" href="mailto:hi@noahrahm.com">hi@noahrahm.com</a>
+  <h2 class="text-xl text-gray-700 max-w-xl mt-6">Ready to get started? Book a free 15 minute consultation or send me an email and we'll setup a time to chat.</h2>
+  <a class="group inline-flex items-center text-gray-700 text-base font-semibold mt-10" href="https://calendly.com/noahrahm/consultation">
+    Book 15 min. consultation  
+    <span class="ml-3 rounded-full border-[3px] border-gray-700 p-1.5 duration-500 group-hover:bg-gray-700"><svg class="fill-gray-700 w-5 h-5 group-hover:fill-white duration-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M220.24,132.24l-72,72a6,6,0,0,1-8.48-8.48L201.51,134H40a6,6,0,0,1,0-12H201.51L139.76,60.24a6,6,0,0,1,8.48-8.48l72,72A6,6,0,0,1,220.24,132.24Z"></path></svg></span>
+  </a>
+</div>
+
+
+
 {{ end }}

@@ -1,11 +1,10 @@
 ---
 title: Site Colophon
-subtitle: This is where you find out about the tech I used for this site
 layout: "static-page"
 type: "page"
 ---
 
-Wondering how this site is built? It's a very simple tech stack for this simple, minimalistic site.
+Wondering how this site is built? It's a very simple tech stack for this site.
 
 - [Hugo](https://gohugo.io) - the static site generator used to, well.. generate the site.
 - [Tailwindcss](https://tailwindcss.com/) - used for the utility-first CSS approach, with bits of my own custom CSS added.

@@ -1,78 +1,79 @@
 {{ define "main" }}
-<div class="relative max-w-6xl mx-auto space-y-4 mt-4">
+<div class="relative max-w-7xl mx-auto space-y-4 mt-4">
   <div class="flex flex-col px-2 mt-6 space-y-8">
 
     <!-- Ozark Solar -->
-    <div class="relative group py-6 px-6 md:px-16 bg-ozaeksolargrey rounded-md hover:cursor-pointer">
+    <div class="relative group py-6 px-6 md:px-16 bg-ozaeksolargrey rounded-[70px] md:rounded-tl-[140px] hover:cursor-pointer">
       <a class="flex flex-col md:flex-row items-center md:space-x-8" href="/work/ozark-solar-business-card-design/">
         <div class="relative w-full md:w-1/2 my-10 md:my-32">
           <p class="text-ozarksolarblue text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Ozark Solar</p>
-          <h4 class="font-bold text-4xl mt-1 text-gray-700">
+          <h4 class="font-semibold text-4xl mt-1 text-gray-700">
             Modern, multi-fold business card design.
           </h4>
           <p class="text-gray-700 text-base subpixel-antialiased mt-2">Multi-fold business card design</p>
-          <p class="text-gray-700 text-lg md:text-base font-serif max-w-xl mt-3">
+          <p class="text-gray-700 text-lg md:text-base max-w-xl mt-3">
             Beau, a solar consultant for Ozark Solar, needed a multi-fold business card to give out to residents in the area that might be interested in having a solar energy system installation.
           </p>
         </div>
         <div class="w-full md:w-1/2 mb-6 md:mb-0 pl-0 md:pl-4">
-          <img class="w-auto h-auto mx-auto rounded-md" src="/work/ozarksolar/business-cards.jpg" alt="Ozark solar">
+          <img class="w-auto h-auto mx-auto" src="/work/ozarksolar/business-cards.webp" alt="Ozark solar">
         </div>
       </a>
     </div>
 
-    <!-- The Psalms 23 Project -->
-    <div class="relative group py-6 px-6 md:px-16 bg-p23pblue rounded-md hover:cursor-pointer">
-      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://psalms23project.com" target="new">
-        <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
-          <svg class="h-6 w-6 text-white fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <!-- Flameshot -->
+    <div class="relative group py-6 px-6 md:px-16 bg-white border-2 border-gray-100 rounded-[70px] md:rounded-tl-[140px] hover:cursor-pointer">
+      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://flameshot.org" target="new">
+        <div class="absolute top-0 right-0 p-10 group-hover:p-8 ease-in-out duration-300">
+          <svg class="h-6 w-6 text-gray-700 fill-current ease-in-out duration-300 group-hover:text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg>
         </div>
         <div class="w-full md:w-1/2 mt-14 md:mt-0 pr-0 md:pr-4">
-          <img class="w-auto h-auto mx-auto rounded-md" src="/work/thepsalms23project/the-psalms-23-project-website.png" alt="The Psalms 23 Project website">
+          <img class="w-auto h-auto mx-auto rounded-md" src="/work/flameshot/browser-dark-light-split.webp" alt="Flameshot website">
         </div>
         <div class="relative w-full md:w-1/2 my-6 md:my-32">
-          <p class="text-gray-300 text-sm subpixel-antialiased uppercase font-semibold tracking-wide">The Psalms 23 Project</p>
-          <h4 class="font-bold text-4xl mt-1 text-white">
-            Landing page website for a Psalm reading project.
+          <p class="text-flameshotpurple text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Flameshot</p>
+          <h4 class="font-semibold text-4xl mt-1 text-gray-700">
+            Modern website for a popular screenshot tool.
           </h4>
-          <p class="text-gray-300 text-base subpixel-antialiased mt-2">Sveltekit / Tailwindcss</p>
-          <p class="text-gray-300 text-lg md:text-base font-serif max-w-xl mt-3">
-            The Psalms 23 project aims to record high-quality readings of the Psalms in nature with the peaceful atmosphere and sounds of creation. I created a unique website for the project, and captured nature photos for use on the site.
+          <p class="text-gray-700 text-base subpixel-antialiased mt-2">Zola / Bootstrap</p>
+          <p class="text-gray-700 text-lg md:text-base max-w-xl mt-3">
+            The Flameshot open-source project needed a website to reflect their easy to use screenshot tool. I worked closely with the project maintainers to tailor the website to their needs using a clean design, modern web tech, and best practices.
           </p>
         </div>
       </a>
     </div>
 
-    <!-- Fellowship Finder -->
-    <div class="relative group py-6 px-6 md:px-16 bg-gray-100 rounded-md hover:cursor-pointer">
-      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://eliyah.com/fellowship/" target="new">
-        <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
-          <svg class="h-6 w-6 text-gray-600 fill-current ease-in-out duration-300 group-hover:text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <!-- OIIO -->
+    <div class="relative group py-6 px-6 md:px-16 bg-oiiodark rounded-[70px] md:rounded-tl-[140px] hover:cursor-pointer">
+      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://github.com/OpenImageIO/oiio" target="new">
+        <div class="absolute top-0 right-0 p-10 group-hover:p-8 ease-in-out duration-300">
+          <svg class="h-6 w-6 text-gray-300 fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg>
         </div>
-        <div class="relative w-full md:w-1/2 my-10 md:my-32">
-          <p class="text-ffblue text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Fellowship Finder</p>
-          <h4 class="font-bold text-4xl mt-1 text-gray-700">
-            Fellowship finder directory web application.
+        <div class="relative w-full md:w-1/2 my-12 md:my-32">
+          <p class="text-oiioaccent text-sm subpixel-antialiased uppercase font-semibold tracking-wide">OpenImageIO</p>
+          <h4 class="font-semibold text-4xl mt-1 text-white">
+            Logo and brand guidelines for a C++ library.
           </h4>
-          <p class="text-gray-700 text-base subpixel-antialiased mt-2">Laravel / Alpine.js / Tailwindcss</p>
-          <p class="text-gray-700 text-lg md:text-base font-serif max-w-xl mt-3">
-            EliYah Ministries needed a new directory where users could search for fellowship in their area. The project included search, listings, email notifications, a user dashboard, private messaging, and moderation system.
+          <p class="text-gray-400 text-base subpixel-antialiased mt-2">Logo / Brand guidelines</p>
+          <p class="text-gray-400 text-lg md:text-base mt-3 mb-3">
+            I created the logo and brand guidelines for OpenImageIO, a library for reading and writing images. The open-source library is used extensively in animation and VFX studios all over the world, and is incorporated into several commercial products.
           </p>
+          <small class="text-xs text-gray-400">The OpenImageIO logo is a trademark of LF Projects, LLC. Used here with permission.</small>
         </div>
-        <div class="w-full md:w-1/2 mb-6 md:mb-0 pl-0 md:pl-4">
-          <img class="w-auto h-auto mx-auto rounded-md" src="/work/fellowshipfinder/fellowship-finder.png" alt="Fellowship Finder home">
+        <div class="w-full md:w-1/2 pl-0 md:pl-2">
+          <img class="w-auto h-auto mx-auto" src="/work/oiio/logo.webp" alt="OpenImageIO logo">
         </div>
       </a>
     </div>
 
     <!-- Velocity Lapse app -->
-    <div class="relative group py-6 px-6 md:px-16 bg-vldark rounded-md hover:cursor-pointer">
+    <div class="relative group py-6 px-6 md:px-16 bg-vldark rounded-[70px] md:rounded-tl-[140px] hover:cursor-pointer">
       <a class="flex flex-col md:flex-row items-center" href="https://velocitylapse.com" target="new">
-        <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
+        <div class="absolute top-0 right-0 p-10 group-hover:p-8 ease-in-out duration-300">
           <svg class="h-6 w-6 text-gray-300 fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg>
@@ -83,11 +84,11 @@
         <div class="relative w-full md:w-3/5 mb-6 md:mb-0">
           <img class="w-12 h-12 mb-5" src="/work/velocitylapse/vl-logo-rounded.png" alt="Velocity Lapse logo">
           <p class="text-vlaccent text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Velocity Lapse</p>
-          <h4 class="font-bold text-4xl mt-1 text-white">
+          <h4 class="font-semibold text-4xl mt-1 text-white">
             Time lapse app for Android.
           </h4>
           <p class="text-gray-400 text-base subpixel-antialiased mt-2">Flutter / Dart / Kotlin</p>
-          <p class="text-gray-400 text-lg md:text-base font-serif max-w-xl mt-3">
+          <p class="text-gray-400 text-lg md:text-base max-w-xl mt-3">
             I'm the creator, developer, and designer of Velocity Lapse: an Android app to create time lapse videos. It features a clutter-free interface, manually adjustable camera settings, two capture modes, and powerful import and export. Currently in beta early-access, it has been described by users as "the best time lapse app for Android".
           </p>
         </div>
@@ -96,76 +97,75 @@
 
     <!-- OPC of Ava -->
     <div>
-      <div class="relative group py-6 px-6 md:px-16 bg-white border-2 border-gray-100 rounded-md hover:cursor-pointer">
+      <div class="relative group py-6 px-6 md:px-16 bg-white border-2 border-gray-100 rounded-[70px] md:rounded-tl-[140px] hover:cursor-pointer">
         <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://optionsofava.org" target="new">
-          <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
+          <div class="absolute top-0 right-0 p-10 group-hover:p-8 ease-in-out duration-300">
             <svg class="h-6 w-6 text-gray-600 fill-current ease-in-out duration-300 group-hover:text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
             </svg>
           </div>
           <div class="relative w-full md:w-1/2 my-12 md:my-32">
             <p class="text-opcblue text-sm subpixel-antialiased uppercase font-semibold tracking-wide">OPC of Ava</p>
-            <h4 class="font-bold text-4xl mt-1 text-gray-700">
+            <h4 class="font-semibold text-4xl mt-1 text-gray-700">
               New website for a life saving organization.
             </h4>
             <p class="text-gray-700 text-base subpixel-antialiased mt-2">Wordpress / CSS</p>
-            <p class="text-gray-700 text-lg md:text-base font-serif mt-3">
-              Options is a Pro-life, faith-based ministry in Ava serving the community for over 15 years. I was excited to work with them, creating a new website to make it easier for vistors to find information and recieve support at their two pregnancy center locations in Missouri.
+            <p class="text-gray-700 text-lg md:text-base mt-3">
+              Options is a Pro-life, faith-based ministry in Ava serving the community for over 15 years. I was excited to work with them, creating a new website to make it easier for vistors to find information and recieve support at their pregnancy center locations in Missouri.
             </p>
           </div>
           <div class="w-full md:w-1/2 mb-6 md:mb-0 pl-0 md:pl-6">
-            <img class="w-auto h-auto mx-auto rounded-md" src="/work/opc/opc-of-ava-website-browser.png" alt="OPC of Ava website">
+            <img class="w-auto h-auto mx-auto" src="/work/opc/website-browser.webp" alt="OPC of Ava website">
           </div>
         </a>
       </div>
       <p class="relative text-sm text-gray-500 mt-2">The Options of Ava website has been featured on <a href="https://www.designrush.com/best-designs/websites">DesignRush's</a> best pregnancy website designs.</p>
     </div>
 
-    <!-- Flameshot -->
-    <div class="relative group py-6 px-6 md:px-16 bg-gray-100 rounded-md hover:cursor-pointer">
-      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://flameshot.org" target="new">
-        <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
-          <svg class="h-6 w-6 text-gray-600 fill-current ease-in-out duration-300 group-hover:text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <!-- The Psalms 23 Project -->
+    <div class="relative group py-6 px-6 md:px-16 bg-p23pblue rounded-[70px] md:rounded-tl-[140px] hover:cursor-pointer">
+      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://psalms23project.com" target="new">
+        <div class="absolute top-0 right-0 p-10 group-hover:p-8 ease-in-out duration-300">
+          <svg class="h-6 w-6 text-white fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg>
         </div>
         <div class="w-full md:w-1/2 mt-14 md:mt-0 pr-0 md:pr-4">
-          <img class="w-auto h-auto mx-auto rounded-md" src="/work/flameshot/flameshot-browser-dark-light-split.webp" alt="Flameshot website">
+          <img class="w-auto h-auto mx-auto" src="/work/psalms23project/website.png" alt="The Psalms 23 Project website">
         </div>
         <div class="relative w-full md:w-1/2 my-6 md:my-32">
-          <p class="text-flameshotpurple text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Flameshot</p>
-          <h4 class="font-bold text-4xl mt-1 text-gray-700">
-            Modern website for a popular screenshot tool.
+          <p class="text-gray-300 text-sm subpixel-antialiased uppercase font-semibold tracking-wide">The Psalms 23 Project</p>
+          <h4 class="font-semibold text-4xl mt-1 text-white">
+            Landing page website for a Psalm reading project.
           </h4>
-          <p class="text-gray-700 text-base subpixel-antialiased mt-2">Zola / Bootstrap</p>
-          <p class="text-gray-700 text-lg md:text-base font-serif max-w-xl mt-3">
-            The Flameshot open-source project needed a website to reflect their easy to use screenshot tool. I worked closely with the project maintainers to tailor the website to their needs using a clean design, modern web tech, and best practices.
+          <p class="text-gray-300 text-base subpixel-antialiased mt-2">Sveltekit / Tailwindcss</p>
+          <p class="text-gray-300 text-lg md:text-base max-w-xl mt-3">
+            The Psalms 23 project aims to record high-quality readings of the Psalms in nature with the peaceful atmosphere and sounds of creation. I created a unique website for the project, and captured nature photos for use on the site.
           </p>
         </div>
       </a>
     </div>
 
-    <!-- OIIO -->
-    <div class="relative group py-6 px-6 md:px-16 bg-oiiodark rounded-md hover:cursor-pointer">
-      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://github.com/OpenImageIO/oiio" target="new">
-        <div class="absolute top-0 right-0 p-6 group-hover:p-4 ease-in-out duration-300">
-          <svg class="h-6 w-6 text-gray-300 fill-current ease-in-out duration-300 group-hover:text-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <!-- Fellowship Finder -->
+    <div class="relative group py-6 px-6 md:px-16 bg-gray-100 rounded-[70px] md:rounded-tl-[140px] hover:cursor-pointer">
+      <a class="flex flex-col md:flex-row items-center md:space-x-8" href="https://eliyah.com/fellowship/" target="new">
+        <div class="absolute top-0 right-0 p-10 group-hover:p-8 ease-in-out duration-300">
+          <svg class="h-6 w-6 text-gray-600 fill-current ease-in-out duration-300 group-hover:text-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
           </svg>
         </div>
-        <div class="relative w-full md:w-1/2 my-12 md:my-32">
-          <p class="text-oiioaccent text-sm subpixel-antialiased uppercase font-semibold tracking-wide">OpenImageIO</p>
-          <h4 class="font-bold text-4xl mt-1 text-white">
-            Logo and brand guidelines for a C++ library.
+        <div class="relative w-full md:w-1/2 my-10 md:my-32">
+          <p class="text-ffblue text-sm subpixel-antialiased uppercase font-semibold tracking-wide">Fellowship Finder</p>
+          <h4 class="font-semibold text-4xl mt-1 text-gray-700">
+            Fellowship finder directory web application.
           </h4>
-          <p class="text-gray-400 text-base subpixel-antialiased mt-2">Logo / Brand guidelines</p>
-          <p class="text-gray-400 text-lg md:text-base font-serif mt-3 mb-3">
-            I created the logo and brand guidelines for OpenImageIO, a library for reading and writing images. The open-source library is used extensively in animation and VFX studios all over the world, and is incorporated into several commercial products.
+          <p class="text-gray-700 text-base subpixel-antialiased mt-2">Laravel / Alpine.js / Tailwindcss</p>
+          <p class="text-gray-700 text-lg md:text-base max-w-xl mt-3">
+            EliYah Ministries needed a new directory where users could search for fellowship in their area. The project included search, listings, email notifications, a user dashboard, private messaging, and moderation system.
           </p>
-          <small class="text-xs text-gray-400">The OpenImageIO logo is a trademark of LF Projects, LLC. Used here with permission.</small>
         </div>
-        <div class="w-full md:w-1/2 pl-0 md:pl-2">
-          <img class="w-auto h-auto mx-auto" src="/work/oiio/oiio-logo.png" alt="OpenImageIO logo">
+        <div class="w-full md:w-1/2 mb-6 md:mb-0 pl-0 md:pl-4">
+          <img class="w-auto h-auto mx-auto" src="/work/fellowshipfinder/fellowship-finder.png" alt="Fellowship Finder home">
         </div>
       </a>
     </div>

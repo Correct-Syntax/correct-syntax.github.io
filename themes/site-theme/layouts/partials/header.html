@@ -1,37 +1,37 @@
 <header>
-  <nav x-data="{ navOpen: false }" class="w-full bg-white">
-		<div class="max-w-6xl mx-auto px-4 border-b-2 border-gray-200">
+  <nav x-data="{ navOpen: false }" class="w-full transition-all bg-white">
+		<div class="font-poppins max-w-7xl mx-auto px-4">
 		  <div class="flex justify-between">
 			<div class="flex space-x-4">
 				<div class="my-auto"> 
 				  <a href="/" class="flex items-center px-2 my-auto"> 
-					<h4 class="text-2xl font-bold text-gray-700 hover:text-accent ease-in-out duration-300">Noah Rahm</h4>
+					<h4 class="text-2xl font-semibold text-gray-700 hover:text-accent ease-in-out duration-300">Noah Rahm</h4>
 				  </a> 
 				</div> 
 			</div>
-			<div class="hidden md:flex items-center space-x-3">
+			<div class="hidden md:flex items-center space-x-8">
 				{{ $url := .RelPermalink }}
 				{{ range $menuId, $menuItem := .Site.Menus.main }}
 				{{ $active := eq $url $menuItem.URL }}
-			  <a href="{{ .URL }}" class="my-4 px-3 py-1 hover:text-accent hover:bg-gray-100 rounded-md ease-in-out duration-300 {{ if ($active)}}text-accent font-semibold{{else}}text-gray-600{{end}}">
+			  <a href="{{ .URL }}" class="my-4 px-3 py-1 hover:text-accent hover:bg-gray-100 rounded-full ease-in-out duration-300 {{ if ($active)}}text-accent font-semibold{{else}}text-gray-600{{end}}">
 					{{ .Name }}
 				</a> 
 				{{ end }}
 			</div>
-			<button class="inline md:hidden py-4 px-2 focus:outline-none focus:bg-white" aria-label="Main menu" aria-expanded="false" @click="navOpen = !navOpen" :class="{ 'bg-gray-200' : navOpen }">
+			<button class="inline md:hidden py-4 px-2 focus:outline-none focus:bg-white" aria-label="Main menu" :aria-expanded="false" @click="navOpen = !navOpen" :class="{ 'bg-gray-200' : navOpen }">
 				<svg class="h-8 w-8 stroke-gray-600" :class="{ 'hidden' : navOpen }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
 				</svg>
 				<svg class="hidden h-8 w-8 stroke-gray-600" :class="{ 'hidden' : !navOpen }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M6 18L18 6M6 6l12 12" />
 				</svg>
 			</button>
 		  </div>
 		</div>
-		<div class="flex flex-col text-center md:hidden text-xl pb-8 bg-white border-b-2" :class="{ 'block' : navOpen , 'hidden' : !navOpen }"> 
+		<div class="flex flex-col text-center md:hidden text-xl pb-8 bg-white" :class="{ 'block' : navOpen , 'hidden' : !navOpen }"> 
 			<a href="/about/" class="py-5 px-3 text-gray-700 hover:text-accent ease-in-out duration-500">About</a> 			
-			<a href="/services/" class="py-5 px-3 text-gray-700 hover:text-accent ease-in-out duration-500">Services</a> 
-			<a href="/work/" class="py-5 px-3 text-gray-700 hover:text-accent ease-in-out duration-500">My Work</a> 
+			<!-- <a href="/#services" class="py-5 px-3 text-gray-700 hover:text-accent ease-in-out duration-500">Services</a>  -->
+			<a href="/work/" class="py-5 px-3 text-gray-700 hover:text-accent ease-in-out duration-500">Work</a> 
 			<a href="/posts/" class="py-5 px-3 text-gray-700 hover:text-accent ease-in-out duration-500">Posts</a> 
 		</div>
 	</nav>

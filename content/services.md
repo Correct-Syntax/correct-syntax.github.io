@@ -24,4 +24,4 @@ My past work includes a custom e-commerce solution, online directory web applica
 
 ---
 
-Think I'm a good fit for your project? Feel free to [get in touch](mailto:hi@noahrahm.com) and we'll setup a time to chat.
+Feel free to [get in touch](mailto:hi@noahrahm.com) and we'll setup a time to chat.

@@ -6,7 +6,7 @@ module.exports = {
             ],  
     theme: {    
         fontFamily: {
-          sans: ['Figtree', 'sans-serif'],
+          sans: ['Poppins', 'sans-serif'],
           serif: ['Lora', 'serif'],
         },    
         extend: {          
@@ -23,7 +23,16 @@ module.exports = {
             opcblue: "#1EA09F",
             ffblue: "#5080d1",
             p23pblue: "#1b2332",
-          }        
+          },
+          backgroundImage: {
+            'fine-art': "url('/img/fine-art-sketchbook.webp')",
+            'flowers-closeup': "url('/img/flowers-closeup.webp')",
+            'code': "url('/img/code.webp')",
+            'web-design': "url('/img/web-design.webp')",
+          },
+          screens: {
+            'xxs': '540px',
+          },     
         }  
     },  
     plugins: [],

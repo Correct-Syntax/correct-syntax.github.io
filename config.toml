@@ -31,12 +31,6 @@ summaryLength = 12
     weight = 10
 
   [[menu.main]]
-    name = "Services"
-    identifier = "services"
-    url = "/services/"
-    weight = 20
-
-  [[menu.main]]
     name = "Work"
     identifier = "work"
     url = "/work/"
