@@ -4,7 +4,7 @@ layout: "about"
 type: "page"
 ---
 
-Based in the central United States, I provide bespoke visual design and development services for organizations, startups, and businesses. I especially love working on meaningful projects that glorify our Heavenly Father Yahweh and have a positive impact on others.
+Based in the central United States, I provide visual design and development services for organizations, startups, and businesses. I especially love working on meaningful projects that glorify our Heavenly Father Yahweh and have a positive impact on others.
 
 I’m currently open to new client work and collaboration opportunities, so feel free to get in [get in touch](mailto:hi@noahrahm.com).
 
