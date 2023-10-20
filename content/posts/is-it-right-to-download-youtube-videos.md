@@ -4,12 +4,11 @@ date: '2023-03-19'
 draft: false
 image: "/posts/is-it-right-to-download-yt-videos/yt-videos-and-tos.jpg"
 description: "With how popular YouTube is, chances are you either had this question cross your mind, or didn't even think about it and went to download videos using one of the free 'YouTube video downloaders' available online. Is it right or wrong to do so?"
+intro: "Is is right to download videos from YouTube using third-party download sites or software?"
 ---
 
 
-### The question
-
-> "Is is right to download videos from YouTube using third-party download sites or software?"
+### Why the question?
 
 With how popular YouTube is, chances are you either had this question cross your mind, or didn't even think about it and went to download videos using one of the free "YouTube video downloaders" available online.
 

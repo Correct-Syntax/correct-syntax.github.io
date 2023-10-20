@@ -1,9 +1,10 @@
 ---
 title: Web Design and Development Services
-description: The services I offer
-layout: "services"
+description: 
+layout: "static-page"
 type: "page"
 ---
+
 
 #### Design services
 
@@ -21,7 +22,3 @@ My past work includes a custom e-commerce solution, online directory web applica
 - Custom Wordpress theme and plugin development
 - Static website development via Hugo or Sveltekit
 - Visual Wordpress "development" using the Gutenburg block editor
-
----
-
-Feel free to [get in touch](mailto:hi@noahrahm.com) and we'll setup a time to chat.

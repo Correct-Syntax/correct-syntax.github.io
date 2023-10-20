@@ -4,13 +4,8 @@ date: '2023-04-28'
 draft: false
 image: "/posts/looking-ahead/looking-ahead.jpg"
 description: "I was talking with a friend one day and he noticed that we were selling a used, luxury recliner. He asked, How much are you asking for it?..."
+intro: I was talking with a friend one day and he noticed that we were selling a used, luxury recliner. He asked, How much are you asking for it?
 ---
-
-###
-
-I was talking with a friend one day and he noticed that we were selling a used, luxury recliner. 
-
-He asked, "How much are you asking for it?". 
 
 "Two-hundred and fifty", I replied. 
 
@@ -22,7 +17,7 @@ He replied with a neat perspective I had evidently forgotten the moment before.
 
 He explained how, when you think about it, if the recliner lasts you 10 years and you use it even 1 hour a day and it makes your life better then in reality you are only paying cents per day for the recliner. And even if you didn't use it that much, it provided comfortable seating that contributed to your happiness and, in many cases, your health.
 
-**Then it hit me.** He was right. It's all a matter of *perspective* to see the *value* of investing in the long term rather than just thinking about the upfront cost. 
+He was right. It's all a matter of *perspective* to see the *value* of investing in the long term rather than just thinking about the upfront cost. 
 
 According to [this site](https://cozyseating.com/how-long-should-recliner-last/), a recliner should last 7-15 years.
 Taking the average of that, which is 11 years, and saying that someone uses the recliner just twice everyday (a pretty a modest estimate for most people) I thought I would do the math:

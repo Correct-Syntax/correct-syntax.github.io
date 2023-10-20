@@ -4,6 +4,7 @@ date: '2023-01-02'
 draft: false
 image: "/posts/life-lessons-2022/life-lessons.jpg"
 description: "A reflection of lessons that stand out to me the most from 2022"
+intro: Here is a reflection of lessons that stand out to me the most from the year 2022
 ---
 
 

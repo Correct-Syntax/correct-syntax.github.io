@@ -1,6 +1,6 @@
 ---
-title: Design and Development Work
-subtitle: A selection of my work and side projects
+title: Portfolio of Selected Work
+subtitle: A selection of my work
 layout: "work"
 type: "page"
 ---
