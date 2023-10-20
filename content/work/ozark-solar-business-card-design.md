@@ -3,13 +3,13 @@ title: Multi-fold business card design for a solar energy consultant
 client: Ozark Solar
 deliverables: Multi-fold business card design
 weburl:
-description: Beau, a solar consultant for Ozark Solar, needed a multi-fold business card to give out to residents in the area that might be interested in having a solar energy system installation. I sat down with Beau to understand their services and create a unique, yet clear and convincing business card design.
+description: A solar consultant for Ozark Solar, needed a multi-fold business card to give out to residents in the area that might be interested in having a solar energy system installation. I sat down with Beau to understand their services and create a unique, yet clear and convincing business card design.
 image: /work/ozarksolar/business-cards.webp
 layout: "case-study"
 type: "page"
 ---
 
-Beau, a solar consultant for Ozark Solar, came prepared with a bullet-point list of compelling reasons someone should to go with Ozark Solar for their solar energy system installation services. 
+Beau came prepared with a bullet-point list of compelling reasons someone should to go with Ozark Solar for their solar energy system installation services. 
 
 I worked with him to fine-tune the wording and make sure the most common questions were answered at a glance. It was clear that highlighting that Ozark Solar is a trusted, well-established company with fair benefits was the way to go. Having been in business for over 15 years, Ozark Solar had the experience, knowledge, and honesty that stood out from the competition.
 
