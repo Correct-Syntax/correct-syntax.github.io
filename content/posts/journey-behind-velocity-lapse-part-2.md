@@ -8,30 +8,32 @@ intro: This is the second post in a series of 'dev-log' posts of my personal jou
 ---
 
 
-### Continuing the journey
-
-In the previous post, I shared how I had begun creating [Velocity Lapse](https://velocitylapse.com), a time lapse app for Android. 
-
-This is the second post in a series of "dev-log" posts of my personal journey and learning process. Be sure to read [Part 1](/posts/journey-behind-velocity-lapse-part-1/), where I shared the my experience up to the first internal testing release.
+In [Part 1](/posts/journey-behind-velocity-lapse-part-1/), I shared the "journey" of creating [Velocity Lapse](https://velocitylapse.com) (a time lapse app for Android), up to the first internal testing release. 
 
 
-### More technical setbacks
+### Technical setbacks
 
-If I've made it seem like development was easy with only a few snags in the previous post, then let me reassure you that it wasn't easy in this post. 
+If I've made it seem like development was easy with only a few snags in the previous post, then let me reassure you that it wasn't. 
 
 #### Why I am sharing technical issues
 
-It would take a while to relate to you all of the technical challenges I encountered and I don't want to make this into a series of posts relating every problem I've had. However, I think it's worth briefly mentioning some of them so that someone can learn and benefit from my mistakes and research.
+It would take a while to relate to you all of the technical challenges I encountered. I also don't want to make this into a series of posts relating every problem I've had! 
 
-#### Flutter camera bug
+However, I think it's worth briefly mentioning some of them so that someone can learn and benefit from my mistakes and research.
 
-An "easier" issue to fix related to a bug in the Flutter camera package, where the maximum capture resolution was determined by the video capture resolution supported by the device hardware. Thankfully there was some patch code available which I adapted to allow capturing 4K (if supported) and the full camera sensor resolution.
+#### Resolving a limitation of the official camera package
+
+Since I was using a fork of the official Flutter camera package, the maximum capture resolution was determined by the video capture resolution supported by the device hardware. 
+
+It seems that someone else had come across this limitation as well and had created a fork with some patch code. I was able to adapt the code to allow capturing 4K (if supported) and the full camera sensor resolution.
 
 #### Another encoder issue
 
-As it would be, though, fixing that issue led to uncovering another problem. 
+As it would be, though, resolving that limitation led to uncovering something else. 
 
-When exporting a video with a resolution higher than the supported video capture resolution, the encoder would crash with a null pointer exception. So, more issues with the encoder but this time relating to the video encoding resolution. 
+When exporting a video with a resolution higher than the supported video capture resolution, the encoder would crash with a null pointer exception. 
+
+So, more issues with the encoder but this time relating to the video encoding resolution. 
 
 Thankfully, [@sundrycode](https://github.com/sundrycode) graciously helped out with his Android development experience.
 
@@ -39,23 +41,21 @@ After we both did a ridiculous amount of online searching going down multiple ra
 
 It appears that the device encoding resolution implementation for the MediaCodec api is determined by the supported *video capture* resolution. Therefore, encoding a 4K video isn't going to be supported on a device that only supports HD video. For most new but cheap Android phones, the video capture resolution is 1080p HD (1920x1080).
 
-Indeed it is a hunch, but it seems to be confirmable. If you know for certain please [let me know](mailto:hi@noahrahm.com).
+Indeed it is a hunch, but it seems to be confirmable and logical. If you know for certain please let me know in the comments below.
 
 
 ### First open testing release
 
-Getting to the point where I figured the app was stable enough for open testing (also known as "early access") took 4 months of hard work. Finally, I couldn't hold off any longer.
+Getting to the point where I figured the app was stable enough for open testing (also known as "early access") took 4 months of work.
 
 In order to submit Velocity Lapse to Google Play for review, I went through the process of writing a description, creating a feature image, and capturing and editing screenshots for the app store page.
 
-I wrote the description highlighing the main features and the fact that Velocity Lapse captures images rather than capturing straight to video. It wasn't a great description but it did the job.
-
-{{< figure src="/posts/journey-behind-velocity-lapse-2/google-play-listing-1.jpeg" alt="Velocity Lapse's first Google Play listing" caption="The first Google Play listing" >}}
+I wrote the description highlighing the main features and the fact that Velocity Lapse captures images rather than capturing straight to video. It wasn't a great description, but it did the job.
 
 After submitting, I didn't waste time waiting around for the review to go through. The release was another milestone in my journey, but the app still needed a lot of work before it could really be a great app and something someone would pay for. 
 
 
-### Why I won't use stock images to promote the app
+### Why I won't use stock images to promote Velocity Lapse
 
 One thing to note is that I've committed to only displaying images and screenshots on the listing and website that were **actually** captured using Velocity Lapse on a mobile device. 
 
@@ -63,91 +63,101 @@ What do I mean? Well, I won't be showcasing Velocity Lapse using stock photograp
 
 You may be surprised, but sadly it is not uncommon for even well-known apps - even some [mobile camera apps](https://www.youtube.com/watch?v=VLKvg8a6g4E) - to use stock photography for the app store listing. 
 
-Now, for some apps I think that it is fine to use stock photography, such as photo editors, because there is nothing to say what camera took the image. However, for an app where the camera functionality is a big feature (or, *gasp* -the main feature!), the best way to showcase the app is by displaying images that it captured. Anything else would seem to be deceptive and/or misleading in my mind.
+Now, for some apps I think that it is fine to use stock photography, such as photo editors. There's nothing to say what camera took the image. 
 
-Although using images that were actually captured with the app can mean that there isn't as much variety and/or it doesn't look as good, it does give the viewer an accurate idea of what to expect and thus keeps their expectations in line with reality.
+However, for an app where the camera functionality is a big feature (or, *gasp* -the main feature!), the best way to showcase the app is by displaying images that it captured. Anything else would seem to be deceptive and/or misleading in my mind.
+
+Although using images that were actually captured with the app can mean that there isn't as much variety and/or it doesn't look as good, it does give the viewer an accurate idea of what to expect. Thus, it keeps their expectations in-line with reality.
 
 
 ### Promotion and my social media strategy
 
-One idea which [@sundrycode](https://github.com/sundrycode) and a few others suggested, was to post timelapse videos captured with Velocity Lapse to inspire others to create their own. The thought was that maybe if the videos got popular enough, they would promote the app on their own. They also serve as real-life examples of what can be created with the app.
+One idea which [@sundrycode](https://github.com/sundrycode) and a few others suggested, was to post timelapse videos created with Velocity Lapse. 
 
-So, I created a [Youtube channel](https://www.youtube.com/channel/UCenuOeODNjdVohMTvKv15fQ) and began posting time lapse videos there. I also created an [Instagram account](https://www.instagram.com/velocitylapseapp/) but it sat there unused for a few months, until I got around to making content to post there. 
+The thought was that maybe if the videos got popular enough, they would promote the app and inspire others to create their own. They would also serve as real-life examples of what can be created with Velocity Lapse.
 
-In addition, I did quite a bit of posting on Reddit, replying to posts looking for a time lapse app. Since the OP was asking for time lapse apps and those viewing the post were likely looking as well, it was a good way to get some first users and help them find something they could use to create time lapses.
+So, I created a [Youtube channel](https://www.youtube.com/channel/UCenuOeODNjdVohMTvKv15fQ) and began posting time lapse videos there. I also created an [Instagram account](https://www.instagram.com/velocitylapseapp/), but it sat there unused for a few months, until I got around to making content to post there. 
+
+In addition, I did quite a bit of posting on Reddit. Mostly just replying to existing posts looking for a time lapse app. Since the OP was asking for time lapse apps and those viewing the post were likely looking as well, it was a good way to get some first users and help them find something they could use to create time lapses.
 
 All in all, this was a pretty good strategy looking back at the successes in both avenues.
 
 
-### User testing and UI refactoring
+### User testing and the interface refactoring loop
 
-After yet more user testing and feedback, I began a refactoring of the UI which at first primarily centered around the home view.
+After yet more user testing and feedback, I began a refactoring of the UI. At first, it primarily centered around the home view.
 
-The most useful method of conducting user testing that I have found is physically watching the test users use the app. I mean practically looking over their shoulder and writing down notes about their interaction. Getting face to face feedback, both positive and negative and seeing how people use the app in real life crushes some dreamy, false notions you can have as a developer/designer about how the app should work.
+The most useful method of conducting user testing that I have found is physically watching the test users use the app. I mean practically looking over their shoulder and writing down notes about their interaction. 
+
+Getting face-to-face feedback, both positive and negative and seeing how people use the app in real life crushes some dreamy, false notions you can have as a developer/designer about how the app should work.
 
 Getting this feedback at this point brought up some good ideas for improvements as well as confirmed some ideas that I was personally hesitant to implement (I'll admit).
 
-It was without doubt a popular request to add a gallery to view exported timelapse videos so I added it to the near future roadmap. I also moved the main call to action buttons to a more thumb friendly position and polished up various parts of the UI.
+It was without doubt a popular request to add a gallery to view exported videos, so I added it to the near future roadmap. I also moved the main call to action buttons to a more thumb friendly position and polished up various parts of the UI.
 
 
-#### Introducing the bottom nagivation bar
+#### Introduction of the bottom nagivation bar
 
-In order to better organize the new features such as importing a sequence of images as a project, I introduced a bottom navigation bar to divide Velocity Lapse's main functions into understandable categories. This proved to be a very good decision as later I was able to just drop in the Manual Capture mode once it was implemented.
+In order to better organize the new features such as importing a sequence of images as a project, I introduced a bottom navigation bar. It divided Velocity Lapse's main functions into three understandable categories. 
 
 {{< figure src="/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg" alt="Bottom navigation" caption="Introducing the bottom tab navigation" >}}
 
 
 ### The second open testing release
 
-With the new import images as a project feature and the UI refactor, I was eager to publish and roll out another release.
+With the new "import images as a project" feature and the UI refactor, I was eager to publish and roll out another release.
 
 Thankfully, by the time I had the release ready a week later, the Google Play app review went through and Velocity Lapse was finally published for public, early access.
 
 
 ### Third open testing release
 
-The third open testing release included the new tab navigation and import images as project feature which I submitted the same day.
+The third open testing release included the new tab navigation and the "import images as project" feature.
 
-I now felt like promoting a bit so I updated the website and replied to a few questions asking for time lapse app suggestions on Reddit. It turned out to be a good thing as over the next few months, a couple people found Velocity Lapse through my comment and gave positive feedback.
+I now felt like promoting a bit so I updated the website and replied to a few questions asking for time lapse app suggestions on Reddit. It turned out to be a good thing as over the next few months, a couple of people found Velocity Lapse through my comment and gave feedback.
 
 
-### Focus on the things users care about
+### Focusing on the things users care about
 
 Listening and acting upon user feedback can be hard. For Velocity Lapse, the feedback was mainly concerning missing features.
 
 As a designer and developer that also has a tendency to be a pefectionist, it can be very easy to prioritize the things I care about (a clean, sleek interface and well-written code) rather than the things end users actually care about (like feature X or Y). 
 
-I was reminded that tweaking the UI is great, but ultimately most users will accept the way that it is. They *will* care whether a certain feature is available and works. So, focus on features that meet the needs of the user.
+I was reminded that tweaking the UI is great, but ultimately most users will accept the way that it is. They *will* care whether a certain feature is available and works. So, I need to focus on *functional* features that meet the needs of the user.
 
 Working on "fun" parts that I like is great, but if in the end users don't ever need it, then it is a waste of time.
 
 
 ### Adding Manual Capture mode
 
-The capture view with the interval setting and other features was great, however it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over extended periods of time. Or, to put it differently: catering to those who would rather not leave their device while it is capturing.
+The capture view with the interval setting and other features was great, however it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over *extended periods of time*. It would also catering to those who would rather not leave their device somewhere while it is capturing.
 
 {{< figure src="/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg" alt="Manual capture view" caption="The manual capture view in v0.0.4+6" >}}
 
-In order to cover all bases, I added a Manual Capture mode which is a camera screen with an overlay of the previous image and an indicator telling when the last image was captured. This was simple enough to do, but it still took time to differentiate the project UI from the normal timelapse capture mode and design and develop the special interface for it.
+I named this mode, the Manual Capture mode. It includes a camera view with an overlay of the previous image and an indicator telling when the last image was captured. 
+
+This was simple enough to implement, but it still took time to differentiate the project UI from the normal Timelapse capture mode and develop the special interface for it.
 
 
 ### First submitted feedback
 
-After nine versions released into early access, I felt more confident about the app as it had come aways since the first version, going from a barely useable app to an app I actually wanted and enjoyed using almost everyday.
+After nine versions released into early access, I felt more confident about Velocity Lapse. It had come aways since the first version, going from a barely useable app to an app I actually wanted and enjoyed using almost everyday.
 
-At this point, I updated the velocitylapse.com landing page to better showcase the app and allow people to download it on Google Play. 
+At this point, I updated the website landing page to better showcase the app and direct visitors to Google Play. 
 
 Not long after, I received the first externally submitted feedback on Velocity Lapse. It included a crash report and a few suggestions on how to make the import images as projects feature more user-friendly.
 
 
 ### Monitizing the app
 
-If I was creating a free app, the main work would be complete. However, because this is an app with IAPs (in-app purchases), it required the steps to integrate with Google Play billing. This turned out to be one of more challenging parts of creating Velocity Lapse.
+If I was creating a free app, the main work would be complete. However, because this is an app with IAPs (in-app purchases), it required the steps to integrate with Google Play billing. This turned out to be one of more challenging parts of creating Velocity Lapse thus far.
 
 
 #### The question of app monitization
 
-There was one thing I was not confident about, and that is what features to have as in-app purchases for the PRO version. For the time being, I settled upon having the free version limited in the following ways:
+There was one thing I was not confident about, and that is what features to have as in-app purchases for the PRO version. 
+
+I settled upon having the free version limited in the following ways:
 
 ###### FREE VERSION
 
@@ -165,11 +175,13 @@ This way, the free version of the app is limited in a way that all the features 
 
 #### Keeping the Sabbath day
 
-Something that I wanted to make sure to do, is block purchasing Velocity Lapse PRO on Saturday in observance of the Sabbath day. 
+Something that I wanted to make sure to do, was block purchasing Velocity Lapse PRO on Saturday, in observance of the Sabbath day. 
 
 I believe in keeping the seventh day Sabbath (Roman Saturday) as described in the Bible. The Sabbath is a set-apart day of rest and so no buying, selling, or trading is to be done on it (as I understand it).
 
-I'll state here that I am **not** a part of any demonination (SDA or otherwise). My motivation for keeping the Sabbath holy is to do as Yahweh, our Heavenly Father Himself, and our Savior did: rest on the seventh day.
+I'll state here that I am **not** a part of any demonination (SDA or otherwise). 
+
+My motivation for keeping the Sabbath holy is to do as Yahweh, our Heavenly Father Himself, and our Savior did: rest on the seventh day.
 
 > "And on the seventh day Yahweh ended his work which he had made; and he rested on the seventh day from all his work which he had made. And Yahweh blessed the seventh day, and sanctified it: because that in it he had rested from all his work which Yahweh created and made." -Genesis 2:2-3
 
@@ -179,35 +191,39 @@ There are many more verses in the Bible regarding the importance of keeping the 
 
 For some Django-based websites I worked on in the past, I had created and used a Django app called [Keep Sabbath](https://github.com/Correct-Syntax/Keep-Sabbath) which would redirect visitors, or show a banner stating that the e-commerce site was closed for the Sabbath day.
 
-I did something similar for Velocity Lapse, so that when the ``day == "Saturday"`` in the user's location, a screen would come up letting them know that they wouldn't be able to purchase until the next day. 
+I did something similar for Velocity Lapse, so that a screen would come up letting them know that they wouldn't be able to purchase until the next day. 
 
 The saying, *"A day of rest, a Sabbath request: please refrain from purchasing between sundown Friday and sundown Saturday."* was inspired by someone else's banner I had seen. 
 
 
-#### Technical implementation
+#### Technical implementation of IAP
 
-Creating the PRO upgrade screen UI itself was one of the screen I most enjoyed implementing (for whatever reason). However, implementing the IAP integration itself proved to be a lengthy process.
+Creating the PRO upgrade screen UI itself was one of the screen I most enjoyed implementing (for whatever reason). 
 
-I decided to use [RevenueCat](https://revenuecat.com) to manage purchase validation, etc. rather than writing and maintaining my own web API to do so. Setting up a Google cloud service account and connecting it to RevenueCat for accessing the Play Store API on my behalf was a lengthy, but necessary process. 
+However, implementing the IAP integration itself proved to be a lengthy process.
 
-Unfortunately, not everything in the docs for Flutter integration was as clear as I thought it should be. 
+I decided to use [RevenueCat](https://revenuecat.com) to manage purchase validation, etc. rather than writing and maintaining my own web API to do so. 
 
-The main culprit of the problems was Dart null safety. Many articles online didn't handle null safety and the snippets in the RevenueCat docs only went so far. For that reason, I may write a post in the future on how to implement RevenueCat with Flutter and Dart null safety.
+Setting up a Google cloud service account and connecting it to RevenueCat for accessing the Play Store API on my behalf was a lengthy, but necessary process. 
 
-In the end I had a single in-app purchase for users to upgrade to Velocity Lapse PRO for $3.99 USD.
+Unfortunately, not everything in the docs for Flutter RevenueCat integration was as clear as I thought it should be. 
+
+The main culprit of the problems was Dart null safety. Many articles online didn't handle null safety, and the snippets in the RevenueCat docs only went so far. For that reason, I may write a post in the future on how to implement RevenueCat with Flutter and Dart null safety.
+
+Thankfully, I was familiar enough with Dart to figure it out. In the end, I had a single in-app purchase for users to upgrade to Velocity Lapse PRO for $3.99 USD.
 
 
 ### Updating the Google Play listing (again)
 
-Now that we had a pretty solid version of Velocity Lapse, I went and took updated screenshots of major screens of the app and created phone screenshots for the Google Play listing. This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.
+Now that we had a pretty solid version of Velocity Lapse, I went and captured updated screenshots of major screens of the app and created phone screenshots for the Google Play listing. 
 
-Since I had already been posting some of the timelapse videos I had captured on the official Velocity Lapse YouTube channel, I added one of the videos as the "feature video" for Google Play. In my opinion, just adding the video made the listing look a lot better than before.
+This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.
 
-{{< figure src="/posts/journey-behind-velocity-lapse-2/google-play-listing-2.jpeg" alt="Velocity Lapse Google Play listing" caption="Updated Google Play listing" >}}
+For the months prior, I had been posting some of the timelapse videos I had captured to the official Velocity Lapse YouTube channel. I added one of the videos as the "feature video" for Google Play. In my opinion, just adding the video made the listing look a lot better than before.
 
 ### Posting on Reddit
 
-I submitted a [Reddit post](https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/) to gather feedback regarding Velocity Lapse. The post received 700+ views in the first week. It did cause a surge of downloads and I did recieve some helpful feedback (albeit, not on Reddit itself).
+I submitted a [Reddit post](https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/) to gather feedback regarding Velocity Lapse. The post received 700+ views in the first week. It caused a surge of downloads and I did recieve some helpful feedback (albeit, not on Reddit itself).
 
 
 ### Big features, big holdups
@@ -216,9 +232,9 @@ The next tasks on the roadmap were to get 4k export and manual camera controls i
 
 #### 4K video export
 
-4k export to video wasn't a huge feature to implement, but since I didn't have an Android device that supported 4k, it made testing tricky. I ended up getting an hour to test on a friend's phone which I hope is enough to have caught any issues. 
+4k export to video wasn't a huge feature to implement. However, since I didn't have an Android device that supported 4k, it made testing tricky. I ended up getting an hour to test on a friend's phone which I hoped was enough to have caught any issues. 
 
-If not... I'm sure users will let me know. ;) 
+If not... I was sure users would let me know.
 
 > **EDIT:** they did.
 
@@ -228,38 +244,44 @@ I spent two weeks working through the Android camera2 API to implement manual ca
 
 #### The woes of the camera2 API
 
-Needless to say, working with the Android camera2 API was not easy. Something that worked on one device didn't on another, which lends to the reason it is [notorious](https://www.androidpolice.com/why-third-party-camera-apps-are-so-bad-on-android/) for fragmented support and overall a bad experience for developers, so much so that some app developers [give up on it](https://9to5google.com/2020/02/29/moment-pro-camera-app-android-exclusive/). Which, makes me feel uneasy and sort of mad.
+Needless to say, working with the Android camera2 API was not easy. 
 
-The first time I tried to capture a night timelapse of the stars, it didn't turn out as I expected. I had been working on implementing shutter speed and ISO controls which would allow for night captures. I set the device out to capture and it seemed perfect in the camera preview. However, when came back and looked at the captured images afterwards, I realized that images were being captured as if auto exposure was still on.
+Something that worked on one device didn't on another, which lends to the reason it is [notorious](https://www.androidpolice.com/why-third-party-camera-apps-are-so-bad-on-android/) for fragmented support and overall a bad experience for developers. So much so that some app developers [give up on it](https://9to5google.com/2020/02/29/moment-pro-camera-app-android-exclusive/). Which, makes me feel uneasy and sort of mad.
 
-Finally after two weeks of researching and testing to get manual camera controls implemented correctly, I finally got the code to a point where it worked. I tried capturing a starry night timelapse once again. I pointed the device upwards, set the shutter speed to 1 sec and the ISO to 6400, then left it to time lapse for ~2 hours. 
+The first time I tried to capture a night timelapse of the stars, it didn't turn out as I expected. I had been working on implementing shutter speed and ISO controls which would allow for night captures. 
 
-The result was satisfying for a first successful attempt and I was happy to use the video on the website straightaway and post it on YouTube. You will see later that this starry night time lapse video gets popular.
+I set the device out to capture and it seemed perfect in the camera preview. However, when came back and looked at the captured images afterwards, I realized that images were being captured as if auto exposure was still on.
+
+Finally after two weeks of researching and testing to get manual camera controls implemented correctly, I finally got the code to a point where it worked. 
+
+I tried capturing a starry night timelapse once again. I pointed the device upwards, set the shutter speed to 1 sec and the ISO to 6400, then left it to time lapse for ~2 hours. The result was satisfying for a first successful attempt. 
+
+I was happy to post the video on YouTube since it was the first night timelapse that had turned out fairly nicely.
 
 ### Some encouragement via positive feedback
 
-Thankfully, it was now working and more users and positive feedback came as a result of my posts on Reddit which was encouraging. Nicely timed it was, as one person suggested that I add manual camera controls!
+Thankfully, it was now working and more users and positive feedback came as a result of my posts on Reddit, which was encouraging. Nicely timed it was, as one person suggested that I add manual camera controls!
 
 
-### Turning the landing page into more of a website 
+### Turning the landing page into a website 
 
 I finally took some time aside to create a decent design for [the website](https://velocitylapse.com) that would showcase the app features and the timelapses that I had captured with it. My main thought with it was to inspire people to get out and create their own time lapses.
-
-{{< figure src="/posts/journey-behind-velocity-lapse-2/velocity-lapse-website-10-26-22.png" alt="Velocity Lapse website" caption="Finally, a decent website for Velocity Lapse" >}}
 
 At this point, there was 97 total app downloads and 40 active installs.
 
 ### An opportunity to learn more in-depth about photography
 
-Essentially, in the process of creating Velocity Lapse's camera features, I have been working towards a manual camera app. I found that kind of interesting. 
+Essentially, in the process of creating Velocity Lapse's camera features, I'm working towards a camera app with extra-nice timelapse functionality. I find that kind of interesting. 
 
-What's nice about working on this kind of project that deals with the camera is that its enabled me (maybe 'given me a good excuse' is better wording) to spend time learning about manual camera controls in-depth, professional photography and of course, time lapse photography. 
+What's nice about working on this kind of project that deals with the camera is that its enabled me (maybe 'given me a good excuse' is better wording) to spend time learning about manual camera controls in-depth, professional photography and, of course, time lapse photography. 
 
 Had I chosen to work on a project like a file manager, I wouldn't have probably ever taken the time to dive into photography as I have now. Needless to say, I don't regret my decision (quite the opposite). 
 
 ### An opportunity to enjoy creation
 
-During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation; namely the sky. Whether it's wispy clouds or a pink and blue sunset, creating a time lapse app has given me a good excuse to pay attention to it. 
+During the process of creating and testing the app I have had the opportunity to spend more time enjoying creation. Namely, the sky. 
+
+Whether it's wispy clouds, or a pink and blue sunset, creating a time lapse app has given me a good excuse to pay attention to it. 
 
 I've really enjoyed it and maybe through creating this app, maybe I can compel and give more people an "excuse" to get out and enjoy it too.
 
@@ -269,22 +291,24 @@ I've really enjoyed it and maybe through creating this app, maybe I can compel a
 So, I encourage you to [download the app](https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse) and go outside to capture a time lapse yourself. :)
 
 
-### The starry night sky timelapse video gets popular
+### The starry night sky timelapse video gets popular on Youtube
 
-Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse I posted on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, **4.7K views and 46 likes in the first 3 weeks**, and has 6K views and 56 likes as of this writing.
+Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, **4.7K views and 46 likes in the first 3 weeks**, and has 6K views and 56 likes as of this writing.
 
-> Later update: The video now has **over 82K views**, which is kind of crazy for a 30 second video.
+> Later update: The video now has **over 83K views**, which is kind of crazy (to me) for a 30 second video.
 
 {{< figure src="/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg" alt="Starry night sky timelapse video analytics" caption="A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22" >}}
 
 
-Needless to say, this was way, far better than any other video I posted on any channel. Granted, it was a short video, but it was interesting and new to me especially since other videos on the Velocity Lapse channel had fewer than 100 views (as of this writing).
+Needless to say, this was way, far better than any other video I posted. 
+
+Granted, it was a short video, but it was interesting and new to me especially since other videos on the Velocity Lapse channel had fewer than 100 views (as of this writing).
 
 {{< youtube id="BxRHqPGGO_g" class="youtube-player" >}}
 
-The app downloads tripled and some feedback as well as support queries came my way during this time. I assume is due to the video receiving so much attention.
+The downloads on Google Play tripled and some feedback and support queries came my way during this time. I assume due to the video receiving so much attention.
 
-Oddly enough, this happened while I was away on vacation for 3 weeks. Go figure. ;)
+Oddly enough, this happened while I was away on vacation. Go figure.
 
 
 ### The journey continues
@@ -293,7 +317,7 @@ Thanks for reading. I hope you've enjoyed this post and have gained something fr
 
 If you have a suggestion, a comment or some advice, relating either to the app or this post, I'd love to hear what you have to share either in the comments below or via [email](mailto:hi@noahrahm.com). 
 
-**You can read the next part of the journey in [part 3](/posts/journey-behind-velocity-lapse-part-3/) of this series.**
+**Read the next part of the journey in [part 3](/posts/journey-behind-velocity-lapse-part-3/) of this series.**
 
 ----
 
