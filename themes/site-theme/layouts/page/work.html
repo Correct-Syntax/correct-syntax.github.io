@@ -3,7 +3,7 @@
   <div class="bg-blue-600 pt-28 pb-16">
     <div class="max-w-6xl mx-auto px-4 xl:px-0">
       <span class="text-sm text-white/80 font-medium uppercase tracking-wide mx-auto">Work</span>
-      <h1 class="text-5xl md:text-6xl text-blue-200 font-serif font-light mt-1">{{ .Title }}</h1>
+      <h1 class="text-5xl md:text-6xl text-blue-200 font-serif font-light mt-1 max-w-sm md:max-w-none">{{ .Title }}</h1>
       <div class="block sm:inline-flex mt-4">
         <p class="font-serif font-light tracking-wider text-xl text-white/80 mr-2">Filter by:</p>
         <ul class="block sm:inline-flex sm:space-x-2 font-serif font-light tracking-wider text-xl text-white/80">
@@ -18,7 +18,7 @@
     <div class="max-w-6xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-x-4 gap-y-10">
         <!-- Hilltop Motion -->
-        <a x-show="filter == 'logos' || filter == 'all'" href="https://dribbble.com/shots/22838865-Hilltop-Motion-Logo-Design" target="blank">
+        <a x-show="filter == 'logos' || filter == 'all'" href="/work/hilltop-motion-logo/">
           <div class="relative group">
             <img class="w-auto h-auto" src="/work/hilltopmotion/logo.webp" alt="Hilltop Motion logo design"/>
             <span class="absolute top-0 left-0 bottom-0 bg-transparent group-hover:bg-black/50 overflow-auto w-full duration-500">
@@ -32,7 +32,7 @@
           <p class="text-blue-400/80 text-lg mt-3 max-w-lg mx-4 md:mx-0"><span class="font-medium">Hilltop Motion -</span> Logo for a video & photography studio based in the US.</p>
         </a>
         <!-- OpenImageIO -->
-        <a x-show="filter == 'logos' || filter == 'all'" href="/work/openimageio/">
+        <a x-show="filter == 'logos' || filter == 'all'" href="/work/openimageio-branding/">
           <div class="relative group">
             <img class="w-auto h-auto" src="/work/openimageio/brand-guidelines-book-mockup.webp" alt="OpenImageIO brand guidelines book"/>
             <span class="absolute top-0 left-0 bottom-0 bg-transparent group-hover:bg-black/50 overflow-auto w-full duration-500">
@@ -46,7 +46,7 @@
           <p class="text-blue-400/80 text-lg mt-3 max-w-lg mx-4 md:mx-0"><span class="font-medium">OpenImageIO -</span> Logo and brand guidelines for a popular open source C++ library aimed at VFX applications.</p>
         </a>
         <!-- Flameshot -->
-        <a x-show="filter == 'websites' || filter == 'all'" href="/work/flameshot/">
+        <a x-show="filter == 'websites' || filter == 'all'" href="/work/flameshot-website/">
           <div class="relative group">
             <img class="w-auto h-auto" src="/work/flameshot/flameshot-website.webp" alt="Flameshot website"/>
             <span class="absolute top-0 left-0 bottom-0 bg-transparent group-hover:bg-black/50 overflow-auto w-full duration-500">
@@ -60,7 +60,7 @@
           <p class="text-blue-400/80 text-lg mt-3 max-w-lg mx-4 md:mx-0"><span class="font-medium">Flameshot -</span> Modern website for a powerful, yet simple cross-platform desktop screenshot tool.</p>
         </a>
         <!-- Options -->
-        <a x-show="filter == 'websites' || filter == 'all'" href="/work/options-of-ava/">
+        <a x-show="filter == 'websites' || filter == 'all'" href="/work/options-of-ava-website/">
           <div class="relative group">
             <img class="w-auto h-auto" src="/work/opc/options-of-ava.webp" alt="Options of Ava website"/>
             <span class="absolute top-0 left-0 bottom-0 bg-transparent group-hover:bg-black/50 overflow-auto w-full duration-500">
