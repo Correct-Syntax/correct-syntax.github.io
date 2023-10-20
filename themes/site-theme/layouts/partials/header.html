@@ -29,10 +29,13 @@
 		  </div>
 		</div>
 		<div class="flex flex-col text-center md:hidden text-xl pb-8 bg-blue-600" :class="{ 'block' : navOpen , 'hidden' : !navOpen }"> 
-			<a href="/about/" class="py-5 px-3 text-white">About</a> 			
-			<a href="/#services" class="py-5 px-3 text-white">Services</a> 
-			<a href="/work/" class="py-5 px-3 text-white">Work</a> 
-			<a href="/posts/" class="py-5 px-3 text-white">Posts</a> 
+			{{ $url := .RelPermalink }}
+			{{ range $menuId, $menuItem := .Site.Menus.main }}
+			{{ $active := eq $url $menuItem.URL }}
+			<a href="{{ .URL }}" class="px-3 py-5 {{ if ($active)}}text-blue-200 font-semibold{{else}}text-white/80{{end}}">
+				{{ .Name }}
+			</a> 
+			{{ end }}
 		</div>
 	</nav>
 </header>
