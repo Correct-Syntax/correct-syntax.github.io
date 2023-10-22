@@ -3,8 +3,8 @@ title: "The Journey Behind Velocity Lapse Part 1"
 date: "2022-08-08"
 draft: false
 image: "/posts/journey-behind-velocity-lapse-1/journey-behind-velocity-lapse-part-1-header.jpg"
-description: "This is the start of a series of 'devlog' posts of my personal journey and learning process in creating an app called Velocity Lapse, from planning to launch and beyond."
-intro: This is the first post in a series of 'dev-log' posts of my personal journey and learning process of creating Velocity Lapse, a time lapse app for Android.
+description: "The start of a series of 'devlog' posts of my journey creating an app called Velocity Lapse. In this post I share the app idea, initial planning, UI design, logo creation, initial development, and more"
+intro: In this post I share the app idea, initial planning, UI design, logo creation, start of development, and more
 tags: ['devlog']
 ---
 
@@ -15,11 +15,11 @@ I've been working on a new side-project for the last few months. It's a new time
 
 This post is the start of a series of dev-log posts I'm planning to write of my personal journey and learning process of creating Velocity Lapse. I plan to share the steps of planning, UI design, development, launch, and marketing -some of which is the first time I have done so for a mobile app. 
 
-Though I am not at all new to design or development, mobile app development is a relatively new area for me. My only prior experience with mobile app development are my contributions to [Bible Notify](https://biblenotify.github.io) and some design-related work for another app. 
+Although I am not at all new to design or development, mobile app development is a relatively new area for me. My only experience with mobile app development up to this point are my contributions to [Bible Notify](https://biblenotify.github.io) and some design-related work for another app. 
 
 Above that, this the first time I have directly monitized one of my own software projects as I usually go [open-source](https://github.com/Correct-Syntax) for most non-client projects.
 
-That is to say, if you're more experienced in app development or the business side of things (or even if you not) and you have a suggestion, a comment or some advice, [I'd love to hear](mailto:hi@noahrahm.com) what you have to share. 
+That is to say, if you're more experienced in app development or the business side of things (or even if you not) and you have a suggestion, a comment or some advice, I'd love to hear what you have to share via [email](mailto:hi@noahrahm.com) or the comments section below. 
 
 
 ### The app idea
@@ -31,7 +31,7 @@ Every good project starts with a good, worthwhile idea.
 Initially, some ideas I thought about were:
 
 - A very reliable writers app where you don't lose your work. (Probably sounds silly, but the existing apps, I'm told, don't quite cut it).
-- A file manager that could reach the level of the discontinued "es file explorer". 
+- A file manager that could reach the level of the discontinued "ES file explorer". 
 
 However, while I do write some and I probably could use a file manager, I wasn't interested in those ideas enough or see enough of a need for them *personally*. 
 
@@ -261,7 +261,7 @@ I decided to go for it and embrace it as an unexpected opportunity to learn Kotl
 
 First, I did a bunch of extensive testing to verify that it didn't produce artifacts like jcodec. I did end up having to fix some deprecated code and fix a few things to make it work, but came to the conclusion that with some more customization it would indeed work.
 
-Thankfully, although I've never written in Kotlin before, the transition was pretty smooth with Android Studios Java to Kotlin converter, the Kotlin manual, and a bunch of online searches. The most difficult part was wrapping my head around Kotlin's coroutines, but thanks to some articles online I was able to solve the problem I was having.
+Thankfully, although I've never written in Kotlin before, the transition was pretty smooth with Android Studio's Java to Kotlin converter, the Kotlin manual, and a bunch of online searches. The most difficult part was wrapping my head around Kotlin's coroutines, but thanks to some articles online I was able to solve the problem I was having.
 
 The end result was a much faster, more lightweight renderer than the one written in Java with jcodec. Plus, since the Kotlin version was a smaller package which I pulled directly into the source, I could benefit from being able to make edits/fixes for Velocity Lapse's specific use case. 
 
