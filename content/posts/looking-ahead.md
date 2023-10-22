@@ -5,6 +5,7 @@ draft: false
 image: "/posts/looking-ahead/looking-ahead.jpg"
 description: "I was talking with a friend one day and he noticed that we were selling a used, luxury recliner. He asked, How much are you asking for it?..."
 intro: I was talking with a friend one day and he noticed that we were selling a used, luxury recliner. He asked, How much are you asking for it?
+tags: ['faith', 'lessons']
 ---
 
 "Two-hundred and fifty", I replied. 

@@ -5,7 +5,8 @@
 			<div class="w-full md:w-1/2 xl:w-2/5">
 				<h1 class="font-light font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
 				<p class="font-serif font-light tracking-wider text-xl text-white/80 mt-4">Posted {{ .Date |  time.Format ":date_medium" }}  &bull; <span class="reading-time"></span></p>
-				<div class="">
+				<div class="mt-5">
+					{{ partial "tags.html" . }}
 				</div>
 			</div>
 			<div class="w-full md:w-1/2 xl:w-3/5 mt-10 md:mt-0">
@@ -19,10 +20,10 @@
 		<div class="max-w-md border-l-4 border-blue-400/90 pl-4">
 			<p class="text-2xl text-blue-600/90 font-light font-serif">{{ .Page.Params.Intro }}</p>
 		</div>
-		<div id="post" class="post-content mt-6">
+		<div id="post" class="post-content mt-6 mb-16">
 			{{ .Content }}
 		</div>
-		<div class="giscus mt-6"></div>
+		<div class="giscus"></div>
 		<script src="https://giscus.app/client.js"
 		data-repo="Correct-Syntax/correct-syntax.github.io"
 		data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQ3MDg4OTc="

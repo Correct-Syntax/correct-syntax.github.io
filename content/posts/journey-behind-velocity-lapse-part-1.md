@@ -5,6 +5,7 @@ draft: false
 image: "/posts/journey-behind-velocity-lapse-1/journey-behind-velocity-lapse-part-1-header.jpg"
 description: "This is the start of a series of 'devlog' posts of my personal journey and learning process in creating an app called Velocity Lapse, from planning to launch and beyond."
 intro: This is the first post in a series of 'dev-log' posts of my personal journey and learning process of creating Velocity Lapse, a time lapse app for Android.
+tags: ['devlog']
 ---
 
 

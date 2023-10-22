@@ -1,8 +1,10 @@
 module.exports = {  
   content: ["./layouts/index.html", 
+            "./layouts/404.html", 
             "./layouts/_default/*.{html,js}",
             "./layouts/page/*.{html,js}",
-            "./layouts/partials/*.{html,js}"
+            "./layouts/partials/*.{html,js}",
+            "./layouts/tags/*.{html,js}"
           ],  
   theme: {    
     fontFamily: {
@@ -21,10 +23,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('/hero.webp')",
-      },
-      screens: {
-        'xxs': '540px',
-      },     
+      }  
     }  
   },  
   plugins: [],
