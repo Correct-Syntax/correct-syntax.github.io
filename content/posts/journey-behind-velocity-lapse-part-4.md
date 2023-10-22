@@ -3,17 +3,19 @@ title: "The Journey Behind Velocity Lapse Part 4"
 date: '2023-06-08'
 draft: false
 image: "/posts/journey-behind-velocity-lapse-4/journey-behind-velocity-lapse-part-4-header.jpg"
-description: "This is the fourth post in a series of 'dev-log' posts of my journey to create Velocity Lapse, a time lapse app for Android."
-intro: Welcome to the fourth post in a series of "dev-log" posts of sharing my journey of creating Velocity Lapse, a time lapse app for Android. 
+description: "The fourth in a series of 'devlog' posts of my journey creating Velocity Lapse, a time-lapse app for Android. In this post, I share app improvements, continued growth, one year of Velocity Lapse, and more"
+intro: In this post, I share app improvements, continued growth, one year of Velocity Lapse, and more
 tags: ['devlog']
 ---
 
-You can read the previous posts, [Part 1](/posts/journey-behind-velocity-lapse-part-1/), [Part 2](/posts/journey-behind-velocity-lapse-part-2/), and [Part 3](/posts/journey-behind-velocity-lapse-part-3/) to get context up to this point. If you have any comments, feel free to leave a comment below.
+You can read the previous posts, [Part 1](/posts/journey-behind-velocity-lapse-part-1/), [Part 2](/posts/journey-behind-velocity-lapse-part-2/), and [Part 3](/posts/journey-behind-velocity-lapse-part-3/) to get context of my journey creating [Velocity Lapse](https://velocitylapse.com) up to this point. 
+
+If you have any comments or suggestions, feel free to leave a comment below.
 
 
-### Intentional progress
+### Continued progress
 
-Starting in 2023, I decided to be more intentional with what and when I work on Velocity Lapse. 
+Starting in 2023, I decided to be more intentional with when I work on Velocity Lapse to avoid burnout. 
 
 
 #### Slower pace
@@ -25,7 +27,7 @@ And so, I slowed down the pace of development and shifted my priorities to fit.
 
 #### Flurry Analytics
 
-Ultimately, I decided that it doesn't benefit the users for me to *not* have the information I need to improve the app and fix crashes. So I reluctantly added Flurry analytics to the app. I also realized that I order to get proper stack traces from crashes, I'd need to upload debug symbols to Google Play.
+Ultimately, I decided that it doesn't benefit the users for me to *not* have the information I need to improve the app and fix crashes. When it comes down to privacy vs. being able to fix issues quicker, I think most users would choose the latter. So I added Flurry analytics to the app. 
 
 
 ### Missed launch dates
@@ -33,18 +35,22 @@ Ultimately, I decided that it doesn't benefit the users for me to *not* have the
 You may be wondering: "Have I forgotten about the full release? When will that happen?" 
 
 
-#### Not up to par
+#### Not yet stable enough
 
 Well, at this point I didn't believe it was ready for an out-of-beta release.
 
-For one thing, I had noticed that the user perceived crash rate was almost 6%, which was over the Google Play threshold. Most of the issues were crashes during export. Obviously, not a great thing to see.
+For one thing, I had noticed that the user perceived crash rate was around 6-7%, which was over the Google Play maximum threshold. 
+
+Most of the issues were crashes during export. Obviously, not a great thing to see.
 
 In short: Velocity Lapse just wasn't up to production quality yet. I didn't feel right launching to production with that much unstability.
 
 
 #### Unrealistic projections
 
-Although I had projected an (unrealistic) launch date for somewhere around the end of Roman "January", things were not favorable for that deadline. I felt more confident setting the release date to the 7th of Roman "March", but that did not end up happening. Even my thought that the app would be ready for full release by Spring fell through. 
+Although I had projected an (unrealistic) launch date for somewhere around the end of Roman "January", things were not favorable for that deadline. 
+
+I felt more confident setting the release date to the 7th of Roman "March", but that did not end up happening. Even my thought that the app would be ready for full release by Spring fell through. 
 
 Part of this is that the "MVP" feature list fell prey to "scope creep" and I under-estimated the amount of time involved to implement some of the features and work through the bugs. This was good thing though, since it gave me more time to "flesh-out" the app.
 
@@ -57,7 +63,7 @@ Early Roman February, I zeroed in on the features and fixes that were most neces
 
 I began to work on creating my own custom camera package to fix some of the issues with the camera and add features like the ability to capture with the screen off, multi-lense support, and manual white balance control.
 
-I dove into Kotlin and the camera2 API to understand it. Starting small, I first created a basic camera as a native Kotlin project to work out the kinks of the camera2 API. (As of the time of this writing, this is still in the works.)
+I dove into Kotlin and the camera2 API to understand it better. Starting small, I first created a basic camera as a native Kotlin project to work out the kinks of the camera2 API. (As of the time of this writing, this is still in the works.)
 
 
 #### Upgrading to Flutter 3.7
@@ -281,7 +287,7 @@ Thank you for reading. I hope you've enjoyed this post and have gained something
 
 If you have a suggestion, a comment or some advice, relating either to the app or this post, I'd love to hear what you have to share either in the comments below or via [email](mailto:hi@noahrahm.com). 
 
-**I may, or may not do a part 5 of this series. Let me know in the comments below if you'd like me to continue this series.**
+**Stay tuned for part 5 of this series. Let me know in the comments below if you have any comments.**
 
 ----
 

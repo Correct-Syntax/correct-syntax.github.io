@@ -3,8 +3,8 @@ title: "The Journey Behind Velocity Lapse Part 2"
 date: '2022-10-26'
 draft: false
 image: "/posts/journey-behind-velocity-lapse-2/journey-behind-velocity-lapse-part-2-header.jpg"
-description: "This is the second post in a series of 'dev-log' posts of my personal journey and learning process of creating Velocity Lapse, a time lapse app for Android."
-intro: This is the second post in a series of 'dev-log' posts of my personal journey and learning process of creating Velocity Lapse, a time lapse app for Android.
+description: "The second in a series of 'devlog' posts of my journey creating Velocity Lapse, a time-lapse app for Android. In this post I share development, early access releases, testing, user feedback, early marketing, and more"
+intro: In this post I share about development, early access releases, testing, user feedback, early marketing, and more
 tags: ['devlog']
 ---
 
