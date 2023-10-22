@@ -23,9 +23,12 @@ He was right. It's all a matter of *perspective* to see the *value* of investing
 According to [this site](https://cozyseating.com/how-long-should-recliner-last/), a recliner should last 7-15 years.
 Taking the average of that, which is 11 years, and saying that someone uses the recliner just twice everyday (a pretty a modest estimate for most people) I thought I would do the math:
 
-> ``365 days x 11 years x 2 uses per day = 8,030 uses``
-
-> ``$800.00/8,030 = $0.09962...``
+```
+365 days x 11 years x 2 uses per day = 8,030 uses
+```
+```
+$800.00/8,030 = $0.09962...
+```
 
 So, if the recliner originally cost $800.00 and it was used *just twice per day* for the estimated 11 year lifetime of the recliner, that would be **less than 10 cents per use**. For someone that used it more or had it longer, it would be even less.
 

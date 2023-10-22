@@ -8,9 +8,6 @@ intro: Here is a reflection of lessons that stand out to me the most from the ye
 tags: ['lessons', 'faith']
 ---
 
-
-### Intro
-
 In the past year I've made a greater effort to look for what Yahweh, our Heavenly Father, is try to show me in every situation. There is always something to learn, even in the darkest of situations. :) 
 
 Life is a journey. A believer's life is continuing to grow in Yahushua (commonly called "Jesus"). It is following the footsteps of the Savior. Learning little, by little.

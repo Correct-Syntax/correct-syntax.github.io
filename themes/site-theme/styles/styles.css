@@ -65,6 +65,9 @@
 .post-content h6 {
     @apply text-lg mt-6 mb-2 font-semibold;
 }
+.post-content code:not([data-lang]) {
+    @apply bg-gray-200 rounded-md px-1 py-0.5;
+}
 .post-content ul {
     @apply list-disc list-inside mb-4;
 }
@@ -75,7 +78,7 @@
     @apply my-8;
 }
 .post-content blockquote {
-    @apply text-blue-300 pl-6 py-1 mb-4;
+    @apply text-blue-300 pl-6;
 }
 .post-content .youtube-player {
     @apply my-8;
