@@ -13,19 +13,20 @@ This is my personal website created using Hugo, TailwindCSS, and Alpine.js. You 
 
 To work locally with this project, you'll have to follow the steps below:
 
-- Development: `hugo server`
-- Generate the website: `hugo`
+- Launch the development server with ``hugo server``
 
-Rebuilding the CSS:
+In another terminal tab:
 
 - ``cd themes/site-theme``
-- ``npx tailwindcss -i ./styles/styles.css -o ./static/assets/style.css --watch``
+- ``npm run dev``
 
 
 ## Production
 
 - ``cd themes/site-theme``
-- ``npx tailwindcss -i ./styles/styles.css -o ./static/assets/style.css --minify``
+- ``npm run build`` to build the production css.
+
+- Generate the website with the `hugo` command
 
 
 ## License
