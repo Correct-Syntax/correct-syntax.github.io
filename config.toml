@@ -43,3 +43,8 @@ disableKinds = ['categories']
     url = "/posts/"
     weight = 40
 
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    startLevel = 2

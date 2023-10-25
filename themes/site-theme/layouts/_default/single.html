@@ -16,37 +16,46 @@
 	</div>
 </div>
 <div class="max-w-6xl mx-auto">
-	<article class="max-w-2xl px-4 xl:px-0 mt-44 sm:mt-48 md:mt-10 mb-20 mx-auto sm:mx-0">
-		<div class="max-w-md border-l-4 border-blue-400/90 pl-4">
-			<p class="text-2xl text-blue-600/90 font-light font-serif">{{ .Page.Params.Intro }}</p>
-		</div>
-		<div id="post" class="post-content mt-6 mb-16">
-			{{ .Content }}
-		</div>
-		<div class="giscus"></div>
-		<script src="https://giscus.app/client.js"
-		data-repo="Correct-Syntax/correct-syntax.github.io"
-		data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQ3MDg4OTc="
-		data-category="Post comments"
-		data-category-id="DIC_kwDOFSRtoc4CUj3p"
-		data-mapping="og:title"
-		data-strict="0"
-		data-reactions-enabled="1"
-		data-emit-metadata="0"
-		data-input-position="top"
-		data-theme="light"
-		data-lang="en"
-		data-loading="lazy"
-		crossorigin="anonymous"
-		async>
-		</script>
-	</article>
+	<main class="flex flex-row">
+		<article class="max-w-3xl md:max-w-lg lg:max-w-2xl px-4 xl:px-0 mt-44 sm:mt-48 md:mt-10 mb-20 mx-auto md:mx-0">
+			<div class="max-w-md border-l-4 border-blue-400/90 pl-4">
+				<h2 class="text-2xl text-blue-600/90 font-light font-serif">{{ .Page.Params.Intro }}</h2>
+			</div>
+			<div id="post" class="post-content mt-6 mb-16">
+				{{ .Content }}
+			</div>
+			<div class="giscus"></div>
+			<script src="https://giscus.app/client.js"
+				data-repo="Correct-Syntax/correct-syntax.github.io"
+				data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQ3MDg4OTc="
+				data-category="Post comments"
+				data-category-id="DIC_kwDOFSRtoc4CUj3p"
+				data-mapping="og:title"
+				data-strict="0"
+				data-reactions-enabled="1"
+				data-emit-metadata="0"
+				data-input-position="top"
+				data-theme="light"
+				data-lang="en"
+				data-loading="lazy"
+				crossorigin="anonymous"
+				async>
+			</script>
+		</article>
+		{{ if gt (len .TableOfContents) 80}}
+		<aside id="tableOfContents" class="hidden md:block sticky top-8 self-start mt-40 ml-0 lg:ml-12">
+			<h4 class="text-2xl font-semibold text-blue-600/80 mb-2">Table of Contents</h4>
+			<div class="text-blue-600/70 ml-1">
+				{{ .TableOfContents }}
+			</div>
+		</aside>
+		{{ end }}
+	</main>
 </div>
 <script>
 	const post = document.getElementById("post");
 	const readingTimeSummary = document.querySelector(".reading-time");
 	const avgWordsPerMin = 250;
-	setReadingTime();
 	function setReadingTime() {
 		let count = getWordCount();
 		let time = Math.ceil(count / avgWordsPerMin);
@@ -55,5 +64,22 @@
 	function getWordCount() {
 		return post.innerText.match(/\w+/g).length;
 	}
+	window.addEventListener('DOMContentLoaded', () => {        
+		setReadingTime();
+		const observerForTableOfContentActiveState = new IntersectionObserver(entries => {
+				entries.forEach(entry => {
+						const id = entry.target.getAttribute('id');
+						if (entry.intersectionRatio > 0) {
+							document.querySelectorAll('aside nav li').forEach((section) => {
+								section.classList.remove('font-semibold');
+							});
+							document.querySelector(`aside nav li a[href="#${id}"]`).parentElement.classList.add('font-semibold');
+						}
+				});
+		});
+		document.querySelectorAll('h1[id],h2[id],h3[id]').forEach((section) => {
+				observerForTableOfContentActiveState.observe(section);
+		});
+	});
 </script>
 {{ end }}

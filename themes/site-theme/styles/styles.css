@@ -6,6 +6,10 @@
   width: 100%;
 }
 
+#tableOfContents li {
+    margin: .2rem 0rem;
+}
+
 .markdown-content-dark {
     @apply text-lg text-white/80 leading-relaxed;
 }
