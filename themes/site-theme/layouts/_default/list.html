@@ -1,65 +1,62 @@
 {{ define "main" }}
-<!-- TODO: still under construction -->
-<div class="bg-blue-600 py-9">
-  <div class="max-w-6xl mx-auto px-4 xl:px-0">
-	</div>
-</div>
-
-<main class="relative max-w-6xl mx-auto mt-4 px-4 xl:px-0">
-  <div class="flex flex-col md:flex-row mt-10">
-	<div class="w-full md:w-2/3 mr-12">
-	  {{ range (.Paginate ( last 1 .Pages.ByDate )).Pages }}
-	  <div class="flex flex-col items-center mb-10">
-		<a href="{{ .Permalink }}">
-		  <img class="w-full mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
-		</a>
-		<div class="w-full">
-		  <a class="flex" href="{{ .Permalink }}">
-			<h4 class="text-2xl md:text-4xl font-serif font-medium text-blue-400/90 hover:underline px-2 py-1 ease-linear duration-300">{{ .Title }}</h4>
-		  </a>
-		  <p class="font-serif text-md text-blue-400/80 px-2">Posted {{ .Date |  time.Format ":date_medium" }}</p>
-		  <p class="text-lg md:text-md text-blue-400/90 mt-2 px-2">{{ .Description }}</p>
+<div class="bg-blue-600 py-9"></div>
+<div class="max-w-6xl mx-auto mb-20 px-4 xl:px-0">
+	<div class="flex flex-col md:flex-row mt-10">
+		<div class="w-full md:w-2/3 mr-10">
+			{{ range (.Paginate ( last 1 .Pages.ByDate )).Pages }}
+			<div class="flex flex-col items-center mb-10">
+			<a href="{{ .Permalink }}">
+				<img class="w-full mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
+			</a>
+			<div class="w-full">
+				<a class="flex" href="{{ .Permalink }}">
+				<h4 class="text-3xl md:text-4xl font-serif font-medium text-blue-400/90 hover:underline pb-1 ease-linear duration-300">{{ .Title }}</h4>
+				</a>
+				<p class="font-serif text-md text-blue-400/80">{{ .Date |  time.Format ":date_medium" }}</p>
+				<p class="text-lg md:text-md text-blue-400/90 mt-2">{{ .Description }}</p>
+			</div>
+			</div>
+			{{ end }}
 		</div>
-	  </div>
-	  {{ end }}
-	</div>
-	<div class="w-full md:w-1/3 flex flex-col">
-	  {{ range first 2 (after 1 .Pages.ByPublishDate.Reverse) }}
-	  <div class="flex flex-col items-center mb-10">
-		<a href="{{ .Permalink }}">
-		  <img class="w-full mb-2" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
-		</a>
-		<div class="w-full">
-		  <a class="flex" href="{{ .Permalink }}">
-			<h4 class="text-2xl font-serif font-medium text-blue-400/90 hover:underline px-2 py-1 ease-linear duration-300">{{ .Title }}</h4>
-		  </a>
-		  <p class="text-md font-serif text-blue-400/80 px-2">Posted {{ .Date |  time.Format ":date_medium" }}</p>
-		  <p class="text-lg md:hidden text-blue-400/90 mt-2 px-2">{{ .Description }}</p>
+		<div class="w-full md:w-1/3 flex flex-col">
+			{{ range first 2 (after 1 .Pages.ByPublishDate.Reverse) }}
+			<div class="flex flex-col items-center mb-8">
+				<a href="{{ .Permalink }}">
+					<img class="w-full mb-2" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
+				</a>
+				<div class="w-full">
+					<a class="flex" href="{{ .Permalink }}">
+						<h4 class="text-3xl md:text-2xl font-serif font-medium text-blue-400/90 hover:underline pt-1 ease-linear duration-300">
+							{{ .Title }}
+						</h4>
+					</a>
+					<p class="text-md font-serif text-blue-400/80">{{ .Date |  time.Format ":date_medium" }}</p>
+					<p class="text-lg md:hidden text-blue-400/90 mt-2">{{ .Description }}</p>
+				</div>
+			</div>
+			{{ end }}
 		</div>
-	  </div>
-	  {{ end }}
 	</div>
-  </div>
-  <div class="relative max-w-6xl mx-auto space-x-2 mt-18 pt-10 md:border-t-2">
-	<div class="flex flex-col md:flex-row flex-wrap px-2 md:px-0">
-	  {{ range (after 3 .Pages.ByPublishDate.Reverse) }}
-	  <div class="w-full md:w-1/3 flex flex-col items-center mb-10 px-2">
-		<a href="{{ .Permalink }}">
-		  <img class="w-full mb-2" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
-		</a>
-		<div class="w-full">
-		  <a class="flex" href="{{ .Permalink }}">
-			<h4 class="text-2xl font-serif font-medium text-blue-400/90 hover:underline px-2 py-1 ease-linear duration-300">{{ .Title }}</h4>
-		  </a>
-		  <p class="text-md font-serif text-blue-400/80 px-2">Posted {{ .Date |  time.Format ":date_medium" }}</p>
-		  <p class="text-lg md:text-md text-blue-400/90 mt-2 px-2">{{ .Description }}</p>
+  <div class="mt-10 mb-14">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-12">
+			{{ range (after 3 .Pages.ByPublishDate.Reverse) }}
+			<div class="w-full">
+				<a href="{{ .Permalink }}">
+					<img class="w-full mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
+				</a>
+				<div class="w-full">
+					<a class="flex" href="{{ .Permalink }}">
+						<h4 class="text-3xl font-serif font-medium text-blue-400/90 hover:underline pt-1 ease-linear duration-300">
+							{{ .Title }}
+						</h4>
+					</a>
+					<p class="text-md font-serif text-blue-400/80">{{ .Date |  time.Format ":date_medium" }}</p>
+					<p class="text-lg md:text-md text-blue-400/90 mt-2">{{ .Description }}</p>
+				</div>
+			</div>
+			{{ end }}
 		</div>
-	  </div>
-	  {{ end }}
 	</div>
-  </div>
-  <div class="flex flex-col mx-8 items-center md:items-start mb-10">
 	{{ partial "pagination.html" . }}
-  </div>
-</main>
+</div>
 {{ end }}
