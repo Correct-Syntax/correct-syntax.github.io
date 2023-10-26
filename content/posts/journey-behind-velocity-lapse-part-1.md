@@ -2,7 +2,7 @@
 title: "The Journey Behind Velocity Lapse Part 1"
 date: "2022-08-08"
 draft: false
-image: "/posts/journey-behind-velocity-lapse-1/journey-behind-velocity-lapse-part-1-header.jpg"
+image: "/posts/journey-behind-velocity-lapse-1/the-journey-behind-velocity-lapse-part-1-header.webp"
 description: "The start of a series of 'devlog' posts of my journey creating Velocity Lapse, a time-lapse app for Android. In this post I share the app idea, initial planning, UI design, logo creation, initial development, and more"
 intro: In this post I share the app idea, initial planning, UI design, logo creation, start of development, and more
 tags: ['devlog']
