@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Noah Rahm</title><link>https://noahrahm.com/posts/</link><description>Recent content in Posts on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 08 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>The Journey Behind Velocity Lapse Part 4</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</guid><description>&lt;p>You can read the previous posts, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">Part 1&lt;/a>, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/">Part 2&lt;/a>, and &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/">Part 3&lt;/a> to get context of my journey creating &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a> up to this point.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Noah Rahm</title><link>https://noahrahm.com/posts/</link><description>Recent content in Posts on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>20+ free resources for digital design</title><link>https://noahrahm.com/posts/free-resources-for-digital-design/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/free-resources-for-digital-design/</guid><description>&lt;p>As a visual designer, having a good set of resources at arm&amp;rsquo;s-reach is not only helpful, but necessary.&lt;/p>
+&lt;p>While there are a ton of really great paid design services and resources that can make life a lot easier, the focus of this list is on &lt;strong>the best free resources&lt;/strong> that I&amp;rsquo;ve personally collected over time. Many of these I&amp;rsquo;ve been using for years for my own &lt;a href="https://noahrahm.com/work/">design work&lt;/a>.&lt;/p>
+&lt;p>Whether you&amp;rsquo;re a web, app, UI, UX designer, or none of the above, there&amp;rsquo;s likely at least a few things here you &lt;del>could&lt;/del> should consider adding to your toolkit.&lt;/p>
+&lt;p>Special thanks to all the individuals and companies that made these resources available for designers like us to use free of charge!&lt;/p>
+&lt;h3 id="typography">Typography&lt;/h3>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/fontjoy.jpg"
+alt="A screenshot of FontJoy"/>&lt;figcaption>
+&lt;p>FontJoy in action. Yes, sometimes it comes up with wild combinations&amp;hellip;&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;a href="https://fontjoy.com/">FontJoy&lt;/a> is a really nice font pairing web application tool which generates font combinations with deep learning. If you know what style you&amp;rsquo;re after (and have some patience), it can come up with some nice font pairs for you to consider.&lt;/p>
+&lt;p>&lt;a href="https://typespiration.com/">Typespiration&lt;/a> If you&amp;rsquo;re needing some inspiration for type, you can take a look at Typespiration for some designs and guides for font combinations.&lt;/p>
+&lt;p>&lt;a href="https://typescale.com/">Type Scale&lt;/a> is a visual calculator you can use to size your typography.&lt;/p>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/typescale.jpg"
+alt="A screenshot of Typescale"/>&lt;figcaption>
+&lt;p>Typescale&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;a href="https://www.fontsinthewild.com/">Fontsinthewild.com&lt;/a> Sometimes you just have to see a font used in order to get the inspiration to use it in your design. That is the basic premise of fontsinthewild.com, where you browse screenshots of different fonts used on sites &amp;ldquo;in the wild&amp;rdquo;.&lt;/p>
+&lt;p>&lt;a href="https://v-fonts.com/">v-fonts&lt;/a> Experiment with variable fonts.&lt;/p>
+&lt;p>&lt;a href="https://fontspark.netlify.app/">FontSpark&lt;/a> is a simple tool to find different fonts.&lt;/p>
+&lt;p>&lt;a href="https://www.pairandcompare.net/">Pair and Compare&lt;/a> is a great way to mix and match different Google fonts to find the best combination for you design.&lt;/p>
+&lt;p>Want a good reading resource to improve your typography skills? Read &lt;a href="https://practicaltypography.com/">Butterick&amp;rsquo;s Practical Typography&lt;/a>.&lt;/p>
+&lt;h3 id="color-resources">Color resources&lt;/h3>
+&lt;p>&lt;a href="https://palx.jxnblk.com/">palx.jxnblk.com&lt;/a> is a very helpful tool for generating a full-spectrum color palette from a single color. I mainly use it for when I need to quickly generate a range of grays for a UI design.&lt;/p>
+&lt;p>&lt;a href="https://toolness.github.io/accessible-color-matrix/">Accessible color matrix&lt;/a> Accessibility is an important part of choosing colors for a website or app design. This accessible color matrix tool allows you to check if your color combinations conform with accessibility standards.&lt;/p>
+&lt;h3 id="icon-sets">Icon sets&lt;/h3>
+&lt;p>&lt;a href="https://simpleicons.org/">Simple Icons&lt;/a> Very useful and vast collection of 2750 SVG icons for popular brands. I haven&amp;rsquo;t found any brands I&amp;rsquo;ve ever needed to &lt;em>not&lt;/em> be in the Simple Icons collection.&lt;/p>
+&lt;p>&lt;a href="https://phosphoricons.com/">Phosphoricons&lt;/a> Open-source icon family offering 6 weights: Thin, Light, Regular, Bold, Fill, and Duotone. Needless to say it is very useful and large (1,248+) collection worth bookmarking.&lt;/p>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/phosphor-icons.jpg"
+alt="A screenshot of the Phosphor icons website"/>&lt;figcaption>
+&lt;p>Phosphor icon family. Go bookmark it —it&amp;rsquo;s worth the bookmark.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h3 id="software">Software&lt;/h3>
+&lt;p>&lt;a href="https://icons8.com/lunacy">Lunacy&lt;/a> (A.K.A Sketch for Windows). Although I don’t care for the name, it’s my primary design tool. Being a native Windows application makes it fast and smooth to work with. Lunacy works &lt;em>completely offline&lt;/em> and has almost everything I&amp;rsquo;ve ever needed for creating web and graphic designs, working with it for the past 3 years.&lt;/p>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/lunacy.jpg"
+alt="A screenshot of Lunacy open with a logo design document"/>&lt;figcaption>
+&lt;p>Lunacy —my (current) go-to design tool open to my logo design for Hilltop Motion.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>&lt;a href="https://penpot.app">PenPot&lt;/a> Open-source, web-based design and prototyping tool based on open standards.&lt;/p>
+&lt;h3 id="templates">Templates&lt;/h3>
+&lt;p>If you need something for a specific design software, there are sites that provide free UI Kits, Icons, Templates, Mockups, Style Guides, Illustrations and more. My experience is that you do have to look through a lot of &amp;ldquo;okay&amp;rdquo; stuff to find the gold, though.&lt;/p>
+&lt;h4 id="sketch">Sketch&lt;/h4>
+&lt;p>&lt;a href="https://sketchelements.com/">SketchElements&lt;/a> is a place to find free Sketch resources. The files can be used with either Lunacy or Sketch.&lt;/p>
+&lt;h4 id="figma">Figma&lt;/h4>
+&lt;p>&lt;a href="https://figmaelements.com/">FigmaElements&lt;/a> offers free Figma resources.&lt;/p>
+&lt;h3 id="mockups">Mockups&lt;/h3>
+&lt;p>&lt;a href="https://www.ls.graphics/free-mockups">ls.graphics&lt;/a> Free, high quality mockups from ls.graphics.&lt;/p>
+&lt;p>&lt;a href="https://mockuphone.com/">MockUPhone&lt;/a> is by far the best free resource I have discovered for generating device mockups. The site allows you to wrap your design in a variety of mobile device frames including iPhones, iPads, Android phones, laptops, and wearables. The mockups are licensed under the Creative Commons Attribution 3.0 Unported License, making them usable for practically any project.&lt;/p>
+&lt;p>Another resource for generating Android mockups is the official &lt;a href="https://developer.android.com/distribute/marketing-tools/device-art-generator">Android Device Art Generator&lt;/a>.&lt;/p>
+&lt;h3 id="assets">Assets&lt;/h3>
+&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/haikei.jpg"
+alt="A screenshot of Haikei generating a layered peaks svg background"/>&lt;figcaption>
+&lt;p>You can generate all sorts of backgrounds with Haikei.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Both &lt;a href="https://superdesigner.co/">superdesigner.co&lt;/a> and &lt;a href="https://haikei.app/">haikei.app&lt;/a> let you generate svg assets like backgrounds, blobs, patterns, gradients, and shapes for your designs.&lt;/p>
+&lt;h3 id="conclusion">Conclusion&lt;/h3>
+&lt;p>Thanks for reading. I hope you enjoyed this list of design resources and tools.&lt;/p>
+&lt;p>&lt;em>This aims to be a growing list of the best free resources for design, so check back for updates.&lt;/em>&lt;/p>
+&lt;p>Do you have some free design tools or resources you use that I didn&amp;rsquo;t mention? Feel free to comment below.&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse Part 4</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</guid><description>&lt;p>You can read the previous posts, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">Part 1&lt;/a>, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/">Part 2&lt;/a>, and &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/">Part 3&lt;/a> to get context of my journey creating &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a> up to this point.&lt;/p>
 &lt;p>If you have any comments or suggestions, feel free to leave a comment below.&lt;/p>
 &lt;h3 id="continued-progress">Continued progress&lt;/h3>
 &lt;p>Starting in 2023, I decided to be more intentional with when I work on Velocity Lapse to avoid burnout.&lt;/p>
