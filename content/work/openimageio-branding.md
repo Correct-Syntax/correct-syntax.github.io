@@ -13,4 +13,6 @@ Since OpenImageIO is a library for reading, writing, and processing images I bra
 
 Inspired by [this image](https://openimageio.readthedocs.io/en/latest/_images/grid-small.jpg) from the OpenImageIO docs, I experimented with multiple variations of a pixel grid. The final consensus was a modern, square icon and workmark set in Open Sans bold.
 
-*The OpenImageIO logo is a trademark of LF Projects, LLC. Used here for portfolio showcase with permission.*
+![OpenImageIO logo](/work/openimageio/openimageio-logo-and-branding.webp "OpenImageIO logo")
+
+*The OpenImageIO logo is a trademark of LF Projects, LLC. Used here for my portfolio showcase with permission.*
