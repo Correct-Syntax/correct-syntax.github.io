@@ -201,7 +201,10 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>With how popular YouTube is, chances are you either had this question cross your mind, or didn&amp;rsquo;t even think about it and went to download videos using one of the free &amp;ldquo;YouTube video downloaders&amp;rdquo; available online.&lt;/p>
 &lt;p>My motivation behind writing this article is to provoke some thought on this topic as well as just in general about the ethics of breaking TOS (Terms of Service) agreements, software licenses, or EULAs (End User License Agreements).&lt;/p>
 &lt;p>Unfortunately, people feel safe doing things that so many others do. However, just because everyone else does it does not neccesarily make it right.&lt;/p>
-&lt;h3 id="should-we-use-youtube-video-downloaders-or-other-software-to-download-youtube-videos">Should we use &amp;ldquo;YouTube video downloaders&amp;rdquo; or other software to download YouTube videos?&lt;/h3>
+&lt;h3 id="answering-the-question">Answering the question&lt;/h3>
+&lt;blockquote>
+&lt;p>Should we use &amp;ldquo;YouTube video downloaders&amp;rdquo; or other software to download YouTube videos?&lt;/p>
+&lt;/blockquote>
 &lt;p>As far as I am concerned, I believe the answer is a clear &lt;strong>no&lt;/strong>.&lt;/p>
 &lt;p>&lt;strong>1. It&amp;rsquo;s against the YouTube Terms of Service (TOS)&lt;/strong> to download content outside of the player or download links they provide (more on that later). You agreed to these terms when you created the account, so I mean, that&amp;rsquo;s basically lying if you had no intent to abide by the terms.&lt;/p>
 &lt;p>The &lt;a href="https://www.youtube.com/t/terms#c3e2907ca8">YouTube TOS&lt;/a> states:&lt;/p>
@@ -266,9 +269,9 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>I think it is pretty clear that we should not be downloading videos from YouTube in ways that violate the YouTube TOS. Instead, we should be respectful of the platform and the creators and either subscribe to YouTube Premium or ask the creator for their video directly.&lt;/p>
 &lt;p>In a broader sense, I believe we should be careful to abide to whatever agreements we make, whether it&amp;rsquo;s has to do with the software on your PC, a streaming platform like YouTube, or your next-door neighbor.&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse Part 3</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/</guid><description>&lt;p>This is the third post in a series of &amp;ldquo;dev-log&amp;rdquo; posts of my personal journey and learning process of creating &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>, a time lapse app for Android.&lt;/p>
 &lt;p>You can read the previous posts, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">Part 1&lt;/a> and &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/">Part 2&lt;/a> to get context up to this point.&lt;/p>
-&lt;h3 id="full-rollout-in-open-testing">Full rollout in open testing&lt;/h3>
+&lt;h3 id="full-rollout-to-open-testing">Full rollout to open testing&lt;/h3>
 &lt;p>Towards the end of Roman October 2022, I rolled out the app in open testing to all countries where Google Play is available. Previously, it had only been available in 27 select countries because I wanted to make sure to iron out some issues and &amp;ldquo;test the waters&amp;rdquo; so-to-speak before opening up to the whole world.&lt;/p>
-&lt;h3 id="the-first-sales-of-velocity-lapse-pro">The first sales of Velocity Lapse PRO&lt;/h3>
+&lt;h3 id="first-sales-of-velocity-lapse-pro">First sales of Velocity Lapse PRO&lt;/h3>
 &lt;p>Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th, 2022 to be exact. There were 321 total downloads and 131 active installs at that time.&lt;/p>
 &lt;p>Granted, it was only a few dollars after taxes and Google Play&amp;rsquo;s cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI (besides some nice compliments).&lt;/p>
 &lt;p>In the following weeks, sales happened sporadically, mostly in bunches. There was a total of 8 upgrades in the first 3 weeks of being rolled out to all countries.&lt;/p>
@@ -288,7 +291,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>So, it just didn&amp;rsquo;t seem worth it. At least, for now.&lt;/p>
-&lt;h3 id="social-media-marketing-update">Social media marketing update&lt;/h3>
+&lt;h3 id="social-media-marketing">Social media marketing&lt;/h3>
 &lt;p>I finally posted on Instagram. I thought maybe the starscape time lapse video from the tutorial would be a good first post. Got some response.&lt;/p>
 &lt;p>The Youtube channel continued to grow with 40K views on the starry night sky video and a couple hundred views on other videos. I continued to post new time lapse videos roughly every 2 weeks and that caused the channel to gain more subscribers and views.&lt;/p>
 &lt;h3 id="product-hunt">Product hunt&lt;/h3>
@@ -304,13 +307,13 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;p>In the end, I decided to hold off on adding analytics and see if I couldn&amp;rsquo;t just figure out the issue myself.&lt;/p>
 &lt;h3 id="submitting-to-alternativetonet">Submitting to AlternativeTo.net&lt;/h3>
 &lt;p>I submitted Velocity Lapse to &lt;a href="https://alternativeto.net">AlternativeTo.net&lt;/a>, a popular place to look for alternatives to software. In the past, when I&amp;rsquo;ve posted other open source software projects I&amp;rsquo;ve worked on there, a large portion of traffic came from there. So I thought I would try posting Velocity Lapse there for more exposure.&lt;/p>
-&lt;h3 id="updating-the-google-play-listing--website-yet-again">Updating the Google Play listing &amp;amp; website (yet again)&lt;/h3>
+&lt;h3 id="updating-google-play-and-website">Updating Google Play and website&lt;/h3>
 &lt;p>Yet again, I updated the website and the Google Play listing to better match the style I came up with while creating promo images for Product Hunt.&lt;/p>
 &lt;h3 id="more-woes-of-the-camera2-api">More woes of the camera2 api&lt;/h3>
 &lt;p>I have respect for every app developer that deals with camera2 and indeed timelapse app devs. &lt;em>sigh&lt;/em>&lt;/p>
 &lt;p>One issue I had when previously implementing manual camera controls was with white balance. For some reason, manual white balance wouldn&amp;rsquo;t switch back to auto unless ISO and shutter speed were also auto.&lt;/p>
 &lt;p>Thus, rather than releasing a feature that only partly worked, I just didn&amp;rsquo;t include manual white balance control.&lt;/p>
-&lt;h3 id="when-to-make-the-big-release-into-production">When to make the big release into production?&lt;/h3>
+&lt;h3 id="when-to-release-into-production">When to release into production?&lt;/h3>
 &lt;p>I needed to make the decision of when to fully release Velocity Lapse. It is tricky because you don&amp;rsquo;t want to release it before it&amp;rsquo;s ready, but you also don&amp;rsquo;t want to overthink it.&lt;/p>
 &lt;p>My thought was to release it early Spring, as the majority of people will likely want to create time lapse videos in the Spring/Summer. So, my strategy was: get the app up to speed during the winter and release somewhere early Spring.&lt;/p>
 &lt;h3 id="app-marketing-strategies">App marketing strategies&lt;/h3>
@@ -339,8 +342,8 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;h3 id="user-support">User Support&lt;/h3>
 &lt;p>One thing about selling software is the support aspect of it. From the very start, I made a real effort to respond to &lt;em>every&lt;/em> person that submitted feedback on Velocity Lapse, whether good or bad. Many people responded that they appreciated the response which was encouraging.&lt;/p>
 &lt;p>However, I won&amp;rsquo;t lie and say that it was easy to stay on top of it. I took the approach of &amp;ldquo;better late than never&amp;rdquo; when worst came to worst when I didn&amp;rsquo;t get to responding for 2-3 weeks. :(&lt;/p>
-&lt;h3 id="ending-off-2022">Ending off 2022&lt;/h3>
-&lt;p>All in all, the first 5 months since I first had the idea for Velocity Lapse went well.&lt;/p>
+&lt;h3 id="ending-2022">Ending 2022&lt;/h3>
+&lt;p>All in all, the first 5 months since I first had the idea for Velocity Lapse have went well.&lt;/p>
 &lt;h4 id="app-statistics">App Statistics&lt;/h4>
 &lt;p>From a statistical point of view, the app had been growing at a constant rate, gaining anywhere from 10-80 users daily on average.&lt;/p>
 &lt;p>As of Dec. 31st 2022, there were 914 current installs and just shy of 4K total downloads.&lt;/p>
