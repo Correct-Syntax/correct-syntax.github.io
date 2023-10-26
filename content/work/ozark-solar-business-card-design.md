@@ -15,10 +15,12 @@ I worked with him to fine-tune the wording and make sure the most common questio
 
 I specifically chose to use images of solar installations that Beau had worked on as a way to showcase his work right on the card. This would provide an opportunity for him to show potential customers real-life examples of his solar installation work.
 
-![Solar installations](/work/ozarksolar/images.jpg "Solar installations")
+![Solar installations](/work/ozarksolar/images.jpg "Beau's solar installations")
 
 Balancing readability and a maintaining a clear, uncluttered design was a top priority. Although it was a multi-fold business card with four areas, it was a unique challenge to include all of the necessary content. In the end, I was able to include more information than what we had originally planned and yet keep a simple layout.
 
 I opted to incorporate elements of Ozark Solar's branding to keep the business card recognizable, while allowing the freedom necessary to create something unique and different. The choice of the typeface, Titillium Web, was motivated out of maintaining the same look of Ozark Solar's existing logo.
+
+![The sides of the business card](/work/ozarksolar/business-card-design-sides.webp "The four sides of the business card")
 
 Everything came together nicely. Beau was really happy with how the design turned out and I had an enjoyable time working with him.
