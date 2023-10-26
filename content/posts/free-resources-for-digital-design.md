@@ -46,6 +46,8 @@ Want a good reading resource to improve your typography skills? Read [Butterick'
 
 [Accessible color matrix](https://toolness.github.io/accessible-color-matrix/) Accessibility is an important part of choosing colors for a website or app design. This accessible color matrix tool allows you to check if your color combinations conform with accessibility standards.
 
+[ihayk.github.io/scale](https://hihayk.github.io/scale) A creative way to experiment with different color ranges.
+
 
 ### Icon sets
 
