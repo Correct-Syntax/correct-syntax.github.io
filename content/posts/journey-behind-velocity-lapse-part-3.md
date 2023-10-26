@@ -14,12 +14,12 @@ This is the third post in a series of "dev-log" posts of my personal journey and
 You can read the previous posts, [Part 1](/posts/journey-behind-velocity-lapse-part-1/) and [Part 2](/posts/journey-behind-velocity-lapse-part-2/) to get context up to this point.
 
 
-### Full rollout in open testing
+### Full rollout to open testing
 
 Towards the end of Roman October 2022, I rolled out the app in open testing to all countries where Google Play is available. Previously, it had only been available in 27 select countries because I wanted to make sure to iron out some issues and "test the waters" so-to-speak before opening up to the whole world.
 
 
-### The first sales of Velocity Lapse PRO
+### First sales of Velocity Lapse PRO
 
 Roughly a week later, the very first Velocity Lapse PRO upgrade was purchased. Oct. 24th, 2022 to be exact. There were 321 total downloads and 131 active installs at that time.
 
@@ -54,7 +54,7 @@ However, after uploading the bundle I found out that due to Velocity Lapse needi
 So, it just didn't seem worth it. At least, for now.
 
 
-### Social media marketing update
+### Social media marketing
 
 I finally posted on Instagram. I thought maybe the starscape time lapse video from the tutorial would be a good first post. Got some response.
 
@@ -91,7 +91,7 @@ In the end, I decided to hold off on adding analytics and see if I couldn't just
 I submitted Velocity Lapse to [AlternativeTo.net](https://alternativeto.net), a popular place to look for alternatives to software. In the past, when I've posted other open source software projects I've worked on there, a large portion of traffic came from there. So I thought I would try posting Velocity Lapse there for more exposure.
 
 
-### Updating the Google Play listing & website (yet again)
+### Updating Google Play and website
 
 Yet again, I updated the website and the Google Play listing to better match the style I came up with while creating promo images for Product Hunt.
 
@@ -105,7 +105,7 @@ One issue I had when previously implementing manual camera controls was with whi
 Thus, rather than releasing a feature that only partly worked, I just didn't include manual white balance control.
 
 
-### When to make the big release into production?
+### When to release into production?
 
 I needed to make the decision of when to fully release Velocity Lapse. It is tricky because you don't want to release it before it's ready, but you also don't want to overthink it.
 
@@ -167,9 +167,9 @@ One thing about selling software is the support aspect of it. From the very star
 However, I won't lie and say that it was easy to stay on top of it. I took the approach of "better late than never" when worst came to worst when I didn't get to responding for 2-3 weeks. :(
 
 
-### Ending off 2022
+### Ending 2022
 
-All in all, the first 5 months since I first had the idea for Velocity Lapse went well.
+All in all, the first 5 months since I first had the idea for Velocity Lapse have went well.
 
 
 #### App Statistics

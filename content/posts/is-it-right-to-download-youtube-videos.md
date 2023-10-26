@@ -18,7 +18,9 @@ My motivation behind writing this article is to provoke some thought on this top
 Unfortunately, people feel safe doing things that so many others do. However, just because everyone else does it does not neccesarily make it right. 
 
 
-### Should we use "YouTube video downloaders" or other software to download YouTube videos?
+### Answering the question
+
+> Should we use "YouTube video downloaders" or other software to download YouTube videos?
 
 As far as I am concerned, I believe the answer is a clear **no**.
 
