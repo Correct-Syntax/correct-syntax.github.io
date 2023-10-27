@@ -429,45 +429,45 @@ alt="Starry night sky timelapse video analytics"/>&lt;figcaption>
 &lt;p>&lt;strong>Read the next part of the journey in &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/">part 3&lt;/a> of this series.&lt;/strong>&lt;/p>
 &lt;hr>
 &lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse Part 1</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/</link><pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/</guid><description>&lt;h3 id="a-new-project">A new project&lt;/h3>
-&lt;p>I&amp;rsquo;ve been working on a new side-project for the last few months. It&amp;rsquo;s a new time lapse app for Android called &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>.&lt;/p>
-&lt;p>This post is the start of a series of dev-log posts I&amp;rsquo;m planning to write of my personal journey and learning process of creating Velocity Lapse. I plan to share the steps of planning, UI design, development, launch, and marketing -some of which is the first time I have done so for a mobile app.&lt;/p>
-&lt;p>Although I am not at all new to design or development, mobile app development is a relatively new area for me. My only experience with mobile app development up to this point are my contributions to &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a> and some design-related work for another app.&lt;/p>
-&lt;p>Above that, this the first time I have directly monitized one of my own software projects as I usually go &lt;a href="https://github.com/Correct-Syntax">open-source&lt;/a> for most non-client projects.&lt;/p>
-&lt;p>That is to say, if you&amp;rsquo;re more experienced in app development or the business side of things (or even if you not) and you have a suggestion, a comment or some advice, I&amp;rsquo;d love to hear what you have to share via &lt;a href="mailto:hi@noahrahm.com">email&lt;/a> or the comments section below.&lt;/p>
+&lt;p>I&amp;rsquo;ve been working on a new side project for the last few months. It&amp;rsquo;s a new time-lapse app for Android called &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>.&lt;/p>
+&lt;p>This post is the start of a series of dev-log posts I&amp;rsquo;m planning to write about my personal journey and learning process of creating Velocity Lapse. I plan to share the steps of planning, UI design, development, launch, and marketing.&lt;/p>
+&lt;p>Although I am not at all new to design or development, mobile app development is a relatively new area for me. My only experience with mobile app development up to this point is my contributions to &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a> and some design-related work for another app.&lt;/p>
+&lt;p>Above that, this the first time I have directly monitized one of my own software projects, since I usually go &lt;a href="https://github.com/Correct-Syntax">open-source&lt;/a> for most non-client projects.&lt;/p>
+&lt;p>That is to say, if you&amp;rsquo;re more experienced in app development or the business of apps (or even if you&amp;rsquo;re not), I&amp;rsquo;d love to hear what you have to share. Feel free to reach out via &lt;a href="mailto:hi@noahrahm.com">email&lt;/a> or write in the comments section below.&lt;/p>
 &lt;h3 id="the-app-idea">The app idea&lt;/h3>
 &lt;p>Every good project starts with a good, worthwhile idea.&lt;/p>
 &lt;h4 id="initial-ideas">Initial ideas&lt;/h4>
 &lt;p>Initially, some ideas I thought about were:&lt;/p>
 &lt;ul>
-&lt;li>A very reliable writers app where you don&amp;rsquo;t lose your work. (Probably sounds silly, but the existing apps, I&amp;rsquo;m told, don&amp;rsquo;t quite cut it).&lt;/li>
-&lt;li>A file manager that could reach the level of the discontinued &amp;ldquo;ES file explorer&amp;rdquo;.&lt;/li>
+&lt;li>&lt;strong>reliable writers app&lt;/strong> where you don&amp;rsquo;t lose your work. (Probably sounds silly, but the existing apps, I&amp;rsquo;m told, don&amp;rsquo;t quite cut it).&lt;/li>
+&lt;li>&lt;strong>file manager&lt;/strong> that could reach the level of the discontinued &amp;ldquo;ES file explorer&amp;rdquo;.&lt;/li>
 &lt;/ul>
-&lt;p>However, while I do write some and I probably could use a file manager, I wasn&amp;rsquo;t interested in those ideas enough or see enough of a need for them &lt;em>personally&lt;/em>.&lt;/p>
+&lt;p>However, while I do write and I probably could use a file manager, I wasn&amp;rsquo;t interested in those ideas enough or see enough of a need for them &lt;em>personally&lt;/em>.&lt;/p>
 &lt;p>While I think it is important to work on projects in areas you are &lt;em>not&lt;/em> really interested in to broaden your skills, I&amp;rsquo;ve found that it is easier to stick with something you are passionate about.&lt;/p>
-&lt;p>My personal interest are in the areas of: the Bible, graphics, photography, and design -as evidenced by some of &lt;a href="https://github.com/Correct-Syntax">my open source work&lt;/a>. So, I couldn&amp;rsquo;t see myself developing the aforementioned ideas into apps.&lt;/p>
+&lt;p>My personal interests are in the areas of: the Bible, graphics, photography, and design, as evidenced by some of &lt;a href="https://github.com/Correct-Syntax">my open source work&lt;/a>. So, I couldn&amp;rsquo;t see myself developing the aforementioned ideas into apps.&lt;/p>
 &lt;h4 id="the-final-idea">The final idea&lt;/h4>
-&lt;p>With a bit more brainstorming, I came up with the idea of creating an app to create &lt;strong>time lapses&lt;/strong>.&lt;/p>
-&lt;p>I have fond memories of when I was younger and would experiment with time lapse using an old tablet. My brother and I would time lapse plants growing and mushrooms appearing in our greenhouse.&lt;/p>
-&lt;p>Time lapse, if you&amp;rsquo;re not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that is sped-up/condensed so naturally slow movements appear much faster. The time lapse effect can be very beautiful for things like sunsets, clouds, flowers/plants, or people walking the streets.&lt;/p>
+&lt;p>With a bit more brainstorming, I came up with the idea of creating an app to create &lt;strong>time-lapses&lt;/strong>.&lt;/p>
+&lt;p>I have fond memories of when I was younger and would experiment with time-lapses using an old Android tablet. My brother and I would time-lapse plants growing and mushrooms appearing in our greenhouse.&lt;/p>
+&lt;p>Time-lapse, if you&amp;rsquo;re not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that appears sped up. Naturally slow movements appear much faster than in a normal video. The time-lapse effect can be very beautiful for things like sunsets, clouds, plants, or people walking the streets.&lt;/p>
 &lt;div class="youtube-player">
 &lt;iframe src="https://www.youtube.com/embed/pi9G6py2Hv0" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;p>Again, I did some quick validation of the idea from a personal standpoint and realized it was something I could personally use. I could glorify Yahweh (our Heavenly Father) with it by showing the beauty of His Creation.&lt;/p>
+&lt;p>Again, I did some quick validation of the idea from a personal standpoint and realized it was something I could personally use. I could glorify Yahweh, our Heavenly Father, with it by showing the beauty of His creation.&lt;/p>
 &lt;p>After coming up with the idea, it was time to do some market research.&lt;/p>
 &lt;h3 id="make-the-app-great">&amp;ldquo;Make the app great&amp;rdquo;&lt;/h3>
-&lt;p>Early on, I stumbled upon some advice from someone talking about marketing an app which really struck me. The bit of advice was &lt;strong>&amp;ldquo;make the app great&amp;rdquo;&lt;/strong>.&lt;/p>
-&lt;p>Maybe that sounds obvious, but it is way too easy to get the cart ahead of the horse and spend most of the effort marketing the product instead of making the product itself great.&lt;/p>
-&lt;p>Obviously, that doesn&amp;rsquo;t mean no time should be spent marketing, as that is another trap to fall into. However, as a web developer and designer myself, I know how much easier it is to promote something that is &amp;ldquo;great&amp;rdquo; to start with. I also know how excited I could (personally) get about creating a website to promote it, while neglecting the product itself! You know, sort-of as a way to procrastinate&amp;hellip;&lt;/p>
-&lt;p>So from then on, I decided to have had the mindset of building a user-friendly, user-centric app focused on improving time lapse on Android and &lt;strong>solving the paint-points&lt;/strong> found in other apps. Like, literally making this a &amp;ldquo;great&amp;rdquo; time lapse app.&lt;/p>
-&lt;p>From a marketing standpoint, &lt;strong>people buy solutions to their problems, not software.&lt;/strong> So, solving user pain-points is the best approach that I am aware of.&lt;/p>
-&lt;h3 id="market-research">Market Research&lt;/h3>
-&lt;p>I conducted research on the Google Play store as well as some of the top apps on the Apple App store to get an idea of the current state of time lapse/camera apps for Android and see where the pain points were.&lt;/p>
-&lt;p>As someone that has always had an interest in photography and videography, I had already used a few of the more well-known Android timelapse apps before I ever had the idea to create one. However, after reading through hundreds of reviews and creating a ton of notes, I could see some areas where the current apps were failing, where they were doing well, and what people were looking for in a time lapse app.&lt;/p>
-&lt;p>I was also able to get some metrics of apps on the market via Apptopia&amp;rsquo;s free report, which was helpful.&lt;/p>
+&lt;p>Early on, I stumbled upon some advice from someone talking about marketing an app, which really struck me. The bit of advice was, &lt;strong>&amp;ldquo;make the app great&amp;rdquo;&lt;/strong>.&lt;/p>
+&lt;p>Maybe that sounds obvious, but it is way too easy to get the cart ahead of the horse and spend most of the effort marketing the product instead of making a great product.&lt;/p>
+&lt;p>Obviously, that doesn&amp;rsquo;t mean no time should be spent marketing, as that is another trap to fall into. However, as a web developer and designer myself, I know how much easier it is to promote something that is &amp;ldquo;great&amp;rdquo; to start with. I also know how excited I could get about creating a website to promote it while neglecting the app itself.&lt;/p>
+&lt;p>So from then on, I decided to have the mindset of building a user-friendly, user-centric app focused on improving time lapse on Android and &lt;strong>solving the paint-points&lt;/strong> found in other apps. Like, literally making this a &amp;ldquo;great&amp;rdquo; time lapse app.&lt;/p>
+&lt;p>From a marketing standpoint, &lt;strong>people buy solutions to their problems, not software.&lt;/strong> So, solving user pain points is the best approach that I am aware of.&lt;/p>
+&lt;h3 id="market-research">Market research&lt;/h3>
+&lt;p>I conducted research on the Google Play Store as well as some of the top apps on the Apple App Store to get an idea of the current state of time-lapse/camera apps for Android and see where the pain points were.&lt;/p>
+&lt;p>As someone that has always had an interest in photography and videography, I had already used a few of the more well-known Android time-lapse apps before I ever had the idea to create one. However, after reading through hundreds of reviews and creating a ton of notes, I could see some areas where the current apps were failing, where they were doing well, and what people were looking for in a time-lapse app.&lt;/p>
+&lt;p>I was also able to get some metrics on apps on the market via Apptopia&amp;rsquo;s free report, which was helpful.&lt;/p>
 &lt;h3 id="initial-planning">Initial planning&lt;/h3>
-&lt;p>It&amp;rsquo;s one thing to discover things that could be improved in other apps, it&amp;rsquo;s totally another thing to fix them and pull off a great user experience in your own.&lt;/p>
-&lt;p>So, why doesn&amp;rsquo;t everyone just go out and make a timelapse app?&lt;/p>
-&lt;p>It was pretty clear from the amount of notes I had taken that even a simple timelapse app has a lot of things that need to be done just right.&lt;/p>
+&lt;p>It&amp;rsquo;s one thing to discover things that could be improved in other apps; it&amp;rsquo;s totally another thing to fix them and pull off a great user experience in your own.&lt;/p>
+&lt;p>So, why doesn&amp;rsquo;t everyone just go out and make a time-lapse app?&lt;/p>
+&lt;p>It was pretty clear from the number of notes I had taken that even a simple time-lapse app has a lot of things that need to be done just right.&lt;/p>
 &lt;p>Two things really stood out from my notes:&lt;/p>
 &lt;ul>
 &lt;li>Reliability&lt;/li>
@@ -476,120 +476,123 @@ alt="Starry night sky timelapse video analytics"/>&lt;figcaption>
 &lt;p>&lt;strong>Reliability&lt;/strong> because who wants to go through the trouble of setting up a time lapse and waiting for the capture to complete (and for the video to render in some cases) only for the app to crash or something non-intuitive happens? No one, of course.&lt;/p>
 &lt;p>&lt;strong>Flexibility&lt;/strong> because when you go to download an app, it should be capable of doing things in a non-limiting way and respond well under a variety of circumstances.&lt;/p>
 &lt;p>&lt;em>Wait.&lt;/em> Did I unknowingly just describe a good app in general? ..I guess I have.&lt;/p>
-&lt;p>Indeed, because having reliability and flexibility is an important part of making good software in general.&lt;/p>
-&lt;h4 id="initial-ui-sketches--ideas">Initial UI sketches &amp;amp; ideas&lt;/h4>
-&lt;p>I then drew some initial sketches and wrote notes of what I imagined the UI and workflow to be, without diving into other apps, so I could come up with some original ideas.&lt;/p>
-&lt;p>Let me be honest: looking back, those sketches were a bit naive and didn&amp;rsquo;t include some settings a time lapse app should have. (I guess I didn&amp;rsquo;t know about time lapse as deeply as I may have thought). However, it gave me a springboard to where I could get started with my &lt;em>own&lt;/em> take on a time lapse app, even if it was a little out of reality and missing features&amp;hellip;&lt;/p>
-&lt;p>I then opened up to installing and testing almost every app related to time lapse on Google Play over the period of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.&lt;/p>
-&lt;p>Moving to my laptop I then created a digital mock-up of the different screens (views) that the app would have. At this point, I over-complicated it in certain areas like the home screen where I was thinking everything could/should be crammed. Therefore, I did end up going back and recreating the layout a number of times to get it condensed down to a better design.&lt;/p>
-&lt;h3 id="my-choice-of-a-tech-stack">My Choice of a Tech Stack&lt;/h3>
-&lt;p>For the tech-savy readers (read: developers) the tech stack I chose is pretty simple:&lt;/p>
+&lt;p>Indeed, having reliability and flexibility is an important part of making good software in general.&lt;/p>
+&lt;h4 id="initial-ui-sketches-and-ideas">Initial UI sketches and ideas&lt;/h4>
+&lt;p>I then drew some initial sketches and wrote notes of what I imagined the UI and workflow to be without diving into other apps, so I could come up with some original ideas.&lt;/p>
+&lt;p>Let me be honest: looking back, those sketches were a bit naive and didn&amp;rsquo;t include some settings a time-lapse app should have. Clearly I didn&amp;rsquo;t know about time-lapse as deeply as I may have thought. However, it gave me a springboard to where I could get started with my &lt;em>own&lt;/em> take on a time lapse app, even if it was a little out of reality and missing features.&lt;/p>
+&lt;p>I then opened up to installing and testing almost every app related to time lapse on Google Play over the course of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.&lt;/p>
+&lt;p>Moving to my laptop, I then created a digital mock-up of the different screens (views) that the app would have. At this point, I overcomplicated it in certain areas like the home screen where I was thinking everything could be crammed. Therefore, I did end up going back and recreating the layout a number of times to get it condensed down to a better design.&lt;/p>
+&lt;h3 id="my-choice-of-a-tech-stack">My choice of a tech stack&lt;/h3>
+&lt;p>For the tech-savy readers (read: developers), the tech stack I chose is pretty simple:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://flutter.dev">Flutter&lt;/a> for the UI&lt;/li>
 &lt;li>Dart (because of Flutter) for the main business logic&lt;/li>
-&lt;li>Java/Kotlin for any native platform code needed (on Android)&lt;/li>
+&lt;li>Java or Kotlin for any native platform code needed (on Android)&lt;/li>
 &lt;/ul>
-&lt;p>Prior to this I had never done Flutter/Dart development and only had a small bit of Java experience so this was an entirely unfamiliar tech stack to me.&lt;/p>
-&lt;h4 id="why-flutterdart">Why Flutter/Dart?&lt;/h4>
+&lt;p>Prior to this, I had never done Flutter/Dart development and only had a small bit of Java experience so this was an entirely unfamiliar tech stack to me.&lt;/p>
+&lt;h4 id="why-flutter-and-dart">Why Flutter and Dart?&lt;/h4>
 &lt;p>Why not?&lt;/p>
-&lt;p>Real answer: Flutter looked really neat, was something I had been wanting to try for a while. It&amp;rsquo;s cross-platform and isn&amp;rsquo;t limited by the performance of a webview/browser engine. In addition, Flutter has hot-reload and really great tooling for Android Studio and VScode.&lt;/p>
-&lt;h4 id="why-not-react-native-etc">Why not React Native, etc?&lt;/h4>
-&lt;p>I was concerned about the performance of using a js framework. Also didn&amp;rsquo;t feel that using a js framework for an app that accesses so much lower-level hardware (like the camera) was a good idea.&lt;/p>
-&lt;h4 id="alright-why-not-native-javakotlin-then">Alright, why not native Java/Kotlin then?&lt;/h4>
-&lt;p>Besides the comments above, I just haven&amp;rsquo;t liked Java Android development all that much from my bits of working with it. (More just a personal preference.)&lt;/p>
+&lt;p>Real answer: Flutter looked really neat and was something I had been wanting to try for a while. It&amp;rsquo;s cross-platform and isn&amp;rsquo;t limited by the performance of a webview or browser engine. In addition, Flutter has hot-reload and really great tooling for Android Studio and VScode.&lt;/p>
+&lt;h4 id="why-not-react-native-or-another-js-framework">Why not React Native or another js framework?&lt;/h4>
+&lt;p>I was concerned about the performance of using a Javascript framework. Also didn&amp;rsquo;t feel that using a Javascript framework for an app that accesses so much lower-level hardware (like the camera) was a good idea.&lt;/p>
+&lt;h4 id="alright-why-not-native-java-or-kotlin-then">Alright, why not native Java or Kotlin then?&lt;/h4>
+&lt;p>Besides the comments above, I just hadn&amp;rsquo;t liked Java Android development all that much from my bits of working with it. More just a personal preference at that point.&lt;/p>
 &lt;blockquote>
-&lt;p>Ironically, I ended up diving into both Java &lt;strong>and&lt;/strong> Kotlin &lt;strong>a lot&lt;/strong>. (What did I expect for an app that accesses so much hardware?!) Thankfully, I had help from &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> who has a lot more experience than I with Android development.&lt;/p>
+&lt;p>Ironically I ended up diving into both Java &lt;strong>and&lt;/strong> Kotlin &lt;strong>a lot&lt;/strong>. (What did I expect for an app that accesses so much hardware?) Thankfully, I had help from &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> who had a lot more experience than I did with Android development. Since then I&amp;rsquo;ve learned to like Kotlin.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="initial-development-learning-dartflutter">&lt;del>Initial development&lt;/del> Learning Dart/Flutter&lt;/h3>
-&lt;p>I was eager to get started with developing the app as I figured there would be a learning phase with Flutter and Dart. I was pleasantly surprised at how simple the installation and project setup was. The default Flutter project code didn&amp;rsquo;t seem too far out either.&lt;/p>
+&lt;h3 id="learning-dart-and-flutter">Learning Dart and Flutter&lt;/h3>
+&lt;p>I was eager to get started with developing the app, as I figured there would be a learning phase with Flutter and Dart. I was pleasantly surprised at how simple the installation and project setup were. The default Flutter project code didn&amp;rsquo;t seem &amp;ldquo;too far out there&amp;rdquo; either.&lt;/p>
 &lt;h4 id="the-first-hurdle-android-emulators">The first hurdle: Android emulators&lt;/h4>
-&lt;p>For whatever reason, however, the Android emulators kept giving me issues. The emulators wouldn&amp;rsquo;t restart until after I rebooted my laptop. It ended up being a configuration problem on my end (of course..).&lt;/p>
-&lt;p>Later on when I needed a more realistic idea of what I was doing, I enabled USB debugging to my Android phone which helped to greatly improve my productivity and testing.&lt;/p>
+&lt;p>For whatever reason, however, the Android emulators kept giving me issues. The emulators wouldn&amp;rsquo;t restart until after I rebooted my laptop. It ended up being a configuration problem on my end (of course&amp;hellip;).&lt;/p>
+&lt;p>Later on, when I needed a more realistic idea of what I was doing, I enabled USB debugging on my Android phone, which helped greatly improve my productivity and testing.&lt;/p>
 &lt;blockquote>
-&lt;p>Tip: Make sure your phone&amp;rsquo;s font size is set to &lt;code>Default&lt;/code> when testing otherwise the text scaling could be off and when you install the app on a phone with a larger screen, the UI text could be tiny.&lt;/p>
+&lt;p>Tip: Make sure your phone&amp;rsquo;s font size is set to &lt;code>Default&lt;/code> when testing, otherwise the text scaling could be off, and when you install the app on a phone with a larger screen, the UI text could be tiny.&lt;/p>
 &lt;/blockquote>
 &lt;h4 id="the-second-hurdle-flutter-constraints">The second hurdle: Flutter constraints&lt;/h4>
-&lt;p>Once past the emulators hurdle, I quickly learned that Flutter constraints are &lt;strong>not&lt;/strong> like web layouts.&lt;/p>
+&lt;p>Once past the emulator hurdle, I quickly learned that Flutter constraints are &lt;strong>not&lt;/strong> like web layouts.&lt;/p>
 &lt;p>I kept running into the (in)famous overflow errors and &lt;code>unbounded layout constraints&lt;/code> fatal errors. Needless to say, I didn&amp;rsquo;t get very far until I understood how constraints and layout worked.&lt;/p>
-&lt;p>It is wise advice to read and understand the Flutter docs on &lt;a href="https://docs.flutter.dev/development/ui/layout/constraints">layout constraints&lt;/a> &lt;em>before&lt;/em> starting.&lt;/p>
+&lt;p>It is wise advice to read and understand the Flutter documentation on &lt;a href="https://docs.flutter.dev/development/ui/layout/constraints">layout constraints&lt;/a> &lt;em>before&lt;/em> starting.&lt;/p>
 &lt;h4 id="learning-takes-time">Learning takes time&lt;/h4>
-&lt;p>For the first few weeks I familiarized myself with the various Flutter and Dart concepts, started to narrow in on the app design and make a tiny bit of progress on the app (which I rewrote later in a fraction of the time).&lt;/p>
-&lt;p>It&amp;rsquo;s worthy of note that this project uses almost &lt;em>every&lt;/em> main feature in Flutter. From native platform channels to the somewhat obscure &lt;code>RepaintBoundry&lt;/code> widget, it has it all. This app was packed with a lot of Flutter and Dart things to figure out. Thus, for my first actual Flutter application this wasn&amp;rsquo;t exactly the level a simple to-do app.&lt;/p>
-&lt;p>That is to say, at that point progress was really slow and it was more of me learning than working on the app.&lt;/p>
+&lt;p>For the first few weeks, I familiarized myself with the various Flutter and Dart concepts, started to narrow in on the app design, and made a tiny bit of progress on the app (which I later rewrote in a fraction of the time).&lt;/p>
+&lt;p>It&amp;rsquo;s worthy of note that this project uses almost &lt;em>every&lt;/em> main feature in Flutter. From native platform channels to the somewhat obscure &lt;code>RepaintBoundry&lt;/code> widget, it has it all. This app was packed with a lot of Flutter and Dart things to figure out. Thus, for my first actual Flutter application, this wasn&amp;rsquo;t exactly on the level of a simple to-do app.&lt;/p>
+&lt;p>Needless to say, at that point progress was really slow and it was more of me learning than working on the app.&lt;/p>
 &lt;h3 id="my-opinion-of-flutter-and-dart">My opinion of Flutter and Dart&lt;/h3>
-&lt;p>Fast-forward to today and I&amp;rsquo;ve used Flutter and Dart for ~4 months as of the writing of this post. So far my impression of Flutter and Dart is pretty good.&lt;/p>
+&lt;p>Fast-forward to today, and I&amp;rsquo;ve used Flutter and Dart for ~4 months as of the writing of this post. So far my impression of Flutter and Dart is good.&lt;/p>
 &lt;h4 id="flutter">Flutter&lt;/h4>
-&lt;p>Overall, I&amp;rsquo;ve enjoyed Flutter. Although I&amp;rsquo;ve had multiple headaches with understanding some things (read: layout constraints) initially, I welcomed the well-structured, everything-is-a-widget design and -of course- the hot-reload.&lt;/p>
-&lt;p>If you&amp;rsquo;re looking for a short read to help you decide whether you should use Flutter/Dart for your project, I can confirm much of what &lt;a href="https://medium.com/lightsnap/7-things-we-learned-writing-a-camera-app-in-flutter-ad6a1debe055">this article&lt;/a> states (although its a bit outdated).&lt;/p>
+&lt;p>Overall, I&amp;rsquo;ve enjoyed Flutter. Although I&amp;rsquo;ve had multiple headaches with understanding some things (read: layout constraints) initially, I welcomed the well-structured, everything-is-a-widget design and, of course, the hot reload.&lt;/p>
+&lt;p>If you&amp;rsquo;re looking for a short read to help you decide whether you should use Flutter and Dart for your project, I can confirm much of what &lt;a href="https://medium.com/lightsnap/7-things-we-learned-writing-a-camera-app-in-flutter-ad6a1debe055">this article&lt;/a> states (although its a bit outdated).&lt;/p>
 &lt;h4 id="dart">Dart&lt;/h4>
-&lt;p>I felt quite at home with Dart almost straightaway. It has sort of a Javascript/Java/C++ feel to it, but much more well-suited for UI code.&lt;/p>
-&lt;p>It was actually the quickest I&amp;rsquo;ve ever picked up a programming language. Perhaps because I&amp;rsquo;ve worked with and learned so many programming languages previously or maybe because of its similarities to other languages. Either way, I actually enjoy working with Dart more so than most other languages I know.&lt;/p>
+&lt;p>I felt quite at home with Dart almost straightaway. It has sort of a Javascript/Java/C++ feel to it, but is much more suited for UI code in my opinion.&lt;/p>
+&lt;p>It was actually the quickest I&amp;rsquo;ve ever picked up a programming language to the point where I could work with it. Perhaps because I&amp;rsquo;ve worked with and learned so many programming languages previously, or maybe because of the similarities to other languages.&lt;/p>
 &lt;h4 id="deeply-nested-codeoh-no">Deeply nested code&amp;hellip;oh no&lt;/h4>
-&lt;p>One thing that is very apparent when you look at almost any Flutter Dart code is the amount of nesting. This can be obviously &lt;em>very&lt;/em> overwhelming to look at and scroll through. Ideally, you keep the code under control via breaking it out into another widget, etc but oftentimes it can still be a little hairy.&lt;/p>
-&lt;p>Thankfully, most modern code editors like VScode have a code folding feature allowing you to collapse function/method bodies, etc and class initializations (in our case for widgets). Until this point I hadn&amp;rsquo;t used this code editor feature, but for Flutter/Dart it is really a time (and eye) saver.&lt;/p>
+&lt;p>One thing that is very apparent when you look at almost any Flutter Dart code is the amount of nesting. This can obviously be &lt;em>very&lt;/em> overwhelming to look at and scroll through. Ideally, you keep the code under control by breaking it out into another widget, etc., but oftentimes it can still be a little hairy.&lt;/p>
+&lt;p>Thankfully, most modern code editors like VScode have a code folding feature that allows you to collapse function/method bodies, etc., and class initializations (in our case, widgets). Until this point, I hadn&amp;rsquo;t used this code editor feature, but for Dart it is really a time (and eye) saver.&lt;/p>
 &lt;h3 id="the-first-milestone">The first milestone&lt;/h3>
-&lt;p>After a long and hard month of work, I finally had a barely working version of the capture and some other main features in a rough, unpolished state.&lt;/p>
+&lt;p>After a long and hard month of work, I finally had a &amp;ldquo;barely working&amp;rdquo; version of the capture and some other main features in a rough, unpolished state.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/rough-version-early-ui.gif"
 alt="A gif showing the early working state of Velocity Lapse"/>&lt;figcaption>
 &lt;p>The early state of Velocity Lapse. Notice how much the UI has changed since then.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>It was a nice milestone, because at this point you could capture and render the time lapse to a video (given the proper knowledge, due to its rough and unpolished state).&lt;/p>
+&lt;p>It was a nice milestone because at this point, you could capture and render the time-lapse to a video. Albeit, given the proper knowledge, due to the app&amp;rsquo;s rough and unpolished state.&lt;/p>
 &lt;h3 id="simplify-simplify-simplify">Simplify, simplify, simplify&lt;/h3>
 &lt;p>Throughout the project, one thing has been constant: the gradual change of the UI towards simplification.&lt;/p>
-&lt;p>Originally, the UI options were a bit more complicated than they needed to be. I and some select testers tested using the app in real life situations (AKA: we went out and captured time lapses), and it was clear more refinement could be done.&lt;/p>
-&lt;p>A few things in the capture screen UI weren&amp;rsquo;t 100% clear and I, even though I made the app, mixed up which settings I was changing more than once. (Glare from the sun and sweat on your brow can change the way you use an app). So, I redesigned the tabs to make it more clear which setting was selected and other UI tweaks.&lt;/p>
+&lt;p>Originally, the UI options were a bit more complicated than they needed to be. I and some select testers tested using the app in real-life situations (we went out and captured time-lapses), and it was clear more refinement could be done.&lt;/p>
+&lt;p>A few things in the capture screen UI weren&amp;rsquo;t 100% clear, and even though I made the app, I mixed up which settings I was changing more than once. Glare from the sun and sweat on your brow can really change the way you use an app.&lt;/p>
+&lt;p>So, I redesigned the tabs to make it more clear which setting was selected.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/capture-screen-ui.jpeg"
 alt="The capture screen interface"/>&lt;figcaption>
 &lt;p>The capture screen interface&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>Velocity Lapse is meant for everyday people as much as it is for serious time lapse photographers, so I decided to also cut out confusion by using plain English where possible vs. the technical terms.&lt;/p>
+&lt;p>Velocity Lapse is meant for everyday people as much as it is for serious time-lapse photographers, so I decided to also cut out confusion by using plain English where possible vs. the technical terms.&lt;/p>
 &lt;h3 id="logo-design">Logo design&lt;/h3>
-&lt;p>Over the period of the three months of developing the app, I had sketched about a hundred different logo concepts, both on paper and digitally. Some others tried to sketch some ideas and spent quite a bit of time brainstorming and iterating over potential ideas as well. However, the ideas were either too generic or unrelated, too similar to another logo or just a bad design to begin with.&lt;/p>
+&lt;p>Over the course of the three months of developing the app, I had sketched about a hundred different logo concepts, both on paper and digitally. Some others tried to sketch some ideas and spent quite a bit of time brainstorming and iterating over potential ideas as well. However, the ideas were either too generic or unrelated, too similar to another logo, or just a bad design to begin with.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design-sketches.jpg"
 alt="Sketches of ideas for the logo"/>&lt;figcaption>
 &lt;p>Coming up with a logo for Velocity Lapse&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>The name &amp;ldquo;Velocity Lapse&amp;rdquo; did give us some concepts to work with (which we wrote down as tangible objects), but in the end almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to &lt;em>velocity&lt;/em> being a bit of a technical, science term.&lt;/p>
+&lt;p>The name &amp;ldquo;Velocity Lapse&amp;rdquo; did give us some concepts to work with (which we wrote down as tangible objects), but in the end, almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to &lt;em>velocity&lt;/em> being a bit of a technical, science term.&lt;/p>
 &lt;p>After praying for an idea or concept to come, it really, literally did. (We cannot underestimate prayer.)&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design.jpeg"
 alt="The Velocity Lapse logo"/>&lt;figcaption>
 &lt;p>The Velocity Lapse logo&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
-&lt;p>The concept was a camera lens with a spinning-circle shape to show a sense of motion. I did a few variations of it and may end up tweaking/changing it a bit later, but for now it works as a logo.&lt;/p>
+&lt;p>The concept was a camera lens with a spinning-circle shape to show a sense of motion. I did a few variations of it and may end up changing it later, but for now it works as a logo.&lt;/p>
 &lt;h3 id="setting-up-a-landing-page">Setting up a landing page&lt;/h3>
-&lt;p>Setting up the landing page for Velocity Lapse was a nice break from developing the app. I purchased the domain name, &lt;em>velocitylapse.com&lt;/em> and setup a landing page where visitors could join a waitlist to get early access to the app.&lt;/p>
+&lt;p>Setting up the landing page for Velocity Lapse was a nice break from developing the app. I purchased the domain name &lt;em>velocitylapse.com&lt;/em> and setup a landing page where visitors could join a waitlist to get early access to the app.&lt;/p>
 &lt;p>I didn&amp;rsquo;t actually expect anyone to do so or even find the website since I hadn&amp;rsquo;t promoted it yet, though. It was meant more as a placeholder until the app was ready for a real home page.&lt;/p>
 &lt;p>With that out of the way, I went back to work on the app.&lt;/p>
 &lt;h3 id="development-challenges">Development challenges&lt;/h3>
-&lt;p>There was quite a few technical challenges and set-backs in development.&lt;/p>
+&lt;p>There were quite a few technical challenges and set backs in development.&lt;/p>
 &lt;h4 id="h264-encoding-artifacts">H.264 encoding artifacts&lt;/h4>
-&lt;p>One big set-back in particular had to do with the renderer which would take the captured images and convert them to an H.264 encoded .MP4 video file.&lt;/p>
-&lt;p>I had been finishing up the &amp;ldquo;last&amp;rdquo; bug fixes and edits before getting the minimal app of the ground and into the internal and open testing stages. However, I discovered that the exported videos had H.264 codec artifacts (banding). The artifacts, ugly bands of pink across the video, seemed to appear after the first second or two of the video. Up until this point I had only rendered out videos less than 2 seconds so I didn&amp;rsquo;t realize this earlier.&lt;/p>
-&lt;p>This seemed to be an issue with the &lt;a href="https://github.com/jcodec/jcodec">jcodec&lt;/a> Java library that I was using as the encoder for the video export renderer. I wasn&amp;rsquo;t able to produce even one video with jcodec without artifacts. Unfortunately, I hadn&amp;rsquo;t noticed this sooner and so a lot of hours of work implementing the renderer with jcodec had to be thrown away.&lt;/p>
-&lt;p>Some options were to use:&lt;/p>
+&lt;p>One big set back in particular had to do with the renderer, which would take the captured images and convert them to an H.264-encoded MP4 video file.&lt;/p>
+&lt;p>I had been finishing up the &amp;ldquo;last&amp;rdquo; bug fixes and edits before getting the minimal app off the ground and into the internal and open testing stages.&lt;/p>
+&lt;p>However, I discovered that the exported videos had H.264 codec artifacts (banding). The artifacts, ugly bands of pink across the video, seemed to appear after the first second or two of the video. Up until this point, I had only rendered out 2 second long videos, so I didn&amp;rsquo;t realize this earlier.&lt;/p>
+&lt;p>This seemed to be an issue with the &lt;a href="https://github.com/jcodec/jcodec">Jcodec&lt;/a> Java library that I was using as the encoder for the video export renderer. I wasn&amp;rsquo;t able to produce even one video with jcodec without artifacts. Unfortunately, I hadn&amp;rsquo;t noticed this sooner, so the time spent implementing the renderer with Jcodec had to be thrown away.&lt;/p>
+&lt;p>Some options were to use either:&lt;/p>
 &lt;ul>
 &lt;li>The native media APIs for encoding videos&lt;/li>
-&lt;li>The NDK with a C++ lib to encode the videos&lt;/li>
+&lt;li>The NDK with a C++ library to encode the videos&lt;/li>
 &lt;/ul>
-&lt;p>However, after looking at what those require, I wasn&amp;rsquo;t motivated to go in either of those directions writing something from scratch myself.&lt;/p>
+&lt;p>However, after looking at what those would require, I wasn&amp;rsquo;t motivated to go in either of those directions, writing something from scratch myself.&lt;/p>
 &lt;p>Obviously, the app couldn&amp;rsquo;t be released without a way to export the timelapse to video, so I needed to think of another way.&lt;/p>
-&lt;p>After a lot of searching, I came to a small package called &lt;a href="https://github.com/israel-fl/bitmap2video">bitmap2video&lt;/a> which looked like it might do the trick. However, since it was written in Kotlin, it would mean switching the existing code from Java to Kotlin.&lt;/p>
+&lt;p>After a lot of searching, I came across a small package called &lt;a href="https://github.com/israel-fl/bitmap2video">bitmap2video&lt;/a> which looked like it might do the trick. However, since it was written in Kotlin, it would mean switching the existing code from Java to Kotlin.&lt;/p>
 &lt;p>I decided to go for it and embrace it as an unexpected opportunity to learn Kotlin.&lt;/p>
-&lt;p>First, I did a bunch of extensive testing to verify that it didn&amp;rsquo;t produce artifacts like jcodec. I did end up having to fix some deprecated code and fix a few things to make it work, but came to the conclusion that with some more customization it would indeed work.&lt;/p>
-&lt;p>Thankfully, although I&amp;rsquo;ve never written in Kotlin before, the transition was pretty smooth with Android Studio&amp;rsquo;s Java to Kotlin converter, the Kotlin manual, and a bunch of online searches. The most difficult part was wrapping my head around Kotlin&amp;rsquo;s coroutines, but thanks to some articles online I was able to solve the problem I was having.&lt;/p>
-&lt;p>The end result was a much faster, more lightweight renderer than the one written in Java with jcodec. Plus, since the Kotlin version was a smaller package which I pulled directly into the source, I could benefit from being able to make edits/fixes for Velocity Lapse&amp;rsquo;s specific use case.&lt;/p>
-&lt;p>So, in the end, it turned out better because of the set-back. :)&lt;/p>
+&lt;p>First, I did a bunch of extensive testing to verify that it didn&amp;rsquo;t produce artifacts like Jcodec. Thankfully, it didn&amp;rsquo;t.&lt;/p>
+&lt;p>I did end up having to fix some deprecated code and other minor things to make it work, but came to the conclusion that with some more customization, it would indeed work.&lt;/p>
+&lt;p>Although I&amp;rsquo;ve never written in Kotlin before, the transition was pretty smooth with Android Studio&amp;rsquo;s Java to Kotlin converter, the Kotlin manual, and a bunch of online searches. The most difficult part was wrapping my head around the packages use of Kotlin&amp;rsquo;s coroutines.&lt;/p>
+&lt;p>The end result was a much faster, more lightweight renderer than the one written in Java with jcodec. Plus, since the Kotlin version was a smaller package that I pulled directly into the source code, I could benefit from being able to make edits/fixes for Velocity Lapse&amp;rsquo;s specific use case.&lt;/p>
+&lt;p>So, in the end, it turned out better because of the set back. :)&lt;/p>
 &lt;h3 id="the-first-pre-release-internal-testing">The first pre-release (internal testing)&lt;/h3>
-&lt;p>Finally, after 3 months of work the app was in a state that I felt could deserve a pre-release tag. I worked through the process of generating a keystore and generating the app bundle to upload to Google Play for internal testing.&lt;/p>
-&lt;p>In the play console, I ended up getting some warnings about sensitive permissions, which I quickly resolved by removing the unnecesary permissions from the Android manifest. Evidently, I had added permissions the app during development while testing some packages and forgot to remove them.&lt;/p>
-&lt;p>After that I was able to successfully release the app bundle to internal testing.&lt;/p>
+&lt;p>Finally, after 3 months of development, the app was in a state that I felt deserved a pre-release tag. I worked through the process of generating a keystore and generating the app bundle to upload to Google Play for internal testing.&lt;/p>
+&lt;p>In the play console, I ended up getting some warnings about sensitive permissions, which I quickly resolved by removing the unnecessary permissions from the Android manifest. Evidently, I had added permissions to the app during development while testing some packages and forgot to remove them.&lt;/p>
+&lt;p>After that fix, I was able to successfully release the app bundle to internal testing.&lt;/p>
 &lt;h3 id="the-journey-continues">The journey continues&lt;/h3>
 &lt;p>Thanks for reading. I hope you&amp;rsquo;ve enjoyed this post and have gained something from this journey so far as I have.&lt;/p>
-&lt;p>If you have a suggestion, a comment or some advice, relating either to the app or this post, I&amp;rsquo;d love to hear what you have to share either in the comments below or via &lt;a href="mailto:hi@noahrahm.com">email&lt;/a>.&lt;/p>
+&lt;p>If you have a suggestion, a comment, or advice, relating either to the app or this post, I&amp;rsquo;d love to hear what you have to share either in the comments below or via &lt;a href="mailto:hi@noahrahm.com">email&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>You can read the next part of the journey in &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/">part 2&lt;/a> of this series.&lt;/strong>&lt;/p>
 &lt;hr>
-&lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item></channel></rss>
+&lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father, from whom all knowledge and every good thing come.&lt;/em>&lt;/p></description></item></channel></rss>
