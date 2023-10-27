@@ -1,17 +1,13 @@
 {{ define "main" }} 
-<div class="relative bg-hero bg-cover bg-center pt-32 pb-20 px-4 xl:px-0">
+<div class="relative bg-hero bg-cover bg-center pt-40 pb-32 px-4 xl:px-0">
   <div class="max-w-6xl mx-auto">
-    <span class="text-lg text-white/80 font-medium tracking-wide">Hi, I'm Noah Rahm.</span>
-    <h1 class="text-5xl md:text-6xl text-blue-200 font-serif font-light mt-1 max-w-xl">I Create Meaningful Digital Experiences.</h1>
-    <h2 class="text-white/80 tracking-wide text-lg mt-4 max-w-md md:max-w-xl">
-      Independent designer/developer creating uniquely crafted, meaningful visual design and development solutions.
+    <h1 class="text-5xl md:text-6xl text-blue-200 font-serif font-light mt-1 max-w-2xl">Functional <em>and</em> beautiful websites and designs.</h1>
+    <h2 class="text-white/90 tracking-wide text-lg mt-6 max-w-md md:max-w-xl">
+      I work with you every step of the way to create design and development solutions that work for you—and look good.
     </h2>
-    <a class="group inline-flex items-center px-7 py-3 bg-blue-200 text-blue-600 border-2 border-blue-200 rounded-full text-lg font-medium drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:text-blue-200 hover:bg-blue-300 duration-300 ease-linear mt-7" href="https://calendly.com/noahrahm/consultation" target="blank">
-      Book consultation
-      <svg class="ml-1.5 w-5 h-5 fill-blue-600 group-hover:fill-blue-200" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
-        <path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"></path>
-      </svg>
-    </a>
+    <button class="inline-flex px-6 py-3 bg-blue-200 text-blue-600 border-2 border-blue-200 rounded-full text-lg font-medium drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:text-blue-200 hover:bg-blue-300 duration-300 ease-linear mt-8" href="https://calendly.com/noahrahm/consultation" target="blank">
+      Book free consultation
+    </button>
   </div>
 </div>
 
@@ -76,20 +72,28 @@
       </a>
     </div>
     <div class="mx-auto text-center my-4">
-      <a class="group inline-flex items-center px-5 py-2 text-blue-600/90 border-2 border-blue-400/40 rounded-full font-medium drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:text-blue-200 hover:bg-blue-400 duration-300 ease-linear mt-8 mx-auto" href="/work/">
-        View More Work
-      </a>
+      <button class="inline-flex px-5 py-2 text-blue-600/90 border-2 border-blue-400/40 rounded-full font-medium drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:text-blue-200 hover:bg-blue-400 duration-300 ease-linear mt-8 mx-auto" href="/work/">
+        See more work
+      </button>
     </div>
   </div>
 </div>
 
 <div id="services" class="bg-blue-400 px-4 xl:px-0 py-20">
   <div class="mx-auto text-center">
-    <span class="text-sm text-white/80 font-medium uppercase tracking-wide mx-auto">Services</span>
-    <h3 class="text-5xl text-blue-200 font-serif font-light mx-auto mt-2 px-6">How I Can <span class="inline-block">Help You</span></h3>
+    <span class="text-sm text-white/80 font-medium uppercase tracking-wide mx-auto">Solutions</span>
+    <h3 class="text-5xl text-blue-200 font-serif font-light mx-auto mt-2 px-6">Development and design services</h3>
   </div>
   <div class="bg-blue-600 drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] max-w-6xl rounded-xl py-20 px-8 sm:px-10 md:px-20 mx-auto mt-10">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-y-12 mx-auto">
+      <!-- Static sites -->
+      <div class="max-w-md">
+        <div class="w-14 h-14 border-4 border-blue-300 rounded-full p-3">
+          <svg class="fill-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M216,42H72A14,14,0,0,0,58,56V74H40A14,14,0,0,0,26,88V200a14,14,0,0,0,14,14H184a14,14,0,0,0,14-14V182h18a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42ZM40,86H184a2,2,0,0,1,2,2v18H38V88A2,2,0,0,1,40,86ZM186,200a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V118H186Zm32-32a2,2,0,0,1-2,2H198V88a14,14,0,0,0-14-14H70V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2Z"></path></svg>
+        </div>
+        <h5 class="text-xl text-white font-semibold mt-4 mb-2">Static website design &amp; development</h5>
+        <p class="text-white/80">Don't need or want a full CMS solution like WordPress? Static websites have the advantages of page speed, flexibility, and security. I can create your site using a powerful site generator called Hugo.</p>
+      </div>
       <!-- Wordpress -->
       <div class="max-w-md">
         <div class="w-14 h-14 border-4 border-blue-300 rounded-full p-3">
@@ -98,15 +102,7 @@
           </svg>
         </div>
         <h4 class="text-xl text-white font-semibold mt-4 mb-2">WordPress design &amp; development</h4>
-        <p class="text-white/80">Fast, optimized, and visually pleasing <a class="underline decoration-white/20 hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear" href="https://wordpress.org" target="blank">Wordpress</a> or <a class="underline decoration-white/20 hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear" href="https://woocommerce.com" target="blank">Woocommerce</a> websites built using the native Gutenburg editor. For more complex requirements, I can develop a custom plugin or theme specific to your needs.</p>
-      </div>
-      <!-- Static sites -->
-      <div class="max-w-md">
-        <div class="w-14 h-14 border-4 border-blue-300 rounded-full p-3">
-          <svg class="fill-white w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M216,42H72A14,14,0,0,0,58,56V74H40A14,14,0,0,0,26,88V200a14,14,0,0,0,14,14H184a14,14,0,0,0,14-14V182h18a14,14,0,0,0,14-14V56A14,14,0,0,0,216,42ZM40,86H184a2,2,0,0,1,2,2v18H38V88A2,2,0,0,1,40,86ZM186,200a2,2,0,0,1-2,2H40a2,2,0,0,1-2-2V118H186Zm32-32a2,2,0,0,1-2,2H198V88a14,14,0,0,0-14-14H70V56a2,2,0,0,1,2-2H216a2,2,0,0,1,2,2Z"></path></svg>
-        </div>
-        <h5 class="text-xl text-white font-semibold mt-4 mb-2">Static website development</h5>
-        <p class="text-white/80">If you don't need or want a full CMS solution, static websites have the advantages of speed, flexibility, security, and simpler maintenance. I can create your site using any non-js-based site generator of your choice.</p>
+        <p class="text-white/80">Fast, optimized and visually pleasing <a class="underline decoration-white/20 hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear" href="https://wordpress.org" target="blank">Wordpress</a> or <a class="underline decoration-white/20 hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear" href="https://woocommerce.com" target="blank">Woocommerce</a> websites built using the native Gutenburg editor or other block plugin. For unique requirements, I can develop a custom plugin or theme specific to your needs.</p>
       </div>
       <!-- Design -->
       <div class="max-w-md">
@@ -116,7 +112,7 @@
           </svg>
         </div>
         <h6 class="text-xl text-white font-semibold mt-4 mb-2">Web &amp; graphic design</h6>
-        <p class="text-white/80">Modern, user-friendly web, ui, and graphic designs with optional custom graphics.</p>
+        <p class="text-white/80">Clean, modern, accessible, and user-friendly web, UI, and graphic designs.</p>
       </div>
       <!-- Logos -->
       <div class="max-w-md">
@@ -131,7 +127,7 @@
     </div>
   </div>
   <div class="mt-16 mx-auto text-center">
-    <h6 class="text-xl text-white/80 px-2 max-w-lg mx-auto">Not sure what you need yet? Book a 15 min. consultation and I can review your current website.</h6>
+    <h6 class="text-xl text-white/80 px-2 max-w-lg mx-auto">Not sure what you need? Book your 15 minute consultation for a free review of your current website or logo.</h6>
     <a class="group inline-flex items-center px-7 py-3 bg-blue-300 text-blue-200 border-2 border-blue-200 rounded-full text-lg font-medium drop-shadow-[0_25px_25px_rgba(0,0,0,0.25)] hover:cursor-pointer hover:text-blue-600 hover:bg-blue-200 duration-300 ease-linear mt-8 mx-auto" href="https://calendly.com/noahrahm/consultation" target="blank">
       Book consultation
       <svg class="ml-1.5 w-5 h-5 fill-blue-200 group-hover:fill-blue-600" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
