@@ -64,90 +64,90 @@ alt="A screenshot of Haikei generating a layered peaks svg background"/>&lt;figc
 &lt;p>Do you have any free design tools or resources you use that I didn&amp;rsquo;t mention? Feel free to comment below.&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse Part 4</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</link><pubDate>Thu, 08 Jun 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-4/</guid><description>&lt;p>You can read the previous posts, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">Part 1&lt;/a>, &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/">Part 2&lt;/a>, and &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-3/">Part 3&lt;/a> to get context of my journey creating &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a> up to this point.&lt;/p>
 &lt;p>If you have any comments or suggestions, feel free to leave a comment below.&lt;/p>
 &lt;h3 id="continued-progress">Continued progress&lt;/h3>
-&lt;p>Starting in 2023, I decided to be more intentional with when I work on Velocity Lapse to avoid burnout.&lt;/p>
+&lt;p>Starting in 2023, I decided to be more intentional when I work on Velocity Lapse to avoid burnout.&lt;/p>
 &lt;h4 id="slower-pace">Slower pace&lt;/h4>
-&lt;p>Obviously, I couldn&amp;rsquo;t continue the pace that I had during the first 6 months of initial development. I couldn&amp;rsquo;t justify spending more time on it than a set reasonable amount per week. It also happened that I had other big projects for work come my way.&lt;/p>
-&lt;p>And so, I slowed down the pace of development and shifted my priorities to fit.&lt;/p>
+&lt;p>Obviously, I couldn&amp;rsquo;t continue at the same pace that I had during the first 6 months of initial development. I also couldn&amp;rsquo;t justify spending more time on it than a set reasonable amount per week. It also happened that I had other big projects for work come my way.&lt;/p>
+&lt;p>And so, I slowed down the pace of development.&lt;/p>
 &lt;h4 id="flurry-analytics">Flurry Analytics&lt;/h4>
 &lt;p>Ultimately, I decided that it doesn&amp;rsquo;t benefit the users for me to &lt;em>not&lt;/em> have the information I need to improve the app and fix crashes. When it comes down to privacy vs. being able to fix issues quicker, I think most users would choose the latter. So I added Flurry analytics to the app.&lt;/p>
-&lt;h3 id="missed-launch-dates">Missed launch dates&lt;/h3>
-&lt;p>You may be wondering: &amp;ldquo;Have I forgotten about the full release? When will that happen?&amp;rdquo;&lt;/p>
+&lt;h3 id="reviewing-launch-dates">Reviewing launch dates&lt;/h3>
+&lt;p>You may be wondering, &amp;ldquo;Have I forgotten about the full release? When will that happen?&amp;rdquo;&lt;/p>
 &lt;h4 id="not-yet-stable-enough">Not yet stable enough&lt;/h4>
-&lt;p>Well, at this point I didn&amp;rsquo;t believe it was ready for an out-of-beta release.&lt;/p>
+&lt;p>Well, at this point, I didn&amp;rsquo;t believe it was ready for an out-of-beta release.&lt;/p>
 &lt;p>For one thing, I had noticed that the user perceived crash rate was around 6-7%, which was over the Google Play maximum threshold.&lt;/p>
-&lt;p>Most of the issues were crashes during export. Obviously, not a great thing to see.&lt;/p>
-&lt;p>In short: Velocity Lapse just wasn&amp;rsquo;t up to production quality yet. I didn&amp;rsquo;t feel right launching to production with that much unstability.&lt;/p>
+&lt;p>Most of the issues were crashes during export. Not a great thing to see.&lt;/p>
+&lt;p>In short: Velocity Lapse just wasn&amp;rsquo;t up to production quality yet. I didn&amp;rsquo;t feel right launching to production with that much instability.&lt;/p>
 &lt;h4 id="unrealistic-projections">Unrealistic projections&lt;/h4>
-&lt;p>Although I had projected an (unrealistic) launch date for somewhere around the end of Roman &amp;ldquo;January&amp;rdquo;, things were not favorable for that deadline.&lt;/p>
+&lt;p>Although I had projected an unrealistic launch date for somewhere around the end of Roman &amp;ldquo;January&amp;rdquo;, things were not favorable for that deadline.&lt;/p>
 &lt;p>I felt more confident setting the release date to the 7th of Roman &amp;ldquo;March&amp;rdquo;, but that did not end up happening. Even my thought that the app would be ready for full release by Spring fell through.&lt;/p>
-&lt;p>Part of this is that the &amp;ldquo;MVP&amp;rdquo; feature list fell prey to &amp;ldquo;scope creep&amp;rdquo; and I under-estimated the amount of time involved to implement some of the features and work through the bugs. This was good thing though, since it gave me more time to &amp;ldquo;flesh-out&amp;rdquo; the app.&lt;/p>
+&lt;p>Part of this is that the &amp;ldquo;MVP&amp;rdquo; feature list fell prey to &amp;ldquo;scope creep&amp;rdquo;, and I underestimated the amount of time involved to implement some of the features and work through the bugs. This was a good thing, though, since it gave me more time to &amp;ldquo;flesh out&amp;rdquo; the app.&lt;/p>
 &lt;h3 id="working-on-the-features-and-fixes">Working on the features and fixes&lt;/h3>
 &lt;p>Early Roman February, I zeroed in on the features and fixes that were most necessary for a good user experience, working on them one by one.&lt;/p>
 &lt;h4 id="camera-re-write">Camera re-write&lt;/h4>
 &lt;p>I began to work on creating my own custom camera package to fix some of the issues with the camera and add features like the ability to capture with the screen off, multi-lense support, and manual white balance control.&lt;/p>
-&lt;p>I dove into Kotlin and the camera2 API to understand it better. Starting small, I first created a basic camera as a native Kotlin project to work out the kinks of the camera2 API. (As of the time of this writing, this is still in the works.)&lt;/p>
+&lt;p>I dove into Kotlin and the Camera2 API to understand it better. Starting small, I first created a basic camera as a native Kotlin project to work out the kinks of the Camera2 API. (As of the time of this writing, this is still in the works.)&lt;/p>
 &lt;h4 id="upgrading-to-flutter-37">Upgrading to Flutter 3.7&lt;/h4>
 &lt;p>Upgrading to Flutter 3.7 only required a few lines of deprecated code to be changed, which was nice as I didn&amp;rsquo;t need anything extra to work on.&lt;/p>
 &lt;h3 id="a-silly-issue-resolved">A silly issue resolved&lt;/h3>
-&lt;p>One of the export issues ended up being the result of a single character typo. Once I corrected that, 4k export worked smoothly. To put it lightly, I was overjoyed and a little upset that such a small mistake caused so much problems.&lt;/p>
-&lt;p>However, that didn&amp;rsquo;t solve every issue as I discovered that export crashed with 720p and 1080p with certain bitrates, somewhat randomly. I later mostly resolved this.&lt;/p>
+&lt;p>One of the export issues ended up being the result of a single-character typo. Once I corrected that, 4k export worked smoothly. To put it lightly, I was overjoyed and a little upset that such a small mistake caused so much problems.&lt;/p>
+&lt;p>However, that didn&amp;rsquo;t solve every issue, as I discovered that export crashed with 720p and 1080p with certain bitrates, somewhat randomly. I later mostly resolved this.&lt;/p>
 &lt;h3 id="updating-the-price-of-pro">Updating the price of PRO&lt;/h3>
-&lt;p>On Roman Feb. 5th I raised the in-app purchase of Velocity Lapse PRO to $5.99. This turned out to be a very good decision as the app was indeed worth more than the previous $3.99, based on user feedback. Plus, it allowed me to invest in a test device to further improve Velocity Lapse.&lt;/p>
+&lt;p>On Roman Feb. 5th, I raised the in-app purchase of Velocity Lapse PRO to $5.99. This turned out to be a very good decision. The app was indeed worth more than the previous $3.99, based on user feedback. Plus, it allowed me to invest in a test device to further improve Velocity Lapse.&lt;/p>
 &lt;h3 id="a-new-test-device">A new test device&lt;/h3>
-&lt;p>Until this point, I had to rely on using friend&amp;rsquo;s devices to test features that were limited to certain devices, such as 4K. However, relying on bits of time with someone else&amp;rsquo;s device was not reliable or optimal.&lt;/p>
-&lt;p>So I decided to look for a phone to buy which supports 4k video so I could test the full functionality of Velocity Lapse myself. Thankfully I had made enough money from the in-app purchase at this point to re-invest.&lt;/p>
+&lt;p>Until this point, I had to rely on using friends&amp;rsquo; devices to test features that were limited to certain devices, such as 4K. However, relying on bits of time with someone else&amp;rsquo;s device was not reliable or optimal.&lt;/p>
+&lt;p>So I decided to look for a phone to buy which supports 4K video so I could test the full functionality of Velocity Lapse myself. Thankfully, I had made enough money from the in-app purchases at this point to reinvest.&lt;/p>
 &lt;h4 id="my-experience-ordering-from-back-market">My experience ordering from Back Market&lt;/h4>
 &lt;p>A friend had mentioned Back Market as a place to buy refurbished electronics, so I took a look to see what they had.&lt;/p>
 &lt;h5 id="phone-requirements">Phone requirements&lt;/h5>
 &lt;p>My requirements for the test device were:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>4K video support&lt;/strong> so I could do the 4K testing&lt;/li>
-&lt;li>&lt;strong>A relatively new model&lt;/strong> as I didn&amp;rsquo;t want it to be too outdated for testing&lt;/li>
-&lt;li>&lt;strong>3.3mm headphone jack&lt;/strong> so that I could hook up an external mic for recording videos&lt;/li>
+&lt;li>&lt;strong>4K video support&lt;/strong> so I could test 4K video.&lt;/li>
+&lt;li>&lt;strong>A relatively new model&lt;/strong> as I didn&amp;rsquo;t want it to be too outdated for testing.&lt;/li>
+&lt;li>&lt;strong>3.3mm headphone jack&lt;/strong> so that I could hook up an external mic for recording videos.&lt;/li>
 &lt;/ul>
 &lt;h5 id="my-purchase-from-back-market">My purchase from Back Market&lt;/h5>
-&lt;p>After looking around to see what phone model would suit my needs, I settled for a Samsung Galaxy A53 phone which has 4k video support and listed the other requirements in the Back Market description.&lt;/p>
+&lt;p>After looking around to see what phone model would suit my needs, I settled for a Samsung Galaxy A53 phone, which has 4K video support, and listed the other requirements in the Back Market description.&lt;/p>
 &lt;p>The one I chose from Back Market was a &amp;ldquo;Good&amp;rdquo; condition 128GB 5G Samsung Galaxy A53 tracfone phone.&lt;/p>
-&lt;p>My initial perception of Back Market wasn&amp;rsquo;t the best. I was wary of buying from Back Market as some people online said it was a scam and I hadn&amp;rsquo;t bought refurbished before. I also didn&amp;rsquo;t like how difficult it seemed to contact them. However, in the end I decided to go for it.&lt;/p>
+&lt;p>My initial perception of Back Market wasn&amp;rsquo;t the best. I was wary of buying from Back Market as some people online said it was a scam and I hadn&amp;rsquo;t bought refurbished before. I also didn&amp;rsquo;t like how difficult it seemed to contact them. However, in the end, I decided to go for it.&lt;/p>
 &lt;h5 id="not-as-listed">Not as listed&lt;/h5>
-&lt;p>Once I received the phone, I set it up and began using it to test. However, I didn&amp;rsquo;t realize until a day or two later that there was no 3.3mm headphone jack as was listed on Back Market (and still is at the time of this writing).&lt;/p>
-&lt;p>I opened a support request (which was a very confusing process) and they eventually said: &amp;ldquo;It appears that it was a listing error as in fact, this model does not contain 3.5mm Jack for headphones.&amp;rdquo;&lt;/p>
+&lt;p>Once I received the phone, I set it up and began using it to test. However, I didn&amp;rsquo;t realize until a day or two later that there was no 3.3mm headphone jack that was listed on Back Market (and still is at the time of this writing).&lt;/p>
+&lt;p>I opened a support request (which was a very confusing process), and they eventually said, &lt;em>&amp;ldquo;It appears that it was a listing error as in fact, this model does not contain 3.5mm jack for headphones.&amp;rdquo;&lt;/em>&lt;/p>
 &lt;p>I decided to keep the phone since I didn&amp;rsquo;t have the time to deal with the hassle of returning it and re-purchasing another model.&lt;/p>
-&lt;p>However, at the time of this writing I looked at their listing for the A53 (the same as I purchased) and it still lists the 3.3mm headphone jack. I thought they would have removed the false information by now. So, I contacted them again about it. Hopefully they fix the listing.&lt;/p>
+&lt;p>However, at the time of this writing, I looked at their listing for the A53 (the same as the one I purchased) and it still lists the 3.3mm headphone jack. I thought they would have removed the false information by now. So, I contacted them again about it. Hopefully, they fix the listing.&lt;/p>
 &lt;h5 id="conclusion-on-the-phone">Conclusion on the phone&lt;/h5>
-&lt;p>I haven&amp;rsquo;t had any issues with the phone itself so far. Overall, ordering from Back Market was an OK experience. Not sure that I would buy from them again, though.&lt;/p>
+&lt;p>I haven&amp;rsquo;t had any issues with the phone itself so far. Overall, ordering from Back Market was an OK experience. I&amp;rsquo;m not sure that I would buy from them again, though.&lt;/p>
 &lt;h3 id="thoughts-on-negative-software-reviews">Thoughts on negative software reviews&lt;/h3>
-&lt;p>Having received a few rather unfair reviews the past year, I thought I would share my thoughts on negative reviews.&lt;/p>
-&lt;h4 id="please-please-no-hit-and-run">Please, please no hit-and-run&lt;/h4>
-&lt;p>If you use software long enough, you will likely be inclined to write a bad review. I&amp;rsquo;ve done it myself more than I would have liked to. Problems &lt;em>will&lt;/em> occur. Issues &lt;em>will&lt;/em> arise. It&amp;rsquo;s inevitable and unavoidable in software. But &lt;em>please&lt;/em> don&amp;rsquo;t be the user that does a &amp;ldquo;hit and run&amp;rdquo;.&lt;/p>
-&lt;p>Probably &lt;em>the most frustrating&lt;/em> reviews, in my opinion, are those that say a few negative words (sometimes using profanity) without explaining what the issues is, and then leave no way for the developer to follow up with them. These individuals either give a fake email or delete the review so you can&amp;rsquo;t respond to their comments.&lt;/p>
-&lt;p>Unfortunately for the developer, it does no good because no actionable feedback is given and they cannot ask for any either. They are left wondering, &amp;ldquo;okay, so what exactly is the problem?&amp;rdquo; It could be thousands of things.&lt;/p>
-&lt;p>Ultimately, these kinds of &amp;ldquo;reviews&amp;rdquo; don&amp;rsquo;t do much good, other than to vent feelings and/or frustration because they left no way to potentially solve the issue.&lt;/p>
+&lt;p>Having received a few rather unfair reviews over the past year, I thought I would share my thoughts on negative reviews.&lt;/p>
+&lt;h4 id="please-no-hit-and-run-reviews">Please, no hit-and-run reviews&lt;/h4>
+&lt;p>If you use software long enough, you will likely be inclined to write a bad review. I&amp;rsquo;ve done it myself more than I would have liked to. Problems &lt;em>will&lt;/em> occur. Issues &lt;em>will&lt;/em> arise. It&amp;rsquo;s inevitable and unavoidable in software. But &lt;em>please&lt;/em> don&amp;rsquo;t be the user who does a &amp;ldquo;hit and run&amp;rdquo;.&lt;/p>
+&lt;p>Probably &lt;em>the most frustrating&lt;/em> reviews, in my opinion, are those that say a few negative words (sometimes using profanity) without explaining the issues, and then leave no way for the developer to follow up with them. These individuals either give a fake email or delete the review so you can&amp;rsquo;t respond to their comments.&lt;/p>
+&lt;p>Unfortunately for the developer, it does no good because no actionable feedback is given, and they cannot ask for any either. They are left wondering, &amp;ldquo;okay, so what exactly is the problem?&amp;rdquo; It could be thousands of things.&lt;/p>
+&lt;p>Ultimately, these kinds of &amp;ldquo;reviews&amp;rdquo; don&amp;rsquo;t do much good, other than to vent feelings and/or frustration because they leave no way to potentially solve the issue.&lt;/p>
 &lt;p>Thankfully, I have only received a few of these myself thus far, but it isn&amp;rsquo;t a nice feeling.&lt;/p>
-&lt;p>So, please be the user that gives a review with specific, actionable criticism on what should be improved. Constructive criticism, even if it&amp;rsquo;s harsh, can be good. Hit and run negativity is not.&lt;/p>
+&lt;p>So, please be the user who gives a review with specific, actionable criticism on what should be improved. Constructive criticism, even if it&amp;rsquo;s harsh, can be good. Hit and run negativity is not.&lt;/p>
 &lt;h3 id="updating-the-website-for-real">Updating the website (for real)&lt;/h3>
-&lt;p>I updated the website, yet again. This time I went through the hassle and took the time to write proper copy for the homepage, explaining the benefits of the app. Honestly, it wasn&amp;rsquo;t that hard since at this point the app has so many nice features and I had plently of user feedback to back it up.&lt;/p>
-&lt;p>Multiple people had commented that Velocity Lapse was &amp;ldquo;no doubt&amp;rdquo; the best time lapse app for Android. Though, I didn&amp;rsquo;t think it was appropriate to put that on the website&amp;hellip;just yet, at least. :)&lt;/p>
+&lt;p>I updated the website yet again. This time I went through the hassle and took the time to write proper copy for the homepage, explaining the benefits of the app. Honestly, it wasn&amp;rsquo;t that hard since, at this point, the app had many nice features and there was user feedback to back it up.&lt;/p>
+&lt;p>Multiple people had commented that Velocity Lapse was &amp;ldquo;no doubt&amp;rdquo; the best time-lapse app for Android. I didn&amp;rsquo;t think it was appropriate to put that on the website&amp;hellip;just yet, at least. :)&lt;/p>
 &lt;h3 id="v03-and-on-to-v04">v0.3 and on to v0.4&lt;/h3>
-&lt;p>To close off the 0.3.x series, I added crash reporting and implemented multi select and delete for the editor.&lt;/p>
+&lt;p>To close off the 0.3.x series, I added crash reporting and implemented multi-select and delete for the editor.&lt;/p>
 &lt;p>For the 0.4.x series of releases, I aimed to focus on making quality-of-life improvements and fixing bugs.&lt;/p>
 &lt;h3 id="prioritizing-of-feature-requests-and-fixes">Prioritizing of feature requests and fixes&lt;/h3>
-&lt;p>Sometimes, I would get flooded with feature requests and it started to get overwhelming. So, I adopted a methodology of prioritizing them based on:&lt;/p>
+&lt;p>Sometimes, I would get flooded with feature requests, and it started to get overwhelming. So, I adopted a methodology of prioritizing them based on:&lt;/p>
 &lt;p>&lt;strong>1)&lt;/strong> Fixes that would otherwise cause a bad experience for &lt;strong>most users&lt;/strong>.&lt;/p>
 &lt;p>&lt;strong>2)&lt;/strong> Features that would improve the experience of &lt;strong>the most users&lt;/strong>.&lt;/p>
 &lt;p>Basically, &amp;ldquo;high-impact&amp;rdquo; requests. Oftentimes, that means working on something else in order to fix or add something, but at least it is a little less overwhelming.&lt;/p>
 &lt;h3 id="not-really-mvp-anymore">Not really MVP anymore&lt;/h3>
-&lt;p>As of the time of this writing, I don&amp;rsquo;t think the app is really an MVP anymore. I made a second pass through most of the app&amp;rsquo;s views and functionality, re-writing and re-designing them with the feedback I&amp;rsquo;ve gathered over the last year. But, that&amp;rsquo;s OK.&lt;/p>
+&lt;p>As of the time of this writing, I don&amp;rsquo;t think the app is really an MVP anymore. I made a second pass through most of the app&amp;rsquo;s views and functionality, rewriting and redesigning them with the feedback I&amp;rsquo;ve gathered over the last year. But that&amp;rsquo;s OK.&lt;/p>
 &lt;p>Ultimately, &amp;ldquo;Ideas are cheap: execution is everything&amp;rdquo;. So, having something implemented in the app is better than the idea in my head. At least then I know if it&amp;rsquo;s working out or not.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/v045&amp;#43;38-app-screenshots.jpg"
 alt="Screenshots of Velocity Lapse v0.5.0"/>
 &lt;/figure>
 &lt;h3 id="updating-the-price-of-pro-1">Updating the price of PRO&lt;/h3>
-&lt;p>On May 17th, 2023 I decided to raise the price of Velocity Lapse PRO to $7.99. At this point, the app was beginning to be more fleshed out and included saving to SD card as a PRO feature.&lt;/p>
+&lt;p>On May 17th, 2023, I decided to raise the price of Velocity Lapse PRO to $7.99. At this point, the app was beginning to be more fleshed out and included saving to an SD card as a PRO feature.&lt;/p>
 &lt;h3 id="flutter-310">Flutter 3.10&lt;/h3>
-&lt;p>Upgrading to Flutter 3.10 was very straightforward. Flutter and Dart have been amazing to work with. Although I&amp;rsquo;ve run into a few areas that are rough around the edges, overall I couldn&amp;rsquo;t be happier with the development experience building an app like this with Flutter.&lt;/p>
+&lt;p>Upgrading to Flutter 3.10 was very straightforward. Flutter and Dart have been amazing to work with. Although I&amp;rsquo;ve run into a few areas that are rough around the edges, overall, I couldn&amp;rsquo;t be happier with the developer experience building an app with Flutter.&lt;/p>
 &lt;h3 id="hacker-noon-startup-of-the-year-nomination">Hacker Noon startup of the year nomination&lt;/h3>
-&lt;p>At the end of Roman May, I was greeted with an email from Hacker Noon that Velocity Lapse had been nominated for Startup of the Year 2023 Ava, MO. This was a nice surprise and awful nice of someone to do. Although it was just a nomination, the fact that Hacker Noon though Velocity Lapse to be worthy enough to accepted it was a pretty neat feeling. So, thanks to whoever nominated Velocity Lapse!&lt;/p>
+&lt;p>At the end of Roman May, I was greeted with an email from Hacker Noon that Velocity Lapse had been nominated for Startup of the Year 2023 Ava, MO. This was a nice surprise and awfully nice of someone to do. Although it was just a nomination, the fact that Hacker Noon thought Velocity Lapse was good enough to accept it, was a pretty neat feeling. So, thanks to whoever nominated Velocity Lapse.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg"
 alt="Hacker Noon startup of the year 2023 nomination"/>&lt;figcaption>
 &lt;p>I posted Velocity Lapse&amp;rsquo;s Hacker Noon startup of the year 2023 nomination on Instagram&lt;/p>
@@ -155,23 +155,23 @@ alt="Hacker Noon startup of the year 2023 nomination"/>&lt;figcaption>
 &lt;/figure>
 &lt;p>By the way, if it&amp;rsquo;s still 2023 when you&amp;rsquo;re reading this and you&amp;rsquo;d like to vote for Velocity Lapse, you can do so &lt;a href="https://hackernoon.com/startups/north-america/north-america-ava-mo-usa">here&lt;/a>. Thanks!&lt;/p>
 &lt;h3 id="big-releases">Big releases&lt;/h3>
-&lt;p>Leading up to the 1 year anniversary of Velocity Lapse, I worked towards the goal of finishing off the leftover &amp;ldquo;MVP&amp;rdquo; features, adding the most requested features, and re-designing the app to be more presentable and easier to use.&lt;/p>
+&lt;p>Leading up to the 1-year anniversary of Velocity Lapse, I worked towards the goal of finishing off the leftover &amp;ldquo;MVP&amp;rdquo; features, adding the most requested features, and re-designing the app to be more presentable and easier to use.&lt;/p>
 &lt;h4 id="v04538">v0.4.5+38&lt;/h4>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg"
 alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
 &lt;/figure>
 &lt;p>Released the first week of Roman June, v0.4.5+38 was a huge release with tons of interface improvements and additions, as well as the new editor playback feature.&lt;/p>
 &lt;h4 id="v05040-1st-year-anniversary-release">v0.5.0+40 1st year anniversary release&lt;/h4>
-&lt;p>Throughout the past year, the single most-requested feature was the ability to capture time lapses with the screen shut off. Initially, I had a difficult time working out how to do it with Android&amp;rsquo;s security and battery limitations, but I was pleased when I was able to find a solution that worked well -just in time for the v0.5.0 1st year anniversary release!&lt;/p>
-&lt;p>Seemed like a fitting way to say &amp;ldquo;thank you&amp;rdquo; to all the users who shared feedback to make the app what it is.&lt;/p>
+&lt;p>Throughout the past year, the single most-requested feature was the ability to capture time-lapses with the screen shut off. Initially, I had a difficult time working out how to do it with Android&amp;rsquo;s security and battery limitations, but I was pleased when I was able to find a solution that worked well, just in time for the v0.5.0 1st year anniversary release.&lt;/p>
+&lt;p>It seemed like a fitting way to say &amp;ldquo;thank you&amp;rdquo; to all the users who shared feedback to make the app what it is.&lt;/p>
 &lt;h3 id="1st-year-anniversary-of-velocity-lapse">1st year anniversary of Velocity Lapse&lt;/h3>
-&lt;p>On 6/7/2023 I did a &lt;a href="https://youtube.com/live/ASSWkkVYWJg?feature=share">livestream event&lt;/a> on YouTube sharing a presentation of some of the background behind Velocity Lapse, the v0.5.0 features, and future plans.&lt;/p>
-&lt;p>Due to announcing it only the night before, practically no-one knew about it. This was probably a good thing since it was my first live stream. Even though I knew there probably wouldn&amp;rsquo;t be anyone actually watching it live, I still wanted to do it to gain the experience.&lt;/p>
+&lt;p>On 6/7/2023 I did a &lt;a href="https://youtube.com/live/ASSWkkVYWJg?feature=share">livestream event&lt;/a> on YouTube, sharing a presentation of some of the background behind Velocity Lapse, the v0.5.0 features, and future plans.&lt;/p>
+&lt;p>Due to announcing it only the night before, practically noone knew about it. This was probably a good thing since it was my first live stream. Even though I knew there probably wouldn&amp;rsquo;t be anyone actually watching it live, I still wanted to do it to gain experience.&lt;/p>
 &lt;p>Overall, it went fairly well with only a few technical glitches. Certainly not a perfect presentation (or high quality audio).&lt;/p>
-&lt;p>I can see that I need to work on not saying &amp;ldquo;so&amp;rdquo; so much (no pun intended). I also probably didn&amp;rsquo;t need to share some of the more technical details which would bore most people. Well, now I know for next time.&lt;/p>
+&lt;p>I can see that I need to work on not saying &amp;ldquo;so&amp;rdquo; so much (no pun intended). I also probably didn&amp;rsquo;t need to share some of the more technical details, which would bore most people. Well, now I know for next time.&lt;/p>
 &lt;h3 id="looking-back-on-the-past-year">Looking back on the past year&lt;/h3>
-&lt;p>Over the past year of development, I&amp;rsquo;ve learned a lot about entrepreneurship, app development, and marketing. I truly feel blessed that I&amp;rsquo;ve achieved a certain level of &amp;ldquo;success&amp;rdquo; already. (Success to me is impacting other people&amp;rsquo;s lives in a positive way -and showing them the love of Yahushua, if the opportunity arises).&lt;/p>
-&lt;p>I&amp;rsquo;ve also been privileged to see glimpses of the impact of Velocity Lapse in the lives of others. From someone capturing timelapses of their art, to creating a timelapse to document their house remodel, to a timelapse filmmaker capturing the beauty of creation -It is a bit mind boggling that people, literally &amp;ldquo;on the other side of the world&amp;rdquo; use the app.&lt;/p>
+&lt;p>Over the past year of development, I&amp;rsquo;ve learned a lot about entrepreneurship, app development, and marketing. I truly feel blessed that I&amp;rsquo;ve achieved a certain level of &amp;ldquo;success&amp;rdquo; already. (Success to me is impacting other people&amp;rsquo;s lives in a positive way, and showing them the love of Yahushua, our Savior, if the opportunity arises).&lt;/p>
+&lt;p>I&amp;rsquo;ve also been privileged to see glimpses of the impact of Velocity Lapse in the lives of others. From someone capturing time-lapses of their art to creating a time-lapse to document their house remodel to a time-lapse filmmaker capturing the beauty of creation. It is a bit mind-boggling that people, literally &amp;ldquo;on the other side of the world&amp;rdquo;, use the app.&lt;/p>
 &lt;h4 id="statistics">Statistics&lt;/h4>
 &lt;p>For the data/stats people around, I imagine you&amp;rsquo;ve been holding your breath to hear the stats. Well, here they are.&lt;/p>
 &lt;p>&lt;strong>Google Play&lt;/strong>&lt;/p>
@@ -191,7 +191,7 @@ alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
 &lt;/ul>
 &lt;p>&lt;em>Note: I&amp;rsquo;m not giving exact numbers and rounding them to an even amount.&lt;/em>&lt;/p>
 &lt;h4 id="conclusion-on-the-past-year">Conclusion on the past year&lt;/h4>
-&lt;p>Making even a decent time lapse app takes a lot of time, effort, and dedication.&lt;/p>
+&lt;p>Making even a decent time-lapse app takes a lot of time, effort, and dedication.&lt;/p>
 &lt;p>Focusing on creating a &amp;ldquo;great app&amp;rdquo; seems to make marketing a bit easier. Thus far, I haven&amp;rsquo;t done much actual promotion, but organic Google Play searches and word-of-mouth are the best marketing I could ask for.&lt;/p>
 &lt;p>Although it has yet to generate enough revenue to make it worth my time and headaches from a business perspective, I am blessed to be able to continue to work on it with other motivations.&lt;/p>
 &lt;ol>
@@ -207,7 +207,7 @@ alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
 &lt;li>Get Velocity Lapse stable and ready for the full release.&lt;/li>
 &lt;li>Re-design and improve the Timelapse and Manual capture views.&lt;/li>
 &lt;li>(Hopefully) complete a full re-write of the camera code.&lt;/li>
-&lt;li>Talk to some people in the timelapse and mobile timelapse niche and see what they think of Velocity Lapse.&lt;/li>
+&lt;li>Talk to some people in the time-lapse and mobile time-lapse niche and see what they think of Velocity Lapse.&lt;/li>
 &lt;li>Launch into production.&lt;/li>
 &lt;li>Once launched, promote it on Product Hunt.&lt;/li>
 &lt;li>And go from there.&lt;/li>
@@ -215,10 +215,10 @@ alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
 &lt;p>Obviously, you can see how well &lt;em>my&lt;/em> plans have come to pass thus far, so I&amp;rsquo;m going to say &amp;ldquo;Yahweh-willing&amp;rdquo; to all of this.&lt;/p>
 &lt;h3 id="the-journey-continues">The journey continues&lt;/h3>
 &lt;p>Thank you for reading. I hope you&amp;rsquo;ve enjoyed this post and have gained something from this journey so far. I know I have.&lt;/p>
-&lt;p>If you have a suggestion, a comment or some advice, relating either to the app or this post, I&amp;rsquo;d love to hear what you have to share either in the comments below or via &lt;a href="mailto:hi@noahrahm.com">email&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>Stay tuned for part 5 of this series. Let me know in the comments below if you have any comments.&lt;/strong>&lt;/p>
+&lt;p>If you have a suggestion, a comment, or advice, relating either to the app or this post, I&amp;rsquo;d love to hear what you have to share either in the comments below or via &lt;a href="mailto:hi@noahrahm.com">email&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Stay tuned for part 5 of this series.&lt;/strong>&lt;/p>
 &lt;hr>
-&lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item><item><title>Looking Ahead</title><link>https://noahrahm.com/posts/looking-ahead/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/looking-ahead/</guid><description>&lt;p>&amp;ldquo;Two-hundred and fifty&amp;rdquo;, I replied.&lt;/p>
+&lt;p>&lt;em>A big thanks to numerous individuals for their support and advice, making this journey possible. Special thanks to &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> for which I am grateful for his help developing the Android native side of the app and taking part in testing. And Yahweh, our Heavenly Father, from whom all knowledge and every good thing comes.&lt;/em>&lt;/p></description></item><item><title>Looking Ahead</title><link>https://noahrahm.com/posts/looking-ahead/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/looking-ahead/</guid><description>&lt;p>&amp;ldquo;Two-hundred and fifty&amp;rdquo;, I replied.&lt;/p>
 &lt;p>He paused and nodded, giving me the opportunity to comment further.&lt;/p>
 &lt;p>I told him a brand new recliner of the same type costs upwards of $800, but I couldn&amp;rsquo;t imagine how someone could pay that much for a recliner. I thought, &amp;ldquo;800 dollars seems like a lot of money to pay for a single piece of furniture.&amp;rdquo;&lt;/p>
 &lt;p>He replied with a neat perspective I had evidently forgotten the moment before.&lt;/p>
@@ -339,7 +339,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>Granted, it was only a few dollars after taxes and Google Play&amp;rsquo;s cut, but it felt really good to have the first sale of the PRO upgrade after months of work with no ROI (besides some nice compliments).&lt;/p>
 &lt;p>In the following weeks, sales happened sporadically, mostly in bunches. There were a total of 8 upgrades in the first 3 weeks of being rolled out to all countries.&lt;/p>
 &lt;h3 id="creating-the-first-tutorial">Creating the first tutorial&lt;/h3>
-&lt;p>For a while, I had been considering making a tutorial on how to capture a starry night time lapse using Velocity Lapse on an Android phone.&lt;/p>
+&lt;p>For a while, I had been considering making a tutorial on how to capture a starry night time-lapse using Velocity Lapse on an Android phone.&lt;/p>
 &lt;p>Finally, I took advantage of a night at a campground where I could capture a time-lapse of the stars without a lot of light pollution.&lt;/p>
 &lt;p>The time-lapse itself turned out, but I made the mistake of not explaining what I was doing for the tutorial as I was setting up and capturing. Having to voice over the screencapture and time things correctly in the editing stage was a whole lot more work.&lt;/p>
 &lt;p>Although I have created videos before, this was actually my first video tutorial for YouTube that I voiced-over. Even though I felt that it wasn&amp;rsquo;t the best, I was motivated to finish the tutorial because, by just finishing it, I knew I would learn something.&lt;/p>
@@ -355,7 +355,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;/figure>
 &lt;p>So, it just didn&amp;rsquo;t seem worth it. At least for now.&lt;/p>
 &lt;h3 id="social-media-marketing">Social media marketing&lt;/h3>
-&lt;p>I finally posted on Instagram. I thought maybe the starscape time lapse video from the tutorial would be a good first post. It did get some response.&lt;/p>
+&lt;p>I finally posted on Instagram. I thought maybe the starscape time-lapse video from the tutorial would be a good first post. It did get some response.&lt;/p>
 &lt;p>The Youtube channel continued to grow, with 40K views on the starry night sky video and a couple hundred views on other videos. I continued to post new time-lapse videos roughly every 2 weeks and the channel continually gained more subscribers and views.&lt;/p>
 &lt;h3 id="product-hunt">Product hunt&lt;/h3>
 &lt;p>For quite a while now, I&amp;rsquo;ve eyed &lt;a href="https://producthunt.com">Product Hunt&lt;/a>. I set up the information for Velocity Lapse. However, I could do much more because, at this point, I didn&amp;rsquo;t have a good idea of when I planned to launch.&lt;/p>
@@ -373,7 +373,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;h3 id="updating-google-play-and-website">Updating Google Play and website&lt;/h3>
 &lt;p>Yet again, I updated the website and the Google Play listing to better match the style I came up with while creating promo images for Product Hunt.&lt;/p>
 &lt;h3 id="camera-settings">Camera settings&lt;/h3>
-&lt;p>I have respect for every app developer that deals with Camera2 and indeed timelapse app developers. &lt;em>sigh&lt;/em>&lt;/p>
+&lt;p>I have respect for every app developer that deals with Camera2 and indeed time-lapse app developers. &lt;em>sigh&lt;/em>&lt;/p>
 &lt;p>One issue I had when previously implementing manual camera controls was with white balance. For some reason, manual white balance wouldn&amp;rsquo;t switch back to auto unless ISO and shutter speed were also set to auto.&lt;/p>
 &lt;p>Thus, rather than releasing a feature that only partly worked, I just didn&amp;rsquo;t include manual white balance control.&lt;/p>
 &lt;h3 id="when-to-release-into-production">When to release into production?&lt;/h3>
@@ -410,7 +410,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;h4 id="app-statistics">App Statistics&lt;/h4>
 &lt;p>From a statistical point of view, the app had been growing at a constant rate, gaining anywhere from 10–80 users daily on average.&lt;/p>
 &lt;p>As of Dec. 31st, 2022, there were 914 current installs, and just shy of 4K total downloads.&lt;/p>
-&lt;p>In the first 3 months of having the PRO upgrade, the app averaged $50 per month gross. Which, isn&amp;rsquo;t too terrible, in my opinion, for an app that is still in early access and hasn&amp;rsquo;t been heavily promoted yet. Especially considering that most apps don&amp;rsquo;t make that in a whole year.&lt;/p>
+&lt;p>In the first 3 months of having the PRO upgrade, the app averaged $35 per month gross. Which, isn&amp;rsquo;t too terrible, in my opinion, for an app that is still in early access and hasn&amp;rsquo;t been heavily promoted yet. Especially considering that most apps don&amp;rsquo;t make that in a whole year.&lt;/p>
 &lt;p>That said, if my main goal was to make any sort of meaningful revenue from the app, thus far I would be disappointed.&lt;/p>
 &lt;h4 id="user-feedback">User feedback&lt;/h4>
 &lt;p>I received a good amount of positive feedback. It seemed that the negative feedback came as a result of app crashes, bugs, etc., which is totally understandable. I was thankful for everyone that submitted feedback, whether positive or negative, as it helped to gauge the app progress, etc.&lt;/p>
@@ -471,7 +471,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;p>Do not look down on others for what you &lt;strong>think&lt;/strong> they do not know or practice. You also have things that Yahweh is trying to get your attention about and you must be humble to even see what He is trying to teach you.&lt;/p>
 &lt;p>&lt;strong>Everyone&lt;/strong> has problems and struggles they deal with. Don&amp;rsquo;t act like you have everything together when it is not the case. Even people, in general, will appreciate your honesty in admitting that you have struggles over acting like you have it all together.&lt;/p>
 &lt;h3 id="conclusion">Conclusion&lt;/h3>
-&lt;p>I hope this post has blessed and encouraged you. If you would like to share life lessons &lt;strong>you&lt;/strong> have learned this past year, I would love to hear what they are in the comments below.&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse Part 2</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/</link><pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/</guid><description>&lt;p>In &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">Part 1&lt;/a>, I shared the &amp;ldquo;journey&amp;rdquo; of creating &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a> (a time lapse app for Android), up to the first internal testing release.&lt;/p>
+&lt;p>I hope this post has blessed and encouraged you. If you would like to share life lessons &lt;strong>you&lt;/strong> have learned this past year, I would love to hear what they are in the comments below.&lt;/p></description></item><item><title>The Journey Behind Velocity Lapse Part 2</title><link>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/</link><pubDate>Wed, 26 Oct 2022 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/journey-behind-velocity-lapse-part-2/</guid><description>&lt;p>In &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">Part 1&lt;/a>, I shared the &amp;ldquo;journey&amp;rdquo; of creating &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a> (a time-lapse app for Android), up to the first internal testing release.&lt;/p>
 &lt;h3 id="technical-setbacks">Technical setbacks&lt;/h3>
 &lt;p>If I&amp;rsquo;ve made it seem like development was easy with only a few snags in the previous post, then let me reassure you that it wasn&amp;rsquo;t.&lt;/p>
 &lt;h4 id="why-i-am-sharing-technical-issues">Why I am sharing technical issues&lt;/h4>
@@ -504,7 +504,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;p>One idea that &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> and a few others suggested was to post time-lapse videos created with Velocity Lapse.&lt;/p>
 &lt;p>The thought was that perhaps if the videos got popular enough, they would promote the app and inspire others to create their own. They would also serve as real-life examples of what can be created with Velocity Lapse.&lt;/p>
 &lt;p>So, I created a &lt;a href="https://www.youtube.com/channel/UCenuOeODNjdVohMTvKv15fQ">Youtube channel&lt;/a> and began posting time-lapse videos there. I also created an &lt;a href="https://www.instagram.com/velocitylapseapp/">Instagram account&lt;/a>, but it sat there unused for a few months, until I got around to making content to post there.&lt;/p>
-&lt;p>In addition, I did quite a bit of posting on Reddit. Mostly just replying to existing posts, looking for a time-lapse app. Since the OP was asking for time lapse apps and those viewing the post were likely looking as well, it was a good way to get some first users and help them find something they could use to create time-lapses.&lt;/p>
+&lt;p>In addition, I did quite a bit of posting on Reddit. Mostly just replying to existing posts, looking for a time-lapse app. Since the OP was asking for time-lapse apps and those viewing the post were likely looking as well, it was a good way to get some first users and help them find something they could use to create time-lapses.&lt;/p>
 &lt;p>All in all, this was a pretty good strategy, looking back at the successes in both avenues.&lt;/p>
 &lt;h3 id="user-testing-and-the-interface-refactoring-loop">User testing and the interface refactoring loop&lt;/h3>
 &lt;p>After yet more user testing and feedback, I began a refactoring of the UI. At first, it primarily centered around the home view.&lt;/p>
@@ -530,7 +530,7 @@ alt="Bottom navigation"/>&lt;figcaption>
 &lt;p>I was reminded that tweaking the UI is great, but ultimately most users will accept it the way it is. They &lt;em>will&lt;/em> care whether a certain feature is available and works. So, I need to focus on &lt;em>functional&lt;/em> features that meet the needs of the user.&lt;/p>
 &lt;p>It could be very easy to prioritize the things I care about (a clean, sleek interface and well-written code) rather than the things end users actually care about (like feature X or Y). Working on &amp;ldquo;fun&amp;rdquo; parts that I enjoy most is great, but if in the end users don&amp;rsquo;t ever need it, then it is a waste of time.&lt;/p>
 &lt;h3 id="adding-manual-capture-mode">Adding Manual Capture mode&lt;/h3>
-&lt;p>The capture view with the interval setting and other features was great; however, it didn&amp;rsquo;t fulfill one required use-case that I had in mind from the beginning: time lapse captures over &lt;em>extended periods of time&lt;/em>. It would also cater to those who would rather not leave their device somewhere while it is capturing.&lt;/p>
+&lt;p>The capture view with the interval setting and other features was great; however, it didn&amp;rsquo;t fulfill one required use-case that I had in mind from the beginning: time-lapse captures over &lt;em>extended periods of time&lt;/em>. It would also cater to those who would rather not leave their device somewhere while it is capturing.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg"
 alt="Manual capture view"/>&lt;figcaption>
 &lt;p>The manual capture view in v0.0.4+6&lt;/p>
@@ -586,7 +586,7 @@ alt="Manual capture view"/>&lt;figcaption>
 &lt;h3 id="updating-the-google-play-listing-again">Updating the Google Play listing (again)&lt;/h3>
 &lt;p>Now that we had a pretty solid version of Velocity Lapse, I went and captured updated screenshots of major screens of the app and created phone screenshots for the Google Play listing.&lt;/p>
 &lt;p>This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.&lt;/p>
-&lt;p>For the months prior, I had been posting some of the timelapse videos I had captured to the official Velocity Lapse YouTube channel. I added one of the videos as the &amp;ldquo;feature video&amp;rdquo; for Google Play. In my opinion, just adding the video made the listing look a lot better than before.&lt;/p>
+&lt;p>For the months prior, I had been posting some of the time-lapse videos I had captured to the official Velocity Lapse YouTube channel. I added one of the videos as the &amp;ldquo;feature video&amp;rdquo; for Google Play. In my opinion, just adding the video made the listing look a lot better than before.&lt;/p>
 &lt;h3 id="posting-on-reddit">Posting on Reddit&lt;/h3>
 &lt;p>I submitted a &lt;a href="https://www.reddit.com/r/androidapps/comments/xjve1u/velocity_lapse_create_your_own_time_lapse_videos/">Reddit post&lt;/a> to gather feedback regarding Velocity Lapse. The post received 700+ views in the first week. It caused a surge of downloads, and I did receive some helpful feedback (albeit not on Reddit itself).&lt;/p>
 &lt;h3 id="big-features-big-holdups">Big features, big holdups&lt;/h3>
@@ -605,15 +605,15 @@ alt="Manual capture view"/>&lt;figcaption>
 &lt;p>The first time I tried to capture a night time-lapse of the stars, it didn&amp;rsquo;t turn out as I expected. I had been working on implementing shutter speed and ISO controls that would allow for nighttime captures.&lt;/p>
 &lt;p>I set the device out to capture, and it seemed perfect in the camera preview. However, when I came back and looked at the captured images afterwards, I realized that images were being captured as if auto exposure was still on.&lt;/p>
 &lt;p>Finally, after two weeks of researching and testing to get manual camera controls implemented correctly, I finally got the code to a point where it worked.&lt;/p>
-&lt;p>I tried capturing a starry night time-lapse once again. I pointed the device upwards, set the shutter speed to 1 sec and the ISO to 6400, then left it to time lapse for ~2 hours. The result was satisfying for a first successful attempt.&lt;/p>
+&lt;p>I tried capturing a starry night time-lapse once again. I pointed the device upwards, set the shutter speed to 1 sec and the ISO to 6400, then left it to time-lapse for ~2 hours. The result was satisfying for a first successful attempt.&lt;/p>
 &lt;p>I was happy to post the video on YouTube since it was the first night time-lapse that had turned out fairly nicely.&lt;/p>
 &lt;h3 id="some-encouragement-via-positive-feedback">Some encouragement via positive feedback&lt;/h3>
 &lt;p>Thankfully, it was now working, and more users and positive feedback came as a result of my posts on Reddit, which was encouraging. Nicely timed it was, as one person suggested that I add manual camera controls!&lt;/p>
 &lt;h3 id="turning-the-landing-page-into-a-website">Turning the landing page into a website&lt;/h3>
-&lt;p>I finally took some time aside to create a decent design for &lt;a href="https://velocitylapse.com">the website&lt;/a> that would showcase the app features and the timelapses that I had captured with it. My main thought with it was to inspire people to get out and create their own time lapses.&lt;/p>
+&lt;p>I finally took some time aside to create a decent design for &lt;a href="https://velocitylapse.com">the website&lt;/a> that would showcase the app features and the time-lapses that I had captured with it. My main thought with it was to inspire people to get out and create their own time-lapses.&lt;/p>
 &lt;p>At this point, there were around 97 total app downloads and 40 active installs.&lt;/p>
 &lt;h3 id="an-opportunity-to-learn-about-photography">An opportunity to learn about photography&lt;/h3>
-&lt;p>Essentially, in the process of creating Velocity Lapse&amp;rsquo;s camera features, I&amp;rsquo;m working towards a camera app with extra-nice timelapse functionality. I find that kind of interesting.&lt;/p>
+&lt;p>Essentially, in the process of creating Velocity Lapse&amp;rsquo;s camera features, I&amp;rsquo;m working towards a camera app with extra-nice time-lapse functionality. I find that kind of interesting.&lt;/p>
 &lt;p>What&amp;rsquo;s nice about working on this kind of project that deals with the camera is that it has enabled me (maybe &amp;lsquo;given me a good excuse&amp;rsquo; is a better wording) to spend time learning about manual camera controls in depth, professional photography and, of course, time-lapse photography.&lt;/p>
 &lt;p>Had I chosen to work on a project like a file manager, I wouldn&amp;rsquo;t have probably ever taken the time to dive into photography as I have now. Needless to say, I don&amp;rsquo;t regret my decision (quite the opposite).&lt;/p>
 &lt;h3 id="an-opportunity-to-enjoy-creation">An opportunity to enjoy creation&lt;/h3>
@@ -628,15 +628,15 @@ alt="Manual capture view"/>&lt;figcaption>
 &lt;iframe src="https://www.youtube.com/embed/36O4d31UyyE" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;/p>
-&lt;p>So, I encourage you to &lt;a href="https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse">download the app&lt;/a> and go outside to capture a time lapse yourself. :)&lt;/p>
+&lt;p>So, I encourage you to &lt;a href="https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse">download the app&lt;/a> and go outside to capture a time-lapse yourself. :)&lt;/p>
 &lt;h3 id="my-video-gets-popular-on-youtube">My video gets popular on YouTube&lt;/h3>
-&lt;p>Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, &lt;strong>4.7K views and 46 likes in the first 3 weeks&lt;/strong>, and has 6K views and 56 likes as of this writing.&lt;/p>
+&lt;p>Speaking of enjoying creation, it seemed that people enjoyed the starscape time-lapse on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, &lt;strong>4.7K views and 46 likes in the first 3 weeks&lt;/strong>, and has 6K views and 56 likes as of this writing.&lt;/p>
 &lt;blockquote>
 &lt;p>Later update: The video now has &lt;strong>over 83K views&lt;/strong>, which is kind of crazy (to me) for a 30-second video.&lt;/p>
 &lt;/blockquote>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg"
-alt="Starry night sky timelapse video analytics"/>&lt;figcaption>
-&lt;p>A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22&lt;/p>
+alt="Starry night sky time-lapse video analytics"/>&lt;figcaption>
+&lt;p>A glance at the stats for the starry night sky time-lapse video on Youtube as of 10/26/22&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>Needless to say, this was way, far better than any other video I posted.&lt;/p>
@@ -681,7 +681,7 @@ alt="Starry night sky timelapse video analytics"/>&lt;figcaption>
 &lt;p>Early on, I stumbled upon some advice from someone talking about marketing an app, which really struck me. The bit of advice was, &lt;strong>&amp;ldquo;make the app great&amp;rdquo;&lt;/strong>.&lt;/p>
 &lt;p>Maybe that sounds obvious, but it is way too easy to get the cart ahead of the horse and spend most of the effort marketing the product instead of making a great product.&lt;/p>
 &lt;p>Obviously, that doesn&amp;rsquo;t mean no time should be spent marketing, as that is another trap to fall into. However, as a web developer and designer myself, I know how much easier it is to promote something that is &amp;ldquo;great&amp;rdquo; to start with. I also know how excited I could get about creating a website to promote it while neglecting the app itself.&lt;/p>
-&lt;p>So from then on, I decided to have the mindset of building a user-friendly, user-centric app focused on improving time lapse on Android and &lt;strong>solving the paint-points&lt;/strong> found in other apps. Like, literally making this a &amp;ldquo;great&amp;rdquo; time lapse app.&lt;/p>
+&lt;p>So from then on, I decided to have the mindset of building a user-friendly, user-centric app focused on improving time-lapse on Android and &lt;strong>solving the paint-points&lt;/strong> found in other apps. Like, literally making this a &amp;ldquo;great&amp;rdquo; time-lapse app.&lt;/p>
 &lt;p>From a marketing standpoint, &lt;strong>people buy solutions to their problems, not software.&lt;/strong> So, solving user pain points is the best approach that I am aware of.&lt;/p>
 &lt;h3 id="market-research">Market research&lt;/h3>
 &lt;p>I conducted research on the Google Play Store as well as some of the top apps on the Apple App Store to get an idea of the current state of time-lapse/camera apps for Android and see where the pain points were.&lt;/p>
@@ -696,14 +696,14 @@ alt="Starry night sky timelapse video analytics"/>&lt;figcaption>
 &lt;li>Reliability&lt;/li>
 &lt;li>Flexibility&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>Reliability&lt;/strong> because who wants to go through the trouble of setting up a time lapse and waiting for the capture to complete (and for the video to render in some cases) only for the app to crash or something non-intuitive happens? No one, of course.&lt;/p>
+&lt;p>&lt;strong>Reliability&lt;/strong> because who wants to go through the trouble of setting up a time-lapse and waiting for the capture to complete (and for the video to render in some cases) only for the app to crash or something non-intuitive happens? No one, of course.&lt;/p>
 &lt;p>&lt;strong>Flexibility&lt;/strong> because when you go to download an app, it should be capable of doing things in a non-limiting way and respond well under a variety of circumstances.&lt;/p>
 &lt;p>&lt;em>Wait.&lt;/em> Did I unknowingly just describe a good app in general? ..I guess I have.&lt;/p>
 &lt;p>Indeed, having reliability and flexibility is an important part of making good software in general.&lt;/p>
 &lt;h4 id="initial-ui-sketches-and-ideas">Initial UI sketches and ideas&lt;/h4>
 &lt;p>I then drew some initial sketches and wrote notes of what I imagined the UI and workflow to be without diving into other apps, so I could come up with some original ideas.&lt;/p>
-&lt;p>Let me be honest: looking back, those sketches were a bit naive and didn&amp;rsquo;t include some settings a time-lapse app should have. Clearly I didn&amp;rsquo;t know about time-lapse as deeply as I may have thought. However, it gave me a springboard to where I could get started with my &lt;em>own&lt;/em> take on a time lapse app, even if it was a little out of reality and missing features.&lt;/p>
-&lt;p>I then opened up to installing and testing almost every app related to time lapse on Google Play over the course of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.&lt;/p>
+&lt;p>Let me be honest: looking back, those sketches were a bit naive and didn&amp;rsquo;t include some settings a time-lapse app should have. Clearly I didn&amp;rsquo;t know about time-lapse as deeply as I may have thought. However, it gave me a springboard to where I could get started with my &lt;em>own&lt;/em> take on a time-lapse app, even if it was a little out of reality and missing features.&lt;/p>
+&lt;p>I then opened up to installing and testing almost every app related to time-lapse on Google Play over the course of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.&lt;/p>
 &lt;p>Moving to my laptop, I then created a digital mock-up of the different screens (views) that the app would have. At this point, I overcomplicated it in certain areas like the home screen where I was thinking everything could be crammed. Therefore, I did end up going back and recreating the layout a number of times to get it condensed down to a better design.&lt;/p>
 &lt;h3 id="my-choice-of-a-tech-stack">My choice of a tech stack&lt;/h3>
 &lt;p>For the tech-savy readers (read: developers), the tech stack I chose is pretty simple:&lt;/p>
@@ -801,7 +801,7 @@ alt="The Velocity Lapse logo"/>&lt;figcaption>
 &lt;li>The NDK with a C++ library to encode the videos&lt;/li>
 &lt;/ul>
 &lt;p>However, after looking at what those would require, I wasn&amp;rsquo;t motivated to go in either of those directions, writing something from scratch myself.&lt;/p>
-&lt;p>Obviously, the app couldn&amp;rsquo;t be released without a way to export the timelapse to video, so I needed to think of another way.&lt;/p>
+&lt;p>Obviously, the app couldn&amp;rsquo;t be released without a way to export the time-lapse to video, so I needed to think of another way.&lt;/p>
 &lt;p>After a lot of searching, I came across a small package called &lt;a href="https://github.com/israel-fl/bitmap2video">bitmap2video&lt;/a> which looked like it might do the trick. However, since it was written in Kotlin, it would mean switching the existing code from Java to Kotlin.&lt;/p>
 &lt;p>I decided to go for it and embrace it as an unexpected opportunity to learn Kotlin.&lt;/p>
 &lt;p>First, I did a bunch of extensive testing to verify that it didn&amp;rsquo;t produce artifacts like Jcodec. Thankfully, it didn&amp;rsquo;t.&lt;/p>
@@ -824,7 +824,7 @@ alt="The Velocity Lapse logo"/>&lt;figcaption>
 &lt;p>A few of my hobbies include photography, drawing, music, and enjoying Yahweh’s awesome creation with my family.&lt;/p>
 &lt;h4 id="other-endeavors">Other endeavors&lt;/h4>
 &lt;p>I&amp;rsquo;ve been extremely blessed to work on a lot of different projects with many great people.&lt;/p>
-&lt;p>Since last year, I&amp;rsquo;ve been working on &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>, an Android app to create time lapses. I&amp;rsquo;m also a part of a project to film high-quality readings of the Psalms in nature called &lt;a href="https://psalms23project.com">The Psalms 23 Project&lt;/a>.&lt;/p>
+&lt;p>Since last year, I&amp;rsquo;ve been working on &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>, an Android app to create time-lapses. I&amp;rsquo;m also a part of a project to film high-quality readings of the Psalms in nature called &lt;a href="https://psalms23project.com">The Psalms 23 Project&lt;/a>.&lt;/p>
 &lt;p>Creating things, collaborating with others, and learning new technologies motivate me to create and contribute to open-source projects. Most notably &lt;a href="https://github.com/GimelStudio">Gimel Studio&lt;/a>, &lt;a href="https://flameshot.org">Flameshot&lt;/a>, and &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a>.&lt;/p></description></item><item><title>Logo and brand guidelines for a popular C++ library</title><link>https://noahrahm.com/work/openimageio-branding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://noahrahm.com/work/openimageio-branding/</guid><description>&lt;p>Since OpenImageIO is a library for reading, writing, and processing images, I brainstormed concepts having to do with pixels in an image.&lt;/p>
 &lt;p>Inspired by &lt;a href="https://openimageio.readthedocs.io/en/latest/_images/grid-small.jpg">this image&lt;/a> from the OpenImageIO docs, I experimented with multiple variations of a pixel grid. The final consensus was a modern, square icon and workmark set in Open Sans bold.&lt;/p>
 &lt;p>&lt;img src="https://noahrahm.com/work/openimageio/openimageio-logo-and-branding.webp" alt="OpenImageIO logo" title="OpenImageIO logo">&lt;/p>
