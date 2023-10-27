@@ -30,7 +30,7 @@ In the following weeks, sales happened sporadically, mostly in bunches. There we
 
 ### Creating the first tutorial
 
-For a while, I had been considering making a tutorial on how to capture a starry night time lapse using Velocity Lapse on an Android phone. 
+For a while, I had been considering making a tutorial on how to capture a starry night time-lapse using Velocity Lapse on an Android phone. 
 
 Finally, I took advantage of a night at a campground where I could capture a time-lapse of the stars without a lot of light pollution. 
 
@@ -56,7 +56,7 @@ So, it just didn't seem worth it. At least for now.
 
 ### Social media marketing
 
-I finally posted on Instagram. I thought maybe the starscape time lapse video from the tutorial would be a good first post. It did get some response.
+I finally posted on Instagram. I thought maybe the starscape time-lapse video from the tutorial would be a good first post. It did get some response.
 
 The Youtube channel continued to grow, with 40K views on the starry night sky video and a couple hundred views on other videos. I continued to post new time-lapse videos roughly every 2 weeks and the channel continually gained more subscribers and views.
 
@@ -98,7 +98,7 @@ Yet again, I updated the website and the Google Play listing to better match the
 
 ### Camera settings
 
-I have respect for every app developer that deals with Camera2 and indeed timelapse app developers. *sigh*
+I have respect for every app developer that deals with Camera2 and indeed time-lapse app developers. *sigh*
 
 One issue I had when previously implementing manual camera controls was with white balance. For some reason, manual white balance wouldn't switch back to auto unless ISO and shutter speed were also set to auto.
 
@@ -178,7 +178,7 @@ From a statistical point of view, the app had been growing at a constant rate, g
 
 As of Dec. 31st, 2022, there were 914 current installs, and just shy of 4K total downloads.
 
-In the first 3 months of having the PRO upgrade, the app averaged $50 per month gross. Which, isn't too terrible, in my opinion, for an app that is still in early access and hasn't been heavily promoted yet. Especially considering that most apps don't make that in a whole year.
+In the first 3 months of having the PRO upgrade, the app averaged $35 per month gross. Which, isn't too terrible, in my opinion, for an app that is still in early access and hasn't been heavily promoted yet. Especially considering that most apps don't make that in a whole year.
 
 That said, if my main goal was to make any sort of meaningful revenue from the app, thus far I would be disappointed.
 

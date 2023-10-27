@@ -9,7 +9,7 @@ tags: ['devlog']
 ---
 
 
-In [Part 1](/posts/journey-behind-velocity-lapse-part-1/), I shared the "journey" of creating [Velocity Lapse](https://velocitylapse.com) (a time lapse app for Android), up to the first internal testing release. 
+In [Part 1](/posts/journey-behind-velocity-lapse-part-1/), I shared the "journey" of creating [Velocity Lapse](https://velocitylapse.com) (a time-lapse app for Android), up to the first internal testing release. 
 
 
 ### Technical setbacks
@@ -79,7 +79,7 @@ The thought was that perhaps if the videos got popular enough, they would promot
 
 So, I created a [Youtube channel](https://www.youtube.com/channel/UCenuOeODNjdVohMTvKv15fQ) and began posting time-lapse videos there. I also created an [Instagram account](https://www.instagram.com/velocitylapseapp/), but it sat there unused for a few months, until I got around to making content to post there. 
 
-In addition, I did quite a bit of posting on Reddit. Mostly just replying to existing posts, looking for a time-lapse app. Since the OP was asking for time lapse apps and those viewing the post were likely looking as well, it was a good way to get some first users and help them find something they could use to create time-lapses.
+In addition, I did quite a bit of posting on Reddit. Mostly just replying to existing posts, looking for a time-lapse app. Since the OP was asking for time-lapse apps and those viewing the post were likely looking as well, it was a good way to get some first users and help them find something they could use to create time-lapses.
 
 All in all, this was a pretty good strategy, looking back at the successes in both avenues.
 
@@ -129,7 +129,7 @@ It could be very easy to prioritize the things I care about (a clean, sleek inte
 
 ### Adding Manual Capture mode
 
-The capture view with the interval setting and other features was great; however, it didn't fulfill one required use-case that I had in mind from the beginning: time lapse captures over *extended periods of time*. It would also cater to those who would rather not leave their device somewhere while it is capturing.
+The capture view with the interval setting and other features was great; however, it didn't fulfill one required use-case that I had in mind from the beginning: time-lapse captures over *extended periods of time*. It would also cater to those who would rather not leave their device somewhere while it is capturing.
 
 {{< figure src="/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg" alt="Manual capture view" caption="The manual capture view in v0.0.4+6" >}}
 
@@ -218,7 +218,7 @@ Now that we had a pretty solid version of Velocity Lapse, I went and captured up
 
 This time, I used a different style with a faded image behind the phone and screenshot mockup as well as a horizontal screenshot to better showcase the two capture modes.
 
-For the months prior, I had been posting some of the timelapse videos I had captured to the official Velocity Lapse YouTube channel. I added one of the videos as the "feature video" for Google Play. In my opinion, just adding the video made the listing look a lot better than before.
+For the months prior, I had been posting some of the time-lapse videos I had captured to the official Velocity Lapse YouTube channel. I added one of the videos as the "feature video" for Google Play. In my opinion, just adding the video made the listing look a lot better than before.
 
 ### Posting on Reddit
 
@@ -253,7 +253,7 @@ I set the device out to capture, and it seemed perfect in the camera preview. Ho
 
 Finally, after two weeks of researching and testing to get manual camera controls implemented correctly, I finally got the code to a point where it worked. 
 
-I tried capturing a starry night time-lapse once again. I pointed the device upwards, set the shutter speed to 1 sec and the ISO to 6400, then left it to time lapse for ~2 hours. The result was satisfying for a first successful attempt. 
+I tried capturing a starry night time-lapse once again. I pointed the device upwards, set the shutter speed to 1 sec and the ISO to 6400, then left it to time-lapse for ~2 hours. The result was satisfying for a first successful attempt. 
 
 I was happy to post the video on YouTube since it was the first night time-lapse that had turned out fairly nicely.
 
@@ -264,13 +264,13 @@ Thankfully, it was now working, and more users and positive feedback came as a r
 
 ### Turning the landing page into a website 
 
-I finally took some time aside to create a decent design for [the website](https://velocitylapse.com) that would showcase the app features and the timelapses that I had captured with it. My main thought with it was to inspire people to get out and create their own time lapses.
+I finally took some time aside to create a decent design for [the website](https://velocitylapse.com) that would showcase the app features and the time-lapses that I had captured with it. My main thought with it was to inspire people to get out and create their own time-lapses.
 
 At this point, there were around 97 total app downloads and 40 active installs.
 
 ### An opportunity to learn about photography
 
-Essentially, in the process of creating Velocity Lapse's camera features, I'm working towards a camera app with extra-nice timelapse functionality. I find that kind of interesting. 
+Essentially, in the process of creating Velocity Lapse's camera features, I'm working towards a camera app with extra-nice time-lapse functionality. I find that kind of interesting. 
 
 What's nice about working on this kind of project that deals with the camera is that it has enabled me (maybe 'given me a good excuse' is a better wording) to spend time learning about manual camera controls in depth, professional photography and, of course, time-lapse photography. 
 
@@ -287,16 +287,16 @@ I've really enjoyed it and maybe through creating this app, maybe I can compel a
 {{< youtube id="fBrOPxkeTnw" class="youtube-player" >}}
 {{< youtube id="36O4d31UyyE" class="youtube-player" >}}
 
-So, I encourage you to [download the app](https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse) and go outside to capture a time lapse yourself. :)
+So, I encourage you to [download the app](https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse) and go outside to capture a time-lapse yourself. :)
 
 
 ### My video gets popular on YouTube
 
-Speaking of enjoying creation, it seemed that people enjoyed the starscape time lapse on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, **4.7K views and 46 likes in the first 3 weeks**, and has 6K views and 56 likes as of this writing.
+Speaking of enjoying creation, it seemed that people enjoyed the starscape time-lapse on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, **4.7K views and 46 likes in the first 3 weeks**, and has 6K views and 56 likes as of this writing.
 
 > Later update: The video now has **over 83K views**, which is kind of crazy (to me) for a 30-second video.
 
-{{< figure src="/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg" alt="Starry night sky timelapse video analytics" caption="A glance at the stats for the starry night sky time lapse video on Youtube as of 10/26/22" >}}
+{{< figure src="/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg" alt="Starry night sky time-lapse video analytics" caption="A glance at the stats for the starry night sky time-lapse video on Youtube as of 10/26/22" >}}
 
 Needless to say, this was way, far better than any other video I posted. 
 

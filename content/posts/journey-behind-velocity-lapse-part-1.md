@@ -62,7 +62,7 @@ Maybe that sounds obvious, but it is way too easy to get the cart ahead of the h
  
 Obviously, that doesn't mean no time should be spent marketing, as that is another trap to fall into. However, as a web developer and designer myself, I know how much easier it is to promote something that is "great" to start with. I also know how excited I could get about creating a website to promote it while neglecting the app itself.
 
-So from then on, I decided to have the mindset of building a user-friendly, user-centric app focused on improving time lapse on Android and **solving the paint-points** found in other apps. Like, literally making this a "great" time lapse app.
+So from then on, I decided to have the mindset of building a user-friendly, user-centric app focused on improving time-lapse on Android and **solving the paint-points** found in other apps. Like, literally making this a "great" time-lapse app.
 
 From a marketing standpoint, **people buy solutions to their problems, not software.** So, solving user pain points is the best approach that I am aware of.
 
@@ -89,7 +89,7 @@ Two things really stood out from my notes:
 - Reliability
 - Flexibility
 
-**Reliability** because who wants to go through the trouble of setting up a time lapse and waiting for the capture to complete (and for the video to render in some cases) only for the app to crash or something non-intuitive happens? No one, of course.
+**Reliability** because who wants to go through the trouble of setting up a time-lapse and waiting for the capture to complete (and for the video to render in some cases) only for the app to crash or something non-intuitive happens? No one, of course.
 
 **Flexibility** because when you go to download an app, it should be capable of doing things in a non-limiting way and respond well under a variety of circumstances.
 
@@ -101,9 +101,9 @@ Indeed, having reliability and flexibility is an important part of making good s
 
 I then drew some initial sketches and wrote notes of what I imagined the UI and workflow to be without diving into other apps, so I could come up with some original ideas. 
 
-Let me be honest: looking back, those sketches were a bit naive and didn't include some settings a time-lapse app should have. Clearly I didn't know about time-lapse as deeply as I may have thought. However, it gave me a springboard to where I could get started with my *own* take on a time lapse app, even if it was a little out of reality and missing features.
+Let me be honest: looking back, those sketches were a bit naive and didn't include some settings a time-lapse app should have. Clearly I didn't know about time-lapse as deeply as I may have thought. However, it gave me a springboard to where I could get started with my *own* take on a time-lapse app, even if it was a little out of reality and missing features.
 
-I then opened up to installing and testing almost every app related to time lapse on Google Play over the course of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.
+I then opened up to installing and testing almost every app related to time-lapse on Google Play over the course of the next month and a half, taking notes and reading reviews to gather what I could. I also did some looking online for independent reviews as well as some apps on the Apple App Store.
 
 Moving to my laptop, I then created a digital mock-up of the different screens (views) that the app would have. At this point, I overcomplicated it in certain areas like the home screen where I was thinking everything could be crammed. Therefore, I did end up going back and recreating the layout a number of times to get it condensed down to a better design.
 
@@ -257,7 +257,7 @@ Some options were to use either:
 
 However, after looking at what those would require, I wasn't motivated to go in either of those directions, writing something from scratch myself.
 
-Obviously, the app couldn't be released without a way to export the timelapse to video, so I needed to think of another way.
+Obviously, the app couldn't be released without a way to export the time-lapse to video, so I needed to think of another way.
 
 After a lot of searching, I came across a small package called [bitmap2video](https://github.com/israel-fl/bitmap2video) which looked like it might do the trick. However, since it was written in Kotlin, it would mean switching the existing code from Java to Kotlin. 
 
