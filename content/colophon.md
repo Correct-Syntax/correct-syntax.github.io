@@ -20,4 +20,4 @@ Source code for this website is available in the Github [repository](https://git
 
 ### Visuals
 
-I designed the pages in [Lunacy](https://icons8.com/lunacy) (yep...don't like the name, but it's like Sketch for Windows) and created whatever other mockups and graphics that were necessary myself using a combination of [Blender](https://blender.org), [GIMP](https://gimp.org), and [Affinity Designer](https://affinity.serif.com/en-us/designer/).
+I designed the pages in [Lunacy](https://icons8.com/lunacy) (I don't really care for the name) and created whatever other mockups and graphics were necessary myself using a combination of [Blender](https://blender.org), [GIMP](https://gimp.org), and [Affinity Designer](https://affinity.serif.com/en-us/designer/).

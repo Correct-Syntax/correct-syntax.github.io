@@ -14,7 +14,7 @@ type: "page"
 
 #### Development services
 
-I offer development services using modern technologies and best-practices. I have years of experience building small to medium-sized web applications from the ground up. 
+I offer development services using modern technologies and best practices. I have years of experience building small to medium-sized web applications from the ground up. 
 
 My past work includes a custom e-commerce solution, online directory web applications, and custom Wordpress theme and plugin development.
 
