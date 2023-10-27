@@ -1,44 +1,46 @@
 {{ define "main" }}
-<div class="bg-blue-600 pt-28 pb-24">
-  <div class="max-w-6xl mx-auto px-4 xl:px-0">
-    <div class="inline-flex items-center space-x-1 text-xs text-white/80 font-medium uppercase tracking-wide">
-      <a class="hover:text-white duration-300 ease-linear" href="/work/">Work</a>
-      <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 256 256"><path d="M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z"></path></svg>
-      <span>{{ .Params.client }}</span>
-    </div>
-    <div class="flex flex-col md:flex-row md:space-x-2 mt-2">
-      <div class="w-full md:w-1/2">
-        <h1 class="font-light font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
-        <div class="flex flex-col sm:flex-row text-lg font-light font-serif text-white/80 mt-5 sm:space-x-5">
-          <p>{{ .Params.deliverables }}</p>
-          {{ if(.Params.weburl) }}
-          <a class="inline-flex items-center group underline hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear" href="{{ .Params.weburl }}" target="blank">
-            Visit website
-            <svg class="ml-1 w-4 h-4 fill-white/80 group-hover:fill-blue-200" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
-              <path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"></path>
-            </svg>
-          </a>
-          {{end}}
+<main>
+  <div class="bg-blue-600 pt-28 pb-24">
+    <div class="max-w-6xl mx-auto px-4 xl:px-0">
+      <div class="inline-flex items-center space-x-1 text-xs text-white/80 font-medium uppercase tracking-wide">
+        <a class="hover:text-white duration-300 ease-linear" href="/work/">Work</a>
+        <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 256 256"><path d="M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z"></path></svg>
+        <span>{{ .Params.client }}</span>
+      </div>
+      <div class="flex flex-col md:flex-row md:space-x-2 mt-2">
+        <div class="w-full md:w-1/2">
+          <h1 class="font-light font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
+          <div class="flex flex-col sm:flex-row text-lg font-light font-serif text-white/80 mt-5 sm:space-x-5">
+            <h2>{{ .Params.deliverables }}</h2>
+            {{ if(.Params.weburl) }}
+            <a class="inline-flex items-center group underline hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear" href="{{ .Params.weburl }}" target="blank">
+              Visit website
+              <svg class="ml-1 w-4 h-4 fill-white/80 group-hover:fill-blue-200" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M198,64V168a6,6,0,0,1-12,0V78.48L68.24,196.24a6,6,0,0,1-8.48-8.48L177.52,70H88a6,6,0,0,1,0-12H192A6,6,0,0,1,198,64Z"></path>
+              </svg>
+            </a>
+            {{end}}
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 mt-5 md:mt-0">
+          <p class="text-lg text-white">{{ .Params.description }}</p>
         </div>
       </div>
-      <div class="w-full md:w-1/2 mt-5 md:mt-0">
-        <p class="text-lg text-white">{{ .Params.description }}</p>
-      </div>
     </div>
   </div>
-</div>
-<div class="max-w-6xl mx-auto">
-  <img class="w-auto h-auto -mt-14" src="{{ .Params.image }}" alt="{{ .Params.client }}"/>
-</div>
-<div class="case-study-content mt-10 mb-20">
-  {{ .Content }}
-</div>
-<div class="bg-blue-600 py-8">
-  <div class="max-w-6xl mx-auto px-4 xl:px-0 text-center">
-    <a class="font-serif font-light text-xl text-blue-200 underline mx-auto justify-center" href="/work/">
-      Back to portfolio
-    </a>
+  <div class="max-w-6xl mx-auto">
+    <img class="w-auto h-auto -mt-14" src="{{ .Params.image }}" alt="{{ .Params.client }}"/>
   </div>
-</div>
-{{ partial "bottom-cta.html" . }}
+  <div class="case-study-content mt-10 mb-20">
+    {{ .Content }}
+  </div>
+  <div class="bg-blue-600 py-8">
+    <div class="max-w-6xl mx-auto px-4 xl:px-0 text-center">
+      <a class="font-serif font-light text-xl text-blue-200 underline mx-auto justify-center" href="/work/">
+        Back to portfolio
+      </a>
+    </div>
+  </div>
+  {{ partial "bottom-cta.html" . }}
+</main>
 {{ end }}

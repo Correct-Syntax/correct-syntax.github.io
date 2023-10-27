@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div x-data="{ filter: 'all' }">
+<main x-data="{ filter: 'all' }">
   <div class="bg-blue-600 pt-28 pb-16">
     <div class="max-w-6xl mx-auto px-4 xl:px-0">
       <span class="text-xs text-white/80 font-medium uppercase tracking-wide mx-auto">Work</span>
@@ -29,7 +29,7 @@
               </div>
             </span>
           </div>
-          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Hilltop Motion -</span> Logo for a video & photography studio based in the US.</p>
+          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Hilltop Motion —</span> Logo for a video & photography studio based in the US.</p>
         </a>
         <!-- OpenImageIO -->
         <a x-show="filter == 'logos' || filter == 'all'" href="/work/openimageio-branding/">
@@ -43,7 +43,7 @@
               </div>
             </span>
           </div>
-          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">OpenImageIO -</span> Logo and brand guidelines for a popular open source C++ library aimed at VFX applications.</p>
+          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">OpenImageIO —</span> Logo and brand guidelines for a popular open source C++ library aimed at VFX applications.</p>
         </a>
         <!-- Options -->
         <a x-show="filter == 'websites' || filter == 'all'" href="/work/options-of-ava-website/">
@@ -57,12 +57,12 @@
               </div>
             </span>
           </div>
-          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Options Of Ava -</span> New Wordpress website for a local, life-impacting organization.</p>
+          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Options Of Ava —</span> New Wordpress website for a local, life-impacting organization.</p>
         </a>
         <!-- Ozark Solar-->
         <a x-show="filter == 'graphics' || filter == 'all'" href="/work/ozark-solar-business-card-design/">
           <div class="relative group">
-            <img class="w-auto h-auto" src="/work/ozarksolar/business-cards.webp" alt="Ozark Solar business cards"/>
+            <img class="w-auto h-auto" src="/work/ozarksolar/business-cards.webp" alt="Ozark Solar business card design"/>
             <span class="absolute top-0 left-0 bottom-0 bg-transparent group-hover:bg-black/50 overflow-auto w-full duration-500">
               <div class="absolute top-0 right-0 p-6 group-hover:p-5 opacity-0 group-hover:opacity-100 ease-in-out duration-500">
                 <svg class="h-5 w-5 text-white fill-current ease-in-out duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
@@ -71,7 +71,7 @@
               </div>
             </span>
           </div>
-          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Ozark Solar -</span> Modern, multi-fold business card design for a solar energy consultant.</p>
+          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Ozark Solar —</span> Modern, multi-fold business card design for a solar energy consultant.</p>
         </a>
         <!-- Flameshot -->
         <a x-show="filter == 'websites' || filter == 'all'" href="/work/flameshot-website/">
@@ -85,11 +85,11 @@
               </div>
             </span>
           </div>
-          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Flameshot -</span> Modern website for a powerful, yet simple cross-platform desktop screenshot tool.</p>
+          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Flameshot —</span> Modern website for a powerful, yet simple cross-platform desktop screenshot tool.</p>
         </a>
       </div>
     </div>
   </div>
-</div>
 {{ partial "bottom-cta.html" . }}
+</main>
 {{ end }}
