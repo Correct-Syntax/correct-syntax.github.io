@@ -10,6 +10,7 @@
           <li><a @click="filter = 'websites'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'websites' }" class="cursor-pointer underline">Websites</a></li>
           <li><a @click="filter = 'logos'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'logos' }" class="cursor-pointer underline">Logos</a></li>
           <li><a @click="filter = 'graphics'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'graphics' }" class="cursor-pointer underline">Graphic Designs</a></li>
+          <li><a @click="filter = 'apps'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'apps' }" class="cursor-pointer underline">Mobile apps</a></li>
         </ul>
       </div>
     </div>
@@ -72,6 +73,20 @@
             </span>
           </div>
           <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Ozark Solar —</span> Modern, multi-fold business card design for a solar energy consultant.</p>
+        </a>
+        <!-- Velocity Lapse -->
+        <a x-show="filter == 'apps' || filter == 'all'" href="/work/velocity-lapse/">
+          <div class="relative group">
+            <img class="w-auto h-auto" src="/posts/journey-behind-velocity-lapse-4/the-journey-behind-velocity-lapse-part-4-header.webp" alt="Flameshot website"/>
+            <span class="absolute top-0 left-0 bottom-0 bg-transparent group-hover:bg-black/50 overflow-auto w-full duration-500">
+              <div class="absolute top-0 right-0 p-6 group-hover:p-5 opacity-0 group-hover:opacity-100 ease-in-out duration-500">
+                <svg class="h-5 w-5 text-white fill-current ease-in-out duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg>
+              </div>
+            </span>
+          </div>
+          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Velocity Lapse —</span> Powerful Android app for creating time-lapse videos.</p>
         </a>
         <!-- Flameshot -->
         <a x-show="filter == 'websites' || filter == 'all'" href="/work/flameshot-website/">
