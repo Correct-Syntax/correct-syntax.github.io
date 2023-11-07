@@ -11,7 +11,6 @@ metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
 summaryLength = 12
-disableKinds = ['categories']
 
 [Params]
   logo = "favicon.png"
