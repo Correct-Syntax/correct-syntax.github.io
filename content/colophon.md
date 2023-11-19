@@ -15,6 +15,7 @@ Here's the tech stack I used for this site:
 - [Alpine.js](https://alpinejs.dev/) - used for the bits of Javascript functionality on this site.
 - [Coollabs fonts](https://fonts.coollabs.io/) - used as a privacy-friendly replacement for Google Fonts.
 - [Github Pages](https://pages.github.com/) - used to host this site.
+- [Matomo](https://matomo.org) - used for privacy-respecting analytics (self-hosted).
 
 Source code for this website is available in the Github [repository](https://github.com/Correct-Syntax/correct-syntax.github.io).
 
