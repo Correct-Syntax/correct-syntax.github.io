@@ -72,9 +72,11 @@
 .post-content code:not([data-lang]) {
     @apply bg-gray-200 rounded-md px-1 py-0.5;
 }
+.markdown-content-dark ul,
 .post-content ul {
     @apply list-disc list-inside mb-4;
 }
+.markdown-content-dark ol,
 .post-content ol {
     @apply list-inside mb-4;
 }

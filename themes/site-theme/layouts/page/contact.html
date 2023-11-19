@@ -1,0 +1,25 @@
+{{ define "main" }}
+<main class="bg-blue-600 pt-28 pb-20">
+  <div class="max-w-6xl mx-auto px-4 text-center xl:px-0">
+    <h1 class="text-5xl md:text-6xl text-blue-200 font-serif font-light mt-1 mx-auto">{{ .Title }}</h1>
+    <div class="max-w-xl markdown-content-dark text-left mt-10 mx-auto">
+      {{ .Content }}
+      <div class="relative mb-10">
+        <a href="mailto:hi@noahrahm.com" class="text-2xl text-white font-medium underline decoration-white/40 hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear mt-1">hi@noahrahm.com</a>
+      </div>
+      <h4>Mailing list</h4>
+      <p>To receive occasional emails from me, you can subscribe to my (infrequently sent) mailing list.</p>
+      <form action="https://tinyletter.com/noahrahm" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/noahrahm', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <div class="flex flex-col sm:flex-row space-x-0 sm:space-x-2 space-y-2 sm:space-y-0">
+          <input class="text-blue-600 px-4 py-3 rounded-sm text-base" type="email" name="email" placeholder="Your email address" id="tlemail" />
+          <input type="hidden" value="1" name="embed"/>
+          <input class="h-full px-4 py-3 text-base font-medium text-blue-600 bg-blue-200 cursor-pointer rounded-sm hover:bg-blue-200/90 duration-300 ease-linear" type="submit" value="Subscribe" />
+        </div>
+        <div>
+          <small class="text-xs text-white/60 leading-3">No spam. Unsubscribe anytime.</small>
+        </div>
+      </form>
+    </div>
+  </div>
+</main>
+{{ end }}

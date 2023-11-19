@@ -42,6 +42,12 @@ summaryLength = 12
     url = "/posts/"
     weight = 40
 
+  [[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    url = "/contact/"
+    weight = 50
+
 
 [markup]
   [markup.tableOfContents]
