@@ -53,3 +53,17 @@ summaryLength = 12
   [markup.tableOfContents]
     endLevel = 3
     startLevel = 2
+
+
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10

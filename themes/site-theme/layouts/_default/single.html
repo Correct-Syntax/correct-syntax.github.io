@@ -24,6 +24,23 @@
 			<div id="post" class="post-content mt-6 mb-16">
 				{{ .Content }}
 			</div>
+			<div class="mb-20">
+				<h6 class="text-2xl font-semibold text-blue-600/80 mb-2">Other posts you might enjoy</h6>
+				<div class="grid grid-cols-1 sm:grid-cols-3 gap-x-3 gap-y-6 mt-8">
+					{{ $related := (.Site.RegularPages.Related .) | first 3 }}
+					{{ range $related }}
+					<a class="w-full" href="{{ .Permalink }}">
+						<img class="w-full mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
+						<div class="w-full">
+							<h3 class="text-xl font-serif font-medium text-blue-400/90 hover:underline pt-1 ease-linear duration-300">
+								{{ .Title }}
+							</h3>
+							<p class="text-sm font-serif text-blue-400/80 mt-1">{{ .Date |  time.Format ":date_medium" }}</p>
+						</div>
+					</a>
+					{{ end }}
+				</div>
+			</div>
 			<div class="giscus"></div>
 			<script src="https://giscus.app/client.js"
 				data-repo="Correct-Syntax/correct-syntax.github.io"
