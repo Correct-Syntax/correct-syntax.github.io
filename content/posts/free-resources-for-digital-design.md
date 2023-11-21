@@ -9,6 +9,8 @@ tags: ['design', 'resources']
 type: "post"
 ---
 
+*Last updated 11/21/2023*
+
 As a visual designer, having a good set of resources within arm's reach is not only helpful but necessary.
 
 While there are a ton of really great paid design services and resources that can make life a lot easier, the focus of this list is on **the best free resources** that I've personally collected over time. Many of these I've been using for years for my own [design work](/work/). 
@@ -25,6 +27,8 @@ Special thanks to all the individuals and companies that made these resources av
 [FontJoy](https://fontjoy.com/) is a really nice font pairing web application tool that generates font combinations with deep learning. If you know what style you're after (and have some patience), it can come up with some nice font pairs for you to consider.
 
 [Typespiration](https://typespiration.com/) If you're needing some inspiration for type, you can take a look at Typespiration for some designs and guides for font combinations.
+
+[FontBase](https://fontba.se/) A cross-platform font manager. A very useful tool for using Google/Adobe fonts in any application.
 
 [Type Scale](https://typescale.com/) is a visual calculator you can use to size your typography.
 
