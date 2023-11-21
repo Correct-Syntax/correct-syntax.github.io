@@ -6,6 +6,7 @@ image: "/posts/free-resources-for-digital-design/lunacy.jpg"
 description: "As a visual designer, having a good set of resources within arm's reach is not only helpful but necessary. This is my list of the best free resources that I've collected over time."
 intro: Digital design, whether its a website, logo, poster, or social media graphic, is like a blank canvas ready for the paint.
 tags: ['design', 'resources']
+type: "post"
 ---
 
 As a visual designer, having a good set of resources within arm's reach is not only helpful but necessary.

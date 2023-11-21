@@ -6,6 +6,7 @@ image: "/posts/journey-behind-velocity-lapse-1/the-journey-behind-velocity-lapse
 description: "The start of a series of 'devlog' posts about my journey creating Velocity Lapse, a time-lapse app for Android. In this post, I share the app idea, planning, UI design, logo creation, start of development, and more."
 intro: In this post, I share the app idea, planning, UI design, logo creation, start of development, and more.
 tags: ['devlog']
+type: "post"
 ---
 
 

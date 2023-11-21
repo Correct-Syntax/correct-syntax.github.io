@@ -70,7 +70,7 @@
     @apply text-lg mt-6 mb-2 font-semibold;
 }
 .post-content code:not([data-lang]) {
-    @apply bg-gray-200 rounded-md px-1 py-0.5;
+    @apply bg-gray-100 rounded-md px-1 py-0.5;
 }
 .markdown-content-dark ul,
 .post-content ul {

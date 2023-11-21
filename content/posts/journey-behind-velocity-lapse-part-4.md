@@ -6,6 +6,7 @@ image: "/posts/journey-behind-velocity-lapse-4/the-journey-behind-velocity-lapse
 description: "The fourth in a series of 'devlog' posts of my journey creating Velocity Lapse, a time-lapse app for Android. In this post, I share app improvements, continued growth, one year of Velocity Lapse, and more."
 intro: In this post, I share app improvements, continued growth, one year of Velocity Lapse, and more.
 tags: ['devlog']
+type: "post"
 ---
 
 You can read the previous posts, [Part 1](/posts/journey-behind-velocity-lapse-part-1/), [Part 2](/posts/journey-behind-velocity-lapse-part-2/), and [Part 3](/posts/journey-behind-velocity-lapse-part-3/) to get context of my journey creating [Velocity Lapse](https://velocitylapse.com) up to this point. 
