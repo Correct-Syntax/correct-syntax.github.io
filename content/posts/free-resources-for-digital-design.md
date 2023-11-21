@@ -9,8 +9,6 @@ tags: ['design', 'resources']
 type: "post"
 ---
 
-*Last updated 11/21/2023*
-
 As a visual designer, having a good set of resources within arm's reach is not only helpful but necessary.
 
 While there are a ton of really great paid design services and resources that can make life a lot easier, the focus of this list is on **the best free resources** that I've personally collected over time. Many of these I've been using for years for my own [design work](/work/). 
@@ -105,7 +103,7 @@ Both [superdesigner.co](https://superdesigner.co/) and [haikei.app](https://haik
 
 Thanks for reading. I hope you enjoyed this list of design resources and tools. 
 
-*This aims to be a growing list of the best free resources for design, so check back for updates.*
+*This aims to be a growing list of the best free resources for design, so check back for updates. Last updated 11/21/2023*
 
 Do you have any free design tools or resources you use that I didn't mention? Feel free to comment below. 
 
