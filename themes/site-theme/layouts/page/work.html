@@ -1,18 +1,22 @@
 {{ define "main" }}
 <main x-data="{ filter: 'all' }">
-  <div class="bg-blue-600 pt-28 pb-16">
+  <div class="bg-blue-600 pt-28 pb-14">
     <div class="max-w-6xl mx-auto px-4 xl:px-0">
-      <span class="text-xs text-white/80 font-medium uppercase tracking-wide mx-auto">Work</span>
-      <h1 class="text-5xl md:text-6xl text-blue-200 font-serif font-light mt-1 max-w-sm md:max-w-none">{{ .Title }}</h1>
-      <div class="block sm:inline-flex mt-4">
-        <p class="font-serif font-light tracking-wider text-xl text-white/80 mr-2">Filter by:</p>
-        <ul class="block sm:inline-flex sm:space-x-2 font-serif font-light tracking-wider text-xl text-white/80">
-          <li><a @click="filter = 'websites'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'websites' }" class="cursor-pointer underline">Websites</a></li>
-          <li><a @click="filter = 'logos'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'logos' }" class="cursor-pointer underline">Logos</a></li>
-          <li><a @click="filter = 'graphics'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'graphics' }" class="cursor-pointer underline">Graphic Designs</a></li>
-          <li><a @click="filter = 'apps'" :class="{ 'font-medium text-blue-200 decoration-blue-200' : filter == 'apps' }" class="cursor-pointer underline">Mobile apps</a></li>
-        </ul>
-      </div>
+      <h1 class="text-5xl lg:text-6xl text-blue-200 font-serif font-light mt-1 max-w-sm md:max-w-none">{{ .Title }}</h1>
+      <h2 class="text-white/80 tracking-wide font-light font-serif text-[1.3rem] mt-2 max-w-md md:max-w-2xl">{{ .Page.Params.Subtitle }}</h2>
+    </div>
+  </div>
+  <div class="flex max-w-6xl px-4 xl:px-0 mx-auto">
+    <div class="relative inline-flex items-center mt-6 border-b-2 border-gray-200 pb-4 w-full overflow-x-scroll">
+      <svg role="img" class="relative fill-blue-600 min-w-max" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path d="M198,128a6,6,0,0,1-6,6H64a6,6,0,0,1,0-12H192A6,6,0,0,1,198,128Zm34-54H24a6,6,0,0,0,0,12H232a6,6,0,0,0,0-12Zm-80,96H104a6,6,0,0,0,0,12h48a6,6,0,0,0,0-12Z"></path></svg>
+      <ul class="inline-flex space-x-3 font-serif font-light tracking-wider text-xl md:text-[1.2rem] text-blue-400 ml-3">
+        <li><a @click="filter = 'all'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'all' }" class="cursor-pointer">All</a></li>
+        <li><a @click="filter = 'websites'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'websites' }" class="cursor-pointer">Websites</a></li>
+        <li><a @click="filter = 'logos'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'logos' }" class="cursor-pointer">Logos</a></li>
+        <li><a @click="filter = 'software'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'software' }" class="cursor-pointer">Software</a></li>
+        <li><a @click="filter = 'apps'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'apps' }" class="cursor-pointer">Apps</a></li>
+        <li><a @click="filter = 'graphics'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'graphics' }" class="cursor-pointer">Graphics</a></li>
+      </ul>
     </div>
   </div>
   <div class="mt-10 mb-16 space-y-6">
