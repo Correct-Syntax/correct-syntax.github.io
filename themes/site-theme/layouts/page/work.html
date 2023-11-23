@@ -7,7 +7,7 @@
     </div>
   </div>
   <div class="flex max-w-6xl px-4 xl:px-0 mx-auto">
-    <div class="relative inline-flex items-center mt-6 border-b-2 border-gray-200 pb-4 w-full overflow-x-scroll">
+    <div class="relative inline-flex items-center mt-6 border-b-2 border-gray-200 pb-4 w-full overflow-x-auto">
       <svg role="img" class="relative fill-blue-600 min-w-max" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 256 256"><path d="M198,128a6,6,0,0,1-6,6H64a6,6,0,0,1,0-12H192A6,6,0,0,1,198,128Zm34-54H24a6,6,0,0,0,0,12H232a6,6,0,0,0,0-12Zm-80,96H104a6,6,0,0,0,0,12h48a6,6,0,0,0,0-12Z"></path></svg>
       <ul class="inline-flex space-x-3 font-serif font-light tracking-wider text-xl md:text-[1.2rem] text-blue-400 ml-3">
         <li><a @click="filter = 'all'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'all' }" class="cursor-pointer">All</a></li>
@@ -105,6 +105,20 @@
             </span>
           </div>
           <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Flameshot —</span> Modern website for a powerful, yet simple cross-platform desktop screenshot tool.</p>
+        </a>
+        <!-- Gimel Studio-->
+        <a x-show="filter == 'software' || filter == 'all'" href="/work/gimel-studio/">
+          <div class="relative group">
+            <img class="w-auto h-auto" src="/work/gimel-studio/gimel-studio-editor.webp" alt="Gimel Studio"/>
+            <span class="absolute top-0 left-0 bottom-0 bg-transparent group-hover:bg-black/50 overflow-auto w-full duration-500">
+              <div class="absolute top-0 right-0 p-6 group-hover:p-5 opacity-0 group-hover:opacity-100 ease-in-out duration-500">
+                <svg class="h-5 w-5 text-white fill-current ease-in-out duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg>
+              </div>
+            </span>
+          </div>
+          <p class="text-blue-400/80 text-lg mt-3 max-w-lg"><span class="font-medium">Gimel Studio —</span> Open-source, node based 2D graphics editor with a Python API.</p>
         </a>
       </div>
     </div>
