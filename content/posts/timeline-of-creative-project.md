@@ -39,15 +39,13 @@ Seeing the ideas I was coming up with early in the process, the client seemed a 
 
 As the process progressed and the designs became refined, they understood that an "ugly" stage was necessary to get to the final design. In the end, they loved the design and were appreciative of my work because they saw the process to get to the final result.
 
-*Side note: I don't necessarily recommend doing live design sessions in-person with clients, partly for this reason. That is, unless you are comfortable with explaining the process behind your work.*
-
 You need to realize that it is just part of the creative process to have lows, especially in the early stages, where everything inside screams to restart because your work isn't matching your expectations.
 
 This is what people mean when they say to "trust the process".
 
 At the really low part of a project, you can feel as though if you just "restart clean, anew", everything will be better. However, I haven't found that to be the case the majority of the time. 
 
-Until you develop the experience to know when it's actually best to restart, I'd recommend "trusting the process", getting your work past those early stages, and seeing where that leads you.
+Until you develop the experience to know when it's actually best to restart, its good to "trust the process", get your work past those early stages, and see where that leads you.
 
 Even if the creative idea doesn't end up being great, at least you've allowed it to go through the process, and you've completed something.
 
