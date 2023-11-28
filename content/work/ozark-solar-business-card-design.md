@@ -2,6 +2,7 @@
 title: Multi-fold business card design for a solar energy consultant
 client: Ozark Solar
 deliverables: Multi-fold business card design
+timeframe: 2023
 weburl:
 description: A solar consultant for Ozark Solar needed a multi-fold business card to give out to residents in the area that might be interested in having a solar energy system installed. I sat down with Beau to understand their services and create a unique yet clear business card design.
 image: /work/ozarksolar/business-cards.webp

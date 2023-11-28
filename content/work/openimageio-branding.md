@@ -1,7 +1,8 @@
 ---
 title: Logo and brand guidelines for a popular C++ library
 client: OpenImageIO
-deliverables: Logo & Branding
+deliverables: Logo, Branding
+timeframe: 2022-2023
 weburl:
 description: Despite being incorporated into several commercial products and used extensively in animation and VFX studios all over the world, OpenImageIO didn't have a proper logo. I created a modern logo and brand guidelines in time for the project's transfer to the Academy Software Foundation.
 image: /work/openimageio/brand-guidelines-book-mockup.webp
