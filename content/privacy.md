@@ -10,6 +10,11 @@ This website (noahrahm.com) uses [Matomo](https://matomo.org), a privacy-focused
 - The analytics are used solely for the purposes of audience measurement and evaluation of the website performance.
 - When you visit the website, it will store: the website from which you visited from, the pages of the website you visit, the date and duration of your visit, your anonymised IP address, and information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit.
 - The analytics don't track you across the web. Because the data doesn't leave my server, Matomo (as a company) doesn't see that data either.
+- The analytics are configured to honor DoNotTrack.
+
+If you'd like, you can opt-out of analytics below:
+
+{{< matomo-opt-out >}}
 
 This site uses third-party web fonts via [Coollabs fonts](https://fonts.coollabs.io/), a privacy-friendly replacement for Google Fonts. The [unpkg.com CDN](https://unpkg.com) serves Alpine.js.
 
