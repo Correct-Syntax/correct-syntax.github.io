@@ -880,7 +880,11 @@ alt="The Velocity Lapse logo"/>&lt;figcaption>
 &lt;li>The analytics are used solely for the purposes of audience measurement and evaluation of the website performance.&lt;/li>
 &lt;li>When you visit the website, it will store: the website from which you visited from, the pages of the website you visit, the date and duration of your visit, your anonymised IP address, and information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit.&lt;/li>
 &lt;li>The analytics don&amp;rsquo;t track you across the web. Because the data doesn&amp;rsquo;t leave my server, Matomo (as a company) doesn&amp;rsquo;t see that data either.&lt;/li>
+&lt;li>The analytics are configured to honor DoNotTrack.&lt;/li>
 &lt;/ul>
+&lt;p>If you&amp;rsquo;d like, you can opt-out of analytics below:&lt;/p>
+&lt;div id="matomo-opt-out">&lt;/div>
+&lt;script src="https://analytics.noahrahm.com/index.php?module=CoreAdminHome&amp;action=optOutJS&amp;divId=matomo-opt-out&amp;language=auto&amp;backgroundColor=092432&amp;fontColor=ffffff&amp;fontSize=16px&amp;fontFamily=Arial&amp;showIntro=1">&lt;/script>
 &lt;p>This site uses third-party web fonts via &lt;a href="https://fonts.coollabs.io/">Coollabs fonts&lt;/a>, a privacy-friendly replacement for Google Fonts. The &lt;a href="https://unpkg.com">unpkg.com CDN&lt;/a> serves Alpine.js.&lt;/p>
 &lt;p>Learn more about the tech this website uses &lt;a href="https://noahrahm.com/colophon/">here&lt;/a>.&lt;/p></description></item><item><title>Website Colophon</title><link>https://noahrahm.com/colophon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://noahrahm.com/colophon/</guid><description>&lt;p>&lt;strong>Wondering what goes into creating a website like this?&lt;/strong> This page is for you.&lt;/p>
 &lt;h3 id="tech">Tech&lt;/h3>
