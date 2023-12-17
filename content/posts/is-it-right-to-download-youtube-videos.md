@@ -55,9 +55,9 @@ That would be hypocritical.
 
 There is also copyright to think about. The video creators give YouTube a license to show the content through the platform, but that does not automatically give you the right to use or watch the video outside of the platform.
 
-As a video creator on YouTube myself, I think about how I feel about people downloading my videos without my permission and against YouTube's TOC. 
+As someone that posts videos on YouTube myself, I think about how I feel about people downloading my videos without my permission and against YouTube's TOC. 
 
-It's not a good feeling.
+While I don't necessarily mind, it's still not a good feeling.
 
 
 ### It's not "illegal". Or is it?
@@ -102,7 +102,7 @@ So, is there ever a time when it would be okay to download a video from YouTube 
 
 Some people will point to CC (Creative Commons) licensed content or content where the creator says that users are free to download the video if they want.
 
-The problem is that it's still a violation of the YouTube TOS. 
+The problem is that it *could* still be a violation of the YouTube TOS. (I don't have full clarity for CC licensed content).
 
 I once had a client that had two YouTube channels and wanted to combine them into one. One of the channels only had one video. However, they had forgotten their login information for the account. So they couldn't just download the video through YouTube Studio and reupload it to the other channel.
 
