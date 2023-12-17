@@ -37,16 +37,22 @@ summaryLength = 12
     weight = 30
 
   [[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url = "/faq/"
+    weight = 40
+
+  [[menu.main]]
     name = "Posts"
     identifier = "posts"
     url = "/posts/"
-    weight = 40
+    weight = 50
 
   [[menu.main]]
     name = "Contact"
     identifier = "contact"
     url = "/contact/"
-    weight = 50
+    weight = 60
 
 
 [markup]

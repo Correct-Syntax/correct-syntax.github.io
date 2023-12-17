@@ -10,7 +10,7 @@
 				  </a> 
 				</div> 
 			</div>
-			<div class="hidden md:flex items-center space-x-6">
+			<div class="hidden md:flex items-center space-x-4">
 				{{ $url := .RelPermalink }}
 				{{ range $menuId, $menuItem := .Site.Menus.main }}
 				{{ $active := eq $url $menuItem.URL }}
