@@ -55,10 +55,10 @@
     @apply text-xl text-blue-600/90 leading-relaxed;
 }
 .post-content p {
-    @apply max-w-3xl mx-auto mb-6 mt-4;
+    @apply max-w-3xl mx-auto mb-5 mt-4;
 }
 .post-content h3 {
-    @apply text-blue-600/90 text-3xl mt-6 mb-2 font-semibold;
+    @apply text-blue-600/90 text-3xl mt-8 font-semibold;
 }
 .post-content h4 {
     @apply text-blue-600/90 text-2xl mt-6 mb-2 font-semibold;
