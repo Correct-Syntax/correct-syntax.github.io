@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Frequently Asked Questions
 layout: "static-page"
 type: "page"
 ---
@@ -12,7 +12,7 @@ While I can provide resources and advice to help you create copy for your websit
 
 #### How much will my project cost?
 
-Due to the variations in scope, complexity and other factors, the pricing of one website can be very different from another. Small projects can be priced based on my current base rate of $50/hr. Please book a consultation, and we can discuss pricing that works for your specific project and budget.
+Due to the variations in scope, complexity and other factors, the pricing of one website can be very different from another. Small projects can be priced based on my current base rate of $50/hr. Please [contact me](mailto:hi@noahrahm.com), and we can discuss pricing that works for your specific project and budget.
 
 
 #### How long will it take to complete my website?

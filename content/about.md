@@ -1,5 +1,5 @@
 ---
-title: Hi, I'm Noah Rahm. An independent designer and developer.
+title: Hi, I'm Noah Rahm. An independent software designer and developer.
 layout: "about"
 type: "page"
 ---
