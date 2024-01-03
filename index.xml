@@ -450,10 +450,10 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;h3 id="app-marketing-strategies">App marketing strategies&lt;/h3>
 &lt;p>The balance between building a great product and marketing is difficult. On one side, you want to make the product worthwhile and the best it can be. On the other hand, it&amp;rsquo;s pointless unless someone knows about it. Perfecting the little details while neglecting marketing is an easy thing to do.&lt;/p>
 &lt;h4 id="heading">&lt;/h4>
-&lt;p>I mentioned this in the &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">first post&lt;/a> of this series, but early on, when I first started designing the app, I came across something profound.&lt;/p>
+&lt;p>I mentioned this in the &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">first post&lt;/a> of this series, that early on, when I first started designing the app, I came across something profound.&lt;/p>
 &lt;p>In &lt;a href="https://www.youtube.com/watch?v=pfzxL9lXSdE">this video&lt;/a> about app marketing strategies, he explains a few points which I think are worth sharing here.&lt;/p>
 &lt;p>The first one is, of course: &lt;strong>Make the app &amp;lsquo;great&amp;rsquo;. Because a &amp;ldquo;just okay&amp;rdquo; app is hard to market.&lt;/strong>&lt;/p>
-&lt;p>In order for an app to be successful (on a grand scale), it should be something you are proud of and something you (would) use every day. It should be a legacy, your &amp;ldquo;life&amp;rsquo;s work&amp;rdquo;, something you tell your grandchildren about.&lt;/p>
+&lt;p>In order for an app to be successful (on a grand scale), it should be something you are proud of and something you (would) use every day. It should be a legacy, your &amp;ldquo;life&amp;rsquo;s work&amp;rdquo;, something &amp;ldquo;you tell your grandchildren about&amp;rdquo; (Perhaps that&amp;rsquo;s a little extreme, but it makes the point).&lt;/p>
 &lt;p>Another words, the app really &lt;em>is&lt;/em> great.&lt;/p>
 &lt;p>His second point was: &lt;strong>Reach out to the leading experts (influencers) in your niche and get them to try your app.&lt;/strong>&lt;/p>
 &lt;p>It made me think of the fact that if you don&amp;rsquo;t even have the confidence to reach out to leading experts in the niche, your app may not be &amp;lsquo;great&amp;rsquo;. Though, you only have one chance to make a good first impression, so you want to make sure you actually do have a &amp;lsquo;great&amp;rsquo; app.&lt;/p>
@@ -469,7 +469,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;p>I then began working on the preview for the edit view. This required the preview to update quickly when an adjustment was made, so I quickly ruled out using a temporary physical file.&lt;/p>
 &lt;p>Due to my lack of experience with this side of Flutter, I went ahead and asked in the Flutter help channel about what the most optimized way of creating a real-time image preview was.&lt;/p>
 &lt;p>It was suggested that I look into the Flutter &lt;code>Texture&lt;/code> widget, as that would give me low-level access to get the update speed I was looking for.&lt;/p>
-&lt;p>&lt;strong>EDIT: I ended up just leaving off working on this to work on higher-priority issues and features.&lt;/strong>&lt;/p>
+&lt;p>I ended up just leaving off working on this to work on higher-priority issues and features.&lt;/p>
 &lt;h3 id="user-support">User support&lt;/h3>
 &lt;p>One thing about selling software is the support aspect of it. From the very start, I made a real effort to respond to &lt;em>every&lt;/em> person that submitted feedback on Velocity Lapse, whether good or bad. Many people responded that they appreciated the response, which was encouraging.&lt;/p>
 &lt;p>However, it&amp;rsquo;s not easy to stay on top of it. I&amp;rsquo;ve taken the approach of &amp;ldquo;better late than never&amp;rdquo; when worst come if I didn&amp;rsquo;t get to responding for 2-3 weeks.&lt;/p>
