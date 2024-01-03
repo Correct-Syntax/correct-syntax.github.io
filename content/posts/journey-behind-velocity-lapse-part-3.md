@@ -119,13 +119,13 @@ The balance between building a great product and marketing is difficult. On one 
 
 #### 
 
-I mentioned this in the [first post](/posts/journey-behind-velocity-lapse-part-1/) of this series, but early on, when I first started designing the app, I came across something profound.
+I mentioned this in the [first post](/posts/journey-behind-velocity-lapse-part-1/) of this series, that early on, when I first started designing the app, I came across something profound.
 
 In [this video](https://www.youtube.com/watch?v=pfzxL9lXSdE) about app marketing strategies, he explains a few points which I think are worth sharing here.
 
 The first one is, of course: **Make the app 'great'. Because a "just okay" app is hard to market.**
 
-In order for an app to be successful (on a grand scale), it should be something you are proud of and something you (would) use every day. It should be a legacy, your "life's work", something you tell your grandchildren about. 
+In order for an app to be successful (on a grand scale), it should be something you are proud of and something you (would) use every day. It should be a legacy, your "life's work", something "you tell your grandchildren about" (Perhaps that's a little extreme, but it makes the point).
 
 Another words, the app really *is* great.
 
@@ -158,7 +158,7 @@ Due to my lack of experience with this side of Flutter, I went ahead and asked i
 
 It was suggested that I look into the Flutter ``Texture`` widget, as that would give me low-level access to get the update speed I was looking for.
 
-**EDIT: I ended up just leaving off working on this to work on higher-priority issues and features.**
+I ended up just leaving off working on this to work on higher-priority issues and features.
 
 
 ### User support
