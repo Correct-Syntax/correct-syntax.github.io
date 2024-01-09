@@ -45,7 +45,7 @@ Want a good reading resource to improve your typography skills? Read [Butterick'
 
 ### Color resources
 
-[palx.jxnblk.com](https://palx.jxnblk.com/) is a very helpful tool for generating a full-spectrum color palette from a single color. I mainly use it when I need to quickly generate a range of grays for a UI design.
+[Automatic UI color palette generator](https://palx-pwa.pages.dev/) is a very helpful tool for generating a full-spectrum color palette from a single color. I mainly use it when I need to quickly generate a range of grays for a UI design.
 
 [Accessible color matrix](https://toolness.github.io/accessible-color-matrix/) Accessibility is an important part of choosing colors for a website or app design. This accessible color matrix tool allows you to check if your color combinations conform to accessibility standards.
 
@@ -103,7 +103,7 @@ Both [superdesigner.co](https://superdesigner.co/) and [haikei.app](https://haik
 
 Thanks for reading. I hope you enjoyed this list of design resources and tools. 
 
-*This aims to be a growing list of the best free resources for design, so check back for updates. Last updated 11/21/2023*
+*This aims to be a growing list of the best free resources for design, so check back for updates. Last updated 1/8/2024*
 
 Do you have any free design tools or resources you use that I didn't mention? Feel free to comment below. 
 
