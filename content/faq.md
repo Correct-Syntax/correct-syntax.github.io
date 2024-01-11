@@ -5,19 +5,14 @@ type: "page"
 ---
 
 
-#### Will you write the copy (content) for my website?
+#### How long will it take to complete my website?
 
-While I can provide resources and advice to help you create copy for your website, I don't offer copywriting services.
+The time frame for completing a website depends on your specific project, scope, complexity, and your availability. That said, most end-to-end build projects I have worked on have taken anywhere from 1–8 months to complete.
 
 
 #### How much will my project cost?
 
 Due to the variations in scope, complexity and other factors, the pricing of one website can be very different from another. Small projects can be priced based on my current base rate of $50/hr. Please [contact me](mailto:hi@noahrahm.com), and we can discuss pricing that works for your specific project and budget.
-
-
-#### How long will it take to complete my website?
-
-The time frame for completing a website depends on your specific project, scope, complexity, and your availability. That said, most end-to-end build projects I have worked on have taken anywhere from 1–8 months to complete.
 
 
 #### What happens after the website launch?
@@ -27,12 +22,17 @@ Once the website is live, I'll give you the passwords and information you need t
 I'm available up to 14 days after the website launch to ensure that everything is working smoothly and address any issues. I’m also happy to answer any questions you have as time permits. I'm here for you.
 
 
+#### Will you write the copy (content) for my website?
+
+While I can provide resources and advice to help you create copy for your website, I don't offer professional copywriting services.
+
+
 #### Can you create a website for me with Squarespace, Weebly, Wix, or Shopify?
 
 I could, but I won't. By limiting my services to WordPress and Hugo-based static websites, I can provide you with expertise. For the majority of websites, either WordPress or Hugo can provide you with more than enough flexibility for your needs.
 
 
-#### Do you handle SEO?
+#### Will you handle SEO?
 
 Search engine optimization generally involves on-page, off-page, and technical SEO.
 
@@ -69,4 +69,4 @@ If you need to get ahold of me during the weekend, please leave a message, and I
 
 #### Where are you located?
 
-I'm based in Missouri (USA), but I currently travel and work remotely. I work with clients in the USA and abroad and can accommodate for differences in time zones.
+I'm based in Missouri (USA), but I currently travel and work remotely. I work with clients in the USA and abroad and am willing to accommodate for differences in time zones.
