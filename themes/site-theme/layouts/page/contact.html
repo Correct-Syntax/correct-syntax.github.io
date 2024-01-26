@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="bg-blue-600 pt-28 pb-20">
   <div class="max-w-6xl mx-auto px-4 text-center xl:px-0">
-    <h1 class="text-5xl text-blue-200 font-serif font-light mt-1 mx-auto">{{ .Title }}</h1>
+    <h1 class="text-5xl text-blue-200 font-serif mt-1 mx-auto">{{ .Page.Params.Subtitle }}</h1>
     <div class="max-w-xl markdown-content-dark text-left mt-10 mx-auto">
       {{ .Content }}
       <div class="relative mb-10">

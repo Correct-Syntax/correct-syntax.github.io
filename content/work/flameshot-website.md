@@ -1,7 +1,7 @@
 ---
 title: Modern website for a popular screenshot tool
 client: Flameshot
-deliverables: Static Website
+role: Web Designer, Developer
 timeframe: 2022
 weburl: flameshot.org
 description: The Flameshot open-source project needed a website to reflect their easy-to-use screenshot tool. I worked closely with the project maintainers to tailor the website to their needs using a clean design, modern web technologies, and best practices.

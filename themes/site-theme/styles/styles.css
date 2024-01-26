@@ -11,13 +11,13 @@
 }
 
 .markdown-content-dark {
-    @apply text-lg text-white/80 leading-relaxed;
+    @apply text-xl text-white/90 leading-relaxed;
 }
 .markdown-content-dark a {
-    @apply underline text-blue-200/80 decoration-blue-200/30 duration-300 ease-linear;
+    @apply underline text-blue-200 decoration-blue-200/80 duration-300 ease-linear;
 }
 .markdown-content-dark a:hover {
-    @apply text-blue-200 decoration-blue-200;
+    @apply text-blue-200/80 decoration-blue-200/30;
 }
 .markdown-content-dark p {
     @apply mb-4 mt-1;
@@ -26,13 +26,13 @@
     @apply list-none list-inside mb-4;
 }
 .markdown-content-dark h3 {
-    @apply text-white/90 text-3xl mt-6 mb-2 font-semibold;
+    @apply text-white text-3xl mt-6 mb-2 font-semibold;
 }
 .markdown-content-dark h4 {
-    @apply text-white/90 text-2xl mt-6 mb-2 font-semibold;
+    @apply text-white text-2xl mt-6 mb-2 font-semibold;
 }
 .markdown-content-dark h5 {
-    @apply text-white/90 text-xl mt-6 mb-2 font-semibold;
+    @apply text-white text-xl mt-6 mb-2 font-semibold;
 }
 
 .case-study-content p {

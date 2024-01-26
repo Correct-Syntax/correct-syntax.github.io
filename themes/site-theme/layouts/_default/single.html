@@ -3,7 +3,7 @@
   <div class="max-w-6xl mx-auto px-4 xl:px-0">
 		<div class="flex flex-col md:flex-row md:space-x-10">
 			<div class="w-full md:w-1/2 xl:w-2/5">
-				<h1 class="font-light font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
+				<h1 class="font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
 				<p class="font-serif font-light tracking-wider text-xl text-white/80 mt-4">Posted {{ .Date |  time.Format ":date_medium" }}  &bull; <span class="reading-time"></span></p>
 				<div class="mt-5">
 					{{ partial "tags.html" . }}

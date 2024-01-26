@@ -9,19 +9,19 @@
       </div>
       <div class="flex flex-col md:flex-row md:space-x-2 mt-2">
         <div class="w-full md:w-1/2">
-          <h1 class="font-light font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
+          <h1 class="font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
           <div class="grid grid-cols-2 lg:grid-cols-3 text-base font-light text-white mt-8 gap-x-5 gap-y-3 lg:gap-y-0">
             <div>
-              <p class="text-xs text-white/80">Deliverables:</p>
-              <h2>{{ .Params.deliverables }}</h2>
+              <p class="text-xs text-white/80 mb-1">My role in the project:</p>
+              <h2>{{ .Params.role }}</h2>
             </div>
             <div>
-              <p class="text-xs text-white/80">Time frame:</p>
+              <p class="text-xs text-white/80 mb-1">Time frame:</p>
               <p>{{ .Params.timeframe }}</p>
             </div>
             {{ if (.Params.weburl) }}
             <div>
-              <p class="text-xs text-white/80">Website:</p>
+              <p class="text-xs text-white/80 mb-1">Website:</p>
               <a class="inline-flex items-center group underline hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear" href="https://{{ .Params.weburl }}" target="blank">
                 {{ .Params.weburl }}
                 <svg class="ml-1 w-4 h-4 fill-white/80 group-hover:fill-blue-200" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256">

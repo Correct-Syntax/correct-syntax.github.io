@@ -1,5 +1,5 @@
 ---
-title: Hi, I'm Noah Rahm. A software designer and developer.
+title: Hello, my name is Noah.
 layout: "about"
 type: "page"
 ---
@@ -8,12 +8,12 @@ Based in the central United States, I provide visual design and software develop
 
 I especially love working on meaningful projects that glorify our Heavenly Father, Yahweh, and have a positive impact on others.
 
-I’m currently open to new client work and collaboration opportunities, so feel free to get in [get in touch](mailto:hi@noahrahm.com).
+I’m currently open to new client work and collaboration opportunities, so feel free to [say hello](mailto:hi@noahrahm.com).
 
 
 #### Personal 
 
-A few of my hobbies include photography, drawing, music, and enjoying Yahweh’s awesome creation with my family.
+A few of my hobbies include [photography](https://art.noahrahm.com/photography/), [art](https://art.noahrahm.com), music, and enjoying Yahweh’s awesome creation with my family.
 
 
 #### Other endeavors

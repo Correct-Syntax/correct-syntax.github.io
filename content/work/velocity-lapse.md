@@ -1,7 +1,7 @@
 ---
 title: Android app for creating time-lapse videos
 client: Velocity Lapse
-deliverables: Mobile app, Website
+role: Founder, Developer, Designer
 timeframe: 2022-Present
 weburl: velocitylapse.com
 description: "Velocity Lapse is a powerful Android app to create time-lapse videos using a mobile device. The app is a side/passion project I've been working on since mid-2022 to push my skills with app design and development. Currently available as a public early-access beta, it ranks #2 for time-lapse on the Google Play store with over 50K downloads."
