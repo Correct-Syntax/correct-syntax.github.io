@@ -950,7 +950,7 @@ alt="The Velocity Lapse logo"/>&lt;figcaption>
 &lt;li>The analytics are configured to honor DoNotTrack.&lt;/li>
 &lt;/ul>
 &lt;p>If you&amp;rsquo;d like, you can opt-out of analytics below:&lt;/p>
-&lt;div class="mt-5" id="matomo-opt-out">&lt;/div>
+&lt;div class="my-5" id="matomo-opt-out">&lt;/div>
 &lt;script src="https://analytics.noahrahm.com/index.php?module=CoreAdminHome&amp;action=optOutJS&amp;divId=matomo-opt-out&amp;language=auto&amp;backgroundColor=092432&amp;fontColor=ffffff&amp;fontSize=16px&amp;fontFamily=Arial&amp;showIntro=1">&lt;/script>
 &lt;p>This site uses third-party web fonts via &lt;a href="https://fonts.coollabs.io/">Coollabs fonts&lt;/a>, a privacy-friendly replacement for Google Fonts. The &lt;a href="https://unpkg.com">unpkg.com CDN&lt;/a> serves Alpine.js.&lt;/p>
 &lt;p>Learn more about the tech this website uses &lt;a href="https://noahrahm.com/colophon/">here&lt;/a>.&lt;/p></description></item><item><title>Website Colophon</title><link>https://noahrahm.com/colophon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://noahrahm.com/colophon/</guid><description>&lt;p>&lt;strong>Wondering what goes into creating a website like this?&lt;/strong> This page is for you.&lt;/p>
