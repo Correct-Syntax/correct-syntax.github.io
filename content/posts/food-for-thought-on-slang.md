@@ -3,9 +3,9 @@ title: "Food for thought on slang"
 date: "2023-12-17"
 draft: false
 image: "/posts/food-for-thought-on-slang/slang.webp"
-description: "Personally, I have an innate cautiousness about using words that I don't have a good idea what they mean. I've also always been one to be curious about the meanings..."
+description: "Food for thought regarding using slang."
 intro: Food for thought regarding using slang.
-tags: ["faith"]
+tags: ["faith", "essays"]
 type: "post"
 ---
 

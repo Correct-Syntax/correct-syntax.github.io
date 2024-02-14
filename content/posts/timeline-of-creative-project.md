@@ -1,11 +1,11 @@
 ---
 title: "Timeline of a Typical Creative Project"
-date: '2023-11-19'
+date: "2023-11-19"
 draft: false
 image: "/posts/timeline-creative-project/timeline-creative-project.webp"
 description: "I once saw a timeline hanging on the wall in an artist's studio. The timeline was written in chalkboard fashion yet neatly framed as if to betray the importance of its message to the artist."
-intro: I once saw a timeline hanging on the wall in an artist's studio. The timeline was written in chalkboard fashion yet neatly framed as if to betray the importance of its message to the artist.
-tags: ['creativity', 'design']
+intro: "I once saw a timeline hanging on the wall in an artist's studio. The timeline was written in chalkboard fashion yet neatly framed as if to betray the importance of its message to the artist."
+tags: ["creativity", "design"]
 type: "post"
 ---
 

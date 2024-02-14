@@ -1,15 +1,15 @@
 ---
 title: "20+ Free Resources for Digital Design"
-date: '2023-10-25'
+date: "2023-10-25"
 draft: false
 image: "/posts/free-resources-for-digital-design/lunacy.jpg"
-description: "As a visual designer, having a good set of resources within arm's reach is not only helpful but necessary. This is my list of the best free resources that I've collected over time."
-intro: Digital design, whether its a website, logo, poster, or social media graphic, is like a blank canvas ready for the paint.
-tags: ['design', 'resources']
+description: "Having a good set of resources within arm's reach is helpful. This is my list of the best free resources that I've collected over time."
+intro: "Digital design, whether its a website, logo, poster, or social media graphic, is like a blank canvas ready for the paint."
+tags: ["design", "resources"]
 type: "post"
 ---
 
-As a visual designer, having a good set of resources within arm's reach is not only helpful but necessary.
+Having a good set of resources within arm's reach is helpful.
 
 While there are a ton of really great paid design services and resources that can make life a lot easier, the focus of this list is on **the best free resources** that I've personally collected over time. Many of these I've been using for years for my own [design work](/work/). 
 
@@ -103,7 +103,4 @@ Both [superdesigner.co](https://superdesigner.co/) and [haikei.app](https://haik
 
 Thanks for reading. I hope you enjoyed this list of design resources and tools. 
 
-*This aims to be a growing list of the best free resources for design, so check back for updates. Last updated 1/8/2024*
-
 Do you have any free design tools or resources you use that I didn't mention? Feel free to comment below. 
-
