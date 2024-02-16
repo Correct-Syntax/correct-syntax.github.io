@@ -31,4 +31,4 @@ In another terminal tab:
 
 ## License
 
-Website source code is licensed under the MIT license. Posts and images are my own and "all rights reserved".
+Website source code is licensed under the GPL-3.0 license. Content, including images are my own and "all rights reserved".
