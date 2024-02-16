@@ -288,7 +288,7 @@ Thank you for reading. I hope you've enjoyed this post and have gained something
 
 If you have a suggestion, a comment, or advice, relating either to the app or this post, I'd love to hear what you have to share either in the comments below or via [email](mailto:hi@noahrahm.com). 
 
-**Stay tuned for part 5 of this series.**
+**Read the next part of the journey in [part 5](/posts/journey-behind-velocity-lapse-part-5/) of this series.**
 
 ----
 
