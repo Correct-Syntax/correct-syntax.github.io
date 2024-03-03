@@ -383,7 +383,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;p>I ended up just leaving off working on this to work on higher-priority issues and features.&lt;/p>
 &lt;h3 id="user-support">User support&lt;/h3>
 &lt;p>One thing about selling software is the support aspect of it. From the very start, I made a real effort to respond to &lt;em>every&lt;/em> person that submitted feedback on Velocity Lapse, whether good or bad. Many people responded that they appreciated the response, which was encouraging.&lt;/p>
-&lt;p>However, it&amp;rsquo;s not easy to stay on top of it. I&amp;rsquo;ve taken the approach of &amp;ldquo;better late than never&amp;rdquo; when worst come if I didn&amp;rsquo;t get to responding for 2-3 weeks.&lt;/p>
+&lt;p>However, it&amp;rsquo;s not easy to stay on top of it. I&amp;rsquo;ve taken the approach of &amp;ldquo;better late than never&amp;rdquo; if I didn&amp;rsquo;t get to responding for 2-3 weeks.&lt;/p>
 &lt;h3 id="ending-2022">Ending 2022&lt;/h3>
 &lt;p>All in all, the first 5 months since I first had the idea for Velocity Lapse have gone well.&lt;/p>
 &lt;h4 id="app-statistics">App Statistics&lt;/h4>
@@ -522,7 +522,7 @@ alt="Manual capture view"/>&lt;figcaption>
 &lt;h3 id="big-features-big-holdups">Big features, big holdups&lt;/h3>
 &lt;p>The next tasks on the roadmap were to get 4K export and manual camera controls implemented.&lt;/p>
 &lt;h4 id="4k-video-export">4K video export&lt;/h4>
-&lt;p>4K export to video wasn&amp;rsquo;t a huge feature to implement. However, since I didn&amp;rsquo;t have an Android device that supported 4, testing was tricky. I ended up getting an hour to test on a friend&amp;rsquo;s phone which I hoped was enough to have caught any issues.&lt;/p>
+&lt;p>4K export to video wasn&amp;rsquo;t a huge feature to implement. However, since I didn&amp;rsquo;t have an Android device that supported 4K, testing was tricky. I ended up getting an hour to test on a friend&amp;rsquo;s phone which I hoped was enough to have caught any issues.&lt;/p>
 &lt;p>If not&amp;hellip; I was sure users would let me know.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>EDIT:&lt;/strong> they did.&lt;/p>
