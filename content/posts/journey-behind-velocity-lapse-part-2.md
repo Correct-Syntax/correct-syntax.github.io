@@ -232,7 +232,7 @@ The next tasks on the roadmap were to get 4K export and manual camera controls i
 
 #### 4K video export
 
-4K export to video wasn't a huge feature to implement. However, since I didn't have an Android device that supported 4, testing was tricky. I ended up getting an hour to test on a friend's phone which I hoped was enough to have caught any issues. 
+4K export to video wasn't a huge feature to implement. However, since I didn't have an Android device that supported 4K, testing was tricky. I ended up getting an hour to test on a friend's phone which I hoped was enough to have caught any issues. 
 
 If not... I was sure users would let me know.
 

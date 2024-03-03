@@ -165,7 +165,7 @@ I ended up just leaving off working on this to work on higher-priority issues an
 
 One thing about selling software is the support aspect of it. From the very start, I made a real effort to respond to *every* person that submitted feedback on Velocity Lapse, whether good or bad. Many people responded that they appreciated the response, which was encouraging.
 
-However, it's not easy to stay on top of it. I've taken the approach of "better late than never" when worst come if I didn't get to responding for 2-3 weeks.
+However, it's not easy to stay on top of it. I've taken the approach of "better late than never" if I didn't get to responding for 2-3 weeks.
 
 
 ### Ending 2022
