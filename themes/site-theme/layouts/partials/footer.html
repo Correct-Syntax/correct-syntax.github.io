@@ -1,21 +1,21 @@
 <footer class="bg-blue-900 pb-14 pt-32">
 	<div class="max-w-6xl flex flex-col mx-auto px-4 xl:px-0">
 		<div class="flex flex-col md:flex-row items-center justify-between">
-			<div class="flex flex-row mb-10 md:mb-0">
-				<a href="/" class="rounded-full flex items-center hover:bg-blue-300 duration-300 ease-linear my-auto mr-4"> 
+			<div class="flex flex-col sm:flex-row mb-10 md:mb-0 items-center">
+				<a href="/" class="rounded-full flex items-center hover:bg-blue-300 duration-300 ease-linear my-auto sm:mr-4"> 
 					<img class="w-14 h-auto" src="/logo.svg" alt="Noah Rahm logomark"/>
 				</a>
-				<div>
+				<div class="text-center sm:text-left mt-5 sm:mt-0">
 					<p class="text-sm text-white/60">Let's connect</p>
 					<a href="mailto:hi@noahrahm.com" class="text-xl text-white font-medium underline decoration-white/40 hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear mt-1">hi@noahrahm.com</a>
 				</div>
 			</div>
 			<div class="flex flex-col">
-				<div class="flex flex-row space-x-6 justify-center md:justify-end">
+				<div class="flex flex-col sm:flex-row space-x-0 sm:space-x-6 space-y-4 sm:space-y-0 justify-center md:justify-end items-center">
 					{{ $url := .RelPermalink }}
 					{{ range $menuId, $menuItem := .Site.Menus.main }}
 					{{ $active := eq $url $menuItem.URL }}
-					<a href="{{ .URL }}" class="text-lg font-medium {{ if ($active)}}text-blue-200{{else}}text-white/90{{end}} hover:text-blue-200 rounded-full ease-linear duration-300">
+					<a href="{{ .URL }}" class="text-xl sm:text-lg font-medium {{ if ($active)}}text-blue-200{{else}}text-white/90{{end}} hover:text-blue-200 rounded-full ease-linear duration-300">
 						{{ .Name }}
 					</a> 
 					{{ end }}
