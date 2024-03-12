@@ -12,11 +12,7 @@ type: "post"
 
 ### "What does it mean?"
 
-Personally, I have an innate cautiousness about using words that I don't have a good idea what they mean. I've also always been one to be curious about the meanings behind words.
-
 One word in particular I've always wondered about is "sucks," specifically when used in the phrase, "that sucks." I've never understood what it actually meant when people would say, "That sucks."
-
-Yes, I had my guesses, but otherwise just a suspicion that it was slang and probably wouldn't be appropriate in some settings. So, I just never used it myself.
 
 Whenever I heard it, I made a mental note to look it up, but I hadn't actually remembered to do so until recently.
 
