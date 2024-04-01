@@ -4,7 +4,7 @@
 &lt;h3 id="capture-view-redesign">Capture view redesign&lt;/h3>
 &lt;p>In preparation for upcoming additions and fixes, I redesigned the capture view interface to better fit the necessary controls and make it easier to set and reset values.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-5/redesigned-timelapse-capture.jpg"
-alt="Velocity Lapse redesigned timelapse capture interface"/>
+alt="Velocity Lapse redesigned timelapse capture interface">
 &lt;/figure>
 &lt;h3 id="towards-a-stable-app">Towards a stable app&lt;/h3>
 &lt;p>My top priority at this point was working toward stability.&lt;/p>
@@ -79,7 +79,7 @@ alt="Velocity Lapse redesigned timelapse capture interface"/>
 &lt;h3 id="new-community-forum">New community forum&lt;/h3>
 &lt;p>On Nov. 19th, 2023 I setup the &lt;a href="https://forum.velocitylapse.com">community forum&lt;/a> using &lt;a href="https://flarum.org/">Flarum&lt;/a>, an open-source forum platform. The next day, I officially launched the forum and promoted it on the Velocity Lapse Instagram and YouTube accounts.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-5/mobile-timelapse-forum.jpg"
-alt="Mobile time-lapse forum"/>&lt;figcaption>
+alt="Mobile time-lapse forum">&lt;figcaption>
 &lt;p>The Instagram post to announce the forum&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -231,7 +231,7 @@ alt="Mobile time-lapse forum"/>&lt;figcaption>
 &lt;p>As of the time of this writing, I don&amp;rsquo;t think the app is really an MVP anymore. I made a second pass through most of the app&amp;rsquo;s views and functionality, rewriting and redesigning them with the feedback I&amp;rsquo;ve gathered over the last year. But that&amp;rsquo;s OK.&lt;/p>
 &lt;p>Ultimately, &amp;ldquo;Ideas are cheap: execution is everything&amp;rdquo;. So, having something implemented in the app is better than the idea in my head. At least then I know if it&amp;rsquo;s working out or not.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/v045&amp;#43;38-app-screenshots.jpg"
-alt="Screenshots of Velocity Lapse v0.5.0"/>
+alt="Screenshots of Velocity Lapse v0.5.0">
 &lt;/figure>
 &lt;h3 id="updating-the-price-of-pro-1">Updating the price of PRO&lt;/h3>
 &lt;p>On May 17th, 2023, I decided to raise the price of Velocity Lapse PRO to $7.99. At this point, the app was beginning to be more fleshed out and included saving to an SD card as a PRO feature.&lt;/p>
@@ -240,7 +240,7 @@ alt="Screenshots of Velocity Lapse v0.5.0"/>
 &lt;h3 id="hacker-noon-startup-of-the-year-nomination">Hacker Noon startup of the year nomination&lt;/h3>
 &lt;p>At the end of Roman May, I was greeted with an email from Hacker Noon that Velocity Lapse had been nominated for Startup of the Year 2023 Ava, MO. This was a nice surprise and awfully nice of someone to do. Although it was just a nomination, the fact that Hacker Noon thought Velocity Lapse was good enough to accept it, was a pretty neat feeling. So, thanks to whoever nominated Velocity Lapse.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg"
-alt="Hacker Noon startup of the year 2023 nomination"/>&lt;figcaption>
+alt="Hacker Noon startup of the year 2023 nomination">&lt;figcaption>
 &lt;p>I posted Velocity Lapse&amp;rsquo;s Hacker Noon startup of the year 2023 nomination on Instagram&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -249,7 +249,7 @@ alt="Hacker Noon startup of the year 2023 nomination"/>&lt;figcaption>
 &lt;p>Leading up to the 1-year anniversary of Velocity Lapse, I worked towards the goal of finishing off the leftover &amp;ldquo;MVP&amp;rdquo; features, adding the most requested features, and re-designing the app to be more presentable and easier to use.&lt;/p>
 &lt;h4 id="v04538">v0.4.5+38&lt;/h4>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg"
-alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
+alt="Screenshot of the v0.4.5&amp;#43;38 release notes">
 &lt;/figure>
 &lt;p>Released the first week of Roman June, v0.4.5+38 was a huge release with tons of interface improvements and additions, as well as the new editor playback feature.&lt;/p>
 &lt;h4 id="v05040-1st-year-anniversary-release">v0.5.0+40 1st year anniversary release&lt;/h4>
@@ -328,7 +328,7 @@ alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
 &lt;p>I created an Amazon Developers account and began to go through the form to submit Velocity Lapse so that I could integrate Amazon billing into the app. (App stores require you to upload the app bundle before you can create an IAP to integrate it into your app.)&lt;/p>
 &lt;p>However, after uploading the bundle, I found out that due to Velocity Lapse needing the camera autofocus feature, only 3 (old) Amazon devices would be supported. And, at that I would have to lower the minimum SDK version to even get that support.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-3/amazon-appstore-app-support.jpg"
-alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcaption>
+alt="A screenshot showing Amazon tablets support for Velocity Lapse">&lt;figcaption>
 &lt;p>Amazon device support for Velocity Lapse&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -445,7 +445,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;h4 id="introduction-of-the-bottom-nagivation-bar">Introduction of the bottom nagivation bar&lt;/h4>
 &lt;p>In order to better organize the new features, such as importing a sequence of images as a project, I introduced a bottom navigation bar. It divided Velocity Lapse&amp;rsquo;s main functions into three understandable categories.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg"
-alt="Bottom navigation"/>&lt;figcaption>
+alt="Bottom navigation">&lt;figcaption>
 &lt;p>Introducing the bottom tab navigation&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -462,7 +462,7 @@ alt="Bottom navigation"/>&lt;figcaption>
 &lt;h3 id="adding-manual-capture-mode">Adding Manual Capture mode&lt;/h3>
 &lt;p>The capture view with the interval setting and other features was great; however, it didn&amp;rsquo;t fulfill one required use-case that I had in mind from the beginning: time-lapse captures over &lt;em>extended periods of time&lt;/em>. It would also cater to those who would rather not leave their device somewhere while it is capturing.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg"
-alt="Manual capture view"/>&lt;figcaption>
+alt="Manual capture view">&lt;figcaption>
 &lt;p>The manual capture view in v0.0.4+6&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -565,7 +565,7 @@ alt="Manual capture view"/>&lt;figcaption>
 &lt;p>Later update: The video now has &lt;strong>over 83K views&lt;/strong>, which is kind of crazy (to me) for a 30-second video.&lt;/p>
 &lt;/blockquote>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg"
-alt="Starry night sky time-lapse video analytics"/>&lt;figcaption>
+alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;p>A glance at the stats for the starry night sky time-lapse video on Youtube as of 10/26/22&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -683,7 +683,7 @@ alt="Starry night sky time-lapse video analytics"/>&lt;figcaption>
 &lt;h3 id="the-first-milestone">The first milestone&lt;/h3>
 &lt;p>After a long and hard month of work, I finally had a &amp;ldquo;barely working&amp;rdquo; version of the capture and some other main features in a rough, unpolished state.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/rough-version-early-ui.gif"
-alt="A gif showing the early working state of Velocity Lapse"/>&lt;figcaption>
+alt="A gif showing the early working state of Velocity Lapse">&lt;figcaption>
 &lt;p>The early state of Velocity Lapse. Notice how much the UI has changed since then.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -694,7 +694,7 @@ alt="A gif showing the early working state of Velocity Lapse"/>&lt;figcaption>
 &lt;p>A few things in the capture screen UI weren&amp;rsquo;t 100% clear, and even though I made the app, I mixed up which settings I was changing more than once. Glare from the sun and sweat on your brow can really change the way you use an app.&lt;/p>
 &lt;p>So, I redesigned the tabs to make it more clear which setting was selected.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/capture-screen-ui.jpeg"
-alt="The capture screen interface"/>&lt;figcaption>
+alt="The capture screen interface">&lt;figcaption>
 &lt;p>The capture screen interface&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -702,14 +702,14 @@ alt="The capture screen interface"/>&lt;figcaption>
 &lt;h3 id="logo-design">Logo design&lt;/h3>
 &lt;p>Over the course of the three months of developing the app, I had sketched about a hundred different logo concepts, both on paper and digitally. Some others tried to sketch some ideas and spent quite a bit of time brainstorming and iterating over potential ideas as well. However, the ideas were either too generic or unrelated, too similar to another logo, or just a bad design to begin with.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design-sketches.jpg"
-alt="Sketches of ideas for the logo"/>&lt;figcaption>
+alt="Sketches of ideas for the logo">&lt;figcaption>
 &lt;p>Coming up with a logo for Velocity Lapse&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>The name &amp;ldquo;Velocity Lapse&amp;rdquo; did give us some concepts to work with (which we wrote down as tangible objects), but in the end, almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to &lt;em>velocity&lt;/em> being a bit of a technical, science term.&lt;/p>
 &lt;p>After praying for an idea or concept to come, it really, literally did. (We cannot underestimate prayer.)&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design.jpeg"
-alt="The Velocity Lapse logo"/>&lt;figcaption>
+alt="The Velocity Lapse logo">&lt;figcaption>
 &lt;p>The Velocity Lapse logo&lt;/p>
 &lt;/figcaption>
 &lt;/figure>

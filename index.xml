@@ -4,7 +4,7 @@
 &lt;h3 id="capture-view-redesign">Capture view redesign&lt;/h3>
 &lt;p>In preparation for upcoming additions and fixes, I redesigned the capture view interface to better fit the necessary controls and make it easier to set and reset values.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-5/redesigned-timelapse-capture.jpg"
-alt="Velocity Lapse redesigned timelapse capture interface"/>
+alt="Velocity Lapse redesigned timelapse capture interface">
 &lt;/figure>
 &lt;h3 id="towards-a-stable-app">Towards a stable app&lt;/h3>
 &lt;p>My top priority at this point was working toward stability.&lt;/p>
@@ -79,7 +79,7 @@ alt="Velocity Lapse redesigned timelapse capture interface"/>
 &lt;h3 id="new-community-forum">New community forum&lt;/h3>
 &lt;p>On Nov. 19th, 2023 I setup the &lt;a href="https://forum.velocitylapse.com">community forum&lt;/a> using &lt;a href="https://flarum.org/">Flarum&lt;/a>, an open-source forum platform. The next day, I officially launched the forum and promoted it on the Velocity Lapse Instagram and YouTube accounts.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-5/mobile-timelapse-forum.jpg"
-alt="Mobile time-lapse forum"/>&lt;figcaption>
+alt="Mobile time-lapse forum">&lt;figcaption>
 &lt;p>The Instagram post to announce the forum&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -194,7 +194,7 @@ alt="Mobile time-lapse forum"/>&lt;figcaption>
 &lt;p>In almost any creative process, there is a point early on where what you&amp;rsquo;ve done just looks plain &lt;em>ugly&lt;/em>. It&amp;rsquo;s the ugly stage when the voice in your head says to throw it out and restart.&lt;/p>
 &lt;p>However, if you can push through the early, ugly stage and continue the process, you&amp;rsquo;ll often find ways to refine your work later in the process to be better. Often, you&amp;rsquo;ll find that it&amp;rsquo;s not as bad as you first thought.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/timeline-creative-project/timeline.webp"
-alt="Timeline of a typical creative project"/>&lt;figcaption>
+alt="Timeline of a typical creative project">&lt;figcaption>
 &lt;p>Timeline of a typical creative project&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -223,7 +223,7 @@ alt="Timeline of a typical creative project"/>&lt;figcaption>
 &lt;p>Special thanks to all the individuals and companies that made these resources available for designers like us to use free of charge!&lt;/p>
 &lt;h3 id="typography">Typography&lt;/h3>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/fontjoy.jpg"
-alt="A screenshot of FontJoy"/>&lt;figcaption>
+alt="A screenshot of FontJoy">&lt;figcaption>
 &lt;p>FontJoy in action. Yes, sometimes it comes up with wild combinations&amp;hellip;&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -232,7 +232,7 @@ alt="A screenshot of FontJoy"/>&lt;figcaption>
 &lt;p>&lt;a href="https://fontba.se/">FontBase&lt;/a> A cross-platform font manager. A very useful tool for using Google/Adobe fonts in any application.&lt;/p>
 &lt;p>&lt;a href="https://typescale.com/">Type Scale&lt;/a> is a visual calculator you can use to size your typography.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/typescale.jpg"
-alt="A screenshot of Typescale"/>&lt;figcaption>
+alt="A screenshot of Typescale">&lt;figcaption>
 &lt;p>Typescale&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -249,14 +249,14 @@ alt="A screenshot of Typescale"/>&lt;figcaption>
 &lt;p>&lt;a href="https://simpleicons.org/">Simple Icons&lt;/a> Very useful and vast collection of 2750 SVG icons for popular brands. I haven&amp;rsquo;t found any brands I&amp;rsquo;ve ever needed to &lt;em>not&lt;/em> be in the Simple Icons collection.&lt;/p>
 &lt;p>&lt;a href="https://phosphoricons.com/">Phosphoricons&lt;/a> Open-source icon family offering 6 weights: thin, light, regular, bold, fill, and duotone. Needless to say, it is a very useful and large (1,248+) collection worth bookmarking.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/phosphor-icons.jpg"
-alt="A screenshot of the Phosphor icons website"/>&lt;figcaption>
+alt="A screenshot of the Phosphor icons website">&lt;figcaption>
 &lt;p>Phosphor icon family. Go bookmark it —it&amp;rsquo;s worth the bookmark.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;h3 id="software">Software&lt;/h3>
 &lt;p>&lt;a href="https://icons8.com/lunacy">Lunacy&lt;/a> (A.K.A. Sketch for Windows). Although I don’t care for the name, it’s my primary design tool. Being a native Windows application makes it fast and smooth to work with. Lunacy works &lt;em>completely offline&lt;/em> and has almost everything I&amp;rsquo;ve ever needed for creating web and graphic designs, having worked with it for the past 3 years.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/lunacy.jpg"
-alt="A screenshot of Lunacy open with a logo design document"/>&lt;figcaption>
+alt="A screenshot of Lunacy open with a logo design document">&lt;figcaption>
 &lt;p>Lunacy—my (current) go-to design tool open to my logo design for Hilltop Motion.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -273,7 +273,7 @@ alt="A screenshot of Lunacy open with a logo design document"/>&lt;figcaption>
 &lt;p>Another resource for generating Android mockups is the official &lt;a href="https://developer.android.com/distribute/marketing-tools/device-art-generator">Android Device Art Generator&lt;/a>.&lt;/p>
 &lt;h3 id="assets">Assets&lt;/h3>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/haikei.jpg"
-alt="A screenshot of Haikei generating a layered peaks svg background"/>&lt;figcaption>
+alt="A screenshot of Haikei generating a layered peaks svg background">&lt;figcaption>
 &lt;p>You can generate all sorts of backgrounds with Haikei.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -359,7 +359,7 @@ alt="A screenshot of Haikei generating a layered peaks svg background"/>&lt;figc
 &lt;p>As of the time of this writing, I don&amp;rsquo;t think the app is really an MVP anymore. I made a second pass through most of the app&amp;rsquo;s views and functionality, rewriting and redesigning them with the feedback I&amp;rsquo;ve gathered over the last year. But that&amp;rsquo;s OK.&lt;/p>
 &lt;p>Ultimately, &amp;ldquo;Ideas are cheap: execution is everything&amp;rdquo;. So, having something implemented in the app is better than the idea in my head. At least then I know if it&amp;rsquo;s working out or not.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/v045&amp;#43;38-app-screenshots.jpg"
-alt="Screenshots of Velocity Lapse v0.5.0"/>
+alt="Screenshots of Velocity Lapse v0.5.0">
 &lt;/figure>
 &lt;h3 id="updating-the-price-of-pro-1">Updating the price of PRO&lt;/h3>
 &lt;p>On May 17th, 2023, I decided to raise the price of Velocity Lapse PRO to $7.99. At this point, the app was beginning to be more fleshed out and included saving to an SD card as a PRO feature.&lt;/p>
@@ -368,7 +368,7 @@ alt="Screenshots of Velocity Lapse v0.5.0"/>
 &lt;h3 id="hacker-noon-startup-of-the-year-nomination">Hacker Noon startup of the year nomination&lt;/h3>
 &lt;p>At the end of Roman May, I was greeted with an email from Hacker Noon that Velocity Lapse had been nominated for Startup of the Year 2023 Ava, MO. This was a nice surprise and awfully nice of someone to do. Although it was just a nomination, the fact that Hacker Noon thought Velocity Lapse was good enough to accept it, was a pretty neat feeling. So, thanks to whoever nominated Velocity Lapse.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/hn-nomination-instagram-post.jpg"
-alt="Hacker Noon startup of the year 2023 nomination"/>&lt;figcaption>
+alt="Hacker Noon startup of the year 2023 nomination">&lt;figcaption>
 &lt;p>I posted Velocity Lapse&amp;rsquo;s Hacker Noon startup of the year 2023 nomination on Instagram&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -377,7 +377,7 @@ alt="Hacker Noon startup of the year 2023 nomination"/>&lt;figcaption>
 &lt;p>Leading up to the 1-year anniversary of Velocity Lapse, I worked towards the goal of finishing off the leftover &amp;ldquo;MVP&amp;rdquo; features, adding the most requested features, and re-designing the app to be more presentable and easier to use.&lt;/p>
 &lt;h4 id="v04538">v0.4.5+38&lt;/h4>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-4/0-4-5-releases-notes.jpg"
-alt="Screenshot of the v0.4.5&amp;#43;38 release notes"/>
+alt="Screenshot of the v0.4.5&amp;#43;38 release notes">
 &lt;/figure>
 &lt;p>Released the first week of Roman June, v0.4.5+38 was a huge release with tons of interface improvements and additions, as well as the new editor playback feature.&lt;/p>
 &lt;h4 id="v05040-1st-year-anniversary-release">v0.5.0+40 1st year anniversary release&lt;/h4>
@@ -568,7 +568,7 @@ Taking the average of that, which is 11 years, and saying that someone uses the 
 &lt;p>I created an Amazon Developers account and began to go through the form to submit Velocity Lapse so that I could integrate Amazon billing into the app. (App stores require you to upload the app bundle before you can create an IAP to integrate it into your app.)&lt;/p>
 &lt;p>However, after uploading the bundle, I found out that due to Velocity Lapse needing the camera autofocus feature, only 3 (old) Amazon devices would be supported. And, at that I would have to lower the minimum SDK version to even get that support.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-3/amazon-appstore-app-support.jpg"
-alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcaption>
+alt="A screenshot showing Amazon tablets support for Velocity Lapse">&lt;figcaption>
 &lt;p>Amazon device support for Velocity Lapse&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -734,7 +734,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse"/>&lt;figcap
 &lt;h4 id="introduction-of-the-bottom-nagivation-bar">Introduction of the bottom nagivation bar&lt;/h4>
 &lt;p>In order to better organize the new features, such as importing a sequence of images as a project, I introduced a bottom navigation bar. It divided Velocity Lapse&amp;rsquo;s main functions into three understandable categories.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/bottom-navigation-bar.jpg"
-alt="Bottom navigation"/>&lt;figcaption>
+alt="Bottom navigation">&lt;figcaption>
 &lt;p>Introducing the bottom tab navigation&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -751,7 +751,7 @@ alt="Bottom navigation"/>&lt;figcaption>
 &lt;h3 id="adding-manual-capture-mode">Adding Manual Capture mode&lt;/h3>
 &lt;p>The capture view with the interval setting and other features was great; however, it didn&amp;rsquo;t fulfill one required use-case that I had in mind from the beginning: time-lapse captures over &lt;em>extended periods of time&lt;/em>. It would also cater to those who would rather not leave their device somewhere while it is capturing.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/manual-capture-view.jpg"
-alt="Manual capture view"/>&lt;figcaption>
+alt="Manual capture view">&lt;figcaption>
 &lt;p>The manual capture view in v0.0.4+6&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -854,7 +854,7 @@ alt="Manual capture view"/>&lt;figcaption>
 &lt;p>Later update: The video now has &lt;strong>over 83K views&lt;/strong>, which is kind of crazy (to me) for a 30-second video.&lt;/p>
 &lt;/blockquote>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg"
-alt="Starry night sky time-lapse video analytics"/>&lt;figcaption>
+alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;p>A glance at the stats for the starry night sky time-lapse video on Youtube as of 10/26/22&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -972,7 +972,7 @@ alt="Starry night sky time-lapse video analytics"/>&lt;figcaption>
 &lt;h3 id="the-first-milestone">The first milestone&lt;/h3>
 &lt;p>After a long and hard month of work, I finally had a &amp;ldquo;barely working&amp;rdquo; version of the capture and some other main features in a rough, unpolished state.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/rough-version-early-ui.gif"
-alt="A gif showing the early working state of Velocity Lapse"/>&lt;figcaption>
+alt="A gif showing the early working state of Velocity Lapse">&lt;figcaption>
 &lt;p>The early state of Velocity Lapse. Notice how much the UI has changed since then.&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -983,7 +983,7 @@ alt="A gif showing the early working state of Velocity Lapse"/>&lt;figcaption>
 &lt;p>A few things in the capture screen UI weren&amp;rsquo;t 100% clear, and even though I made the app, I mixed up which settings I was changing more than once. Glare from the sun and sweat on your brow can really change the way you use an app.&lt;/p>
 &lt;p>So, I redesigned the tabs to make it more clear which setting was selected.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/capture-screen-ui.jpeg"
-alt="The capture screen interface"/>&lt;figcaption>
+alt="The capture screen interface">&lt;figcaption>
 &lt;p>The capture screen interface&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
@@ -991,14 +991,14 @@ alt="The capture screen interface"/>&lt;figcaption>
 &lt;h3 id="logo-design">Logo design&lt;/h3>
 &lt;p>Over the course of the three months of developing the app, I had sketched about a hundred different logo concepts, both on paper and digitally. Some others tried to sketch some ideas and spent quite a bit of time brainstorming and iterating over potential ideas as well. However, the ideas were either too generic or unrelated, too similar to another logo, or just a bad design to begin with.&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design-sketches.jpg"
-alt="Sketches of ideas for the logo"/>&lt;figcaption>
+alt="Sketches of ideas for the logo">&lt;figcaption>
 &lt;p>Coming up with a logo for Velocity Lapse&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
 &lt;p>The name &amp;ldquo;Velocity Lapse&amp;rdquo; did give us some concepts to work with (which we wrote down as tangible objects), but in the end, almost none of the ideas were anything we thought would accurately represent the app. The concepts we were coming up with were either too complex or too technical due to &lt;em>velocity&lt;/em> being a bit of a technical, science term.&lt;/p>
 &lt;p>After praying for an idea or concept to come, it really, literally did. (We cannot underestimate prayer.)&lt;/p>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-1/logo-design.jpeg"
-alt="The Velocity Lapse logo"/>&lt;figcaption>
+alt="The Velocity Lapse logo">&lt;figcaption>
 &lt;p>The Velocity Lapse logo&lt;/p>
 &lt;/figcaption>
 &lt;/figure>
