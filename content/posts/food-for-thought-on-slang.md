@@ -5,7 +5,7 @@ draft: false
 image: "/posts/food-for-thought-on-slang/slang.webp"
 description: "Food for thought regarding using slang."
 intro: Food for thought regarding using slang.
-tags: ["faith", "essays"]
+tags: ["faith", "musings"]
 type: "post"
 ---
 
