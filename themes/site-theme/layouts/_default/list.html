@@ -14,8 +14,7 @@
 					<img class="w-full mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
 					<div class="w-full">
 						<h3 class="text-3xl md:text-4xl font-serif font-medium text-blue-400/90 hover:underline pb-1 ease-linear duration-300">{{ .Title }}</h3>
-						<p class="font-serif text-md text-blue-400/80">{{ .Date | time.Format ":date_medium" }}</p>
-						<p class="text-lg md:text-md text-blue-400/90 mt-2">{{ .Description }}</p>
+						<p class="text-sm tracking-tight text-blue-400/70 mt-1">{{ .Date | time.Format ":date_medium" }}</p>
 					</div>
 				</a>
 				{{ end }}
@@ -28,7 +27,7 @@
 						<h3 class="text-3xl md:text-2xl font-serif font-medium text-blue-400/90 hover:underline pt-1 ease-linear duration-300">
 							{{ .Title }}
 						</h3>
-						<p class="text-md font-serif text-blue-400/80">{{ .Date | time.Format ":date_medium" }}</p>
+						<p class="text-sm tracking-tight text-blue-400/70 mt-1">{{ .Date | time.Format ":date_medium" }}</p>
 						<p class="text-lg md:hidden text-blue-400/90 mt-2">{{ .Description }}</p>
 					</div>
 				</a>
@@ -44,7 +43,7 @@
 						<h3 class="text-3xl font-serif font-medium text-blue-400/90 hover:underline pt-1 md:pt-0 ease-linear duration-300">
 							{{ .Title }}
 						</h3>
-						<p class="text-md font-serif text-blue-400/80">{{ .Date | time.Format ":date_medium" }}</p>
+						<p class="text-sm tracking-tight text-blue-400/70 mt-1">{{ .Date | time.Format ":date_medium" }}</p>
 						<p class="text-lg md:text-md text-blue-400/90 mt-2 md:mt-5">{{ .Description }}</p>
 					</div>
 				</a>
