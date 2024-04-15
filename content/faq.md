@@ -55,18 +55,18 @@ Yes, if you'd rather have me update and keep your website running smoothly, I of
 
 #### How long have you been designing websites?
 
-I've been designing websites since 2019. Professionally since 2022.
+I've been designing websites since 2019. Professionally (as a freelancer) since 2022.
 
 
 #### Are you available on weekends?
 
-I'm not available on the weekends except for Sundays if agreed to in advance.
+I'm not available on the weekends except for Sundays and only if agreed to in advance.
 
-I take "Friday" afternoon and "Saturday" off in observance of the Biblical Sabbath day, so I don't answer emails or calls then.
+I take "Friday" afternoon and "Saturday" off in observance of the Biblical Sabbath day. I don't answer emails or calls then.
 
 If you need to get ahold of me during the weekend, please leave a message, and I'll get back to you on the next business day.
 
 
 #### Where are you located?
 
-I'm based in Missouri (USA), but I currently travel and work remotely. I work with clients in the USA and abroad and am willing to accommodate for differences in time zones.
+I'm based in the Central United States, but I currently travel and work remotely. I work with clients in the USA and abroad and can accommodate for differences in time zones.
