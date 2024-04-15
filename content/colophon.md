@@ -6,7 +6,7 @@ type: "page"
 
 **Wondering what goes into creating a website like this?** This page is for you.
 
-### Tech
+### Technology
 
 Here's the tech stack I used for this site:
 
@@ -22,3 +22,12 @@ Source code for this website is available in the Github [repository](https://git
 ### Visuals
 
 I designed the pages in [Lunacy](https://icons8.com/lunacy) (A great tool, but I don't really care for the name) and created whatever other mockups and graphics were necessary myself using a combination of [Blender](https://blender.org), [GIMP](https://gimp.org), and [Affinity Designer](https://affinity.serif.com/en-us/designer/).
+
+
+### Text
+
+Given the proliferation of "AI" written posts lately, I believe it's important to be upfront and make a distinction between who (or what) is writing.
+
+All text on this website is my own writing, written by me, a human. I will sometimes run the text through spell and grammar check, but I choose to not use "AI chatbots" to either write or assist me in writing or research.
+
+Now you know who to blame. :)
