@@ -53,7 +53,8 @@ alt="Velocity Lapse redesigned timelapse capture interface">
 &lt;p>Since the last post, there were a few milestones I thought I&amp;rsquo;d share:&lt;/p>
 &lt;p>The YouTube channel crossed &lt;strong>100 subscribers&lt;/strong> and Velocity Lapse crossed &lt;strong>50,000 downloads&lt;/strong> on Google Play.&lt;/p>
 &lt;div class="youtube-player">
-&lt;iframe src="https://www.youtube.com/embed/vum0osBvn2s" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vum0osBvn2s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" title="YouTube video"
+>&lt;/iframe>
 &lt;/div>
 &lt;h3 id="switching-from-flurry-to-embraceio">Switching from Flurry to Embrace.io.&lt;/h3>
 &lt;p>I appreciated Flurry analytics and the fact that it was a free service. However, Flurry was more of an analytics service than a crash reporting and logging service.&lt;/p>
@@ -248,7 +249,7 @@ alt="A screenshot of Typescale">&lt;figcaption>
 &lt;p>&lt;a href="https://v-fonts.com/">v-fonts&lt;/a> Experiment with variable fonts.&lt;/p>
 &lt;p>&lt;a href="https://fontspark.netlify.app/">FontSpark&lt;/a> is a simple tool to find different fonts.&lt;/p>
 &lt;p>&lt;a href="https://www.pairandcompare.net/">Pair and Compare&lt;/a> is a great way to mix and match different Google fonts to find the best combination for your design.&lt;/p>
-&lt;p>Want a good reading resource to improve your typography skills? Read &lt;a href="https://practicaltypography.com/">Butterick&amp;rsquo;s Practical Typography&lt;/a>.&lt;/p>
+&lt;p>Looking for some good reading resources to improve your typography skills? Read &lt;a href="https://practicaltypography.com/">Butterick&amp;rsquo;s Practical Typography&lt;/a> and &lt;a href="https://fonts.google.com/knowledge/stop_stealing_sheep.pdf">Stop Stealing Sheep &amp;amp; Find Out How Type Works&lt;/a>. You&amp;rsquo;ll be glad you did.&lt;/p>
 &lt;h3 id="color-resources">Color resources&lt;/h3>
 &lt;p>&lt;a href="https://palx-pwa.pages.dev/">Automatic UI color palette generator&lt;/a> is a very helpful tool for generating a full-spectrum color palette from a single color. I mainly use it when I need to quickly generate a range of grays for a UI design.&lt;/p>
 &lt;p>&lt;a href="https://toolness.github.io/accessible-color-matrix/">Accessible color matrix&lt;/a> Accessibility is an important part of choosing colors for a website or app design. This accessible color matrix tool allows you to check if your color combinations conform to accessibility standards.&lt;/p>
@@ -849,10 +850,12 @@ alt="Manual capture view">&lt;figcaption>
 &lt;p>I&amp;rsquo;ve really enjoyed it and maybe through creating this app, maybe I can compel and give more people an &amp;ldquo;excuse&amp;rdquo; to get out and enjoy it too.&lt;/p>
 &lt;p>
 &lt;div class="youtube-player">
-&lt;iframe src="https://www.youtube.com/embed/fBrOPxkeTnw" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/fBrOPxkeTnw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" title="YouTube video"
+>&lt;/iframe>
 &lt;/div>
 &lt;div class="youtube-player">
-&lt;iframe src="https://www.youtube.com/embed/36O4d31UyyE" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/36O4d31UyyE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" title="YouTube video"
+>&lt;/iframe>
 &lt;/div>
 &lt;/p>
 &lt;p>So, I encourage you to &lt;a href="https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse">download the app&lt;/a> and go outside to capture a time-lapse yourself. :)&lt;/p>
@@ -869,7 +872,8 @@ alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;p>Needless to say, this was way, far better than any other video I posted.&lt;/p>
 &lt;p>Granted, it was a short video, but it was interesting and new to me, especially since other videos on the Velocity Lapse channel had fewer than 100 views (as of this writing).&lt;/p>
 &lt;div class="youtube-player">
-&lt;iframe src="https://www.youtube.com/embed/BxRHqPGGO_g" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BxRHqPGGO_g?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" title="YouTube video"
+>&lt;/iframe>
 &lt;/div>
 &lt;p>The downloads on Google Play tripled, and some feedback and support queries came my way during this time. I assume this was due to the video receiving so much attention.&lt;/p>
 &lt;p>Oddly enough, this happened while I was away on vacation. Go figure.&lt;/p>
@@ -900,7 +904,8 @@ alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;p>I have fond memories of when I was younger and would experiment with time-lapses using an old Android tablet. My brother and I would time-lapse plants growing and mushrooms appearing in our greenhouse.&lt;/p>
 &lt;p>Time-lapse, if you&amp;rsquo;re not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that appears sped up. Naturally slow movements appear much faster than in a normal video. The time-lapse effect can be very beautiful for things like sunsets, clouds, plants, or people walking the streets.&lt;/p>
 &lt;div class="youtube-player">
-&lt;iframe src="https://www.youtube.com/embed/pi9G6py2Hv0" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pi9G6py2Hv0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" title="YouTube video"
+>&lt;/iframe>
 &lt;/div>
 &lt;p>Again, I did some quick validation of the idea from a personal standpoint and realized it was something I could personally use. I could glorify Yahweh, our Heavenly Father, with it by showing the beauty of His creation.&lt;/p>
 &lt;p>After coming up with the idea, it was time to do some market research.&lt;/p>
