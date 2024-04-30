@@ -40,7 +40,7 @@ Special thanks to all the individuals and companies that made these resources av
 
 [Pair and Compare](https://www.pairandcompare.net/) is a great way to mix and match different Google fonts to find the best combination for your design.
 
-Want a good reading resource to improve your typography skills? Read [Butterick's Practical Typography](https://practicaltypography.com/).
+Looking for some good reading resources to improve your typography skills? Read [Butterick's Practical Typography](https://practicaltypography.com/) and [Stop Stealing Sheep & Find Out How Type Works](https://fonts.google.com/knowledge/stop_stealing_sheep.pdf). You'll be glad you did.
 
 
 ### Color resources
