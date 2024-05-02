@@ -5,7 +5,7 @@ draft: false
 image: "/posts/looking-ahead/looking-ahead.jpg"
 description: "I was talking with a friend one day and he noticed that we were selling a used, luxury recliner. He asked, How much are you asking for it?..."
 intro: "I was talking with a friend one day and he noticed that we were selling a used, luxury recliner. He asked, How much are you asking for it?"
-tags: ["faith", "lessons", "essays"]
+tags: ["faith", "lessons", "stories"]
 type: "post"
 ---
 
@@ -33,7 +33,7 @@ $800.00/8,030 = $0.09962...
 
 So, if the recliner originally cost $800.00 and it was used *just twice per day* for the estimated 11 year lifetime of the recliner, that would be **less than 10 cents per use**. For someone that used it more or had it longer, it would be even less.
 
-Indeed, in order to justify the upfront cost, you would need to have the long term benefits in mind -how the recliner would make your life better. If someone only looked at the here and now, 800 dollars they would have to give up in the *short-term*, then they would likely miss seeing the real value of investing in it for their *long-term* comfort. (I hope I'm not starting to sound like a recliner advertisement...)
+Indeed, in order to justify the upfront cost, you would need to have the long term benefits in mind. Namely, how the recliner would make your life better. If someone only looked at the $800.00 they would have to give up in the *short-term*, then they would likely miss seeing the real value of investing in it for their *long-term* comfort. (I hope I'm not starting to sound like a recliner advertisement...)
 
 His point stuck with me for the rest of the day. It really reminded me of this life and our walk to Yahweh, our Heavenly Father, looking ahead into eternity. 
 
@@ -43,7 +43,7 @@ Yes, we endure trials and persecution for His name's sake. Yes, we give up our f
 
 It's all about *perspective*. 
 
-The earthly, here and now isn't so valuable when compared to the spiritual, heavenly things of Yahweh. As the hymn says, *"and the things of earth grow strangely dim, in the light of His glory and grace".*
+The earthly, here-and-now isn't so valuable when compared to the spiritual, heavenly things of Yahweh. As the hymn says, *"and the things of earth grow strangely dim, in the light of His glory and grace".*
 
 Too often we focus on what's going on in our lives or look at the world and question whether it is worth it. However, if we cannot find joy and strength in our present circumstances, then we can look to our bright future, just as our Savior Yahushua did in His moments of agony and anguish.
 
