@@ -52,10 +52,10 @@
 }
 
 .post-content {
-    @apply text-xl text-blue-600/90 leading-relaxed;
+    @apply text-lg text-blue-600/90 leading-relaxed;
 }
 .post-content p {
-    @apply max-w-3xl mx-auto mb-5 mt-4;
+    @apply max-w-3xl mx-auto mb-4 mt-3;
 }
 .post-content h3 {
     @apply text-blue-600/90 text-3xl mt-8 font-semibold;

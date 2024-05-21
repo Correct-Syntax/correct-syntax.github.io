@@ -1,8 +1,8 @@
-<div class="text-blue-400 text-sm mt-10">
+<div class="flex flex-row justify-between text-blue-400 text-sm mt-10">
 {{ if .Paginator.HasPrev }}
 	<a href="{{ .Paginator.Prev.URL }}">Previous Page</a>
 {{ end }}
-Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+<span class="text-blue-400/70">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
 {{ if .Paginator.HasNext }}
 	<a href="{{ .Paginator.Next.URL }}">Next Page</a>
 {{ end }}
