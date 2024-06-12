@@ -3,6 +3,7 @@ module.exports = {
             "./layouts/404.html", 
             "./layouts/_default/*.{html,js}",
             "./layouts/page/*.{html,js}",
+            "./layouts/writing/*.{html,js}",
             "./layouts/partials/*.{html,js}",
             "./layouts/tags/*.{html,js}"
           ],  

@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main>
+  <div class="bg-blue-600" style="height: 77px"></div>
+  <div class="max-w-6xl mx-auto mb-20 px-4 xl:px-0 mt-10">
+    <h1 class="text-5xl text-blue-600/90 font-serif mt-1">{{ .Title }}</h1>
+    <h2 class="text-blue-600/80 tracking-wide font-light text-[1rem] mt-2 max-w-md md:max-w-2xl">{{ .Page.Params.Subtitle }}</h2>
+    <div class="flex flex-col md:flex-row mt-14 items-center">
+      <img class="w-full md:w-1/6 mb-6 md:mb-0" src="/writings/George-and-the-Mine-Shaft-book-cover.png" alt="George and the Mine Shaft book cover">
+      <button onclick="window.open('/writings/George-and-the-Mine-Shaft-book.pdf')" class="group w-full md:w-5/6 ml-0 md:ml-6 cursor-pointer max-w-lg text-start">
+        <h3 class="text-xl font-medium text-blue-400/90 group-hover:underline pt-1 md:pt-0 ease-linear duration-300">
+          George and the Mine Shaft &mdash; A short story (PDF)
+        </h3>
+        <p class="text-base text-blue-400/90 mt-2 mb-3">A young man named George goes looking for his father with his friend Harold in an abandoned mine shaft.</p>
+        <div class="flex flex-row flex-wrap space-x-2">
+          <span class="text-xs rounded-md bg-slate-200 text-slate-500 px-2 py-1">Forgiveness</span>
+          <span class="text-xs rounded-md bg-slate-200 text-slate-500 px-2 py-1">Mercy</span>
+          <span class="text-xs rounded-md bg-slate-200 text-slate-500 px-2 py-1">Righteous Judgement</span>
+        </div>
+        <p class="text-xs text-blue-400/70 mt-8">This book may be printed and/or distributed without prior permission from the author (me) provided that the following requirements are met: 1) This book must be distributed in its entirety without alteration. 2) This book must be given away freely and not sold.</p>
+      </button>
+    </div>
+  </div>
+</main>
+{{ end }}
