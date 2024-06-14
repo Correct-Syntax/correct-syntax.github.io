@@ -1,41 +1,41 @@
 {{ define "main" }}
-<div class="bg-blue-600 pt-28 pb-20">
-  <div class="max-w-6xl mx-auto px-4 xl:px-0">
+<div class="pt-28 pb-20 bg-blue-600">
+  <div class="px-4 mx-auto max-w-6xl xl:px-0">
 		<div class="flex flex-col md:flex-row md:space-x-10">
 			<div class="w-full md:w-1/2 xl:w-2/5">
-				<h1 class="font-serif text-4xl sm:text-5xl text-blue-200">{{ .Title }}</h1>
-				<p class="font-serif font-light tracking-wider text-xl text-white/80 mt-4">Posted {{ .Date |  time.Format ":date_medium" }}  &bull; <span class="reading-time"></span></p>
+				<h1 class="font-serif text-4xl text-blue-200 sm:text-5xl">{{ .Title }}</h1>
+				<p class="mt-4 font-serif text-xl font-light tracking-wider text-white/80">Posted {{ .Date |  time.Format ":date_medium" }}  &bull; <span class="reading-time"></span></p>
 				<div class="mt-5">
 					{{ partial "tags.html" . }}
 				</div>
 			</div>
-			<div class="w-full md:w-1/2 xl:w-3/5 mt-10 md:mt-0">
-				<img class="w-auto h-auto -mb-60" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
+			<div class="mt-10 w-full md:w-1/2 xl:w-3/5 md:mt-0">
+				<img class="-mb-60 w-auto h-auto" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
 			</div>
 		</div>
 	</div>
 </div>
-<div class="max-w-6xl mx-auto">
+<div class="mx-auto max-w-6xl">
 	<main class="flex flex-row">
-		<article class="max-w-3xl md:max-w-lg lg:max-w-2xl px-4 xl:px-0 mt-44 sm:mt-48 md:mt-10 mb-20 mx-auto md:mx-0">
-			<div class="max-w-md border-l-4 border-blue-400/90 pl-4">
-				<h2 class="text-2xl text-blue-600/90 font-light font-serif">{{ .Page.Params.Intro }}</h2>
+		<article class="px-4 mx-auto mt-44 mb-20 max-w-3xl md:max-w-lg lg:max-w-2xl xl:px-0 sm:mt-48 md:mt-10 md:mx-0">
+			<div class="pl-4 max-w-md border-l-4 border-blue-400/90">
+				<h2 class="font-serif text-2xl font-light text-blue-600/90">{{ .Page.Params.Intro }}</h2>
 			</div>
-			<div id="post" class="post-content mt-6 mb-16">
+			<div id="post" class="mt-6 mb-16 post-content">
 				{{ .Content }}
 			</div>
 			<div class="mb-20">
-				<h6 class="text-2xl font-semibold text-blue-600/80 mb-2">Other posts you might enjoy</h6>
-				<div class="grid grid-cols-1 sm:grid-cols-3 gap-x-3 gap-y-6 mt-8">
+				<h6 class="mb-2 text-2xl font-semibold text-blue-600/80">Other posts you might enjoy</h6>
+				<div class="grid grid-cols-1 gap-x-3 gap-y-6 mt-8 sm:grid-cols-3">
 					{{ $related := (.Site.RegularPages.Related .) | first 3 }}
 					{{ range $related }}
 					<a class="w-full" href="{{ .Permalink }}">
-						<img class="w-full mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
+						<img class="mb-4 w-full" src="{{ .Page.Params.Image }}" alt="{{ .Title }}">
 						<div class="w-full">
-							<h6 class="text-xl font-serif font-medium text-blue-400/90 hover:underline pt-1 ease-linear duration-300">
+							<h6 class="pt-1 font-serif text-xl font-medium duration-300 ease-linear text-blue-400/90 hover:underline">
 								{{ .Title }}
 							</h6>
-							<p class="text-sm font-serif text-blue-400/80 mt-1">{{ .Date |  time.Format ":date_medium" }}</p>
+							<p class="mt-1 font-serif text-sm text-blue-400/80">{{ .Date |  time.Format ":date_medium" }}</p>
 						</div>
 					</a>
 					{{ end }}
@@ -60,9 +60,9 @@
 			</script>
 		</article>
 		{{ if gt (len .TableOfContents) 80}}
-		<aside id="tableOfContents" class="hidden md:block sticky top-8 self-start mt-40 ml-0 lg:ml-12">
-			<h4 class="text-2xl font-semibold text-blue-600/80 mb-2">Table of Contents</h4>
-			<div class="text-blue-600/70 ml-1">
+		<aside id="tableOfContents" class="hidden sticky top-8 self-start mt-40 ml-0 md:block lg:ml-12">
+			<h4 class="mb-2 text-2xl font-semibold text-blue-600/80">Table of Contents</h4>
+			<div class="ml-1 text-blue-600/70">
 				{{ .TableOfContents }}
 			</div>
 		</aside>

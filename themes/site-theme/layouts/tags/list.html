@@ -1,14 +1,14 @@
 {{ define "main" }}
-<div class="bg-blue-600 py-28">
-  <div class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 xl:px-0">
+<div class="py-28 bg-blue-600">
+  <div class="flex flex-col px-4 mx-auto max-w-6xl md:flex-row xl:px-0">
     <div class="max-w-6xl">
-      <span class="text-sm text-white/80 font-medium uppercase tracking-wide mx-auto">Tags</span>
-      <h1 class="font-serif text-4xl sm:text-5xl text-blue-200 capitalize mt-2">Post {{ .Title }}</h1>
-      <div class="flex flex-row flex-wrap space-x-8 mt-16 mx-auto">
+      <span class="mx-auto text-sm font-medium tracking-wide uppercase text-white/80">Tags</span>
+      <h1 class="mt-2 font-serif text-4xl text-blue-200 capitalize sm:text-5xl">Post {{ .Title }}</h1>
+      <div class="flex flex-row flex-wrap mx-auto mt-16 space-x-8">
         {{ range .Data.Pages }}
         <div>
           <a class="group" href="{{.RelPermalink}}">
-            <h5 class="font-serif font-light text-3xl text-white group-hover:text-blue-200 duration-300 ease-linear">{{ .Title }}</h5>
+            <h5 class="font-serif text-3xl font-light text-white duration-300 ease-linear group-hover:text-blue-200">{{ .Title }}</h5>
           </a>
         </div>
         {{ end }}

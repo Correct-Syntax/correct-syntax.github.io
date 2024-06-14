@@ -1,11 +1,11 @@
 {{ define "main" }}
-<main class="bg-blue-600 pt-28 pb-20">
-  <div class="max-w-6xl mx-auto px-4 text-center xl:px-0">
-    <h1 class="text-5xl text-blue-200 font-serif mt-1 mx-auto">{{ .Page.Params.Subtitle }}</h1>
-    <div class="max-w-xl markdown-content-dark text-left mt-10 mx-auto">
+<main class="pt-28 pb-20 bg-blue-600">
+  <div class="px-4 mx-auto max-w-6xl text-center xl:px-0">
+    <h1 class="mx-auto mt-1 font-serif text-5xl text-blue-200">{{ .Page.Params.Subtitle }}</h1>
+    <div class="mx-auto mt-10 max-w-xl text-left markdown-content-dark">
       {{ .Content }}
       <div class="relative mb-10">
-        <a href="mailto:hi@noahrahm.com" class="text-2xl text-white font-medium underline decoration-white/40 hover:text-blue-200 hover:decoration-blue-200 duration-300 ease-linear mt-1">hi@noahrahm.com</a>
+        <a href="mailto:hi@noahrahm.com" class="mt-1 text-2xl font-medium text-white underline duration-300 ease-linear decoration-white/40 hover:text-blue-200 hover:decoration-blue-200">hi@noahrahm.com</a>
       </div>
       <h4>Mailing list</h4>
       <p>To receive occasional emails from me, you can subscribe to my mailing list. I typically write about tech, faith, design, and other useful things that I'd like to share.</p>
