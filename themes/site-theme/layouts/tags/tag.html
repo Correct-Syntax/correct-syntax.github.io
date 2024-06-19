@@ -1,21 +1,21 @@
 {{ define "main" }}
-<div class="bg-blue-600 py-28">
-  <div class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 xl:px-0">
+<div class="py-28 bg-blue-600">
+  <div class="flex flex-col px-4 mx-auto max-w-6xl md:flex-row xl:px-0">
     <div class="max-w-6xl">
-      <div class="inline-flex items-center space-x-1 text-xs text-white/80 font-medium uppercase tracking-wide">
-        <a class="hover:text-white duration-300 ease-linear" href="/tags/">Tags</a>
+      <div class="inline-flex items-center space-x-1 text-xs font-medium tracking-wide uppercase text-white/80">
+        <a class="duration-300 ease-linear hover:text-white" href="/tags/">Tags</a>
         <svg class="fill-white" xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 256 256"><path d="M180.24,132.24l-80,80a6,6,0,0,1-8.48-8.48L167.51,128,91.76,52.24a6,6,0,0,1,8.48-8.48l80,80A6,6,0,0,1,180.24,132.24Z"></path></svg>
         <span>{{ .Title }}</span>
       </div>
-      <h1 class="font-serif text-4xl sm:text-5xl text-blue-200 capitalize mt-2">{{ .Title }}</h1>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-16 mt-16 mx-auto">
+      <h1 class="mt-2 font-serif text-4xl text-blue-200 capitalize sm:text-5xl">{{ .Title }}</h1>
+      <div class="grid gap-x-4 gap-y-16 mx-auto mt-16 sm:grid-cols-2 lg:grid-cols-3">
         {{ range .Data.Pages }}
         <div>
           <a class="group" href="{{.RelPermalink}}">
-            <img class="w-full mb-4" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
-            <h5 class="font-serif font-light text-3xl text-white group-hover:text-blue-200 duration-300 ease-linear">{{ .Title }}</h5>
-            <p class="font-serif font-light text-md text-white/80 mt-1">Posted {{ .Date |  time.Format ":date_medium" }}</p>
-            <p class="font-medium text-sm text-white/80 mt-2">{{ .Description }}</p>
+            <img class="mb-4 w-full" src="{{ .Page.Params.Image }}" alt="{{ .Page.Params.Alt }}">
+            <h5 class="font-serif text-3xl font-light text-white duration-300 ease-linear group-hover:text-blue-200">{{ .Title }}</h5>
+            <p class="mt-1 font-serif font-light text-md text-white/80">Posted {{ .Date |  time.Format ":date_medium" }}</p>
+            <p class="mt-2 text-sm font-medium text-white/80">{{ .Description }}</p>
           </a>
         </div>
         {{ end }}
