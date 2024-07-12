@@ -1,5 +1,5 @@
 ---
 title: Posts
-subtitle: Thoughts and resources relating to 
+subtitle: Thoughts and resources
 type: "page"
 ---
