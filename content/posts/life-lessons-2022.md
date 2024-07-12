@@ -6,7 +6,8 @@ image: "/posts/life-lessons-2022/life-lessons.jpg"
 description: "A reflection of lessons that stand out to me the most from 2022"
 intro: "A reflection of lessons that stand out to me the most from the year 2022"
 tags: ["lessons", "faith", "essays"]
-type: "post"
+type: "redirect"
+redirect: "https://blog.noahrahm.com/life-lessons-2022/"
 ---
 
 In the past year I've made a greater effort to look for what Yahweh, our Heavenly Father, is try to show me in every situation. There is always something to learn, even in the darkest of situations. :) 

@@ -6,7 +6,8 @@ image: "/posts/law-of-nos-and-yeses/winter.webp"
 description: I've observed what could be called the "Law of No-s and Yes-es"...
 intro: I've observed what could be called the "Law of No-s and Yes-es"
 tags: ['faith', 'musings']
-type: "post"
+type: "redirect"
+redirect: "https://blog.noahrahm.com/law-of-nos-and-yeses/"
 ---
 
 

@@ -6,7 +6,8 @@ image: "/posts/on-writing/on-writing.webp"
 description: "This is a post about writing. Specifically about my writing and why I do it."
 intro: "This is a post about writing. Specifically about my writing and why I do it."
 tags: ["writing"]
-type: "post"
+type: "redirect"
+redirect: "https://blog.noahrahm.com/on-writing/"
 ---
 
 Something everyone writing and posting online knows:

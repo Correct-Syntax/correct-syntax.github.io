@@ -6,7 +6,8 @@ image: "/posts/food-for-thought-on-slang/slang.webp"
 description: "Food for thought regarding using slang."
 intro: Food for thought regarding using slang.
 tags: ["faith", "musings"]
-type: "post"
+type: "redirect"
+redirect: "https://blog.noahrahm.com/food-for-thought-on-slang/"
 ---
 
 
