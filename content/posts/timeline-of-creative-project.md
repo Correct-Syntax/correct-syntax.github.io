@@ -6,7 +6,8 @@ image: "/posts/timeline-creative-project/timeline-creative-project.webp"
 description: "I once saw a timeline hanging on the wall in an artist's studio. The timeline was written in chalkboard fashion yet neatly framed as if to betray the importance of its message to the artist."
 intro: "I once saw a timeline hanging on the wall in an artist's studio. The timeline was written in chalkboard fashion yet neatly framed as if to betray the importance of its message to the artist."
 tags: ["creativity", "design"]
-type: "post"
+type: "redirect"
+redirect: "https://blog.noahrahm.com/timeline-of-creative-project/"
 ---
 
 The title read, "The Timeline of a Typical Project". 
