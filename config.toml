@@ -43,9 +43,9 @@ summaryLength = 12
     weight = 40
 
   [[menu.main]]
-    name = "Writing"
-    identifier = "writing"
-    url = "/writing/"
+    name = "Blog"
+    identifier = "blog"
+    url = "https://blog.noahrahm.com"
     weight = 50
 
   [[menu.main]]
