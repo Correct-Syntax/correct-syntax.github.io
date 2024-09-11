@@ -4,13 +4,12 @@ layout: "static-page"
 type: "page"
 ---
 
-This website (noahrahm.com) uses [Matomo](https://matomo.org), a privacy-focused analytics platform.
+This website (noahrahm.com) and the subdomains (art.noahrahm.com, blog.noahrahm.com) use [Matomo](https://matomo.org), a privacy-focused analytics platform.
 
 - It is self-hosted, which means that the data never leaves my server.
 - The analytics are used solely for the purposes of audience measurement and evaluation of the website performance.
 - When you visit the website, it will store: the website from which you visited from, the pages of the website you visit, the date and duration of your visit, your anonymised IP address, and information from the device (device type, operating system, screen resolution, language, country you are located in, and web browser type) you used during your visit.
 - The analytics don't track you across the web. Because the data doesn't leave my server, Matomo (as a company) doesn't see that data either.
-- The analytics are configured to honor DoNotTrack.
 
 If you'd like, you can opt-out of analytics below:
 
