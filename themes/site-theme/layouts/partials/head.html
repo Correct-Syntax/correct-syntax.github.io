@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{- if .IsHome -}}{{ .Site.Title -}}{{ else -}}{{ with .Title }}{{ . }} | {{ end -}}{{ .Site.Title -}}{{ end -}}</title>
   {{ with .Page.Description }}<meta name="description" content="{{ . }}">{{ end }}
-  {{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Params.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
   {{ template "_internal/opengraph.html" . }}
   <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}index.xml" title="{{ .Site.Title }}">
   <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin>
