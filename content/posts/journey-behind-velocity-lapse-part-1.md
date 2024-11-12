@@ -54,6 +54,8 @@ Again, I did some quick validation of the idea from a personal standpoint and re
 
 After coming up with the idea, it was time to do some market research.
 
+*Edit 2 years after the original publishing date of this post:* Somehow I had forgotten about it, but a year prior to this brainstorming I had worked on a small prototype for a time-lapse app. It is interesting how the idea kind of died and I totally forgot about it, but then it resurfaced.
+
 
 ### "Make the app great"
 

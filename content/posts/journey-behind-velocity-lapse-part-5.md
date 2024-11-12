@@ -292,7 +292,7 @@ If you've made it this far in reading (5 posts!), you may have been wondering a 
 
 *"Why a journey?"*
 
-The journey has to do with going from idea to launching and selling a fully functional time-lapse app for Android. It has been quite a journey of learning and growth for me, at the very least.
+The journey has to do with going from idea to launching a fully functional time-lapse app for Android. It has been quite a journey of learning and growth for me, at the very least.
 
 Part of the reason I'm writing this dev-log is to be an inspiration to others to show the ups and the downs, the failures and successes, the struggle and the reality of building a complex app yourself (also known as indie app development). It certainly hasn't been easy.
 
@@ -300,7 +300,7 @@ I think of what someone once said:
 
 > "Nothing ever comes to one, that is worth having, except as a result of hard work."
 
-I credit any success of Velocity Lapse to our Heavenly Father's grace and the support of family, friends, and users. To have the idea, the time, and abilities to be able to learn, experiment, and work on Velocity Lapse for the past year and a half so far has been a blessing.
+While it is true that one needs to work in order to see results, there are many things that you cannot control. And so I credit any success of Velocity Lapse to our Heavenly Father's grace and the support of family, friends, and users. To have the idea, the time, and abilities to be able to learn, experiment, and work on Velocity Lapse for the past year and a half so far has been a blessing.
 
 
 ### The journey continues
