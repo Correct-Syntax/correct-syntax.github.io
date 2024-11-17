@@ -12,10 +12,10 @@
       <ul class="inline-flex space-x-3 font-serif font-light tracking-wider text-xl md:text-[1.2rem] text-blue-400 ml-3">
         <li><a @click="filter = 'all'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'all' }" class="cursor-pointer">All</a></li>
         <li><a @click="filter = 'websites'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'websites' }" class="cursor-pointer">Websites</a></li>
-        <li><a @click="filter = 'logos'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'logos' }" class="cursor-pointer">Logos</a></li>
-        <li><a @click="filter = 'software'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'software' }" class="cursor-pointer">Software</a></li>
         <li><a @click="filter = 'apps'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'apps' }" class="cursor-pointer">Apps</a></li>
+        <li><a @click="filter = 'logos'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'logos' }" class="cursor-pointer">Logos</a></li>
         <li><a @click="filter = 'graphics'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'graphics' }" class="cursor-pointer">Graphics</a></li>
+        <li><a @click="filter = 'software'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'software' }" class="cursor-pointer">Software</a></li>
         <li><a @click="filter = 'filmmaking'" :class="{ 'font-medium text-blue-600 decoration-blue-600 underline' : filter == 'filmmaking' }" class="cursor-pointer">Filmmaking</a></li>
       </ul>
     </div>
@@ -51,6 +51,20 @@
           </div>
           <p class="mt-3 max-w-lg text-lg text-blue-400/80"><span class="font-medium">OpenImageIO —</span> Logo and brand guidelines for a popular open source C++ library aimed at VFX applications.</p>
         </a>
+        <!-- Velocity Lapse -->
+        <a x-show="filter == 'apps' || filter == 'all'" href="/work/velocity-lapse/">
+          <div class="relative group">
+            <img class="w-auto h-auto" src="/posts/journey-behind-velocity-lapse-6/the-journey-behind-velocity-lapse-part-6-header.webp" alt="Velocity Lapse"/>
+            <span class="overflow-auto absolute top-0 bottom-0 left-0 w-full bg-transparent duration-500 group-hover:bg-black/50">
+              <div class="absolute top-0 right-0 p-6 opacity-0 duration-500 ease-in-out group-hover:p-5 group-hover:opacity-100">
+                <svg class="w-5 h-5 text-white duration-300 ease-in-out fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg>
+              </div>
+            </span>
+          </div>
+          <p class="mt-3 max-w-lg text-lg text-blue-400/80"><span class="font-medium">Velocity Lapse —</span> Fully-featured Android app for creating time-lapse videos.</p>
+        </a>
         <!-- Options -->
         <a x-show="filter == 'websites' || filter == 'all'" href="/work/options-of-ava-website/">
           <div class="relative group">
@@ -78,20 +92,6 @@
             </span>
           </div>
           <p class="mt-3 max-w-lg text-lg text-blue-400/80"><span class="font-medium">Ozark Solar —</span> Modern, multi-fold business card design for a solar energy consultant.</p>
-        </a>
-        <!-- Velocity Lapse -->
-        <a x-show="filter == 'apps' || filter == 'all'" href="/work/velocity-lapse/">
-          <div class="relative group">
-            <img class="w-auto h-auto" src="/posts/journey-behind-velocity-lapse-4/the-journey-behind-velocity-lapse-part-4-header.webp" alt="Flameshot website"/>
-            <span class="overflow-auto absolute top-0 bottom-0 left-0 w-full bg-transparent duration-500 group-hover:bg-black/50">
-              <div class="absolute top-0 right-0 p-6 opacity-0 duration-500 ease-in-out group-hover:p-5 group-hover:opacity-100">
-                <svg class="w-5 h-5 text-white duration-300 ease-in-out fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
-                </svg>
-              </div>
-            </span>
-          </div>
-          <p class="mt-3 max-w-lg text-lg text-blue-400/80"><span class="font-medium">Velocity Lapse —</span> Fully-featured Android app for creating time-lapse videos.</p>
         </a>
         <!-- Bibleside -->
         <a x-show="filter == 'apps' || filter == 'all'" href="/work/bibleside/">
