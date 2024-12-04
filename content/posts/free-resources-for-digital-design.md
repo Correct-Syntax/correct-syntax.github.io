@@ -63,7 +63,7 @@ Looking for some good reading resources to improve your typography skills? Read 
 
 ### Software
 
-[Lunacy](https://icons8.com/lunacy) (A.K.A. Sketch for Windows). Although I don’t care for the name, it’s my primary design tool. Being a native Windows application makes it fast and smooth to work with. Lunacy works *completely offline* and has almost everything I've ever needed for creating web and graphic designs, having worked with it for the past 3 years.
+[Lunacy](https://icons8.com/lunacy) is a great design tool. Being a native Windows application makes it fast and smooth to work with. Lunacy works *completely offline* and has almost everything I've ever needed for creating web and graphic designs, having worked with it for the past 3 years.
 
 {{< figure src="/posts/free-resources-for-digital-design/lunacy.jpg" alt="A screenshot of Lunacy open with a logo design document" caption="Lunacy—my (current) go-to design tool open to my logo design for Hilltop Motion." >}}
 
