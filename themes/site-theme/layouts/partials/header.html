@@ -14,7 +14,7 @@
 				{{ $url := .RelPermalink }}
 				{{ range $menuId, $menuItem := .Site.Menus.main }}
 				{{ $active := eq $url $menuItem.URL }}
-			  <a href="{{ .URL }}" class="px-3 text-base font-medium hover:text-blue-200 ease-in-out duration-300 {{ if ($active)}}text-blue-200 font-semibold{{else}}text-white/90{{end}}">
+			  	<a href="{{ .URL }}" class="px-3 text-base font-medium hover:text-blue-200 ease-in-out duration-300 {{ if ($active)}}text-blue-200 font-semibold{{else}}text-white/90{{end}}">
 					{{ .Name }}
 				</a> 
 				{{ end }}
