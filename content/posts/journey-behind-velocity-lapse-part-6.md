@@ -65,7 +65,7 @@ After two and a half years of development in early access beta, I knew that the 
 
 For whatever reason, I always had it in the back of my mind to "find the time" before the v1.0 launch to refine the concept to better reflect the state of Velocity Lapse. Here and there I would play with different designs, but I hadn't come up with anything much. 
 
-That time I'd been waiting for had come.
+Finally, I did find the time.
 
 I simplified the logo both in terms of colors and shapes while still keeping with the same theme and concept. 
 
@@ -116,6 +116,8 @@ All things considered, the v1.0 launch was a success with no major problems. For
 ### After the launch
 
 v1.1.0 was pushed into production not too long after the v1.0 launch. v1.1 added a remote shutter feature and other improvements that didn't make it into the v1.0 release.
+
+For the weeks following the launch, I pushed updates with bug fixes and new features in preparation for the new year.
 
 
 ### Another milestone
