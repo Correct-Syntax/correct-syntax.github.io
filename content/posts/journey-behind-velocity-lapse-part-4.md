@@ -9,6 +9,8 @@ tags: ['devlog']
 type: "post"
 ---
 
+This is the fourth post in a series of "dev-log" posts about my personal journey and learning process of creating [Velocity Lapse](https://velocitylapse.com), a time-lapse app for Android. 
+
 You can read the previous posts, [Part 1](/posts/journey-behind-velocity-lapse-part-1/), [Part 2](/posts/journey-behind-velocity-lapse-part-2/), and [Part 3](/posts/journey-behind-velocity-lapse-part-3/) to get context of my journey creating [Velocity Lapse](https://velocitylapse.com) up to this point. 
 
 If you have any comments or suggestions, feel free to leave a comment below.

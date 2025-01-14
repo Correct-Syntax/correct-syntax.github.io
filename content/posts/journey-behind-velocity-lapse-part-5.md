@@ -9,7 +9,7 @@ tags: ["devlog"]
 type: "post"
 ---
 
-Welcome to the 5th post a series of devlog style posts sharing my journey creating [Velocity Lapse](https://velocitylapse.com), a time-lapse app for Android. 
+Welcome to the 5th post in a series of "dev-log" style posts sharing my journey creating [Velocity Lapse](https://velocitylapse.com), a time-lapse app for Android. 
 
 You can read the previous posts to get context up to this point: [Part 1](/posts/journey-behind-velocity-lapse-part-1/), [Part 2](/posts/journey-behind-velocity-lapse-part-2/), [Part 3](/posts/journey-behind-velocity-lapse-part-3/), and [Part 4](/posts/journey-behind-velocity-lapse-part-4/).
 
@@ -309,7 +309,7 @@ Thank you for reading. I hope you've enjoyed this post and have gained something
 
 If you have a suggestion, a comment, or advice, relating either to the app or this post, I'd love to hear what you have to share either in the comments below or via [email](mailto:hi@noahrahm.com). 
 
-**I'm planning a part 6 of this series.**
+**Read the next part of the journey in [part 6](/posts/journey-behind-velocity-lapse-part-6/) of this series.**
 
 ----
 
