@@ -200,8 +200,7 @@ alt="Mobile time-lapse forum">&lt;figcaption>
 &lt;p>Part of the reason I&amp;rsquo;m writing this dev-log is to be an inspiration to others to show the ups and the downs, the failures and successes, the struggle and the reality of building a complex app yourself (also known as indie app development). It certainly hasn&amp;rsquo;t been easy.&lt;/p>
 &lt;p>I think of what someone once said:&lt;/p>
 &lt;blockquote>
-&lt;p>&amp;ldquo;Nothing ever comes to one, that is worth having, except as a result of hard work.&amp;rdquo;&lt;/p>
-&lt;/blockquote>
+&lt;p>&amp;ldquo;Nothing ever comes to one, that is worth having, except as a result of hard work.&amp;rdquo;&lt;/p>&lt;/blockquote>
 &lt;p>While it is true that one needs to work in order to see results, there are many things that you cannot control. And so I credit any success of Velocity Lapse to our Heavenly Father&amp;rsquo;s grace and the support of family, friends, and users. To have the idea, the time, and abilities to be able to learn, experiment, and work on Velocity Lapse for the past year and a half so far has been a blessing.&lt;/p>
 &lt;h3 id="the-journey-continues">The journey continues&lt;/h3>
 &lt;p>Thank you for reading. I hope you&amp;rsquo;ve enjoyed this post and have gained something from this journey so far. I know I sure have!&lt;/p>
@@ -480,7 +479,7 @@ alt="A screenshot showing Amazon tablets support for Velocity Lapse">&lt;figcapt
 &lt;p>My thought was to release it early Spring, as the majority of people will likely want to create time-lapse videos in the Spring/Summer. So, my strategy was: get the app up to speed during the winter and release it sometime early Spring.&lt;/p>
 &lt;h3 id="app-marketing-strategies">App marketing strategies&lt;/h3>
 &lt;p>The balance between building a great product and marketing is difficult. On one side, you want to make the product worthwhile and the best it can be. On the other hand, it&amp;rsquo;s pointless unless someone knows about it. Perfecting the little details while neglecting marketing is an easy thing to do.&lt;/p>
-&lt;h4 id="heading">&lt;/h4>
+&lt;h4>&lt;/h4>
 &lt;p>I mentioned this in the &lt;a href="https://noahrahm.com/posts/journey-behind-velocity-lapse-part-1/">first post&lt;/a> of this series, that early on, when I first started designing the app, I came across something profound.&lt;/p>
 &lt;p>In &lt;a href="https://www.youtube.com/watch?v=pfzxL9lXSdE">this video&lt;/a> about app marketing strategies, he explains a few points which I think are worth sharing here.&lt;/p>
 &lt;p>The first one is, of course: &lt;strong>Make the app &amp;lsquo;great&amp;rsquo;. Because a &amp;ldquo;just okay&amp;rdquo; app is hard to market.&lt;/strong>&lt;/p>
@@ -616,11 +615,9 @@ alt="Manual capture view">&lt;figcaption>
 &lt;p>I&amp;rsquo;ll state here that I am &lt;strong>not&lt;/strong> a part of any denomination (SDA or otherwise).&lt;/p>
 &lt;p>My motivation for keeping the Sabbath holy is to do as Yahweh, our Heavenly Father Himself, and our Savior did: rest on the seventh day.&lt;/p>
 &lt;blockquote>
-&lt;p>&amp;ldquo;And on the seventh day Yahweh ended his work which he had made; and he rested on the seventh day from all his work which he had made. And Yahweh blessed the seventh day, and sanctified it: because that in it he had rested from all his work which Yahweh created and made.&amp;rdquo; -Genesis 2:2-3&lt;/p>
-&lt;/blockquote>
+&lt;p>&amp;ldquo;And on the seventh day Yahweh ended his work which he had made; and he rested on the seventh day from all his work which he had made. And Yahweh blessed the seventh day, and sanctified it: because that in it he had rested from all his work which Yahweh created and made.&amp;rdquo; -Genesis 2:2-3&lt;/p>&lt;/blockquote>
 &lt;blockquote>
-&lt;p>&amp;ldquo;If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it.&amp;rdquo; -Isaiah 58:13-14&lt;/p>
-&lt;/blockquote>
+&lt;p>&amp;ldquo;If thou turn away thy foot from the sabbath, from doing thy pleasure on My holy day; and call the sabbath a delight, the holy of Yahweh, honourable; and shalt honour him, not doing thine own ways, nor finding thine own pleasure, nor speaking thine own words: Then shalt thou delight thyself in Yahweh; and I will cause thee to ride upon the high places of the earth, and feed thee with the heritage of Jacob thy father: for the mouth of Yahweh hath spoken it.&amp;rdquo; -Isaiah 58:13-14&lt;/p>&lt;/blockquote>
 &lt;p>There are many more verses in the Bible regarding the importance of keeping the seventh-day Sabbath.&lt;/p>
 &lt;p>For some Django-based websites I worked on in the past, I had created and used a Django app called &lt;a href="https://github.com/Correct-Syntax/Keep-Sabbath">Keep Sabbath&lt;/a> which would redirect visitors or show a banner stating that the e-commerce site was closed for the Sabbath.&lt;/p>
 &lt;p>I did something similar for Velocity Lapse, so that a screen would come up letting them know that they wouldn&amp;rsquo;t be able to purchase until the next day.&lt;/p>
@@ -645,8 +642,7 @@ alt="Manual capture view">&lt;figcaption>
 &lt;p>4K export to video wasn&amp;rsquo;t a huge feature to implement. However, since I didn&amp;rsquo;t have an Android device that supported 4K, testing was tricky. I ended up getting an hour to test on a friend&amp;rsquo;s phone which I hoped was enough to have caught any issues.&lt;/p>
 &lt;p>If not&amp;hellip; I was sure users would let me know.&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;strong>EDIT:&lt;/strong> they did.&lt;/p>
-&lt;/blockquote>
+&lt;p>&lt;strong>EDIT:&lt;/strong> they did.&lt;/p>&lt;/blockquote>
 &lt;h4 id="manual-camera-controls">Manual camera controls&lt;/h4>
 &lt;p>I spent two weeks working through the Android Camera2 API to implement manual camera controls, ISO, shutter speed, and focus distance (manual focus).&lt;/p>
 &lt;h4 id="the-woes-of-the-android-camera2-api">The woes of the Android Camera2 API&lt;/h4>
@@ -670,8 +666,7 @@ alt="Manual capture view">&lt;figcaption>
 &lt;p>During the process of creating and testing Velocity Lapse, I have had the opportunity to spend more time enjoying creation. Especially, the sky.&lt;/p>
 &lt;p>Whether it&amp;rsquo;s wispy clouds or a pink and blue sunset, creating a time-lapse app has given me a good excuse to pay attention to it.&lt;/p>
 &lt;p>I&amp;rsquo;ve really enjoyed it and maybe through creating this app, maybe I can compel and give more people an &amp;ldquo;excuse&amp;rdquo; to get out and enjoy it too.&lt;/p>
-&lt;p>
-&lt;div class="youtube-player">
+&lt;p>&lt;div class="youtube-player">
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/fBrOPxkeTnw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;div class="youtube-player">
@@ -682,8 +677,7 @@ alt="Manual capture view">&lt;figcaption>
 &lt;h3 id="my-video-gets-popular-on-youtube">My video gets popular on YouTube&lt;/h3>
 &lt;p>Speaking of enjoying creation, it seemed that people enjoyed the starscape time-lapse on the Velocity Lapse YouTube channel. The video received 1K views and 11 likes in the first week, &lt;strong>4.7K views and 46 likes in the first 3 weeks&lt;/strong>, and has 6K views and 56 likes as of this writing.&lt;/p>
 &lt;blockquote>
-&lt;p>Later update: The video now has &lt;strong>over 83K views&lt;/strong>, which is kind of crazy (to me) for a 30-second video.&lt;/p>
-&lt;/blockquote>
+&lt;p>Later update: The video now has &lt;strong>over 83K views&lt;/strong>, which is kind of crazy (to me) for a 30-second video.&lt;/p>&lt;/blockquote>
 &lt;figure>&lt;img src="https://noahrahm.com/posts/journey-behind-velocity-lapse-2/starry-night-sky-analytics-10-2022.jpg"
 alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;p>A glance at the stats for the starry night sky time-lapse video on Youtube as of 10/26/22&lt;/p>
@@ -772,16 +766,14 @@ alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;h4 id="alright-why-not-native-java-or-kotlin-then">Alright, why not native Java or Kotlin then?&lt;/h4>
 &lt;p>Besides the comments above, I just hadn&amp;rsquo;t liked Java Android development all that much from my bits of working with it. More just a personal preference at that point.&lt;/p>
 &lt;blockquote>
-&lt;p>Ironically I ended up diving into both Java &lt;strong>and&lt;/strong> Kotlin &lt;strong>a lot&lt;/strong>. (What did I expect for an app that accesses so much hardware?) Thankfully, I had help from &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> who had a lot more experience than I did with Android development. Since then I&amp;rsquo;ve learned to like Kotlin.&lt;/p>
-&lt;/blockquote>
+&lt;p>Ironically I ended up diving into both Java &lt;strong>and&lt;/strong> Kotlin &lt;strong>a lot&lt;/strong>. (What did I expect for an app that accesses so much hardware?) Thankfully, I had help from &lt;a href="https://github.com/sundrycode">@sundrycode&lt;/a> who had a lot more experience than I did with Android development. Since then I&amp;rsquo;ve learned to like Kotlin.&lt;/p>&lt;/blockquote>
 &lt;h3 id="learning-dart-and-flutter">Learning Dart and Flutter&lt;/h3>
 &lt;p>I was eager to get started with developing the app, as I figured there would be a learning phase with Flutter and Dart. I was pleasantly surprised at how simple the installation and project setup were. The default Flutter project code didn&amp;rsquo;t seem &amp;ldquo;too far out there&amp;rdquo; either.&lt;/p>
 &lt;h4 id="the-first-hurdle-android-emulators">The first hurdle: Android emulators&lt;/h4>
 &lt;p>For whatever reason, however, the Android emulators kept giving me issues. The emulators wouldn&amp;rsquo;t restart until after I rebooted my laptop. It ended up being a configuration problem on my end (of course&amp;hellip;).&lt;/p>
 &lt;p>Later on, when I needed a more realistic idea of what I was doing, I enabled USB debugging on my Android phone, which helped greatly improve my productivity and testing.&lt;/p>
 &lt;blockquote>
-&lt;p>Tip: Make sure your phone&amp;rsquo;s font size is set to &lt;code>Default&lt;/code> when testing, otherwise the text scaling could be off, and when you install the app on a phone with a larger screen, the UI text could be tiny.&lt;/p>
-&lt;/blockquote>
+&lt;p>Tip: Make sure your phone&amp;rsquo;s font size is set to &lt;code>Default&lt;/code> when testing, otherwise the text scaling could be off, and when you install the app on a phone with a larger screen, the UI text could be tiny.&lt;/p>&lt;/blockquote>
 &lt;h4 id="the-second-hurdle-flutter-constraints">The second hurdle: Flutter constraints&lt;/h4>
 &lt;p>Once past the emulator hurdle, I quickly learned that Flutter constraints are &lt;strong>not&lt;/strong> like web layouts.&lt;/p>
 &lt;p>I kept running into the (in)famous overflow errors and &lt;code>unbounded layout constraints&lt;/code> fatal errors. Needless to say, I didn&amp;rsquo;t get very far until I understood how constraints and layout worked.&lt;/p>
