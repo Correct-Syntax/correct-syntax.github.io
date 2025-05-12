@@ -20,6 +20,6 @@ I've been extremely blessed to work on a lot of different projects and collabora
 
 Combining my passion for photography and filmmaking with my technical skills, since mid-2022, I've been working on [Velocity Lapse](https://velocitylapse.com), an Android app to create time-lapses. 
 
-Creating things, collaborating with others, and learning new technologies motivate me to create and contribute to open-source projects, including [Gimel Studio](https://gimelstudio.com), [SteadyCMS](https://steadycms.com), [Bibleside](https://bibleside.com), [Bible Notify](https://biblenotify.github.io), and [Flameshot](https://flameshot.org).
+Creating things, collaborating with others, and learning new technologies motivate me to create and contribute to open-source projects, including [Gimel Studio](https://gimelstudio.com), [Bibleside](https://bibleside.com), and [Bible Notify](https://biblenotify.github.io).
 
 I'm also a part of a project to film high-quality readings of the Psalms in nature, called [The Psalms 23 Project](https://psalms23project.com).
