@@ -101,7 +101,7 @@ alt="Velocity Lapse redesigned timelapse capture interface">
 &lt;p>Since the last post, there were a few milestones I thought I&amp;rsquo;d share:&lt;/p>
 &lt;p>The YouTube channel crossed &lt;strong>100 subscribers&lt;/strong> and Velocity Lapse crossed &lt;strong>50,000 downloads&lt;/strong> on Google Play.&lt;/p>
 &lt;div class="youtube-player">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vum0osBvn2s?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vum0osBvn2s?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;h3 id="switching-from-flurry-to-embraceio">Switching from Flurry to Embrace.io.&lt;/h3>
 &lt;p>I appreciated Flurry analytics and the fact that it was a free service. However, Flurry was more of an analytics service than a crash reporting and logging service.&lt;/p>
@@ -667,10 +667,10 @@ alt="Manual capture view">&lt;figcaption>
 &lt;p>Whether it&amp;rsquo;s wispy clouds or a pink and blue sunset, creating a time-lapse app has given me a good excuse to pay attention to it.&lt;/p>
 &lt;p>I&amp;rsquo;ve really enjoyed it and maybe through creating this app, maybe I can compel and give more people an &amp;ldquo;excuse&amp;rdquo; to get out and enjoy it too.&lt;/p>
 &lt;p>&lt;div class="youtube-player">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/fBrOPxkeTnw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/fBrOPxkeTnw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;div class="youtube-player">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/36O4d31UyyE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/36O4d31UyyE?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;/p>
 &lt;p>So, I encourage you to &lt;a href="https://play.google.com/store/apps/details?id=com.velocitylapse.velocitylapse">download the app&lt;/a> and go outside to capture a time-lapse yourself. :)&lt;/p>
@@ -686,7 +686,7 @@ alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;p>Needless to say, this was way, far better than any other video I posted.&lt;/p>
 &lt;p>Granted, it was a short video, but it was interesting and new to me, especially since other videos on the Velocity Lapse channel had fewer than 100 views (as of this writing).&lt;/p>
 &lt;div class="youtube-player">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BxRHqPGGO_g?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/BxRHqPGGO_g?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;p>The downloads on Google Play tripled, and some feedback and support queries came my way during this time. I assume this was due to the video receiving so much attention.&lt;/p>
 &lt;p>Oddly enough, this happened while I was away on vacation. Go figure.&lt;/p>
@@ -717,7 +717,7 @@ alt="Starry night sky time-lapse video analytics">&lt;figcaption>
 &lt;p>I have fond memories of when I was younger and would experiment with time-lapses using an old Android tablet. My brother and I would time-lapse plants growing and mushrooms appearing in our greenhouse.&lt;/p>
 &lt;p>Time-lapse, if you&amp;rsquo;re not aware, is the process of capturing images at intervals slower than a normal video and piecing them together to produce a video that appears sped up. Naturally slow movements appear much faster than in a normal video. The time-lapse effect can be very beautiful for things like sunsets, clouds, plants, or people walking the streets.&lt;/p>
 &lt;div class="youtube-player">
-&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pi9G6py2Hv0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/pi9G6py2Hv0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" title="YouTube video">&lt;/iframe>
 &lt;/div>
 &lt;p>Again, I did some quick validation of the idea from a personal standpoint and realized it was something I could personally use. I could glorify Yahweh, our Heavenly Father, with it by showing the beauty of His creation.&lt;/p>
 &lt;p>After coming up with the idea, it was time to do some market research.&lt;/p>
@@ -873,7 +873,7 @@ alt="The Velocity Lapse logo">&lt;figcaption>
 &lt;h4 id="other-endeavors">Other endeavors&lt;/h4>
 &lt;p>I&amp;rsquo;ve been extremely blessed to work on a lot of different projects and collaborate with many great people.&lt;/p>
 &lt;p>Combining my passion for photography and filmmaking with my technical skills, since mid-2022, I&amp;rsquo;ve been working on &lt;a href="https://velocitylapse.com">Velocity Lapse&lt;/a>, an Android app to create time-lapses.&lt;/p>
-&lt;p>Creating things, collaborating with others, and learning new technologies motivate me to create and contribute to open-source projects, including &lt;a href="https://gimelstudio.com">Gimel Studio&lt;/a>, &lt;a href="https://steadycms.com">SteadyCMS&lt;/a>, &lt;a href="https://bibleside.com">Bibleside&lt;/a>, &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a>, and &lt;a href="https://flameshot.org">Flameshot&lt;/a>.&lt;/p>
+&lt;p>Creating things, collaborating with others, and learning new technologies motivate me to create and contribute to open-source projects, including &lt;a href="https://gimelstudio.com">Gimel Studio&lt;/a>, &lt;a href="https://bibleside.com">Bibleside&lt;/a>, and &lt;a href="https://biblenotify.github.io">Bible Notify&lt;/a>.&lt;/p>
 &lt;p>I&amp;rsquo;m also a part of a project to film high-quality readings of the Psalms in nature, called &lt;a href="https://psalms23project.com">The Psalms 23 Project&lt;/a>.&lt;/p></description></item><item><title>Logo and brand guidelines for a popular C++ library</title><link>https://noahrahm.com/work/openimageio-branding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://noahrahm.com/work/openimageio-branding/</guid><description>&lt;p>When working on a logo design project, I begin with a research phase to learn about the industry and client. Looking through existing OpenImageIO materials, I found &lt;a href="https://openimageio.readthedocs.io/en/latest/_images/grid-small.jpg">an image of a pixel grid&lt;/a> in the OpenImageIO documentation. It gave me the idea to experiment with variations of a simplified pixel grid.&lt;/p>
 &lt;p>Since OpenImageIO is a library for reading, writing, and processing images, I brainstormed concepts having to do with pixels in an image, image processing, and file I/O.&lt;/p>
 &lt;p>With feedback from Larry Gritz, OpenImageIO&amp;rsquo;s maintainer, and others, I refined the concept to a square with a grid of pixels and a gradient, representing the processing of an image. The final consensus was the logo concept with a square icon and a wordmark set in Open Sans bold.&lt;/p>
