@@ -19,7 +19,7 @@
 				</a> 
 				{{ end }}
 			</div>
-			<button @click="navOpen = !navOpen" class="inline px-2 md:hidden focus:outline-none" :class="{ 'stroke-gray-200' : navOpen }" :aria-expanded="navOpen" aria-controls="nav-list">
+			<button @click="navOpen = !navOpen" class="inline px-2 md:hidden focus:outline-hidden" :class="{ 'stroke-gray-200' : navOpen }" :aria-expanded="navOpen" aria-controls="nav-list">
 				<svg class="w-8 h-8 stroke-white/80" :class="{ 'hidden' : navOpen }" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16" />
 				</svg>
