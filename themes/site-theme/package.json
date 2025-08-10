@@ -1,9 +1,9 @@
 {
   "scripts": {
-    "dev": "npx tailwindcss -i ./styles/styles.css -o ./static/assets/style.css --watch",
-    "build": "npx tailwindcss -i ./styles/styles.css -o ./static/assets/style.css --minify"
+    "dev": "npx @tailwindcss/cli -i ./styles/styles.css -o ./static/assets/style.css --watch",
+    "build": "npx @tailwindcss/cli -i ./styles/styles.css -o ./static/assets/style.css --minify"
   },
   "devDependencies": {
-    "tailwindcss": "^3.4.4"
+    "tailwindcss": "^4.1.11"
   }
 }

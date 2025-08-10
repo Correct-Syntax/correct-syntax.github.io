@@ -1,92 +1,124 @@
-@tailwind base;
-@tailwind components;
+@import 'tailwindcss';
 
-.youtube-video {
-  aspect-ratio: 16 / 9;
-  width: 100%;
+@theme {
+  --font-*: initial;
+  --font-sans: Inter, sans-serif;
+  --font-serif: Zilla Slab, serif;
+
+  --color-blue-200: #2ff9fc;
+  --color-blue-300: #0d3542;
+  --color-blue-400: #0b2c3d;
+  --color-blue-600: #092432;
+  --color-blue-900: #041016;
+
+  --background-image-hero: url('/hero.webp');
 }
 
-#tableOfContents li {
-    margin: .2rem 0rem;
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
 }
 
-.markdown-content-dark {
+@layer components {
+  .youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+
+  #tableOfContents li {
+    margin: 0.2rem 0rem;
+  }
+
+  .markdown-content-dark {
     @apply text-xl text-white/90 leading-relaxed;
-}
-.markdown-content-dark a {
+  }
+  .markdown-content-dark a {
     @apply underline text-blue-200 decoration-blue-200/80 duration-300 ease-linear;
-}
-.markdown-content-dark a:hover {
+  }
+  .markdown-content-dark a:hover {
     @apply text-blue-200/80 decoration-blue-200/30;
-}
-.markdown-content-dark p {
+  }
+  .markdown-content-dark p {
     @apply mb-4 mt-1;
-}
-.markdown-content-dark ul {
+  }
+  .markdown-content-dark ul {
     @apply list-none list-inside mb-4;
-}
-.markdown-content-dark h3 {
+  }
+  .markdown-content-dark h3 {
     @apply text-white text-3xl mt-6 mb-2 font-semibold;
-}
-.markdown-content-dark h4 {
+  }
+  .markdown-content-dark h4 {
     @apply text-white text-2xl mt-6 mb-2 font-semibold;
-}
-.markdown-content-dark h5 {
+  }
+  .markdown-content-dark h5 {
     @apply text-white text-xl mt-6 mb-2 font-semibold;
-}
+  }
 
-.case-study-content p {
+  .case-study-content p {
     @apply text-xl text-blue-600/80 max-w-3xl mx-auto mb-6 mt-4 px-4 xl:px-0;
-}
-.case-study-content p:has(img) {
+  }
+  .case-study-content p:has(img) {
     @apply w-auto h-auto mx-auto;
-}
+  }
 
-.post-content a,
-.case-study-content a {
+  .post-content a,
+  .case-study-content a {
     @apply text-blue-400 underline ease-linear duration-300;
-}
-.post-content a:hover,
-.case-study-content a:hover {
+  }
+  .post-content a:hover,
+  .case-study-content a:hover {
     @apply text-blue-600;
-}
+  }
 
-.post-content {
+  .post-content {
     @apply text-lg text-blue-600/90 leading-relaxed;
-}
-.post-content p {
+  }
+  .post-content p {
     @apply max-w-3xl mx-auto mb-4 mt-3;
-}
-.post-content h3 {
+  }
+  .post-content h3 {
     @apply text-blue-600/90 text-3xl mt-8 font-semibold;
-}
-.post-content h4 {
+  }
+  .post-content h4 {
     @apply text-blue-600/90 text-2xl mt-6 mb-2 font-semibold;
-}
-.post-content h5 {
+  }
+  .post-content h5 {
     @apply text-blue-600/90 text-xl mt-6 mb-2 font-semibold;
-}
-.post-content h6 {
+  }
+  .post-content h6 {
     @apply text-lg mt-6 mb-2 font-semibold;
-}
-.post-content code:not([data-lang]) {
+  }
+  .post-content code:not([data-lang]) {
     @apply bg-gray-100 rounded-md px-1 py-0.5;
-}
-.markdown-content-dark ul,
-.post-content ul {
+  }
+  .markdown-content-dark ul,
+  .post-content ul {
     @apply list-disc list-inside mb-4;
-}
-.markdown-content-dark ol,
-.post-content ol {
+  }
+  .markdown-content-dark ol,
+  .post-content ol {
     @apply list-inside mb-4;
-}
-.post-content hr {
+  }
+  .post-content hr {
     @apply my-8;
-}
-.post-content blockquote {
+  }
+  .post-content blockquote {
     @apply text-blue-300 pl-6;
-}
-.post-content .youtube-player {
+  }
+  .post-content .youtube-player {
     @apply my-8;
     position: relative;
     /* 16:9 ratio*/
@@ -94,23 +126,22 @@
     padding-top: 0px;
     height: 0;
     overflow: hidden;
-}
-.post-content .youtube-player iframe {
+  }
+  .post-content .youtube-player iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     border: 0;
-}
-.post-content figure img {
+  }
+  .post-content figure img {
     @apply mb-2;
-}
-.post-content figure figcaption {
+  }
+  .post-content figure figcaption {
     @apply text-blue-600 text-base mb-6 text-center;
+  }
 }
-
-@tailwind utilities;
 
 .post-content img {
     margin-top: 2rem;
