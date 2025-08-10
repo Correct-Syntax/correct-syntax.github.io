@@ -115,28 +115,29 @@
       <p class="mt-3 mb-2 text-blue-400 text-lg">Please fill out the brief form below with as much information as you can provide and I'll get back to you within 48 hours.</p>
       <small class="text-sm text-blue-400/70">Information you submit through this form is confidential. Your trust and privacy are important to me.</small>
 
-      <form action="https://send.pageclip.co/vh3984y8LRUj5sUbCwbHuFCHmdCMvsm2/brief" class="pageclip-form grid grid-cols-2 space-y-6 mt-6" method="post">
+      <form action="https://send.pageclip.co/vh3984y8LRUj5sUbCwbHuFCHmdCMvsm2/logobrief" class="pageclip-form grid grid-cols-2 space-y-6 mt-6" method="post">
         <div class="col-span-2 space-y-1.5">
           <label for="fullName" class="block text-lg font-bold text-blue-400">Your full name <span class="text-red-700">*</span></label>
-          <input id="fullName" type="text" name="fullName" value="" class="rounded-sm px-4 py-3 w-full" required/>
+          <input id="fullName" type="text" name="FullName" class="rounded-sm px-4 py-3 w-full" required/>
         </div>
         <div class="col-span-1 space-y-1.5">
           <label for="email" class="block text-lg font-bold text-blue-400">Your email address <span class="text-red-700">*</span></label>
-          <input id="email" type="email" name="email" placeholder="example@example.com" value="" class="rounded-sm px-4 py-3 w-full" required/>
+          <input id="email" type="email" name="Email" placeholder="example@example.com" class="rounded-sm px-4 py-3 w-full" required/>
         </div>
         <div class="col-span-1 space-y-1.5"></div>
         <div class="col-span-1 space-y-1.5">
           <label for="logoName"  class="block text-lg font-bold text-blue-400">The name that will be used for the logo <span class="text-red-700">*</span></label>
-          <input id="logoName" type="text" name="logoName" value="" class="rounded-sm px-4 py-3 w-full" required/>
+          <input id="logoName" type="text" name="LogoName" class="rounded-sm px-4 py-3 w-full" required/>
         </div>
         <div class="col-span-1 space-y-1.5"></div>
         <div class="col-span-2 space-y-1.5">
-          <label for="brief" class="block text-lg font-bold text-blue-400">Please describe your design needs... <span class="text-red-700">*</span></label>
-          <textarea id="brief" name="brief" class="rounded-sm px-4 py-3 w-full" rows="7"></textarea>
+          <label for="designNeeds" class="block text-lg font-bold text-blue-400">Please describe your design needs... <span class="text-red-700">*</span></label>
+          <textarea id="designNeeds" name="DesignNeeds" class="rounded-sm px-4 py-3 w-full" rows="7"></textarea>
+          <small class="text-blue-400/70">Feel free to include Google Drive or Dropbox links to your existing logo or reference material.</small>
         </div>
         <div class="col-span-2 space-y-1.5">
           <label for="heardFrom" class="block text-lg font-bold text-blue-400">How did you hear about me? (Optional)</label>
-          <select id="heardFrom" name="heardFrom" class="rounded-sm px-4 py-3 w-full">
+          <select id="heardFrom" name="HeardFrom" class="rounded-sm px-4 py-3 w-full">
             <option value="default" selected>Please select</option>
             <option value="searchEngine">Google/Search engine</option>
             <option value="socialMedia">Social media</option>
@@ -147,7 +148,7 @@
         </div>
         <div class="col-span-2 space-y-1.5">
           <div class="flex flex-row justify-end">
-            <button class="pageclip-form__submit bg-blue-300 text-white text-lg px-6 py-3 rounded-sm font-bold w-full duration-300 ease-in-out hover:cursor-pointer hover:bg-blue-400" type="button">
+            <button class="pageclip-form__submit bg-blue-300 text-white text-lg px-6 py-3 rounded-sm font-bold w-full duration-300 ease-in-out hover:cursor-pointer hover:bg-blue-400" type="submit">
               <span>Submit</span>
             </button>
           </div>
