@@ -4,7 +4,7 @@ layout: "about"
 type: "page"
 ---
 
-I'm a software developer/designer based in the central United States. I especially love working on meaningful projects that glorify our Heavenly Father Yahweh, and have a positive impact on others.
+I'm a [logo designer](/logos/) and software developer based in the Midwestern United States. I especially love working on meaningful projects that glorify our Heavenly Father Yahweh, and have a positive impact on others.
 
 I’m currently open to new client work and collaboration opportunities, so feel free to [say hello](mailto:hi@noahrahm.com).
 
