@@ -4,7 +4,7 @@ client: Velocity Lapse
 role: Founder, Developer, Designer
 timeframe: 2022-Present
 weburl: velocitylapse.com
-description: "Velocity Lapse is a project I've been working on since mid-2022 that combines my passion for photography with my design and development skills. It is published on the Google Play store with over 200K downloads and thousands of users across the globe."
+description: "Velocity Lapse is a project I've been working on since mid-2022 that combines my passion for photography with my design and development skills. It is published on the Google Play store with over 250K downloads and thousands of users across the globe."
 image: /posts/journey-behind-velocity-lapse-6/the-journey-behind-velocity-lapse-part-6-header.webp
 layout: "case-study"
 type: "page"
