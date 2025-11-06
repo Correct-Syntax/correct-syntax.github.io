@@ -1,10 +1,12 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Zilla+Slab:wght@300;400;500&display=swap');
+@import url('https://api.fonts.coollabs.io/css2?family=Inter:wght@400;500;600&display=swap');
 @import 'tailwindcss';
 @plugin "@tailwindcss/forms";
 
 @theme {
   --font-*: initial;
   --font-sans: Inter, sans-serif;
-  --font-serif: Zilla Slab, serif;
+  --font-serif: 'Zilla Slab', serif;
 
   --color-blue-200: #2ff9fc;
   --color-blue-300: #0d3542;
