@@ -13,7 +13,8 @@ Here's the tech stack I used for this site:
 - [Hugo](https://gohugo.io) - used to generate the static website.
 - [Tailwindcss](https://tailwindcss.com/) - used for the utility-first CSS approach, with my own custom CSS added.
 - [Alpine.js](https://alpinejs.dev/) - used for the bits of Javascript functionality on this site.
-- [Coollabs fonts](https://fonts.coollabs.io/) - used as a privacy-friendly replacement for Google Fonts.
+- ~~[Coollabs fonts](https://fonts.coollabs.io/) - used as a privacy-friendly replacement for Google Fonts.~~
+- [Google Fonts](https://fonts.google.com) - used for fonts because Coollabs Fonts is unreliable.
 - [Github Pages](https://pages.github.com/) - used to host this site.
 - [Matomo](https://matomo.org) - used for privacy-respecting analytics (self-hosted).
 
