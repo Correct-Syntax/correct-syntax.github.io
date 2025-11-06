@@ -1,64 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on Noah Rahm</title><link>https://noahrahm.com/tags/resources/</link><description>Recent content in Resources on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/tags/resources/index.xml" rel="self" type="application/rss+xml"/><item><title>20+ Free Resources for Digital Design</title><link>https://noahrahm.com/posts/free-resources-for-digital-design/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/free-resources-for-digital-design/</guid><description>&lt;p>Having a good set of resources within arm&amp;rsquo;s reach is helpful.&lt;/p>
-&lt;p>While there are a ton of really great paid design services and resources that can make life a lot easier, the focus of this list is on &lt;strong>the best free resources&lt;/strong> that I&amp;rsquo;ve personally collected over time. Many of these I&amp;rsquo;ve been using for years for my own &lt;a href="https://noahrahm.com/work/">design work&lt;/a>.&lt;/p>
-&lt;p>Whether you&amp;rsquo;re a web, app, UI, UX designer, or none of the above, there&amp;rsquo;s likely at least a few things here you could consider adding to your toolkit.&lt;/p>
-&lt;p>Special thanks to all the individuals and companies that made these resources available for designers like us to use free of charge!&lt;/p>
-&lt;h3 id="typography">Typography&lt;/h3>
-&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/fontjoy.jpg"
-alt="A screenshot of FontJoy">&lt;figcaption>
-&lt;p>FontJoy in action. Yes, sometimes it comes up with wild combinations&amp;hellip;&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;a href="https://fontjoy.com/">FontJoy&lt;/a> is a really nice font pairing web application tool that generates font combinations with deep learning. If you know what style you&amp;rsquo;re after (and have some patience), it can come up with some nice font pairs for you to consider.&lt;/p>
-&lt;p>&lt;a href="https://typespiration.com/">Typespiration&lt;/a> If you&amp;rsquo;re needing some inspiration for type, you can take a look at Typespiration for some designs and guides for font combinations.&lt;/p>
-&lt;p>&lt;a href="https://fontba.se/">FontBase&lt;/a> A cross-platform font manager. A very useful tool for using Google/Adobe fonts in any application.&lt;/p>
-&lt;p>&lt;a href="https://typescale.com/">Type Scale&lt;/a> is a visual calculator you can use to size your typography.&lt;/p>
-&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/typescale.jpg"
-alt="A screenshot of Typescale">&lt;figcaption>
-&lt;p>Typescale&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;a href="https://www.fontsinthewild.com/">Fontsinthewild.com&lt;/a> Sometimes you just have to see a font used in order to get inspiration to use it in your design. That is the basic premise of fontsinthewild.com, where you browse screenshots of different fonts used on sites &amp;ldquo;in the wild&amp;rdquo;.&lt;/p>
-&lt;p>&lt;a href="https://v-fonts.com/">v-fonts&lt;/a> Experiment with variable fonts.&lt;/p>
-&lt;p>&lt;a href="https://fontspark.netlify.app/">FontSpark&lt;/a> is a simple tool to find different fonts.&lt;/p>
-&lt;p>&lt;a href="https://www.pairandcompare.net/">Pair and Compare&lt;/a> is a great way to mix and match different Google fonts to find the best combination for your design.&lt;/p>
-&lt;p>Looking for some good reading resources to improve your typography skills? Read &lt;a href="https://practicaltypography.com/">Butterick&amp;rsquo;s Practical Typography&lt;/a> and &lt;a href="https://fonts.google.com/knowledge/stop_stealing_sheep.pdf">Stop Stealing Sheep &amp;amp; Find Out How Type Works&lt;/a>. You&amp;rsquo;ll be glad you did.&lt;/p>
-&lt;h3 id="color-resources">Color resources&lt;/h3>
-&lt;p>&lt;a href="https://palx-pwa.pages.dev/">Automatic UI color palette generator&lt;/a> is a very helpful tool for generating a full-spectrum color palette from a single color. I mainly use it when I need to quickly generate a range of grays for a UI design.&lt;/p>
-&lt;p>&lt;a href="https://toolness.github.io/accessible-color-matrix/">Accessible color matrix&lt;/a> Accessibility is an important part of choosing colors for a website or app design. This accessible color matrix tool allows you to check if your color combinations conform to accessibility standards.&lt;/p>
-&lt;p>&lt;a href="https://hihayk.github.io/scale">ihayk.github.io/scale&lt;/a> A creative way to experiment with different color ranges.&lt;/p>
-&lt;h3 id="icon-sets">Icon sets&lt;/h3>
-&lt;p>&lt;a href="https://simpleicons.org/">Simple Icons&lt;/a> Very useful and vast collection of 2750 SVG icons for popular brands. I haven&amp;rsquo;t found any brands I&amp;rsquo;ve ever needed to &lt;em>not&lt;/em> be in the Simple Icons collection.&lt;/p>
-&lt;p>&lt;a href="https://phosphoricons.com/">Phosphoricons&lt;/a> Open-source icon family offering 6 weights: thin, light, regular, bold, fill, and duotone. Needless to say, it is a very useful and large (1,248+) collection worth bookmarking.&lt;/p>
-&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/phosphor-icons.jpg"
-alt="A screenshot of the Phosphor icons website">&lt;figcaption>
-&lt;p>Phosphor icon family. Go bookmark it —it&amp;rsquo;s worth the bookmark.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h3 id="software">Software&lt;/h3>
-&lt;p>&lt;a href="https://icons8.com/lunacy">Lunacy&lt;/a> is a great design tool. Being a native Windows application makes it fast and smooth to work with. Lunacy works &lt;em>completely offline&lt;/em> which makes it a good alternative to Figma.&lt;/p>
-&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/lunacy.jpg"
-alt="A screenshot of Lunacy open with a logo design document">&lt;figcaption>
-&lt;p>Lunacy—my (current) go-to design tool open to my logo design for Hilltop Motion.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>&lt;a href="https://penpot.app">PenPot&lt;/a> is an open-source, web-based design and prototyping tool based on open standards.&lt;/p>
-&lt;h3 id="templates">Templates&lt;/h3>
-&lt;p>If you need something for a specific design software, there are sites that provide free UI kits, icons, templates, mockups, style guides, illustrations, and more. My experience is that you do have to look through a lot of &amp;ldquo;okay&amp;rdquo; stuff to find the gold, though.&lt;/p>
-&lt;h4 id="sketch">Sketch&lt;/h4>
-&lt;p>&lt;a href="https://sketchelements.com/">SketchElements&lt;/a> is a place to find free Sketch resources. The files can be used with either Lunacy or Sketch.&lt;/p>
-&lt;h4 id="figma">Figma&lt;/h4>
-&lt;p>Similar to SketchElements.com above, &lt;a href="https://figmaelements.com/">FigmaElements&lt;/a> offers free Figma resources.&lt;/p>
-&lt;h3 id="mockups">Mockups&lt;/h3>
-&lt;p>&lt;a href="https://www.ls.graphics/free-mockups">ls.graphics&lt;/a> Free, high-quality mockups from ls.graphics.&lt;/p>
-&lt;p>&lt;a href="https://mockuphone.com/">MockUPhone&lt;/a> is by far the best free resource I have discovered for generating device mockups. The site allows you to wrap your design in a variety of mobile device frames, including iPhones, iPads, Android phones, laptops, and wearables. The mockups are licensed under the Creative Commons Attribution 3.0 Unported License, making them usable for practically any project.&lt;/p>
-&lt;p>Another resource for generating Android mockups is the official &lt;a href="https://developer.android.com/distribute/marketing-tools/device-art-generator">Android Device Art Generator&lt;/a>.&lt;/p>
-&lt;h3 id="assets">Assets&lt;/h3>
-&lt;figure>&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/haikei.jpg"
-alt="A screenshot of Haikei generating a layered peaks svg background">&lt;figcaption>
-&lt;p>You can generate all sorts of backgrounds with Haikei.&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Both &lt;a href="https://superdesigner.co/">superdesigner.co&lt;/a> and &lt;a href="https://haikei.app/">haikei.app&lt;/a> let you generate SVG assets like backgrounds, blobs, patterns, gradients, and shapes for your designs.&lt;/p>
-&lt;h3 id="conclusion">Conclusion&lt;/h3>
-&lt;p>Thanks for reading. I hope you enjoyed this list of design resources and tools.&lt;/p>
-&lt;p>Do you have any free design tools or resources you use that I didn&amp;rsquo;t mention? Feel free to comment below.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on Noah Rahm</title><link>https://noahrahm.com/tags/resources/</link><description>Recent content in Resources on Noah Rahm</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 25 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://noahrahm.com/tags/resources/index.xml" rel="self" type="application/rss+xml"/><item><title>20+ Free Resources for Digital Design</title><link>https://noahrahm.com/posts/free-resources-for-digital-design/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://noahrahm.com/posts/free-resources-for-digital-design/</guid><description>&lt;p&gt;Having a good set of resources within arm&amp;rsquo;s reach is helpful.&lt;/p&gt;
+&lt;p&gt;While there are a ton of really great paid design services and resources that can make life a lot easier, the focus of this list is on &lt;strong&gt;the best free resources&lt;/strong&gt; that I&amp;rsquo;ve personally collected over time. Many of these I&amp;rsquo;ve been using for years for my own &lt;a href="https://noahrahm.com/work/"&gt;design work&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Whether you&amp;rsquo;re a web, app, UI, UX designer, or none of the above, there&amp;rsquo;s likely at least a few things here you could consider adding to your toolkit.&lt;/p&gt;
+&lt;p&gt;Special thanks to all the individuals and companies that made these resources available for designers like us to use free of charge!&lt;/p&gt;
+&lt;h3 id="typography"&gt;Typography&lt;/h3&gt;
+&lt;figure&gt;&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/fontjoy.jpg"
+alt="A screenshot of FontJoy"&gt;&lt;figcaption&gt;
+&lt;p&gt;FontJoy in action. Yes, sometimes it comes up with wild combinations&amp;hellip;&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://fontjoy.com/"&gt;FontJoy&lt;/a&gt; is a really nice font pairing web application tool that generates font combinations with deep learning. If you know what style you&amp;rsquo;re after (and have some patience), it can come up with some nice font pairs for you to consider.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typespiration.com/"&gt;Typespiration&lt;/a&gt; If you&amp;rsquo;re needing some inspiration for type, you can take a look at Typespiration for some designs and guides for font combinations.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fontba.se/"&gt;FontBase&lt;/a&gt; A cross-platform font manager. A very useful tool for using Google/Adobe fonts in any application.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://typescale.com/"&gt;Type Scale&lt;/a&gt; is a visual calculator you can use to size your typography.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/typescale.jpg"
+alt="A screenshot of Typescale"&gt;&lt;figcaption&gt;
+&lt;p&gt;Typescale&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://www.fontsinthewild.com/"&gt;Fontsinthewild.com&lt;/a&gt; Sometimes you just have to see a font used in order to get inspiration to use it in your design. That is the basic premise of fontsinthewild.com, where you browse screenshots of different fonts used on sites &amp;ldquo;in the wild&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://v-fonts.com/"&gt;v-fonts&lt;/a&gt; Experiment with variable fonts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://fontspark.netlify.app/"&gt;FontSpark&lt;/a&gt; is a simple tool to find different fonts.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.pairandcompare.net/"&gt;Pair and Compare&lt;/a&gt; is a great way to mix and match different Google fonts to find the best combination for your design.&lt;/p&gt;
+&lt;p&gt;Looking for some good reading resources to improve your typography skills? Read &lt;a href="https://practicaltypography.com/"&gt;Butterick&amp;rsquo;s Practical Typography&lt;/a&gt; and &lt;a href="https://fonts.google.com/knowledge/stop_stealing_sheep.pdf"&gt;Stop Stealing Sheep &amp;amp; Find Out How Type Works&lt;/a&gt;. You&amp;rsquo;ll be glad you did.&lt;/p&gt;
+&lt;h3 id="color-resources"&gt;Color resources&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://palx-pwa.pages.dev/"&gt;Automatic UI color palette generator&lt;/a&gt; is a very helpful tool for generating a full-spectrum color palette from a single color. I mainly use it when I need to quickly generate a range of grays for a UI design.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://toolness.github.io/accessible-color-matrix/"&gt;Accessible color matrix&lt;/a&gt; Accessibility is an important part of choosing colors for a website or app design. This accessible color matrix tool allows you to check if your color combinations conform to accessibility standards.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://hihayk.github.io/scale"&gt;ihayk.github.io/scale&lt;/a&gt; A creative way to experiment with different color ranges.&lt;/p&gt;
+&lt;h3 id="icon-sets"&gt;Icon sets&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://simpleicons.org/"&gt;Simple Icons&lt;/a&gt; Very useful and vast collection of 2750 SVG icons for popular brands. I haven&amp;rsquo;t found any brands I&amp;rsquo;ve ever needed to &lt;em&gt;not&lt;/em&gt; be in the Simple Icons collection.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://phosphoricons.com/"&gt;Phosphoricons&lt;/a&gt; Open-source icon family offering 6 weights: thin, light, regular, bold, fill, and duotone. Needless to say, it is a very useful and large (1,248+) collection worth bookmarking.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/phosphor-icons.jpg"
+alt="A screenshot of the Phosphor icons website"&gt;&lt;figcaption&gt;
+&lt;p&gt;Phosphor icon family. Go bookmark it —it&amp;rsquo;s worth the bookmark.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id="software"&gt;Software&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://icons8.com/lunacy"&gt;Lunacy&lt;/a&gt; is a great design tool. Being a native Windows application makes it fast and smooth to work with. Lunacy works &lt;em&gt;completely offline&lt;/em&gt; which makes it a good alternative to Figma.&lt;/p&gt;
+&lt;figure&gt;&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/lunacy.jpg"
+alt="A screenshot of Lunacy open with a logo design document"&gt;&lt;figcaption&gt;
+&lt;p&gt;Lunacy—my (current) go-to design tool open to my logo design for Hilltop Motion.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://penpot.app"&gt;PenPot&lt;/a&gt; is an open-source, web-based design and prototyping tool based on open standards.&lt;/p&gt;
+&lt;h3 id="templates"&gt;Templates&lt;/h3&gt;
+&lt;p&gt;If you need something for a specific design software, there are sites that provide free UI kits, icons, templates, mockups, style guides, illustrations, and more. My experience is that you do have to look through a lot of &amp;ldquo;okay&amp;rdquo; stuff to find the gold, though.&lt;/p&gt;
+&lt;h4 id="sketch"&gt;Sketch&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://sketchelements.com/"&gt;SketchElements&lt;/a&gt; is a place to find free Sketch resources. The files can be used with either Lunacy or Sketch.&lt;/p&gt;
+&lt;h4 id="figma"&gt;Figma&lt;/h4&gt;
+&lt;p&gt;Similar to SketchElements.com above, &lt;a href="https://figmaelements.com/"&gt;FigmaElements&lt;/a&gt; offers free Figma resources.&lt;/p&gt;
+&lt;h3 id="mockups"&gt;Mockups&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.ls.graphics/free-mockups"&gt;ls.graphics&lt;/a&gt; Free, high-quality mockups from ls.graphics.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mockuphone.com/"&gt;MockUPhone&lt;/a&gt; is by far the best free resource I have discovered for generating device mockups. The site allows you to wrap your design in a variety of mobile device frames, including iPhones, iPads, Android phones, laptops, and wearables. The mockups are licensed under the Creative Commons Attribution 3.0 Unported License, making them usable for practically any project.&lt;/p&gt;
+&lt;p&gt;Another resource for generating Android mockups is the official &lt;a href="https://developer.android.com/distribute/marketing-tools/device-art-generator"&gt;Android Device Art Generator&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id="assets"&gt;Assets&lt;/h3&gt;
+&lt;figure&gt;&lt;img src="https://noahrahm.com/posts/free-resources-for-digital-design/haikei.jpg"
+alt="A screenshot of Haikei generating a layered peaks svg background"&gt;&lt;figcaption&gt;
+&lt;p&gt;You can generate all sorts of backgrounds with Haikei.&lt;/p&gt;
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Both &lt;a href="https://superdesigner.co/"&gt;superdesigner.co&lt;/a&gt; and &lt;a href="https://haikei.app/"&gt;haikei.app&lt;/a&gt; let you generate SVG assets like backgrounds, blobs, patterns, gradients, and shapes for your designs.&lt;/p&gt;
+&lt;h3 id="conclusion"&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Thanks for reading. I hope you enjoyed this list of design resources and tools.&lt;/p&gt;
+&lt;p&gt;Do you have any free design tools or resources you use that I didn&amp;rsquo;t mention? Feel free to comment below.&lt;/p&gt;</description></item></channel></rss>
