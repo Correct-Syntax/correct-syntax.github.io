@@ -15,6 +15,6 @@ If you'd like, you can opt-out of analytics below:
 
 {{< matomo-opt-out >}}
 
-This site uses third-party web fonts via [Coollabs fonts](https://fonts.coollabs.io/), a privacy-friendly replacement for Google Fonts. The [unpkg.com CDN](https://unpkg.com) serves Alpine.js.
+This site uses third-party web fonts via [Google fonts](https://fonts.google.com/). The [unpkg.com CDN](https://unpkg.com) serves Alpine.js.
 
 Learn more about the tech this website uses [here](/colophon/).
