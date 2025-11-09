@@ -5,8 +5,9 @@ role: Project lead, Website and Logo Designer
 timeframe: 2023-Present
 weburl: psalms23project.com
 description: 
-image: /work/psalms23project/the-psalms-23-project.webp
+image: /work/psalms23project/psalms23project.webp
 layout: "case-study"
 type: "page"
 ---
 
+![Filming a video](/work/psalms23project/the-psalms-23-project.webp "Filming a video")
