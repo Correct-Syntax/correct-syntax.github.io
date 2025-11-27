@@ -4,14 +4,14 @@ layout: "about"
 type: "page"
 ---
 
-I'm a [logo designer](/logos/) and software developer based in the Midwestern United States. I especially love working on meaningful projects that glorify our Heavenly Father Yahweh, and have a positive impact on others.
+I'm a [logo designer](/logos/), [artist](https://art.noahrahm.com), and software developer based in the Midwestern United States. I especially love working on meaningful projects that glorify our Heavenly Father Yahweh, and have a positive impact on others.
 
 I’m currently open to new client work and collaboration opportunities, so feel free to [say hello](mailto:hi@noahrahm.com).
 
 
 #### Personal 
 
-A few of my hobbies include [drawing](https://art.noahrahm.com), [photography](https://art.noahrahm.com/photography/), music, [writing](https://blog.noahrahm.com), and enjoying Yahweh’s awesome creation with my family.
+A few of my hobbies include [photography](https://art.noahrahm.com/photography/), music, [writing](https://blog.noahrahm.com), and enjoying Yahweh’s awesome creation with my family.
 
 
 #### Other endeavors
