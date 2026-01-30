@@ -1,5 +1,5 @@
 ---
-title: Logo for a writing and notes app
+title: Logo for a writing and note-taking app
 client: Swriteo
 role: Founder, Logo designer
 timeframe: 2026
