@@ -11,7 +11,7 @@ I’m currently open to new client work and collaboration opportunities, so feel
 
 #### Personal 
 
-A few of my hobbies include [photography](https://art.noahrahm.com/photography/), music, [writing](https://blog.noahrahm.com), and enjoying Yahweh’s awesome creation with my family.
+A few of my hobbies include [art](https://art.noahrahm.com), [photography](https://art.noahrahm.com/photography/), music, [writing](https://blog.noahrahm.com), and enjoying Yahweh’s awesome creation with my family.
 
 
 #### Other endeavors
