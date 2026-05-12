@@ -2,9 +2,9 @@
 title: Open-source, flexible content management system for static websites.
 client: SteadyCMS
 role: Co-creator, Designer, Developer
-timeframe: 2023-Present
+timeframe: 2023-2024
 weburl: steadycms.com
-description: Currently in early development, SteadyCMS is a new content management system for managing Hugo-generated static websites. My role in the project is design, frontend development, and project management.
+description: SteadyCMS was a new venture into creating a content management system for managing Hugo-generated static websites. My role in the project was design, frontend development, and project management.
 image: /work/steadycms/steadycms.webp
 layout: "case-study"
 type: "page"

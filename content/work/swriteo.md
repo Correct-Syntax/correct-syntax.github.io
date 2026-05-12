@@ -2,7 +2,7 @@
 title: Logo for a writing and note-taking app
 client: Swriteo
 role: Founder, Logo designer
-timeframe: 2026
+timeframe: 2026-Present
 weburl: swriteo.com
 description: 
 image: /work/swriteo/swriteo-logo-variations.webp
